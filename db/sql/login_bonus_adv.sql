@@ -6,4 +6,6 @@ INSERT INTO `login_bonus_adv` VALUES (/*id*/2,/*login_bonus_id*/70000,/*start_ti
 INSERT INTO `login_bonus_adv` VALUES (/*id*/3,/*login_bonus_id*/70001,/*start_time*/"0",/*end_time*/"0",/*count_key*/1,/*adv_id*/410);
 INSERT INTO `login_bonus_adv` VALUES (/*id*/4,/*login_bonus_id*/70001,/*start_time*/"0",/*end_time*/"0",/*count_key*/2,/*adv_id*/411);
 INSERT INTO `login_bonus_adv` VALUES (/*id*/5,/*login_bonus_id*/70001,/*start_time*/"0",/*end_time*/"0",/*count_key*/3,/*adv_id*/412);
+INSERT INTO `login_bonus_adv` VALUES (/*id*/6,/*login_bonus_id*/70002,/*start_time*/"2021/12/24 5:00:00",/*end_time*/"2021/12/26 4:59:59",/*count_key*/0,/*adv_id*/400);
+INSERT INTO `login_bonus_adv` VALUES (/*id*/7,/*login_bonus_id*/70002,/*start_time*/"2021/12/24 5:00:00",/*end_time*/"2021/12/26 4:59:59",/*count_key*/0,/*adv_id*/401);
 COMMIT;
