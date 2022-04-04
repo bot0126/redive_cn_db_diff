@@ -272,7 +272,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unique_equipment_rankup",/*idx*/"uniq
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unique_equipment_rankup",/*idx*/"sqlite_autoindex_unique_equipment_rankup_1",/*stat*/"592 8 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_emblem_mission_reward",/*idx*/"hatsune_emblem_mission_reward_0_reward_id",/*stat*/"86 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_emblem_mission_reward",/*idx*/"hatsune_emblem_mission_reward_0_mission_reward_id",/*stat*/"86 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_schedule",/*idx*/"hatsune_schedule_0_series_event_id",/*stat*/"35 35");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_schedule",/*idx*/"hatsune_schedule_0_series_event_id",/*stat*/"36 18");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_character_personality",/*idx*/NULL,/*stat*/"109");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"unit_promotion_0_unit_id",/*stat*/"2116 16");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"sqlite_autoindex_unit_promotion_1",/*stat*/"2116 16 1");

@@ -270,7 +270,7 @@ tbl,idx,stat
 "unique_equipment_rankup","sqlite_autoindex_unique_equipment_rankup_1","592 8 1"
 "hatsune_emblem_mission_reward","hatsune_emblem_mission_reward_0_reward_id","86 2"
 "hatsune_emblem_mission_reward","hatsune_emblem_mission_reward_0_mission_reward_id","86 2"
-"hatsune_schedule","hatsune_schedule_0_series_event_id","35 35"
+"hatsune_schedule","hatsune_schedule_0_series_event_id","36 18"
 "room_character_personality",NULL,"109"
 "unit_promotion","unit_promotion_0_unit_id","2116 16"
 "unit_promotion","sqlite_autoindex_unit_promotion_1","2116 16 1"
