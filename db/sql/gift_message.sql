@@ -11,7 +11,7 @@ INSERT INTO `gift_message` VALUES (/*id*/2007,/*discription*/"{0}月团队战月
 INSERT INTO `gift_message` VALUES (/*id*/2008,/*discription*/"在{0}获得的报酬。",/*type_1*/9,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2009,/*discription*/"{0}月团队战排位第{2}名的报酬。",/*type_1*/10,/*type_2*/11,/*type_3*/7,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2010,/*discription*/"「{0}」{1}天的补偿道具。",/*type_1*/1,/*type_2*/2,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/2011,/*discription*/"「{0}」第{1}天在「{2}」获得的道具。",/*type_1*/1,/*type_2*/2,/*type_3*/16,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/2011,/*discription*/"「{0}」第{1}天抽取「{2}」时获得的道具。",/*type_1*/1,/*type_2*/2,/*type_3*/16,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2012,/*discription*/"「{0}」第{1}天获得的道具。",/*type_1*/17,/*type_2*/2,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2013,/*discription*/"在「{0}」获得的道具。",/*type_1*/1,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2014,/*discription*/"{0}月团队战到达第{2}周的报酬。",/*type_1*/10,/*type_2*/11,/*type_3*/19,/*type_4*/0);
