@@ -978,9 +978,9 @@ INSERT INTO `unit_comments` VALUES (/*id*/1092010,/*unit_id*/109231,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1092011,/*unit_id*/109201,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/1.8,/*change_face*/2,/*description*/"生日快乐！\n希望你今天能尽情地\n享受幸福！");
 INSERT INTO `unit_comments` VALUES (/*id*/1092012,/*unit_id*/109231,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"Happy birthday！\n一起度过快乐的一天吧！\n先做什么好呢！？");
 INSERT INTO `unit_comments` VALUES (/*id*/1093001,/*unit_id*/109301,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/3.1,/*change_face*/2,/*description*/"朋友变多了，\n露好开心啊！\n露想和朋友们一起享受青春。");
-INSERT INTO `unit_comments` VALUES (/*id*/1093002,/*unit_id*/109301,/*use_type*/1,/*voice_id*/2,/*face_id*/4,/*change_time*/3.0,/*change_face*/1,/*description*/"虽然每天都是补考和不及格的地狱，\n但露还是很喜欢\n玛纳利亚魔法学院?");
+INSERT INTO `unit_comments` VALUES (/*id*/1093002,/*unit_id*/109301,/*use_type*/1,/*voice_id*/2,/*face_id*/4,/*change_time*/3.0,/*change_face*/1,/*description*/"虽然每天都是补考和不及格的地狱，\n但露还是很喜欢\n玛纳利亚魔法学院♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1093003,/*unit_id*/109301,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/2.7,/*change_face*/2,/*description*/"你在享受青春吗？\n露每天都在享受哦！");
-INSERT INTO `unit_comments` VALUES (/*id*/1093004,/*unit_id*/109301,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/1.2,/*change_face*/2,/*description*/"希望你能\n多陪露一起玩?");
+INSERT INTO `unit_comments` VALUES (/*id*/1093004,/*unit_id*/109301,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/1.2,/*change_face*/2,/*description*/"希望你能\n多陪露一起玩♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1093005,/*unit_id*/109301,/*use_type*/1,/*voice_id*/5,/*face_id*/6,/*change_time*/3.4,/*change_face*/1,/*description*/"你很在意\n小眼睛吗？\n要不要戳戳看？");
 INSERT INTO `unit_comments` VALUES (/*id*/1093006,/*unit_id*/109331,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"让你见识见识\n露操控小眼睛的华丽技术！\n看招看招！");
 INSERT INTO `unit_comments` VALUES (/*id*/1093007,/*unit_id*/109331,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"露和小眼睛\n携手合作\n干掉敌人啦！");
