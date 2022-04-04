@@ -96,9 +96,9 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/110401,/*unit_name*/"真琴（�
 INSERT INTO `unit_background` VALUES (/*unit_id*/110501,/*unit_name*/"香织（夏日）",/*bg_id*/500710,/*bg_name*/"琉球风海岸",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110601,/*unit_name*/"真步（夏日）",/*bg_id*/500710,/*bg_name*/"琉球风海岸",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110701,/*unit_name*/"碧（插班生）",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/2);
-INSERT INTO `unit_background` VALUES (/*unit_id*/110801,/*unit_name*/"克罗依",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/2);
+INSERT INTO `unit_background` VALUES (/*unit_id*/110801,/*unit_name*/"克萝依",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110901,/*unit_name*/"千爱瑠",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/2);
-INSERT INTO `unit_background` VALUES (/*unit_id*/111001,/*unit_name*/"优妮",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/111001,/*unit_name*/"由仁",/*bg_id*/500730,/*bg_name*/"圣特蕾莎女子学院_正门",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111101,/*unit_name*/"镜华（万圣节）",/*bg_id*/500811,/*bg_name*/"宅邸_大厅",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111201,/*unit_name*/"未奏希（万圣节）",/*bg_id*/500811,/*bg_name*/"宅邸_大厅",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111301,/*unit_name*/"美美（万圣节）",/*bg_id*/500811,/*bg_name*/"宅邸_大厅",/*position*/0.0,/*face_type*/4);
