@@ -1,0 +1,12 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE 'tower_schedule' ('tower_schedule_id' INTEGER NOT NULL, 'max_tower_area_id' INTEGER NOT NULL, 'opening_story_id' INTEGER NOT NULL, 'count_start_time' TEXT NOT NULL, 'recovery_disable_time' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('tower_schedule_id'));
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1001,/*max_tower_area_id*/1,/*opening_story_id*/7001000,/*count_start_time*/"2020/10/03 23:59:59",/*recovery_disable_time*/"2020/10/04 5:00:00",/*start_time*/"2020/09/28 9:00:00",/*end_time*/"2020/10/04 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1002,/*max_tower_area_id*/2,/*opening_story_id*/7002000,/*count_start_time*/"2020/11/13 23:59:59",/*recovery_disable_time*/"2020/11/14 5:00:00",/*start_time*/"2020/11/09 12:00:00",/*end_time*/"2020/11/14 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1003,/*max_tower_area_id*/3,/*opening_story_id*/7003000,/*count_start_time*/"2020/12/11 23:59:59",/*recovery_disable_time*/"2020/12/12 5:00:00",/*start_time*/"2020/12/07 12:00:00",/*end_time*/"2020/12/12 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1004,/*max_tower_area_id*/4,/*opening_story_id*/7003003,/*count_start_time*/"2021/01/08 23:59:59",/*recovery_disable_time*/"2021/01/09 5:00:00",/*start_time*/"2021/01/04 12:00:00",/*end_time*/"2021/01/09 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1005,/*max_tower_area_id*/5,/*opening_story_id*/7004000,/*count_start_time*/"2021/02/05 23:59:59",/*recovery_disable_time*/"2021/02/06 5:00:00",/*start_time*/"2021/02/01 11:00:00",/*end_time*/"2021/02/06 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1006,/*max_tower_area_id*/6,/*opening_story_id*/7004003,/*count_start_time*/"2021/03/05 23:59:59",/*recovery_disable_time*/"2021/03/06 5:00:00",/*start_time*/"2021/03/01 11:00:00",/*end_time*/"2021/03/06 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1007,/*max_tower_area_id*/7,/*opening_story_id*/7005000,/*count_start_time*/"2021/04/02 23:59:59",/*recovery_disable_time*/"2021/04/03 5:00:00",/*start_time*/"2021/03/29 12:00:00",/*end_time*/"2021/04/03 23:59:59");
+INSERT INTO `tower_schedule` VALUES (/*tower_schedule_id*/1008,/*max_tower_area_id*/8,/*opening_story_id*/7005003,/*count_start_time*/"2021/05/05 23:59:59",/*recovery_disable_time*/"2021/05/06 5:00:00",/*start_time*/"2021/05/01 12:00:00",/*end_time*/"2021/05/06 23:59:59");
+COMMIT;
