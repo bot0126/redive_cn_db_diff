@@ -1,1 +1,1 @@
-# redive db diff for cn server
+# redive db diff for cndev server
