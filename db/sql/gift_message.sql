@@ -61,10 +61,10 @@ INSERT INTO `gift_message` VALUES (/*id*/9403,/*discription*/"购买道具装备
 INSERT INTO `gift_message` VALUES (/*id*/9404,/*discription*/"购买道具装备礼包Ⅱ获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9405,/*discription*/"购买道具装备礼包Ⅲ获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9406,/*discription*/"购买道具装备礼包Ⅳ获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9407,/*discription*/"购买道具装备礼包Ⅰ（重新上架）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9408,/*discription*/"购买道具装备礼包Ⅱ（重新上架）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9409,/*discription*/"购买道具装备礼包Ⅲ（重新上架）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9410,/*discription*/"购买道具装备礼包Ⅳ（重新上架）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9407,/*discription*/"购买道具装备礼包Ⅰ（再贩）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9408,/*discription*/"购买道具装备礼包Ⅱ（再贩）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9409,/*discription*/"购买道具装备礼包Ⅲ（再贩）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9410,/*discription*/"购买道具装备礼包Ⅳ（再贩）获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9411,/*discription*/"购买道具装备礼包Ⅴ获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9412,/*discription*/"购买道具装备礼包Ⅵ获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9501,/*discription*/"「活动登录奖励」第{1}天获得的道具。",/*type_1*/13,/*type_2*/2,/*type_3*/0,/*type_4*/0);
