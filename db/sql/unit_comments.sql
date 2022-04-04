@@ -725,7 +725,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1063009,/*unit_id*/106331,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1063010,/*unit_id*/106331,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"比起在森林里的时候，\n我觉得现在更开心……\n一定是因为你吧？");
 INSERT INTO `unit_comments` VALUES (/*id*/1063011,/*unit_id*/106301,/*use_type*/2,/*voice_id*/6,/*face_id*/5,/*change_time*/4.9,/*change_face*/2,/*description*/"我做了这个！\n虽然不是很有信心……\n因为今天是特别的日子……\n要不我喂你吃吧？");
 INSERT INTO `unit_comments` VALUES (/*id*/1063012,/*unit_id*/106331,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"就这样继续成长的话\n你会变成什么样呢？\n总觉得好期待呀\n诶嘿嘿……生日快乐！");
-INSERT INTO `unit_comments` VALUES (/*id*/1065001,/*unit_id*/106501,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/7.7,/*change_face*/2,/*description*/"和你一起，n就会遇到一些有趣的事情吧？\n所以我很期待你哦。\n来，一起去哪玩玩吧！");
+INSERT INTO `unit_comments` VALUES (/*id*/1065001,/*unit_id*/106501,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/7.7,/*change_face*/2,/*description*/"和你一起，\n就会遇到一些有趣的事情吧？\n所以我很期待你哦。\n来，一起去哪玩玩吧！");
 INSERT INTO `unit_comments` VALUES (/*id*/1065002,/*unit_id*/106501,/*use_type*/1,/*voice_id*/2,/*face_id*/3,/*change_time*/0.0,/*change_face*/3,/*description*/"我想知道这个世界\n究竟发生了什么……\n为此，我也要变得更强才行。");
 INSERT INTO `unit_comments` VALUES (/*id*/1065003,/*unit_id*/106501,/*use_type*/1,/*voice_id*/3,/*face_id*/6,/*change_time*/8.9,/*change_face*/1,/*description*/"我说，就没有工作委托吗？\n打架的那种。打手工作。\n要给我找来那种\n让人热血沸腾的委托啊。");
 INSERT INTO `unit_comments` VALUES (/*id*/1065004,/*unit_id*/106501,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/7.6,/*change_face*/2,/*description*/"不要那么担心啦。\n我还没有弱到\n会被小喽啰干掉的地步。\n不信的话，要来试试看吗？");
