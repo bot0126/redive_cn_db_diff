@@ -3470,7 +3470,7 @@ INSERT INTO `room_unit_comments` VALUES (/*id*/3724,/*unit_id*/111901,/*trigger*
 INSERT INTO `room_unit_comments` VALUES (/*id*/3725,/*unit_id*/111901,/*trigger*/2,/*voice_id*/3,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"蒙眼摸像的游戏\n如果是主人的脸，我觉得我能\n准确地拼出来",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/3726,/*unit_id*/111901,/*trigger*/2,/*voice_id*/4,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"主人做了\n怎样的初梦呢？",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/3727,/*unit_id*/111901,/*trigger*/2,/*voice_id*/101,/*beloved_step*/4,/*time*/0,/*face_id*/1,/*description*/"别喝太多\n甜酒哦？\n不可以的",/*insert_word_type*/0);
-INSERT INTO `room_unit_comments` VALUES (/*id*/3728,/*unit_id*/111901,/*trigger*/2,/*voice_id*/102,/*beloved_step*/8,/*time*/0,/*face_id*/1,/*description*/"两个人穿一件外褂\n原来这么温暖啊……",/*insert_word_type*/0);
+INSERT INTO `room_unit_comments` VALUES (/*id*/3728,/*unit_id*/111901,/*trigger*/2,/*voice_id*/102,/*beloved_step*/8,/*time*/0,/*face_id*/1,/*description*/"两个人穿一件羽织\n原来这么温暖啊……",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/3729,/*unit_id*/111901,/*trigger*/2,/*voice_id*/1,/*beloved_step*/1,/*time*/1,/*face_id*/1,/*description*/"早上好\n寒冷季节的朝阳\n真美啊",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/3730,/*unit_id*/111901,/*trigger*/2,/*voice_id*/2,/*beloved_step*/1,/*time*/2,/*face_id*/1,/*description*/"虽然很美味\n但吃太多，过年期间\n是会胖的",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/3731,/*unit_id*/111901,/*trigger*/2,/*voice_id*/3,/*beloved_step*/1,/*time*/3,/*face_id*/1,/*description*/"为了能做个好梦\n暖和一下身子\n再去睡觉吧",/*insert_word_type*/0);
