@@ -40,7 +40,7 @@ INSERT INTO `gift_message` VALUES (/*id*/9301,/*discription*/"超出持有数上
 INSERT INTO `gift_message` VALUES (/*id*/9302,/*discription*/"战斗竞技场的防守奖励。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9303,/*discription*/"公主竞技场的防守奖励。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9304,/*discription*/"行会助战获得的奖励。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9305,/*discription*/"提升RANK前在强化装备中使用的一部分道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9305,/*discription*/"提升品级前在强化装备中使用的一部分道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9306,/*discription*/"玩家经验值变换后获得的金币。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9307,/*discription*/"在团队战的讨伐奖励中获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9308,/*discription*/"向行会成员问好后获得的玛那。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
@@ -70,8 +70,8 @@ INSERT INTO `gift_message` VALUES (/*id*/9412,/*discription*/"购买道具装备
 INSERT INTO `gift_message` VALUES (/*id*/9501,/*discription*/"「活动登录奖励」第{1}天获得的道具。",/*type_1*/13,/*type_2*/2,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9502,/*discription*/"初次通关活动关卡获得的道具。",/*type_1*/13,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9503,/*discription*/"通关活动关卡{1}获得的道具。",/*type_1*/13,/*type_2*/14,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9504,/*discription*/"初次击败活动BOSS「{1}」获得的道具。",/*type_1*/13,/*type_2*/15,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9505,/*discription*/"在活动BOSS「{1}」的战斗中获得的物品。",/*type_1*/13,/*type_2*/15,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9504,/*discription*/"初次击败活动首领「{1}」获得的道具。",/*type_1*/13,/*type_2*/15,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9505,/*discription*/"在活动首领「{1}」的战斗中获得的物品。",/*type_1*/13,/*type_2*/15,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9506,/*discription*/"达成活动任务获得的道具。",/*type_1*/13,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9507,/*discription*/"在「{1}」获得的道具。",/*type_1*/13,/*type_2*/12,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9508,/*discription*/"在「{0}」获得的道具。",/*type_1*/13,/*type_2*/0,/*type_3*/0,/*type_4*/0);
