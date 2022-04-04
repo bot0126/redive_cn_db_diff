@@ -28,4 +28,4 @@ level_group_id,team_level_from,team_level_to
 27,141,145
 28,146,150
 29,151,155
-30,156,160
+30,156,-1
