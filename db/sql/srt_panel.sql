@@ -19,7 +19,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/1000601,/*reading*/"酒杯",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000602,/*reading*/"小麦汽水",/*read_type*/3,/*panel_id*/10006,/*detail_text*/"由加莉对“像啤酒的饮料”的称呼。不能多喝。",/*head_symbol*/"ao",/*tail_symbol*/"ui");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000603,/*reading*/"无尽酒杯",/*read_type*/3,/*panel_id*/10006,/*detail_text*/"由加莉的专属装备。不管怎么喝，饮料都能源源不断地涌出来。",/*head_symbol*/"u",/*tail_symbol*/"ei");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000700,/*reading*/"弓箭",/*read_type*/1,/*panel_id*/10007,/*detail_text*/"由弓和箭组成的武器。",/*head_symbol*/"ong",/*tail_symbol*/"an");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/1000701,/*reading*/"远程武器",/*read_type*/2,/*panel_id*/10007,/*detail_text*/"指能进行远距离攻击的武器类型。会爆炸的话还是离远一点比较好吧？",/*head_symbol*/"an",/*tail_symbol*/"i");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/1000701,/*reading*/"远程武器",/*read_type*/2,/*panel_id*/10007,/*detail_text*/"指能进行远距离攻击的武器类型。",/*head_symbol*/"an",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000800,/*reading*/"音符",/*read_type*/1,/*panel_id*/10008,/*detail_text*/"在音乐中用来记录声音的符号。",/*head_symbol*/"in",/*tail_symbol*/"u");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000801,/*reading*/"旋律",/*read_type*/1,/*panel_id*/10008,/*detail_text*/"在音乐中由声音组成的序列。",/*head_symbol*/"an",/*tail_symbol*/"ü");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000803,/*reading*/"歌曲",/*read_type*/2,/*panel_id*/10008,/*detail_text*/"伴有歌声的音乐。",/*head_symbol*/"e",/*tail_symbol*/"ü");
@@ -92,7 +92,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/1002801,/*reading*/"兔子",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002802,/*reading*/"玩偶",/*read_type*/1,/*panel_id*/10028,/*detail_text*/"模仿人或生物的东西。材质多样，分别有玩具、观赏用或祭典用等各种用途。",/*head_symbol*/"an",/*tail_symbol*/"ou");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002804,/*reading*/"亚瑟",/*read_type*/3,/*panel_id*/10028,/*detail_text*/"真步的其中一只玩偶名字由亚瑟王和圆桌骑士而来。",/*head_symbol*/"a",/*tail_symbol*/"e");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002900,/*reading*/"炸弹",/*read_type*/1,/*panel_id*/10029,/*detail_text*/"利用爆炸产生的热量和冲击，给敌方造成破坏和杀伤的兵器。超级危险。",/*head_symbol*/"a",/*tail_symbol*/"an");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/1002901,/*reading*/"远程武器",/*read_type*/2,/*panel_id*/10029,/*detail_text*/"指能进行远距离攻击的武器类型。能够给爆炸的话还是离远一点比较好吧？",/*head_symbol*/"an",/*tail_symbol*/"i");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/1002901,/*reading*/"远程武器",/*read_type*/2,/*panel_id*/10029,/*detail_text*/"指能进行远距离攻击的武器类型。会爆炸的话还是离远一点比较好吧？",/*head_symbol*/"an",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002902,/*reading*/"爆炸物",/*read_type*/2,/*panel_id*/10029,/*detail_text*/"能够引发爆炸的物品。部分爆炸物需要考取相应资格证才能接触。",/*head_symbol*/"ao",/*tail_symbol*/"u");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002903,/*reading*/"火药",/*read_type*/2,/*panel_id*/10029,/*detail_text*/"四大发明之一。",/*head_symbol*/"o",/*tail_symbol*/"ao");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1002904,/*reading*/"未奏希的恶作剧道具",/*read_type*/3,/*panel_id*/10029,/*detail_text*/"应该被好好教训一顿。",/*head_symbol*/"ei",/*tail_symbol*/"ü");
