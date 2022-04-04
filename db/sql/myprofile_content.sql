@@ -19,4 +19,5 @@ INSERT INTO `myprofile_content` VALUES (/*id*/15,/*name*/"蘑菇和秋天的溪�
 INSERT INTO `myprofile_content` VALUES (/*id*/16,/*name*/"蘑菇和小溪",/*start_time*/"2021-10-19 11:00:00",/*end_time*/"",/*disp_order*/5);
 INSERT INTO `myprofile_content` VALUES (/*id*/17,/*name*/"圣诞节的白天",/*start_time*/"2021-12-11 11:00:00",/*end_time*/"",/*disp_order*/2);
 INSERT INTO `myprofile_content` VALUES (/*id*/18,/*name*/"圣诞节的夜晚",/*start_time*/"2021-12-11 11:00:00",/*end_time*/"",/*disp_order*/3);
+INSERT INTO `myprofile_content` VALUES (/*id*/19,/*name*/"元旦日出",/*start_time*/"2021-12-31 11:00:00",/*end_time*/"",/*disp_order*/1);
 COMMIT;
