@@ -256,7 +256,7 @@ tbl,idx,stat
 "character_love_rankup_text",NULL,"42"
 "srt_action","sqlite_autoindex_srt_action_1","41 1"
 "arena_defence_reward",NULL,"1"
-"banner",NULL,"92"
+"banner",NULL,"90"
 "stationary_mission_data",NULL,"828"
 "dear_chara","dear_chara_0_event_id","18 3"
 "dear_chara","sqlite_autoindex_dear_chara_1","18 3 1"
