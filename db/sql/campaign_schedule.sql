@@ -273,4 +273,5 @@ INSERT INTO `campaign_schedule` VALUES (/*id*/269,/*campaign_category*/31,/*valu
 INSERT INTO `campaign_schedule` VALUES (/*id*/270,/*campaign_category*/41,/*value*/2000.0,/*system_id*/101,/*icon_image*/40,/*start_time*/"2021/09/19 5:00:00",/*end_time*/"2021/09/25 4:59:59",/*level_id*/0);
 INSERT INTO `campaign_schedule` VALUES (/*id*/271,/*campaign_category*/151,/*value*/1500.0,/*system_id*/6004,/*icon_image*/80,/*start_time*/"2021/09/06 9:00:00",/*end_time*/"2021/09/20 23:59:59",/*level_id*/0);
 INSERT INTO `campaign_schedule` VALUES (/*id*/272,/*campaign_category*/152,/*value*/1500.0,/*system_id*/6005,/*icon_image*/80,/*start_time*/"2021/09/06 9:00:00",/*end_time*/"2021/09/20 23:59:59",/*level_id*/0);
+INSERT INTO `campaign_schedule` VALUES (/*id*/273,/*campaign_category*/38,/*value*/2000.0,/*system_id*/112,/*icon_image*/30,/*start_time*/"2021/09/14 5:00:00",/*end_time*/"2021/09/19 4:59:59",/*level_id*/0);
 COMMIT;
