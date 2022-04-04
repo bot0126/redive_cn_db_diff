@@ -258,7 +258,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_identity",/*idx*/NULL,/*stat*/"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"character_love_rankup_text",/*idx*/NULL,/*stat*/"42");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_action",/*idx*/"sqlite_autoindex_srt_action_1",/*stat*/"41 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"90");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"88");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"828");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"dear_chara_0_event_id",/*stat*/"18 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"sqlite_autoindex_dear_chara_1",/*stat*/"18 3 1");
