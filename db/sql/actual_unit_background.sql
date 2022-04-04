@@ -102,5 +102,5 @@ INSERT INTO `actual_unit_background` VALUES (/*unit_id*/112231,/*unit_name*/"雾
 INSERT INTO `actual_unit_background` VALUES (/*unit_id*/112331,/*unit_name*/"柏崎栞",/*bg_id*/510320,/*face_type*/2);
 INSERT INTO `actual_unit_background` VALUES (/*unit_id*/170131,/*unit_name*/"环奈",/*bg_id*/510120,/*face_type*/4);
 INSERT INTO `actual_unit_background` VALUES (/*unit_id*/170231,/*unit_name*/"环奈",/*bg_id*/510360,/*face_type*/4);
-INSERT INTO `actual_unit_background` VALUES (/*unit_id*/180431,/*unit_name*/"尤丝蒂亚娜・F・阿斯特莱亚",/*bg_id*/510350,/*face_type*/4);
+INSERT INTO `actual_unit_background` VALUES (/*unit_id*/180431,/*unit_name*/"尤丝蒂亚娜・冯・阿斯特莱亚",/*bg_id*/510350,/*face_type*/4);
 COMMIT;
