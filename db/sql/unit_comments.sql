@@ -1089,14 +1089,14 @@ INSERT INTO `unit_comments` VALUES (/*id*/1103001,/*unit_id*/110301,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1103002,/*unit_id*/110301,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/6.0,/*change_face*/6,/*description*/"收集贝壳做成首饰，\n感觉也不错呢。\n这是在创造回忆哦？\n我才没想着要卖掉呢。大概。");
 INSERT INTO `unit_comments` VALUES (/*id*/1103003,/*unit_id*/110301,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/4.1,/*change_face*/2,/*description*/"海边的沙子松松散散的，\n感觉真舒服。能不能带回救济院\n用来做沙池呢？");
 INSERT INTO `unit_comments` VALUES (/*id*/1103004,/*unit_id*/110301,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/4.9,/*change_face*/5,/*description*/"跟孩子们热热闹闹地玩闹\n当然也很开心，\n不过跟你两人独处\n也很不错呢。");
-INSERT INTO `unit_comments` VALUES (/*id*/1103005,/*unit_id*/110301,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/3.1,/*change_face*/2,/*description*/"能这么近距离\n看到我穿泳装的样子，\n你真走运?");
+INSERT INTO `unit_comments` VALUES (/*id*/1103005,/*unit_id*/110301,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/3.1,/*change_face*/2,/*description*/"能这么近距离\n看到我穿泳装的样子，\n你真走运♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1103006,/*unit_id*/110331,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"虽然可能算不上优雅，\n不过，就原谅我吧。\n我现在很兴奋呢！");
-INSERT INTO `unit_comments` VALUES (/*id*/1103007,/*unit_id*/110331,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"夏季的阳光\n能让人变得大胆起来呢！\n我也再去\n探探险吧?");
+INSERT INTO `unit_comments` VALUES (/*id*/1103007,/*unit_id*/110331,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"夏季的阳光\n能让人变得大胆起来呢！\n我也再去\n探探险吧♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1103008,/*unit_id*/110331,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"好久没来过海边了～\n难得的度假，\n不尽情享受可就亏大了！");
 INSERT INTO `unit_comments` VALUES (/*id*/1103009,/*unit_id*/110331,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"大海真美……\n如果能在无人的沙滩上\n跟你两人独处……啊！\n我为什么会这么想啊！");
-INSERT INTO `unit_comments` VALUES (/*id*/1103010,/*unit_id*/110331,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"来抓我啊?\n我、我怎么……\n会说出这种话啊！");
+INSERT INTO `unit_comments` VALUES (/*id*/1103010,/*unit_id*/110331,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"来抓我啊♪\n我、我怎么……\n会说出这种话啊！");
 INSERT INTO `unit_comments` VALUES (/*id*/1103011,/*unit_id*/110301,/*use_type*/2,/*voice_id*/6,/*face_id*/2,/*change_time*/1.9,/*change_face*/1,/*description*/"生日快乐！\n救济院的大家也很想\n为你庆祝生日呢。\n好好期待吧！");
-INSERT INTO `unit_comments` VALUES (/*id*/1103012,/*unit_id*/110331,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"生日快乐！\n我们来开一个只有两个人的生日派对吧?\n开玩笑的。");
+INSERT INTO `unit_comments` VALUES (/*id*/1103012,/*unit_id*/110331,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"生日快乐！\n我们来开一个只有两个人的生日派对吧♪\n开玩笑的。");
 INSERT INTO `unit_comments` VALUES (/*id*/1104001,/*unit_id*/110401,/*use_type*/1,/*voice_id*/1,/*face_id*/2,/*change_time*/2.9,/*change_face*/6,/*description*/"嘿嘿，是大海呀！\n什、什么啊，我兴奋就\n很奇怪吗？");
 INSERT INTO `unit_comments` VALUES (/*id*/1104002,/*unit_id*/110401,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/2.6,/*change_face*/2,/*description*/"在沙滩上吃炒面也不错呢\n好！　你去拿材料过来吧\n我来做午饭");
 INSERT INTO `unit_comments` VALUES (/*id*/1104003,/*unit_id*/110401,/*use_type*/1,/*voice_id*/3,/*face_id*/2,/*change_time*/3.2,/*change_face*/1,/*description*/"在夏天游泳最棒了！\n对了，我们套上泳圈\n去游泳吧？");
