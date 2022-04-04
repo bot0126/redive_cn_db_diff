@@ -275,4 +275,7 @@ INSERT INTO `room_chat_scenario` VALUES (/*id*/23,/*scenario_idx*/1,/*unit_pos_n
 INSERT INTO `room_chat_scenario` VALUES (/*id*/23,/*scenario_idx*/2,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/72,/*icon_id*/0);
 INSERT INTO `room_chat_scenario` VALUES (/*id*/24,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/43,/*icon_id*/0);
 INSERT INTO `room_chat_scenario` VALUES (/*id*/25,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/44,/*icon_id*/0);
+INSERT INTO `room_chat_scenario` VALUES (/*id*/26,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/45,/*icon_id*/0);
+INSERT INTO `room_chat_scenario` VALUES (/*id*/27,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/46,/*icon_id*/0);
+INSERT INTO `room_chat_scenario` VALUES (/*id*/28,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/2,/*anime_id*/47,/*icon_id*/0);
 COMMIT;
