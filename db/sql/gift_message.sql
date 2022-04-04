@@ -53,7 +53,7 @@ INSERT INTO `gift_message` VALUES (/*id*/9314,/*discription*/"扭蛋更新后，
 INSERT INTO `gift_message` VALUES (/*id*/9315,/*discription*/"转换体力获得的货币。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9316,/*discription*/"SP庆典角色交换Pt转换为的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9317,/*discription*/"通过好友支援获得的报酬。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/9318,/*discription*/"超出持有数上限后获得的特殊交换券报酬。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/9318,/*discription*/"超出持有数上限后获得的特别兑换券报酬。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9319,/*discription*/"购买时获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9401,/*discription*/"每日宝石礼包中的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/9402,/*discription*/"7天体力支援礼包中的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
@@ -83,6 +83,5 @@ INSERT INTO `gift_message` VALUES (/*id*/9701,/*discription*/"「机械莉玛来
 INSERT INTO `gift_message` VALUES (/*id*/9702,/*discription*/"在「王都终末决战」中获得的道具。",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/88888,/*discription*/"购买「{0}」获得的道具",/*type_1*/88,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/88889,/*discription*/"购买玛那获得的体力",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/88890,/*discription*/"从「女神祭」宝库中获得的道具",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
-INSERT INTO `gift_message` VALUES (/*id*/88891,/*discription*/"季票额外经验兑换玛那",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
+INSERT INTO `gift_message` VALUES (/*id*/88890,/*discription*/"购买「女神祭宝库秘钥」获得的道具",/*type_1*/0,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 COMMIT;
