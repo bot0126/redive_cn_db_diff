@@ -316,5 +316,5 @@ INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001018,/*disp_oder*/1001018,/*t
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001019,/*disp_oder*/1001019,/*type*/10,/*emblem_name*/"奄美魔物VERY HARD讨伐！",/*description_mission_id*/99001019,/*event_emblem*/1,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001020,/*disp_oder*/1001020,/*type*/10,/*emblem_name*/"奄美魔物SPECIAL讨伐！",/*description_mission_id*/99001020,/*event_emblem*/1,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001021,/*disp_oder*/1001021,/*type*/10,/*emblem_name*/"美之海的空手道少女",/*description_mission_id*/99001021,/*event_emblem*/1,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001022,/*disp_oder*/1001022,/*type*/10,/*emblem_name*/"荒波的奄美魔物毁灭者",/*description_mission_id*/99001022,/*event_emblem*/1,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `emblem_data` VALUES (/*emblem_id*/11001022,/*disp_oder*/1001022,/*type*/10,/*emblem_name*/"狂澜之奄美魔物毁灭者",/*description_mission_id*/99001022,/*event_emblem*/1,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;
