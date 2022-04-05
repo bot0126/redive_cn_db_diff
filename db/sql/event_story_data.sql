@@ -27,4 +27,5 @@ INSERT INTO `event_story_data` VALUES (/*story_group_id*/5033,/*story_type*/5,/*
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5035,/*story_type*/5,/*value*/10035,/*title*/"星光公主　Re:M@STER！",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/02/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5036,/*story_type*/5,/*value*/10036,/*title*/"星光公主　Re:M@STER！",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/02/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5038,/*story_type*/5,/*value*/10038,/*title*/"恩赐的财团与神圣学院的问题儿童",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/03/26 15:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `event_story_data` VALUES (/*story_group_id*/5040,/*story_type*/5,/*value*/10040,/*title*/"牧场的四农士　贫穷农场奋斗记！",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/04/24 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;
