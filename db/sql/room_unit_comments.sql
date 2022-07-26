@@ -3944,7 +3944,7 @@ INSERT INTO `room_unit_comments` VALUES (/*id*/4283,/*unit_id*/113501,/*trigger*
 INSERT INTO `room_unit_comments` VALUES (/*id*/4284,/*unit_id*/113501,/*trigger*/3,/*voice_id*/4,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"哎呀，这是海风的味道？\n感觉耳边\n又响起了海浪声呢",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/4285,/*unit_id*/113501,/*trigger*/3,/*voice_id*/5,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"呵呵，这样一来\n就能把沾了水的泳衣\n轻松烘干了呢♪",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/4287,/*unit_id*/113501,/*trigger*/3,/*voice_id*/7,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"这个很好吃呢♪\n不过不能\n吃太多哦",/*insert_word_type*/0);
-INSERT INTO `room_unit_comments` VALUES (/*id*/4288,/*unit_id*/113501,/*trigger*/3,/*voice_id*/8,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"老师也要每天学习哦\n学到新知识是一件\n非常快乐的事呢♪",/*insert_word_type*/0);
+INSERT INTO `room_unit_comments` VALUES (/*id*/4288,/*unit_id*/113501,/*trigger*/3,/*voice_id*/8,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"老师也会每天学习哦\n获取新知识是一件\n非常快乐的事呢♪",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/4290,/*unit_id*/113501,/*trigger*/3,/*voice_id*/10,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"哎呀，感觉很开心呢\n大家一定也都\n很兴奋吧",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/4291,/*unit_id*/113501,/*trigger*/3,/*voice_id*/11,/*beloved_step*/1,/*time*/0,/*face_id*/1,/*description*/"呵呵，这样就能\n充分享受\n夏日风情了呢♪",/*insert_word_type*/0);
 INSERT INTO `room_unit_comments` VALUES (/*id*/4292,/*unit_id*/102301,/*trigger*/1,/*voice_id*/103,/*beloved_step*/12,/*time*/0,/*face_id*/1,/*description*/"三明治也做好了\n已经做好充分的准备\n迎接哥哥了呢♪",/*insert_word_type*/0);
