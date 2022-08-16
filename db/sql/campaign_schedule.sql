@@ -571,4 +571,6 @@ INSERT INTO `campaign_schedule` VALUES (/*id*/567,/*campaign_category*/151,/*val
 INSERT INTO `campaign_schedule` VALUES (/*id*/568,/*campaign_category*/152,/*value*/1500.0,/*system_id*/6005,/*icon_image*/80,/*start_time*/"2022/08/31 11:00:00",/*end_time*/"2022/09/14 23:59:59",/*level_id*/0,/*shiori_group_id*/0,/*duplication_order*/0);
 INSERT INTO `campaign_schedule` VALUES (/*id*/569,/*campaign_category*/251,/*value*/1500.0,/*system_id*/7004,/*icon_image*/80,/*start_time*/"2022/09/17 12:00:00",/*end_time*/"2022/09/24 23:59:59",/*level_id*/0,/*shiori_group_id*/0,/*duplication_order*/0);
 INSERT INTO `campaign_schedule` VALUES (/*id*/570,/*campaign_category*/252,/*value*/1500.0,/*system_id*/7005,/*icon_image*/80,/*start_time*/"2022/09/17 12:00:00",/*end_time*/"2022/09/24 23:59:59",/*level_id*/0,/*shiori_group_id*/0,/*duplication_order*/0);
+INSERT INTO `campaign_schedule` VALUES (/*id*/571,/*campaign_category*/96,/*value*/1500.0,/*system_id*/6004,/*icon_image*/100,/*start_time*/"2022/08/31 11:00:00",/*end_time*/"2022/09/04 4:59:59",/*level_id*/0,/*shiori_group_id*/0,/*duplication_order*/0);
+INSERT INTO `campaign_schedule` VALUES (/*id*/572,/*campaign_category*/97,/*value*/1500.0,/*system_id*/6005,/*icon_image*/100,/*start_time*/"2022/08/31 11:00:00",/*end_time*/"2022/09/04 4:59:59",/*level_id*/0,/*shiori_group_id*/0,/*duplication_order*/0);
 COMMIT;
