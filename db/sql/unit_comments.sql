@@ -1635,7 +1635,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1137004,/*unit_id*/113701,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1137005,/*unit_id*/113701,/*use_type*/1,/*voice_id*/5,/*face_id*/4,/*change_time*/6.1,/*change_face*/5,/*description*/"哥哥，茜里的心\n跳得好快……\n是因为感受到了\n哥哥爱的力量吧♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1137006,/*unit_id*/113731,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"哥哥，请接收茜里\n爱的力量！\n我会让你沉迷于茜里，\n眼中只有茜里的♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1137007,/*unit_id*/113731,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你很在意软乎乎的羽毛吗？\n来……你摸吧。\n不过，动作要温柔哦？\n因为茜里很敏感的♪");
-INSERT INTO `unit_comments` VALUES (/*id*/1137008,/*unit_id*/113731,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"这身打扮和姐姐是同款，\n非常可爱哦？\n茜里很喜欢，\n倒是姐姐感觉很害羞呢♪");
+INSERT INTO `unit_comments` VALUES (/*id*/1137008,/*unit_id*/113731,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"这身打扮和姐姐是同款，\n很可爱对吧？\n茜里很喜欢，\n倒是姐姐感觉很害羞呢♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1137009,/*unit_id*/113731,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"哥哥没有精神吗？\n那就交给茜里吧，\n让茜里来摸摸你的头……\n乖乖，打起精神吧♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1137010,/*unit_id*/113731,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"诶嘿嘿，茜里珍贵的心意\n有没有传达给哥哥？\n还是说……要再来一次吗？\n茜里再给你更加厉害的♪");
 INSERT INTO `unit_comments` VALUES (/*id*/1137011,/*unit_id*/113701,/*use_type*/2,/*voice_id*/6,/*face_id*/2,/*change_time*/4.2,/*change_face*/5,/*description*/"哥哥，\n生日快乐！\n茜里也感觉好开心，\n好激动呢♪");
