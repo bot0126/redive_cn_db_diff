@@ -32,4 +32,5 @@ INSERT INTO `campaign_freegacha_data` VALUES (/*id*/28,/*campaign_id*/9,/*gacha_
 INSERT INTO `campaign_freegacha_data` VALUES (/*id*/29,/*campaign_id*/10,/*gacha_id*/30091);
 INSERT INTO `campaign_freegacha_data` VALUES (/*id*/30,/*campaign_id*/10,/*gacha_id*/40003);
 INSERT INTO `campaign_freegacha_data` VALUES (/*id*/31,/*campaign_id*/10,/*gacha_id*/30093);
+INSERT INTO `campaign_freegacha_data` VALUES (/*id*/32,/*campaign_id*/10,/*gacha_id*/50094);
 COMMIT;
