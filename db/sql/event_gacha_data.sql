@@ -49,6 +49,6 @@ INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10046,/*event_id*/10046,/*gac
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10047,/*event_id*/10047,/*gacha_name*/"森林里的胆小鬼与神圣学院的问题儿童",/*item_type*/2,/*item_id*/60462,/*cost*/1,/*repeat_step*/5);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10048,/*event_id*/10048,/*gacha_name*/"Happy·Change·Angels",/*item_type*/2,/*item_id*/60472,/*cost*/1,/*repeat_step*/5);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10049,/*event_id*/10049,/*gacha_name*/"小小的勇气·万圣节之夜！",/*item_type*/2,/*item_id*/60482,/*cost*/1,/*repeat_step*/5);
-INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10050,/*event_id*/10050,/*gacha_name*/"回响！尖叫！万圣鬼怪狂欢节",/*item_type*/2,/*item_id*/60492,/*cost*/1,/*repeat_step*/5);
+INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10050,/*event_id*/10050,/*gacha_name*/"尖叫！连连！万圣鬼怪狂欢节",/*item_type*/2,/*item_id*/60492,/*cost*/1,/*repeat_step*/5);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/19003,/*event_id*/10003,/*gacha_name*/"吸血鬼猎人with伊莉亚讨伐证交换",/*item_type*/2,/*item_id*/60022,/*cost*/1,/*repeat_step*/5);
 COMMIT;
