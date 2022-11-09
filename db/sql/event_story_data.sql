@@ -34,5 +34,5 @@ INSERT INTO `event_story_data` VALUES (/*story_group_id*/5046,/*story_type*/5,/*
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5048,/*story_type*/5,/*value*/10048,/*title*/"快乐变身 双生天使",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/08/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5050,/*story_type*/5,/*value*/10050,/*title*/"尖叫！连连！万圣鬼怪狂欢节",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/09/23 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `event_story_data` VALUES (/*story_group_id*/5052,/*story_type*/5,/*value*/10052,/*title*/"魔法提督Lovely★莫妮卡 Let's　Go！魔法的四重奏！",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/10/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `event_story_data` VALUES (/*story_group_id*/5054,/*story_type*/5,/*value*/10054,/*title*/"初次登场香格里拉　圣夜的爱情游戏",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/11/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `event_story_data` VALUES (/*story_group_id*/5054,/*story_type*/5,/*value*/10054,/*title*/"初次登场·香格里拉　圣夜的爱情游戏",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/11/25 15:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;
