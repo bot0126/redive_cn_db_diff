@@ -544,7 +544,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1042003,/*unit_id*/104201,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1042004,/*unit_id*/104201,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/4.0,/*change_face*/5,/*description*/"在你面前，\n我就能自然放松地唱歌……\n为什么呢？");
 INSERT INTO `unit_comments` VALUES (/*id*/1042005,/*unit_id*/104201,/*use_type*/1,/*voice_id*/5,/*face_id*/2,/*change_time*/3.5,/*change_face*/5,/*description*/"唱歌能引发各种可能性……\n教会我这一点的，\n是同伴……和你");
 INSERT INTO `unit_comments` VALUES (/*id*/1042006,/*unit_id*/104231,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"希望你……再陪我一会儿……\n仅仅是你在我身边，我的脑海里就会\n不可思议地响起旋律");
-INSERT INTO `unit_comments` VALUES (/*id*/1042007,/*unit_id*/104231,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你醒了吗？对面街道的祭典\n开始了哦\n待会儿一起去看看吧？");
+INSERT INTO `unit_comments` VALUES (/*id*/1042007,/*unit_id*/104231,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你醒了吗？对面街道的庆典\n开始了哦\n待会儿一起去看看吧？");
 INSERT INTO `unit_comments` VALUES (/*id*/1042008,/*unit_id*/104231,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"想说的话源源不断地从心底涌出\n多到停不下笔……\n原来我是如此地想要唱歌啊");
 INSERT INTO `unit_comments` VALUES (/*id*/1042009,/*unit_id*/104231,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"有机会的话……请听听\n我唱给你的歌吧……\n我会大大方方地唱的");
 INSERT INTO `unit_comments` VALUES (/*id*/1042010,/*unit_id*/104231,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"海浪的声音真舒心呀\n真想和你一直听下去\n…我刚才说了什么吗？");
@@ -1673,7 +1673,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1140006,/*unit_id*/114031,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1140007,/*unit_id*/114031,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"好了，把手伸出来？\n和幽灵们一起\n跳一场万圣节之舞吧。");
 INSERT INTO `unit_comments` VALUES (/*id*/1140008,/*unit_id*/114031,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"纺希制作的这件衣服\n非常棒呢……呵呵，\n幽灵们会不会也说\n很适合我呢？");
 INSERT INTO `unit_comments` VALUES (/*id*/1140009,/*unit_id*/114031,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你可没有休息的时间哦？\n万圣节要\n尽情地玩耍才行。\n好了，我们一起走吧！");
-INSERT INTO `unit_comments` VALUES (/*id*/1140010,/*unit_id*/114031,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"可能是因为在\n万圣节祭典这样热闹的氛围下吧？\n和你一起度过的时间\n我感到非常幸福。");
+INSERT INTO `unit_comments` VALUES (/*id*/1140010,/*unit_id*/114031,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"可能是因为在\n万圣节庆典这样热闹的氛围下吧？\n和你一起度过的时间\n我感到非常幸福。");
 INSERT INTO `unit_comments` VALUES (/*id*/1140011,/*unit_id*/114001,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/5.6,/*change_face*/2,/*description*/"生日快乐。能够感受到你的成长，\n我也很开心。我现在就已经\n开始期待你明年的样子了。");
 INSERT INTO `unit_comments` VALUES (/*id*/1140012,/*unit_id*/114031,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你的生日对我来说，\n也是无可替代的重要日子哦。\n我要感谢让我们相遇的\n命运才行呢。");
 INSERT INTO `unit_comments` VALUES (/*id*/1141001,/*unit_id*/114101,/*use_type*/1,/*voice_id*/1,/*face_id*/3,/*change_time*/2.6,/*change_face*/2,/*description*/"白虎出动！\n好了，为了守护和平，\n今天我们也一起去巡逻吧！");
