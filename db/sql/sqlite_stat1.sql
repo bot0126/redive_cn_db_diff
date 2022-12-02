@@ -385,8 +385,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"reward_collect_guide",/*idx*/NULL,/*s
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"kaiser_add_times_data",/*idx*/NULL,/*stat*/"192");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pct_reward",/*idx*/"pct_reward_0_pct_point_type",/*stat*/"15 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"uek_drama",/*idx*/"uek_drama_0_drama_id",/*stat*/"379 10");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest",/*idx*/"shiori_quest_0_drop_reward_id",/*stat*/"199 10");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest",/*idx*/"shiori_quest_0_event_id",/*stat*/"199 20");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest",/*idx*/"shiori_quest_0_drop_reward_id",/*stat*/"200 10");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest",/*idx*/"shiori_quest_0_event_id",/*stat*/"200 20");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_boss_fix_reward",/*idx*/NULL,/*stat*/"10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_boss_fix_reward",/*idx*/NULL,/*stat*/"40");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_setup",/*idx*/NULL,/*stat*/"383");
