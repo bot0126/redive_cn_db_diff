@@ -1292,7 +1292,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1108008,/*unit_id*/110831,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1108009,/*unit_id*/110831,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"那个。毕竟是你，\n我想应该没什么特别的意义吧。\n不过还是别沉默地盯着别人的脸看了，\n看得人心里发毛。");
 INSERT INTO `unit_comments` VALUES (/*id*/1108010,/*unit_id*/110831,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"你？送我回去？\n什么啊，谁送谁啊。\n走夜路很危险？笑死了。\n感觉有点帅气嘛。");
 INSERT INTO `unit_comments` VALUES (/*id*/1108011,/*unit_id*/110801,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/9.3,/*change_face*/5,/*description*/"那个。我为弟弟们做的蛋糕，\n还有剩呢，你要吃吗？\n也不是说你一定要吃，\n啊……还有，生快。");
-INSERT INTO `unit_comments` VALUES (/*id*/1108012,/*unit_id*/110831,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"我无所谓，不过，\n你是今天生日对吧？\n生日快乐。太好了。\n这个锐利铅笔就送你吧。");
+INSERT INTO `unit_comments` VALUES (/*id*/1108012,/*unit_id*/110831,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"我无所谓，不过，\n你是今天生日对吧？\n生日快乐。太好了。\n这个尖锐铅笔就送你吧。");
 INSERT INTO `unit_comments` VALUES (/*id*/1109001,/*unit_id*/110901,/*use_type*/1,/*voice_id*/1,/*face_id*/4,/*change_time*/2.8,/*change_face*/1,/*description*/"有没有什么有趣的事情？\n我希望生活中只有快乐！\n为了快乐，我愿意辛苦点！");
 INSERT INTO `unit_comments` VALUES (/*id*/1109002,/*unit_id*/110901,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/8.1,/*change_face*/6,/*description*/"前辈！\n不对……前～辈！\n好，这样子比较可爱。\n啊，我只是叫叫你，没别的事。");
 INSERT INTO `unit_comments` VALUES (/*id*/1109003,/*unit_id*/110901,/*use_type*/1,/*voice_id*/3,/*face_id*/6,/*change_time*/6.7,/*change_face*/1,/*description*/"诶，前辈连这么简单的事\n都做不到吗？\n好厉害啊……厉害……\n诶，没问题吗？");
@@ -1423,7 +1423,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1119008,/*unit_id*/111931,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1119009,/*unit_id*/111931,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"今年的抱负吗？\n当然是跟以前一样……\n不，要比以前更可靠地\n引导主人");
 INSERT INTO `unit_comments` VALUES (/*id*/1119010,/*unit_id*/111931,/*use_type*/1,/*voice_id*/5,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"带着对主人的感情起舞，\n我的身心都会变得温暖\n要是能跟主人\n分享这份热情就好了……");
 INSERT INTO `unit_comments` VALUES (/*id*/1119011,/*unit_id*/111901,/*use_type*/2,/*voice_id*/6,/*face_id*/2,/*change_time*/5.9,/*change_face*/5,/*description*/"生日快乐\n如果……如果主人愿意的话\n请允许我和您\n两人单独度过这个日子……");
-INSERT INTO `unit_comments` VALUES (/*id*/1119012,/*unit_id*/111931,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"今天对主人来说\n是值得庆祝的一天。请允许我为您\n献上祝福的舞蹈吧\n像您赠予最诚挚的祝福");
+INSERT INTO `unit_comments` VALUES (/*id*/1119012,/*unit_id*/111931,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"今天对主人来说\n是值得庆祝的一天。请允许我为您\n献上祝福的舞蹈吧。\n向您献上我最诚挚的祝福。");
 INSERT INTO `unit_comments` VALUES (/*id*/1120001,/*unit_id*/112001,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/4.0,/*change_face*/2,/*description*/"什么？　想跟我\n打羽毛毽？\n我可不会手下留情！\n我要在你脸上画满图案！");
 INSERT INTO `unit_comments` VALUES (/*id*/1120002,/*unit_id*/112001,/*use_type*/1,/*voice_id*/2,/*face_id*/5,/*change_time*/4.6,/*change_face*/1,/*description*/"新年快乐\n今年也请多指教啦\n感觉今年又会是\n热热闹闹的一年呢……");
 INSERT INTO `unit_comments` VALUES (/*id*/1120003,/*unit_id*/112001,/*use_type*/1,/*voice_id*/3,/*face_id*/4,/*change_time*/7.8,/*change_face*/6,/*description*/"大家从新年伊始就很有活力呢\n我想在家里安静地度过……\n不，我并不是\n讨厌跟你在一起！");
