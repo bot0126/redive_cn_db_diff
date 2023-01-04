@@ -90,7 +90,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_story_banner",/*idx*/"special
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_reward",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_reminder",/*idx*/"event_reminder_0_event_id",/*stat*/"4 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_revival_wave_group_data",/*idx*/NULL,/*stat*/"4518");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_stationary_mission_data",/*idx*/NULL,/*stat*/"230");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_stationary_mission_data",/*idx*/NULL,/*stat*/"253");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_freegacha_sp",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_quest_data",/*idx*/NULL,/*stat*/"14");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_mission_reward_data",/*idx*/"seasonpass_mission_reward_data_0_mission_reward_id",/*stat*/"18 2");
@@ -350,7 +350,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_identity",/*idx*/NULL,/*stat*/"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"define_spskill",/*idx*/"define_spskill_0_sp_skill_id",/*stat*/"3 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"character_love_rankup_text",/*idx*/NULL,/*stat*/"42");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_action",/*idx*/"sqlite_autoindex_srt_action_1",/*stat*/"41 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"10");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"11");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"138");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1174");
