@@ -158,7 +158,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"quest_data",/*idx*/NULL,/*stat*/"796"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_reward_id",/*stat*/"729 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_mission_reward_id",/*stat*/"729 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_quest_fix_reward_group",/*idx*/NULL,/*stat*/"581");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_special_mission_data",/*idx*/NULL,/*stat*/"304");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_special_mission_data",/*idx*/NULL,/*stat*/"305");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_unlock_story_condition",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_quest_data",/*idx*/NULL,/*stat*/"47");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_mission_reward_data",/*idx*/"campaign_mission_reward_data_0_campaign_mission_reward_id",/*stat*/"24 2");
@@ -352,7 +352,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"character_love_rankup_text",/*idx*/NU
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_action",/*idx*/"sqlite_autoindex_srt_action_1",/*stat*/"41 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"134");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"136");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1151");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lto_story_data",/*idx*/"lto_story_data_0_event_id",/*stat*/"1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"dear_chara_0_event_id",/*stat*/"47 3");
