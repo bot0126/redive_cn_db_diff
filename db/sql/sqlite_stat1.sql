@@ -352,7 +352,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"character_love_rankup_text",/*idx*/NU
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_action",/*idx*/"sqlite_autoindex_srt_action_1",/*stat*/"41 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"11");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"138");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"139");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1174");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lto_story_data",/*idx*/"lto_story_data_0_event_id",/*stat*/"1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"dear_chara_0_event_id",/*stat*/"47 3");
@@ -376,7 +376,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_character_personality",/*idx*/NU
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild_additional_member",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"unit_promotion_0_unit_id",/*stat*/"3345 19");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"sqlite_autoindex_unit_promotion_1",/*stat*/"3345 19 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"item_data",/*idx*/NULL,/*stat*/"316");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"item_data",/*idx*/NULL,/*stat*/"320");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ttk_reward",/*idx*/"ttk_reward_0_ttk_score",/*stat*/"2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_navi_comment_condition",/*idx*/NULL,/*stat*/"253");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest_condition",/*idx*/NULL,/*stat*/"220");
