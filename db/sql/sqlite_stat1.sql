@@ -274,7 +274,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_ev
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_event_id",/*stat*/"33 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change_data",/*idx*/"hatsune_bg_change_data_0_target_type_1_area_id",/*stat*/"21 11 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"gacha_exchange_lineup",/*idx*/"gacha_exchange_lineup_0_exchange_id",/*stat*/"191 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"695");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"697");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"882 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"882 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"882 6 1");

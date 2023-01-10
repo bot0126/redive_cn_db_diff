@@ -272,7 +272,7 @@ tbl,idx,stat
 "shiori_boss","shiori_boss_0_event_id","33 3"
 "hatsune_bg_change_data","hatsune_bg_change_data_0_target_type_1_area_id","21 11 2"
 "gacha_exchange_lineup","gacha_exchange_lineup_0_exchange_id","191 2"
-"campaign_schedule",NULL,"695"
+"campaign_schedule",NULL,"697"
 "unit_rarity","unit_rarity_0_unit_material_id","882 6"
 "unit_rarity","unit_rarity_0_unit_id","882 6"
 "unit_rarity","sqlite_autoindex_unit_rarity_1","882 6 1"
