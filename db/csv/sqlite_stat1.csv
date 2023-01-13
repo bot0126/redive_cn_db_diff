@@ -374,7 +374,7 @@ tbl,idx,stat
 "guild_additional_member",NULL,"1"
 "unit_promotion","unit_promotion_0_unit_id","3345 19"
 "unit_promotion","sqlite_autoindex_unit_promotion_1","3345 19 1"
-"item_data",NULL,"320"
+"item_data",NULL,"321"
 "ttk_reward","ttk_reward_0_ttk_score","2 1"
 "event_navi_comment_condition",NULL,"253"
 "shiori_quest_condition",NULL,"220"
