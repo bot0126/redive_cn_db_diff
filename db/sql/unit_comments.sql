@@ -1786,7 +1786,7 @@ INSERT INTO `unit_comments` VALUES (/*id*/1155011,/*unit_id*/115501,/*use_type*/
 INSERT INTO `unit_comments` VALUES (/*id*/1155012,/*unit_id*/115531,/*use_type*/2,/*voice_id*/6,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"生日快乐\n又长了一岁呢，\n朝着未来前行的你，\n希望今后我也能一直待在那样的你的身边?");
 INSERT INTO `unit_comments` VALUES (/*id*/1156001,/*unit_id*/115601,/*use_type*/1,/*voice_id*/1,/*face_id*/6,/*change_time*/9.0,/*change_face*/7,/*description*/"理解精灵的想法……\n果然很难啊……\n骑士君也试试吧？\n诶？　睡着了！？");
 INSERT INTO `unit_comments` VALUES (/*id*/1156002,/*unit_id*/115601,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/8.4,/*change_face*/7,/*description*/"精灵也有各种各样的性格，\n不仅有温柔的孩子，\n还有喜欢恶作剧的……唔呀！\n呜呜……不要戳我的脸蛋～");
-INSERT INTO `unit_comments` VALUES (/*id*/1156003,/*unit_id*/115601,/*use_type*/1,/*voice_id*/3,/*face_id*/7,/*change_time*/9.6,/*change_face*/8,/*description*/"这件衣服会不会太刺激了？\n因为你看，布料\n这么少……啊！\n不要靠这么近看啦！");
+INSERT INTO `unit_comments` VALUES (/*id*/1156003,/*unit_id*/115601,/*use_type*/1,/*voice_id*/3,/*face_id*/7,/*change_time*/9.6,/*change_face*/8,/*description*/"这件衣服会不会太暴露了？\n因为你看，布料\n这么少……啊！\n不要靠这么近看啦！");
 INSERT INTO `unit_comments` VALUES (/*id*/1156004,/*unit_id*/115601,/*use_type*/1,/*voice_id*/4,/*face_id*/1,/*change_time*/13.3,/*change_face*/6,/*description*/"驱使精灵的时候，\n感官会比平时更加敏锐。　现在\n我也能感受到风和光的变化……\n骑士君……你饿了吗？");
 INSERT INTO `unit_comments` VALUES (/*id*/1156005,/*unit_id*/115601,/*use_type*/1,/*voice_id*/5,/*face_id*/4,/*change_time*/7.4,/*change_face*/7,/*description*/"唔，和骑士君的距离\n一直没有缩小……诶，骑士君！？\n这、这，我只是在和\n精灵对话……快、快当没听到啦！");
 INSERT INTO `unit_comments` VALUES (/*id*/1156006,/*unit_id*/115631,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/0.0,/*change_face*/1,/*description*/"骑士君……谢谢你和我一起\n养育这孩子，\n我非常开心。");
