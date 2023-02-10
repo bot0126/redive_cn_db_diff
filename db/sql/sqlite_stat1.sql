@@ -28,7 +28,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"nyx_phase_data",/*idx*/NULL,/*stat*/"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_boss_treasure_box",/*idx*/NULL,/*stat*/"242");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_event_list",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_max_season_rank_reward",/*idx*/NULL,/*stat*/"118");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_data",/*idx*/NULL,/*stat*/"60");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_data",/*idx*/NULL,/*stat*/"61");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"serial_code_data",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pct_system_fruits",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pct_system",/*idx*/NULL,/*stat*/"1");
