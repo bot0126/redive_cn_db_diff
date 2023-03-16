@@ -147,7 +147,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_multi_route_parameter",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_multi_route_parameter",/*idx*/"hatsune_multi_route_parameter_0_quest_id",/*stat*/"20 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_boss_condition",/*idx*/NULL,/*stat*/"269");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_enemy_parameter",/*idx*/NULL,/*stat*/"6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_period_rank_reward",/*idx*/NULL,/*stat*/"555");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_period_rank_reward",/*idx*/NULL,/*stat*/"570");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_story_detail",/*idx*/"event_story_detail_0_story_group_id",/*stat*/"322 9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"worldmap",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"training_quest_data",/*idx*/NULL,/*stat*/"22");
