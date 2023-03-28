@@ -8,15 +8,4 @@ INSERT INTO `event_reminder_condition` VALUES (/*id*/1005601,/*reminder_id*/1005
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006101,/*reminder_id*/1006101,/*condition_type*/1,/*condition_id*/5061601);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006102,/*reminder_id*/1006102,/*condition_type*/3,/*condition_id*/5061602);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006103,/*reminder_id*/1006103,/*condition_type*/1,/*condition_id*/5061601);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1006601,/*reminder_id*/1006601,/*condition_type*/4,/*condition_id*/5027704);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1007001,/*reminder_id*/1007001,/*condition_type*/5,/*condition_id*/0);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1007301,/*reminder_id*/1007301,/*condition_type*/1,/*condition_id*/5046601);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1007501,/*reminder_id*/1007501,/*condition_type*/1,/*condition_id*/5048007);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1007502,/*reminder_id*/1007502,/*condition_type*/2,/*condition_id*/1004801);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1008201,/*reminder_id*/1008201,/*condition_type*/6,/*condition_id*/0);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1008301,/*reminder_id*/1008301,/*condition_type*/1,/*condition_id*/5056601);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1008901,/*reminder_id*/1008901,/*condition_type*/1,/*condition_id*/5061601);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1008902,/*reminder_id*/1008902,/*condition_type*/3,/*condition_id*/5061602);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1008903,/*reminder_id*/1008903,/*condition_type*/1,/*condition_id*/5061601);
-INSERT INTO `event_reminder_condition` VALUES (/*id*/1009201,/*reminder_id*/1009201,/*condition_type*/3,/*condition_id*/5092601);
 COMMIT;

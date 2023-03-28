@@ -1,8 +1,8 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_weapon' ('ttk_weapon_id' INTEGER NOT NULL, 'ttk_score' INTEGER NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('ttk_weapon_id'));
-INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/1,/*ttk_score*/0,/*name*/"木槌");
-INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/2,/*ttk_score*/64000,/*name*/"魔法の小槌");
-INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/3,/*ttk_score*/256000,/*name*/"マヒルお手製ハリセン");
-INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/4,/*ttk_score*/480000,/*name*/"打ちでの小槌");
+INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/1,/*ttk_score*/0,/*name*/"木锤");
+INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/2,/*ttk_score*/64000,/*name*/"魔法的小锤");
+INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/3,/*ttk_score*/256000,/*name*/"真阳手工纸扇");
+INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/4,/*ttk_score*/480000,/*name*/"万宝槌");
 COMMIT;
