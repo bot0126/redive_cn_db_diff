@@ -103,7 +103,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_boss_data",/*idx*/NULL,
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_2_map_data",/*idx*/"clan_battle_2_map_data_0_clan_battle_id",/*stat*/"232 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"love_rankup_0_unit_id",/*stat*/"25 7");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"sqlite_autoindex_love_rankup_1",/*stat*/"25 7 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_data",/*idx*/NULL,/*stat*/"201");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_data",/*idx*/NULL,/*stat*/"202");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"taq_game_setting",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"kaiser_special_battle",/*idx*/NULL,/*stat*/"3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pkb_pitcher_ball_type",/*idx*/"pkb_pitcher_ball_type_0_pitcher_id",/*stat*/"17 5");
@@ -149,7 +149,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"109");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1314");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1318");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_series_gacha_reference",/*idx*/NULL,/*stat*/"1");
@@ -247,7 +247,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"cgg_goods_data",/*idx*/NULL,/*stat*/"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_cloister_quest_data",/*idx*/NULL,/*stat*/"31");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change",/*idx*/NULL,/*stat*/"2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"custom_mypage",/*idx*/"custom_mypage_0_still_group_id",/*stat*/"210 210");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild",/*idx*/NULL,/*stat*/"18");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild",/*idx*/NULL,/*stat*/"22");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_reward_data_0_mission_reward_id",/*stat*/"709 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"music_content",/*idx*/NULL,/*stat*/"224");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_ex_quest_data",/*idx*/"tower_ex_quest_data_0_floor_num",/*stat*/"32 1");
@@ -354,7 +354,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_daily_rank_reward",/*idx*/NULL,
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_change",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_rail",/*idx*/NULL,/*stat*/"109");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_character_mask",/*idx*/NULL,/*stat*/"645");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tips",/*idx*/NULL,/*stat*/"95");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tips",/*idx*/NULL,/*stat*/"96");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ttk_score",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_area_data",/*idx*/NULL,/*stat*/"32");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_boss_treasure_content",/*idx*/NULL,/*stat*/"1869");
@@ -430,7 +430,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_effect_setting",/*idx*/"sqlite_
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_defence_reward",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_schedule",/*idx*/NULL,/*stat*/"8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_mypage_pos",/*idx*/NULL,/*stat*/"36");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"151");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"152");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"daily_mission_data",/*idx*/NULL,/*stat*/"402");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"equipment_donation",/*idx*/NULL,/*stat*/"9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"equipment_data",/*idx*/NULL,/*stat*/"834");
