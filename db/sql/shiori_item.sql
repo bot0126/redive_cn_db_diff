@@ -15,17 +15,4 @@ INSERT INTO `shiori_item` VALUES (/*event_id*/20011,/*unit_material_id_1*/31090,
 INSERT INTO `shiori_item` VALUES (/*event_id*/20012,/*unit_material_id_1*/31043,/*unit_material_id_2*/31008);
 INSERT INTO `shiori_item` VALUES (/*event_id*/20013,/*unit_material_id_1*/31093,/*unit_material_id_2*/31018);
 INSERT INTO `shiori_item` VALUES (/*event_id*/20014,/*unit_material_id_1*/31053,/*unit_material_id_2*/31045);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20015,/*unit_material_id_1*/31101,/*unit_material_id_2*/31050);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20016,/*unit_material_id_1*/31105,/*unit_material_id_2*/31014);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20017,/*unit_material_id_1*/31056,/*unit_material_id_2*/31040);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20018,/*unit_material_id_1*/31112,/*unit_material_id_2*/31036);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20019,/*unit_material_id_1*/31037,/*unit_material_id_2*/31005);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20020,/*unit_material_id_1*/31116,/*unit_material_id_2*/31044);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20021,/*unit_material_id_1*/31121,/*unit_material_id_2*/31021);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20022,/*unit_material_id_1*/31123,/*unit_material_id_2*/31049);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20023,/*unit_material_id_1*/31107,/*unit_material_id_2*/31046);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20024,/*unit_material_id_1*/31028,/*unit_material_id_2*/31033);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20025,/*unit_material_id_1*/31130,/*unit_material_id_2*/31065);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20026,/*unit_material_id_1*/31132,/*unit_material_id_2*/31027);
-INSERT INTO `shiori_item` VALUES (/*event_id*/20027,/*unit_material_id_1*/31135,/*unit_material_id_2*/31023);
 COMMIT;
