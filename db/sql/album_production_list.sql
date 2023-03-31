@@ -9,7 +9,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10010105,/*unit_id*/100101,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10010106,/*unit_id*/100101,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010107,/*unit_id*/100101,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010108,/*unit_id*/100101,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10010109,/*unit_id*/100101,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10010109,/*unit_id*/100101,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010110,/*unit_id*/100101,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010111,/*unit_id*/100101,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010112,/*unit_id*/100101,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -22,7 +22,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10020105,/*unit_id*/100201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10020106,/*unit_id*/100201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10020107,/*unit_id*/100201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10020108,/*unit_id*/100201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10020109,/*unit_id*/100201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10020109,/*unit_id*/100201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10020110,/*unit_id*/100201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10020111,/*unit_id*/100201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10020112,/*unit_id*/100201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -35,7 +35,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10030105,/*unit_id*/100301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10030106,/*unit_id*/100301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10030107,/*unit_id*/100301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10030108,/*unit_id*/100301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10030109,/*unit_id*/100301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10030109,/*unit_id*/100301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10030110,/*unit_id*/100301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10030111,/*unit_id*/100301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10030112,/*unit_id*/100301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -48,7 +48,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10040105,/*unit_id*/100401,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10040106,/*unit_id*/100401,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10040107,/*unit_id*/100401,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10040108,/*unit_id*/100401,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10040109,/*unit_id*/100401,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10040109,/*unit_id*/100401,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10040110,/*unit_id*/100401,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10040111,/*unit_id*/100401,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10040112,/*unit_id*/100401,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -69,7 +69,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10060105,/*unit_id*/100601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10060106,/*unit_id*/100601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10060107,/*unit_id*/100601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10060108,/*unit_id*/100601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10060109,/*unit_id*/100601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10060109,/*unit_id*/100601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10060110,/*unit_id*/100601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10060111,/*unit_id*/100601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10060112,/*unit_id*/100601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -82,7 +82,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10070105,/*unit_id*/100701,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10070106,/*unit_id*/100701,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10070107,/*unit_id*/100701,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10070108,/*unit_id*/100701,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10070109,/*unit_id*/100701,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10070109,/*unit_id*/100701,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10070110,/*unit_id*/100701,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10070111,/*unit_id*/100701,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10070112,/*unit_id*/100701,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -111,7 +111,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10100105,/*unit_id*/101001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10100106,/*unit_id*/101001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10100107,/*unit_id*/101001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10100108,/*unit_id*/101001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10100109,/*unit_id*/101001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10100109,/*unit_id*/101001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10100110,/*unit_id*/101001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10100111,/*unit_id*/101001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10100112,/*unit_id*/101001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -124,7 +124,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10110105,/*unit_id*/101101,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10110106,/*unit_id*/101101,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10110107,/*unit_id*/101101,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10110108,/*unit_id*/101101,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10110109,/*unit_id*/101101,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10110109,/*unit_id*/101101,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10110110,/*unit_id*/101101,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10110111,/*unit_id*/101101,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10110112,/*unit_id*/101101,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -137,7 +137,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10120105,/*unit_id*/101201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10120106,/*unit_id*/101201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10120107,/*unit_id*/101201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10120108,/*unit_id*/101201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10120109,/*unit_id*/101201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10120109,/*unit_id*/101201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10120110,/*unit_id*/101201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10120111,/*unit_id*/101201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10120112,/*unit_id*/101201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -150,7 +150,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10130105,/*unit_id*/101301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10130106,/*unit_id*/101301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10130107,/*unit_id*/101301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10130108,/*unit_id*/101301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10130109,/*unit_id*/101301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10130109,/*unit_id*/101301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10130110,/*unit_id*/101301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10130111,/*unit_id*/101301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10130112,/*unit_id*/101301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -179,7 +179,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10160105,/*unit_id*/101601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10160106,/*unit_id*/101601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10160107,/*unit_id*/101601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10160108,/*unit_id*/101601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10160109,/*unit_id*/101601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10160109,/*unit_id*/101601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10160110,/*unit_id*/101601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10160111,/*unit_id*/101601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10160112,/*unit_id*/101601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -192,7 +192,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10170105,/*unit_id*/101701,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10170106,/*unit_id*/101701,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10170107,/*unit_id*/101701,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10170108,/*unit_id*/101701,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10170109,/*unit_id*/101701,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10170109,/*unit_id*/101701,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10170110,/*unit_id*/101701,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10170111,/*unit_id*/101701,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10170112,/*unit_id*/101701,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -205,7 +205,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10180105,/*unit_id*/101801,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10180106,/*unit_id*/101801,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10180107,/*unit_id*/101801,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10180108,/*unit_id*/101801,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10180109,/*unit_id*/101801,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10180109,/*unit_id*/101801,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10180110,/*unit_id*/101801,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10180111,/*unit_id*/101801,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10180112,/*unit_id*/101801,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -218,7 +218,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10200105,/*unit_id*/102001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10200106,/*unit_id*/102001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10200107,/*unit_id*/102001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10200108,/*unit_id*/102001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10200109,/*unit_id*/102001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10200109,/*unit_id*/102001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10200110,/*unit_id*/102001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10200111,/*unit_id*/102001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10200112,/*unit_id*/102001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -231,7 +231,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10210105,/*unit_id*/102101,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10210106,/*unit_id*/102101,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10210107,/*unit_id*/102101,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10210108,/*unit_id*/102101,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10210109,/*unit_id*/102101,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10210109,/*unit_id*/102101,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10210110,/*unit_id*/102101,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10210111,/*unit_id*/102101,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10210112,/*unit_id*/102101,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -244,7 +244,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10220105,/*unit_id*/102201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10220106,/*unit_id*/102201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10220107,/*unit_id*/102201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10220108,/*unit_id*/102201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10220109,/*unit_id*/102201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10220109,/*unit_id*/102201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10220110,/*unit_id*/102201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10220111,/*unit_id*/102201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10220112,/*unit_id*/102201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -257,7 +257,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10230105,/*unit_id*/102301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10230106,/*unit_id*/102301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10230107,/*unit_id*/102301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10230108,/*unit_id*/102301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10230109,/*unit_id*/102301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10230109,/*unit_id*/102301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10230110,/*unit_id*/102301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10230111,/*unit_id*/102301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10230112,/*unit_id*/102301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -270,7 +270,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10250105,/*unit_id*/102501,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10250106,/*unit_id*/102501,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10250107,/*unit_id*/102501,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10250108,/*unit_id*/102501,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10250109,/*unit_id*/102501,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10250109,/*unit_id*/102501,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10250110,/*unit_id*/102501,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10250111,/*unit_id*/102501,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10250112,/*unit_id*/102501,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -283,7 +283,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10260105,/*unit_id*/102601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10260106,/*unit_id*/102601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10260107,/*unit_id*/102601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10260108,/*unit_id*/102601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10260109,/*unit_id*/102601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10260109,/*unit_id*/102601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10260110,/*unit_id*/102601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10260111,/*unit_id*/102601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10260112,/*unit_id*/102601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -304,7 +304,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10280105,/*unit_id*/102801,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10280106,/*unit_id*/102801,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10280107,/*unit_id*/102801,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10280108,/*unit_id*/102801,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10280109,/*unit_id*/102801,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10280109,/*unit_id*/102801,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10280110,/*unit_id*/102801,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10280111,/*unit_id*/102801,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10280112,/*unit_id*/102801,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -317,7 +317,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10290105,/*unit_id*/102901,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10290106,/*unit_id*/102901,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10290107,/*unit_id*/102901,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10290108,/*unit_id*/102901,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10290109,/*unit_id*/102901,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10290109,/*unit_id*/102901,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10290110,/*unit_id*/102901,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10290111,/*unit_id*/102901,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10290112,/*unit_id*/102901,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -330,7 +330,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10300105,/*unit_id*/103001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10300106,/*unit_id*/103001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10300107,/*unit_id*/103001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10300108,/*unit_id*/103001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10300109,/*unit_id*/103001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10300109,/*unit_id*/103001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10300110,/*unit_id*/103001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10300111,/*unit_id*/103001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10300112,/*unit_id*/103001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -351,7 +351,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10320105,/*unit_id*/103201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10320106,/*unit_id*/103201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10320107,/*unit_id*/103201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10320108,/*unit_id*/103201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10320109,/*unit_id*/103201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10320109,/*unit_id*/103201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10320110,/*unit_id*/103201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10320111,/*unit_id*/103201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10320112,/*unit_id*/103201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -364,7 +364,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10330105,/*unit_id*/103301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10330106,/*unit_id*/103301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10330107,/*unit_id*/103301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10330108,/*unit_id*/103301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10330109,/*unit_id*/103301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10330109,/*unit_id*/103301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10330110,/*unit_id*/103301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10330111,/*unit_id*/103301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10330112,/*unit_id*/103301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -377,7 +377,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10340105,/*unit_id*/103401,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10340106,/*unit_id*/103401,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10340107,/*unit_id*/103401,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10340108,/*unit_id*/103401,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10340109,/*unit_id*/103401,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10340109,/*unit_id*/103401,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10340110,/*unit_id*/103401,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10340111,/*unit_id*/103401,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10340112,/*unit_id*/103401,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -390,7 +390,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10360105,/*unit_id*/103601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10360106,/*unit_id*/103601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10360107,/*unit_id*/103601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10360108,/*unit_id*/103601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10360109,/*unit_id*/103601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10360109,/*unit_id*/103601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10360110,/*unit_id*/103601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10360111,/*unit_id*/103601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10360112,/*unit_id*/103601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -419,7 +419,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10400105,/*unit_id*/104001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10400106,/*unit_id*/104001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10400107,/*unit_id*/104001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10400108,/*unit_id*/104001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10400109,/*unit_id*/104001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10400109,/*unit_id*/104001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10400110,/*unit_id*/104001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10400111,/*unit_id*/104001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10400112,/*unit_id*/104001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -432,7 +432,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10420105,/*unit_id*/104201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10420106,/*unit_id*/104201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10420107,/*unit_id*/104201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10420108,/*unit_id*/104201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10420109,/*unit_id*/104201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10420109,/*unit_id*/104201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10420110,/*unit_id*/104201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10420111,/*unit_id*/104201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10420112,/*unit_id*/104201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -461,7 +461,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10450105,/*unit_id*/104501,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10450106,/*unit_id*/104501,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10450107,/*unit_id*/104501,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10450108,/*unit_id*/104501,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10450109,/*unit_id*/104501,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10450109,/*unit_id*/104501,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10450110,/*unit_id*/104501,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10450111,/*unit_id*/104501,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10450112,/*unit_id*/104501,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -474,7 +474,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10460105,/*unit_id*/104601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10460106,/*unit_id*/104601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10460107,/*unit_id*/104601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10460108,/*unit_id*/104601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10460109,/*unit_id*/104601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10460109,/*unit_id*/104601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10460110,/*unit_id*/104601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10460111,/*unit_id*/104601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10460112,/*unit_id*/104601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -495,7 +495,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10480105,/*unit_id*/104801,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10480106,/*unit_id*/104801,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10480107,/*unit_id*/104801,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10480108,/*unit_id*/104801,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10480109,/*unit_id*/104801,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10480109,/*unit_id*/104801,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10480110,/*unit_id*/104801,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10480111,/*unit_id*/104801,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10480112,/*unit_id*/104801,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -508,7 +508,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10490105,/*unit_id*/104901,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10490106,/*unit_id*/104901,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10490107,/*unit_id*/104901,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10490108,/*unit_id*/104901,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10490109,/*unit_id*/104901,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10490109,/*unit_id*/104901,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10490110,/*unit_id*/104901,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10490111,/*unit_id*/104901,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10490112,/*unit_id*/104901,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -521,7 +521,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10500105,/*unit_id*/105001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10500106,/*unit_id*/105001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10500107,/*unit_id*/105001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10500108,/*unit_id*/105001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10500109,/*unit_id*/105001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10500109,/*unit_id*/105001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10500110,/*unit_id*/105001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10500111,/*unit_id*/105001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10500112,/*unit_id*/105001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -542,7 +542,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10520105,/*unit_id*/105201,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10520106,/*unit_id*/105201,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10520107,/*unit_id*/105201,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10520108,/*unit_id*/105201,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10520109,/*unit_id*/105201,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10520109,/*unit_id*/105201,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10520110,/*unit_id*/105201,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10520111,/*unit_id*/105201,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10520112,/*unit_id*/105201,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -555,7 +555,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10530105,/*unit_id*/105301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10530106,/*unit_id*/105301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10530107,/*unit_id*/105301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10530108,/*unit_id*/105301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10530109,/*unit_id*/105301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10530109,/*unit_id*/105301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10530110,/*unit_id*/105301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10530111,/*unit_id*/105301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10530112,/*unit_id*/105301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -592,7 +592,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10570105,/*unit_id*/105701,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10570106,/*unit_id*/105701,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10570107,/*unit_id*/105701,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10570108,/*unit_id*/105701,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10570109,/*unit_id*/105701,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10570109,/*unit_id*/105701,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10570110,/*unit_id*/105701,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10570111,/*unit_id*/105701,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10570112,/*unit_id*/105701,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -605,7 +605,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10580105,/*unit_id*/105801,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10580106,/*unit_id*/105801,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10580107,/*unit_id*/105801,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10580108,/*unit_id*/105801,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10580109,/*unit_id*/105801,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10580109,/*unit_id*/105801,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10580110,/*unit_id*/105801,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10580111,/*unit_id*/105801,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10580112,/*unit_id*/105801,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -618,7 +618,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10590105,/*unit_id*/105901,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10590106,/*unit_id*/105901,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10590107,/*unit_id*/105901,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10590108,/*unit_id*/105901,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10590109,/*unit_id*/105901,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10590109,/*unit_id*/105901,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10590110,/*unit_id*/105901,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10590111,/*unit_id*/105901,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10590112,/*unit_id*/105901,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -631,7 +631,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10600105,/*unit_id*/106001,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10600106,/*unit_id*/106001,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10600107,/*unit_id*/106001,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10600108,/*unit_id*/106001,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10600109,/*unit_id*/106001,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10600109,/*unit_id*/106001,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10600110,/*unit_id*/106001,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10600111,/*unit_id*/106001,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10600112,/*unit_id*/106001,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -652,7 +652,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10630105,/*unit_id*/106301,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10630106,/*unit_id*/106301,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10630107,/*unit_id*/106301,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10630108,/*unit_id*/106301,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10630109,/*unit_id*/106301,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10630109,/*unit_id*/106301,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10630110,/*unit_id*/106301,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10630111,/*unit_id*/106301,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10630112,/*unit_id*/106301,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -721,7 +721,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10750105,/*unit_id*/107501,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10750106,/*unit_id*/107501,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10750107,/*unit_id*/107501,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10750108,/*unit_id*/107501,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10750109,/*unit_id*/107501,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10750109,/*unit_id*/107501,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10750110,/*unit_id*/107501,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10750111,/*unit_id*/107501,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10750112,/*unit_id*/107501,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -734,7 +734,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10760105,/*unit_id*/107601,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10760106,/*unit_id*/107601,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10760107,/*unit_id*/107601,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10760108,/*unit_id*/107601,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10760109,/*unit_id*/107601,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10760109,/*unit_id*/107601,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10760110,/*unit_id*/107601,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10760111,/*unit_id*/107601,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10760112,/*unit_id*/107601,/*type*/110,/*title*/"好感度效果10",/*description*/"");
@@ -755,7 +755,7 @@ INSERT INTO `album_production_list` VALUES (/*id*/10780105,/*unit_id*/107801,/*t
 INSERT INTO `album_production_list` VALUES (/*id*/10780106,/*unit_id*/107801,/*type*/105,/*title*/"好感度效果5",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10780107,/*unit_id*/107801,/*type*/106,/*title*/"好感度效果6",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10780108,/*unit_id*/107801,/*type*/107,/*title*/"好感度效果7",/*description*/"");
-INSERT INTO `album_production_list` VALUES (/*id*/10780109,/*unit_id*/107801,/*type*/202,/*title*/"★6才能開花演出",/*description*/"");
+INSERT INTO `album_production_list` VALUES (/*id*/10780109,/*unit_id*/107801,/*type*/202,/*title*/"★6才能开花效果",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10780110,/*unit_id*/107801,/*type*/108,/*title*/"好感度效果8",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10780111,/*unit_id*/107801,/*type*/109,/*title*/"好感度效果9",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10780112,/*unit_id*/107801,/*type*/110,/*title*/"好感度效果10",/*description*/"");
