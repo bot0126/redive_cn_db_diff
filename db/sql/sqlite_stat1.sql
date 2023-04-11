@@ -381,7 +381,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mhp_story_data",/*idx*/"mhp_story_dat
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"login_bonus_data",/*idx*/NULL,/*stat*/"27");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_attack_pattern",/*idx*/NULL,/*stat*/"1628");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_story_status",/*idx*/NULL,/*stat*/"846");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"visual_customize",/*idx*/NULL,/*stat*/"17");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"visual_customize",/*idx*/NULL,/*stat*/"13");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"apa_schedule",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_emblem_mission",/*idx*/"hatsune_emblem_mission_0_event_id",/*stat*/"117 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_top_story_data",/*idx*/"sekai_top_story_data_0_sekai_id",/*stat*/"4 4");
