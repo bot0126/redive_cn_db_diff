@@ -148,7 +148,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_enemy_parameter",/*idx*/NULL,/
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"111");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"109");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1326");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
@@ -174,7 +174,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_story_detail",/*idx*/"event_sto
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"worldmap",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"training_quest_data",/*idx*/NULL,/*stat*/"22");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"taq_good_unit",/*idx*/NULL,/*stat*/"184");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_reminder_condition",/*idx*/"event_reminder_condition_0_reminder_id",/*stat*/"7 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_reminder_condition",/*idx*/"event_reminder_condition_0_reminder_id",/*stat*/"8 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_introduction",/*idx*/"unit_introduction_0_gacha_id",/*stat*/"125 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"quest_reward_data",/*idx*/NULL,/*stat*/"4433");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"quest_data",/*idx*/NULL,/*stat*/"1008");

@@ -8,4 +8,5 @@ INSERT INTO `event_reminder_condition` VALUES (/*id*/1005601,/*reminder_id*/1005
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006101,/*reminder_id*/1006101,/*condition_type*/1,/*condition_id*/5061601);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006102,/*reminder_id*/1006102,/*condition_type*/3,/*condition_id*/5061602);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006103,/*reminder_id*/1006103,/*condition_type*/1,/*condition_id*/5061601);
+INSERT INTO `event_reminder_condition` VALUES (/*id*/1006601,/*reminder_id*/1006601,/*condition_type*/4,/*condition_id*/5027704);
 COMMIT;
