@@ -66,5 +66,6 @@ INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10063,/*event_id*/10063,/*gac
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10064,/*event_id*/10064,/*gacha_name*/"钢铁圣女与神圣学院的问题儿童",/*item_type*/2,/*item_id*/60632,/*cost*/1,/*repeat_step*/6);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10065,/*event_id*/10065,/*gacha_name*/"恩赐的财团与神圣学院的问题儿童",/*item_type*/2,/*item_id*/60642,/*cost*/1,/*repeat_step*/5);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10066,/*event_id*/10066,/*gacha_name*/"祈梨SOS！！　时间旅行的龙人族",/*item_type*/2,/*item_id*/60652,/*cost*/1,/*repeat_step*/6);
+INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/10069,/*event_id*/10069,/*gacha_name*/"不可思议之国的璃乃　小小爱丽丝与希望的绘本",/*item_type*/2,/*item_id*/60682,/*cost*/1,/*repeat_step*/5);
 INSERT INTO `event_gacha_data` VALUES (/*gacha_id*/19003,/*event_id*/10003,/*gacha_name*/"吸血鬼猎人with伊莉亚讨伐证交换",/*item_type*/2,/*item_id*/60022,/*cost*/1,/*repeat_step*/5);
 COMMIT;
