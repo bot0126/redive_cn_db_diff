@@ -472,7 +472,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3008500,/*reading*/"寿司",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008503,/*reading*/"金枪鱼寿司",/*read_type*/3,/*panel_id*/10085,/*detail_text*/"奢侈地使用了难以捕获的金枪鱼的寿司。",/*version*/2,/*head_symbol*/"in",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008504,/*reading*/"大间的美食",/*read_type*/3,/*panel_id*/10085,/*detail_text*/"在大间可以捕获的最高级鱼类，金枪鱼。",/*version*/2,/*head_symbol*/"a",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008600,/*reading*/"镜子",/*read_type*/1,/*panel_id*/10086,/*detail_text*/"可以映照出自己的样子的神奇道具。",/*version*/2,/*head_symbol*/"ing",/*tail_symbol*/"i");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3008603,/*reading*/"雪的爱用品",/*read_type*/3,/*panel_id*/10086,/*detail_text*/"啊啊，我今天也好美！",/*version*/2,/*head_symbol*/"ue",/*tail_symbol*/"in");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3008603,/*reading*/"雪的爱用品",/*read_type*/3,/*panel_id*/10086,/*detail_text*/"啊啊，我今天也好美！",/*version*/2,/*head_symbol*/"üe",/*tail_symbol*/"in");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008700,/*reading*/"皇冠",/*read_type*/1,/*panel_id*/10087,/*detail_text*/"女王及公主戴在头顶的豪华装饰品。",/*version*/2,/*head_symbol*/"ang",/*tail_symbol*/"an");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008702,/*reading*/"饰品",/*read_type*/2,/*panel_id*/10087,/*detail_text*/"戴在身上主要起装饰作用的物品。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"in");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008703,/*reading*/"头饰",/*read_type*/2,/*panel_id*/10087,/*detail_text*/"戴在头上的装饰品。",/*version*/2,/*head_symbol*/"ou",/*tail_symbol*/"i");
@@ -485,11 +485,11 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3008900,/*reading*/"灯泡",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008902,/*reading*/"白炽灯",/*read_type*/2,/*panel_id*/10089,/*detail_text*/"利用热能放射发光的玻璃球。",/*version*/2,/*head_symbol*/"ai",/*tail_symbol*/"eng");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008904,/*reading*/"霹咔霹咔",/*read_type*/2,/*panel_id*/10089,/*detail_text*/"模拟灯光闪烁的拟声词。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"a");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008905,/*reading*/"香澄的灵感",/*read_type*/3,/*panel_id*/10089,/*detail_text*/"引导出真相的灵感之力。遇到名侦探，就可以解决所有疑难事件！",/*version*/2,/*head_symbol*/"ang",/*tail_symbol*/"an");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3009000,/*reading*/"云朵",/*read_type*/1,/*panel_id*/10090,/*detail_text*/"漂浮在空中，由水滴或冰粒凝聚而成。孕育出雨或雷。",/*version*/2,/*head_symbol*/"un",/*tail_symbol*/"uo");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3009001,/*reading*/"积雨云",/*read_type*/2,/*panel_id*/10090,/*detail_text*/"在夏季的天空中常见的大体积云朵。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"un");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3009000,/*reading*/"云朵",/*read_type*/1,/*panel_id*/10090,/*detail_text*/"漂浮在空中，由水滴或冰粒凝聚而成。孕育出雨或雷。",/*version*/2,/*head_symbol*/"ün",/*tail_symbol*/"uo");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3009001,/*reading*/"积雨云",/*read_type*/2,/*panel_id*/10090,/*detail_text*/"在夏季的天空中常见的大体积云朵。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"ün");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009002,/*reading*/"阴天",/*read_type*/2,/*panel_id*/10090,/*detail_text*/"阴云笼罩，遮蔽太阳的天气。",/*version*/2,/*head_symbol*/"in",/*tail_symbol*/"an");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009003,/*reading*/"棉花糖",/*read_type*/2,/*panel_id*/10090,/*detail_text*/"放入口中就会瞬间融化，又白又软又甜的点心。",/*version*/2,/*head_symbol*/"an",/*tail_symbol*/"ang");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3009004,/*reading*/"莱莱的印象",/*read_type*/3,/*panel_id*/10090,/*detail_text*/"看到它，就想到那位操纵着雷云，天真无邪的雷电少女。",/*version*/2,/*head_symbol*/"ai",/*tail_symbol*/"ang");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3009004,/*reading*/"雷雷的印象",/*read_type*/3,/*panel_id*/10090,/*detail_text*/"看到它，就想到那位操纵着雷云，天真无邪的雷电少女。",/*version*/2,/*head_symbol*/"ei",/*tail_symbol*/"ang");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009100,/*reading*/"斧头",/*read_type*/1,/*panel_id*/10091,/*detail_text*/"可以用于劈砍树木的道具，也能用作武器。",/*version*/2,/*head_symbol*/"u",/*tail_symbol*/"ou");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009101,/*reading*/"石斧",/*read_type*/1,/*panel_id*/10091,/*detail_text*/"用石头作成的斧头，可作为武器或农具使用。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"u");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009103,/*reading*/"巨型哥布林的武器",/*read_type*/3,/*panel_id*/10091,/*detail_text*/"技巧熟练的哥布林战士持有的武器。",/*version*/2,/*head_symbol*/"ü",/*tail_symbol*/"i");
@@ -522,12 +522,12 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3009900,/*reading*/"彩虹",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009901,/*reading*/"色彩",/*read_type*/1,/*panel_id*/10099,/*detail_text*/"一种对光的视觉效应。",/*version*/2,/*head_symbol*/"e",/*tail_symbol*/"ai");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009902,/*reading*/"七彩",/*read_type*/1,/*panel_id*/10099,/*detail_text*/"彩虹中的七种颜色。由赤橙黄绿青蓝紫构成。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"ai");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3009903,/*reading*/"天空之桥",/*read_type*/2,/*panel_id*/10099,/*detail_text*/"在天空中延伸的彩虹。",/*version*/2,/*head_symbol*/"an",/*tail_symbol*/"ao");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3009904,/*reading*/"雨后",/*read_type*/2,/*panel_id*/10099,/*detail_text*/"雨停后的一段时间。",/*version*/2,/*head_symbol*/"u",/*tail_symbol*/"ou");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3009904,/*reading*/"雨后",/*read_type*/2,/*panel_id*/10099,/*detail_text*/"雨停后的一段时间。",/*version*/2,/*head_symbol*/"ü",/*tail_symbol*/"ou");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010000,/*reading*/"刨冰",/*read_type*/1,/*panel_id*/10100,/*detail_text*/"把冰块打碎后浇上糖浆，和雪很像的夏季点心。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"ing");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010001,/*reading*/"冰沙",/*read_type*/1,/*panel_id*/10100,/*detail_text*/"装有冰淇凌、水果等食物的多彩豪华刨冰。",/*version*/2,/*head_symbol*/"ing",/*tail_symbol*/"a");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010002,/*reading*/"冷饮",/*read_type*/2,/*panel_id*/10100,/*detail_text*/"夏天常见的美味，带来清凉的感觉。",/*version*/2,/*head_symbol*/"eng",/*tail_symbol*/"in");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010003,/*reading*/"夏日庆典",/*read_type*/2,/*panel_id*/10100,/*detail_text*/"夏日会开展的庆祝活动。",/*version*/2,/*head_symbol*/"a",/*tail_symbol*/"an");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3010100,/*reading*/"蝴蝶",/*read_type*/1,/*panel_id*/10101,/*detail_text*/"用美丽的翅膀翩然起舞、如同妖精的虫类。",/*version*/2,/*head_symbol*/"u",/*tail_symbol*/"e");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3010100,/*reading*/"蝴蝶",/*read_type*/1,/*panel_id*/10101,/*detail_text*/"用美丽的翅膀翩然起舞、如同妖精的虫类。",/*version*/2,/*head_symbol*/"u",/*tail_symbol*/"ie");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010101,/*reading*/"妖精",/*read_type*/2,/*panel_id*/10101,/*detail_text*/"栖息在森林里的奇异生物。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"ing");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010102,/*reading*/"花丛",/*read_type*/2,/*panel_id*/10101,/*detail_text*/"生长了许多花的地方。",/*version*/2,/*head_symbol*/"a",/*tail_symbol*/"ong");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010103,/*reading*/"昆虫",/*read_type*/2,/*panel_id*/10101,/*detail_text*/"人类、兽类、鸟类及鱼类之外的小动物的统称。大多数种类数量都很多。",/*version*/2,/*head_symbol*/"un",/*tail_symbol*/"ong");
@@ -541,7 +541,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3010204,/*reading*/"大楼",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010300,/*reading*/"冰淇淋",/*read_type*/1,/*panel_id*/10103,/*detail_text*/"凉凉甜甜的点心。",/*version*/2,/*head_symbol*/"ing",/*tail_symbol*/"in");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010302,/*reading*/"薄荷巧克力冰淇淋",/*read_type*/2,/*panel_id*/10103,/*detail_text*/"甜甜的清凉口感在口中扩散。",/*version*/2,/*head_symbol*/"o",/*tail_symbol*/"in");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010303,/*reading*/"甜筒",/*read_type*/2,/*panel_id*/10103,/*detail_text*/"冰淇淋的其中一种。",/*version*/2,/*head_symbol*/"an",/*tail_symbol*/"ong");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3010304,/*reading*/"雪菲喜欢的东西",/*read_type*/3,/*panel_id*/10103,/*detail_text*/"雪菲是薄荷巧克力党。",/*version*/2,/*head_symbol*/"e",/*tail_symbol*/"i");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3010304,/*reading*/"雪菲喜欢的东西",/*read_type*/3,/*panel_id*/10103,/*detail_text*/"雪菲是薄荷巧克力党。",/*version*/2,/*head_symbol*/"üe",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010400,/*reading*/"美式甜甜圈",/*read_type*/1,/*panel_id*/10104,/*detail_text*/"中间有一个洞的圈状甜味点心。",/*version*/2,/*head_symbol*/"ei",/*tail_symbol*/"an");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010401,/*reading*/"零食",/*read_type*/2,/*panel_id*/10104,/*detail_text*/"正餐之间吃的甜甜的食物。",/*version*/2,/*head_symbol*/"ing",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3010402,/*reading*/"巧克力甜甜圈",/*read_type*/2,/*panel_id*/10104,/*detail_text*/"淋了巧克力酱的标准甜甜圈。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"an");
@@ -640,7 +640,6 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/4006702,/*reading*/"向导",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4006703,/*reading*/"可恶的眼镜女",/*read_type*/3,/*panel_id*/20067,/*detail_text*/"很棒的伙伴！",/*version*/2,/*head_symbol*/"e",/*tail_symbol*/"ü");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4006800,/*reading*/"雷云长老",/*read_type*/1,/*panel_id*/20068,/*detail_text*/"自由操纵天气，降下落雷的云之魔物。",/*version*/2,/*head_symbol*/"ei",/*tail_symbol*/"ao");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4006801,/*reading*/"乌云",/*read_type*/3,/*panel_id*/20068,/*detail_text*/"降下落雷的黑云。",/*version*/2,/*head_symbol*/"u",/*tail_symbol*/"ün");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/4006802,/*reading*/"莱莱的手下",/*read_type*/3,/*panel_id*/20068,/*detail_text*/"作为莱莱的左右手进行战斗。",/*version*/2,/*head_symbol*/"ai",/*tail_symbol*/"a ");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4006900,/*reading*/"嗜睡猫头鹰",/*read_type*/1,/*panel_id*/20069,/*detail_text*/"因睡眠不足而有些倦怠的猫头鹰魔物。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"ing");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4006901,/*reading*/"猫头鹰",/*read_type*/3,/*panel_id*/20069,/*detail_text*/"一种鸟类，森林的哲学家。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"ing");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/4007000,/*reading*/"淘气豆狸",/*read_type*/1,/*panel_id*/20070,/*detail_text*/"豆狸魔物。虽然幼小，但会拼尽全力战斗。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"i");
