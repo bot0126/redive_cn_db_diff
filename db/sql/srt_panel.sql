@@ -461,7 +461,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3008200,/*reading*/"太阳",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008202,/*reading*/"日光",/*read_type*/2,/*panel_id*/10082,/*detail_text*/"太阳释放的光。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"ang");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008203,/*reading*/"晴天",/*read_type*/2,/*panel_id*/10082,/*detail_text*/"天空晴朗，万里无云的日子。",/*version*/2,/*head_symbol*/"ing",/*tail_symbol*/"an");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008300,/*reading*/"飞艇",/*read_type*/1,/*panel_id*/10083,/*detail_text*/"利用魔法浮在空中飞翔的气球型交通工具。",/*version*/2,/*head_symbol*/"ei",/*tail_symbol*/"ing");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3008301,/*reading*/"骑空艇",/*read_type*/2,/*panel_id*/10083,/*detail_text*/"载着人或物在空中行进的交通工具。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"an");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3008301,/*reading*/"骑空艇",/*read_type*/2,/*panel_id*/10083,/*detail_text*/"载着人或物在空中行进的交通工具。",/*version*/2,/*head_symbol*/"i",/*tail_symbol*/"ing");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008303,/*reading*/"翱翔天空",/*read_type*/2,/*panel_id*/10083,/*detail_text*/"乘坐可以飞翔的工具在空中移动的行为。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"ong");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008304,/*reading*/"莫妮卡的舰队",/*read_type*/3,/*panel_id*/10083,/*detail_text*/"莫妮卡提督指挥下（暂定）的骑空艇舰队。",/*version*/2,/*head_symbol*/"o",/*tail_symbol*/"ui");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3008400,/*reading*/"玫瑰",/*read_type*/1,/*panel_id*/10084,/*detail_text*/"茎上带刺的美丽红色花朵。",/*version*/2,/*head_symbol*/"ei",/*tail_symbol*/"ui");
@@ -613,7 +613,7 @@ INSERT INTO `srt_panel` VALUES (/*reading_id*/3012201,/*reading*/"铠甲",/*read
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012202,/*reading*/"盔甲",/*read_type*/2,/*panel_id*/10122,/*detail_text*/"「铠甲」的另一种说法。",/*version*/2,/*head_symbol*/"ui",/*tail_symbol*/"a");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012205,/*reading*/"亡灵铠甲",/*read_type*/3,/*panel_id*/10122,/*detail_text*/"吞噬金属，操纵武器的神秘魔物。",/*version*/2,/*head_symbol*/"ang",/*tail_symbol*/"a");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012300,/*reading*/"钥匙",/*read_type*/1,/*panel_id*/10123,/*detail_text*/"用于开关锁的道具。丢了会出大事。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"i");
-INSERT INTO `srt_panel` VALUES (/*reading_id*/3012301,/*reading*/"门锁",/*read_type*/2,/*panel_id*/10123,/*detail_text*/"需要用钥匙来打开。",/*version*/2,/*head_symbol*/"eng",/*tail_symbol*/"o");
+INSERT INTO `srt_panel` VALUES (/*reading_id*/3012301,/*reading*/"门锁",/*read_type*/2,/*panel_id*/10123,/*detail_text*/"需要用钥匙来打开。",/*version*/2,/*head_symbol*/"en",/*tail_symbol*/"o");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012302,/*reading*/"万用钥匙",/*read_type*/2,/*panel_id*/10123,/*detail_text*/"可以打开所有锁的钥匙。",/*version*/2,/*head_symbol*/"an",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012400,/*reading*/"宝箱",/*read_type*/1,/*panel_id*/10124,/*detail_text*/"里面有什么，要打开了才知道。",/*version*/2,/*head_symbol*/"ao",/*tail_symbol*/"ang");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/3012401,/*reading*/"金银财宝",/*read_type*/2,/*panel_id*/10124,/*detail_text*/"「宝箱」的内容物。",/*version*/2,/*head_symbol*/"in",/*tail_symbol*/"ao");
