@@ -149,7 +149,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"111");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1335");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1339");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_series_gacha_reference",/*idx*/NULL,/*stat*/"1");
@@ -354,7 +354,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_daily_rank_reward",/*idx*/NULL,
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_change",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_rail",/*idx*/NULL,/*stat*/"109");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_character_mask",/*idx*/NULL,/*stat*/"645");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tips",/*idx*/NULL,/*stat*/"97");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tips",/*idx*/NULL,/*stat*/"98");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ttk_score",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_area_data",/*idx*/NULL,/*stat*/"33");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_boss_treasure_content",/*idx*/NULL,/*stat*/"1869");
@@ -430,7 +430,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_effect_setting",/*idx*/"sqlite_
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_defence_reward",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_schedule",/*idx*/NULL,/*stat*/"8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_mypage_pos",/*idx*/NULL,/*stat*/"36");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"153");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"154");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"daily_mission_data",/*idx*/NULL,/*stat*/"406");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"equipment_donation",/*idx*/NULL,/*stat*/"9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"equipment_data",/*idx*/NULL,/*stat*/"834");
