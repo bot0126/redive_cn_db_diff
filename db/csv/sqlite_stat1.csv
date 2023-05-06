@@ -101,7 +101,7 @@ tbl,idx,stat
 "clan_battle_2_map_data","clan_battle_2_map_data_0_clan_battle_id","232 5"
 "love_rankup","love_rankup_0_unit_id","25 7"
 "love_rankup","sqlite_autoindex_love_rankup_1","25 7 1"
-"story_data",NULL,"204"
+"story_data",NULL,"205"
 "taq_game_setting",NULL,"1"
 "kaiser_special_battle",NULL,"3"
 "pkb_pitcher_ball_type","pkb_pitcher_ball_type_0_pitcher_id","17 5"
