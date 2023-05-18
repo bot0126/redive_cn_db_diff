@@ -49,7 +49,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_setting",/*idx*/NULL,/*stat*/"24
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_quest_data",/*idx*/"secret_dungeon_quest_data_0_dungeon_area_id_1_difficulty",/*stat*/"50 50 10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_quest_data",/*idx*/"secret_dungeon_quest_data_0_dungeon_area_id_1_floor_num",/*stat*/"50 50 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_max_rank_reward",/*idx*/NULL,/*stat*/"79");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_drama_script",/*idx*/"birthday_login_bonus_drama_script_0_drama_id",/*stat*/"1001 59");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_drama_script",/*idx*/"birthday_login_bonus_drama_script_0_drama_id",/*stat*/"1281 59");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"growth_restriction_unit",/*idx*/"growth_restriction_unit_0_growth_id",/*stat*/"11 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pct_combo_coefficient",/*idx*/NULL,/*stat*/"6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_freegacha_data",/*idx*/NULL,/*stat*/"57");
@@ -148,7 +148,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_enemy_parameter",/*idx*/NULL,/
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"114");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"111");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1351");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
