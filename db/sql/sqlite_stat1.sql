@@ -148,7 +148,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_enemy_parameter",/*idx*/NULL,/
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"114");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"111");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1351");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
@@ -392,7 +392,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"exceed_level_unit",/*idx*/"sqlite_aut
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"bg_data",/*idx*/"sqlite_autoindex_bg_data_1",/*stat*/"163 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ttk_enemy",/*idx*/NULL,/*stat*/"8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_scenario",/*idx*/NULL,/*stat*/"30");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"skill_data",/*idx*/NULL,/*stat*/"3450");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"skill_data",/*idx*/NULL,/*stat*/"3451");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_chara",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"nop_drama_data",/*idx*/"nop_drama_data_0_stage_id",/*stat*/"18 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_boss",/*idx*/"hatsune_boss_0_wave_group_id_1",/*stat*/"294 2");
