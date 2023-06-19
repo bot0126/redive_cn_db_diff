@@ -479,7 +479,7 @@ tbl,idx,stat
 "guild_additional_member",NULL,"1"
 "unit_promotion","unit_promotion_0_unit_id","4619 21"
 "unit_promotion","sqlite_autoindex_unit_promotion_1","4619 21 1"
-"item_data",NULL,"373"
+"item_data",NULL,"374"
 "trial_battle_mission_data",NULL,"25"
 "ttk_reward","ttk_reward_0_ttk_score","2 1"
 "event_navi_comment_condition",NULL,"906"
