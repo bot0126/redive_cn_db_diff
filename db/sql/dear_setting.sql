@@ -1,7 +1,6 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dear_setting' ('event_id' INTEGER NOT NULL, 'system_name' TEXT NOT NULL, 'tutorial_quest_id' INTEGER NOT NULL, 'tutorial_chara_index' INTEGER NOT NULL, 'tutorial_story_id' INTEGER NOT NULL, PRIMARY KEY('event_id'));
-INSERT INTO `dear_setting` VALUES (/*event_id*/10047,/*system_name*/"信赖度",/*tutorial_quest_id*/10047103,/*tutorial_chara_index*/1,/*tutorial_story_id*/6023101);
 INSERT INTO `dear_setting` VALUES (/*event_id*/10048,/*system_name*/"信赖度",/*tutorial_quest_id*/10048103,/*tutorial_chara_index*/1,/*tutorial_story_id*/6048101);
 INSERT INTO `dear_setting` VALUES (/*event_id*/10049,/*system_name*/"信赖度",/*tutorial_quest_id*/10049102,/*tutorial_chara_index*/1,/*tutorial_story_id*/6025101);
 INSERT INTO `dear_setting` VALUES (/*event_id*/10050,/*system_name*/"信赖度",/*tutorial_quest_id*/10050103,/*tutorial_chara_index*/1,/*tutorial_story_id*/6050106);
@@ -25,4 +24,5 @@ INSERT INTO `dear_setting` VALUES (/*event_id*/10088,/*system_name*/"信赖度",
 INSERT INTO `dear_setting` VALUES (/*event_id*/10090,/*system_name*/"信赖度",/*tutorial_quest_id*/10090104,/*tutorial_chara_index*/1,/*tutorial_story_id*/6090101);
 INSERT INTO `dear_setting` VALUES (/*event_id*/10094,/*system_name*/"信赖度",/*tutorial_quest_id*/10094102,/*tutorial_chara_index*/1,/*tutorial_story_id*/6094101);
 INSERT INTO `dear_setting` VALUES (/*event_id*/20015,/*system_name*/"信赖度",/*tutorial_quest_id*/0,/*tutorial_chara_index*/1,/*tutorial_story_id*/0);
+INSERT INTO `dear_setting` VALUES (/*event_id*/20017,/*system_name*/"信赖度",/*tutorial_quest_id*/0,/*tutorial_chara_index*/1,/*tutorial_story_id*/0);
 COMMIT;
