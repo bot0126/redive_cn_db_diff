@@ -234,12 +234,6 @@ INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/233,/*exchange_id*/133,/*unit_
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/234,/*exchange_id*/134,/*unit_id*/116701,/*rarity*/3,/*gacha_bonus_id*/1048,/*start_time*/"2023/05/31 11:00:00",/*end_time*/"2023/06/09 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/235,/*exchange_id*/135,/*unit_id*/112901,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/09 11:00:00",/*end_time*/"2023/06/16 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/236,/*exchange_id*/135,/*unit_id*/106601,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/09 11:00:00",/*end_time*/"2023/06/16 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/237,/*exchange_id*/136,/*unit_id*/110301,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/16 11:00:00",/*end_time*/"2023/06/20 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/238,/*exchange_id*/136,/*unit_id*/110001,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/16 11:00:00",/*end_time*/"2023/06/20 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/239,/*exchange_id*/137,/*unit_id*/116901,/*rarity*/3,/*gacha_bonus_id*/1049,/*start_time*/"2023/06/16 11:00:00",/*end_time*/"2023/06/24 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/240,/*exchange_id*/138,/*unit_id*/107801,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/20 11:00:00",/*end_time*/"2023/06/24 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/241,/*exchange_id*/138,/*unit_id*/107501,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/20 11:00:00",/*end_time*/"2023/06/24 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/242,/*exchange_id*/139,/*unit_id*/114401,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/24 11:00:00",/*end_time*/"2023/06/30 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/243,/*exchange_id*/140,/*unit_id*/180301,/*rarity*/3,/*gacha_bonus_id*/1050,/*start_time*/"2023/04/15 11:00:00",/*end_time*/"2023/04/18 17:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/244,/*exchange_id*/140,/*unit_id*/180601,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/04/15 11:00:00",/*end_time*/"2023/04/18 17:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/245,/*exchange_id*/140,/*unit_id*/180101,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/04/15 11:00:00",/*end_time*/"2023/04/18 17:59:59");
@@ -254,7 +248,7 @@ INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/253,/*exchange_id*/141,/*unit_
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/254,/*exchange_id*/142,/*unit_id*/113101,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/07/08 11:00:00",/*end_time*/"2023/07/15 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/255,/*exchange_id*/143,/*unit_id*/107701,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/07/15 11:00:00",/*end_time*/"2023/07/19 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/256,/*exchange_id*/143,/*unit_id*/107901,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/07/15 11:00:00",/*end_time*/"2023/07/19 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/257,/*exchange_id*/144,/*unit_id*/117101,/*rarity*/3,/*gacha_bonus_id*/1052,/*start_time*/"2023/07/15 11:00:00",/*end_time*/"2023/07/24 10:59:59");
-INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/258,/*exchange_id*/145,/*unit_id*/110401,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/07/19 11:00:00",/*end_time*/"2023/07/24 10:59:59");
+INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/257,/*exchange_id*/144,/*unit_id*/117101,/*rarity*/3,/*gacha_bonus_id*/1052,/*start_time*/"2023/06/16 11:00:00",/*end_time*/"2023/06/30 10:59:59");
+INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/258,/*exchange_id*/145,/*unit_id*/110401,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/06/16 11:00:00",/*end_time*/"2023/06/30 10:59:59");
 INSERT INTO `gacha_exchange_lineup` VALUES (/*id*/259,/*exchange_id*/146,/*unit_id*/111801,/*rarity*/3,/*gacha_bonus_id*/0,/*start_time*/"2023/07/24 11:00:00",/*end_time*/"2023/07/31 10:59:59");
 COMMIT;
