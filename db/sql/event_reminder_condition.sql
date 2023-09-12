@@ -11,4 +11,6 @@ INSERT INTO `event_reminder_condition` VALUES (/*id*/1006103,/*reminder_id*/1006
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1006601,/*reminder_id*/1006601,/*condition_type*/4,/*condition_id*/5027704);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1007001,/*reminder_id*/1007001,/*condition_type*/5,/*condition_id*/0);
 INSERT INTO `event_reminder_condition` VALUES (/*id*/1007301,/*reminder_id*/1007301,/*condition_type*/1,/*condition_id*/5046601);
+INSERT INTO `event_reminder_condition` VALUES (/*id*/1007501,/*reminder_id*/1007501,/*condition_type*/1,/*condition_id*/5048007);
+INSERT INTO `event_reminder_condition` VALUES (/*id*/1007502,/*reminder_id*/1007502,/*condition_type*/2,/*condition_id*/1004801);
 COMMIT;
