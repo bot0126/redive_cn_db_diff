@@ -60,6 +60,7 @@ INSERT INTO `tips` VALUES (/*id*/4106101,/*value*/106101,/*tips_index*/1,/*title
 INSERT INTO `tips` VALUES (/*id*/4106301,/*value*/106301,/*tips_index*/1,/*title*/"感动的相遇");
 INSERT INTO `tips` VALUES (/*id*/4106401,/*value*/106401,/*tips_index*/1,/*title*/"不对");
 INSERT INTO `tips` VALUES (/*id*/4106601,/*value*/106601,/*tips_index*/1,/*title*/"造反");
+INSERT INTO `tips` VALUES (/*id*/4106701,/*value*/106701,/*tips_index*/1,/*title*/"秘密作者");
 INSERT INTO `tips` VALUES (/*id*/4106801,/*value*/106801,/*tips_index*/1,/*title*/"能力");
 INSERT INTO `tips` VALUES (/*id*/4107001,/*value*/107001,/*tips_index*/1,/*title*/"整蛊大成功");
 INSERT INTO `tips` VALUES (/*id*/4107101,/*value*/107101,/*tips_index*/1,/*title*/"好无聊……");
@@ -98,6 +99,7 @@ INSERT INTO `tips` VALUES (/*id*/4117501,/*value*/117501,/*tips_index*/1,/*title
 INSERT INTO `tips` VALUES (/*id*/4117601,/*value*/117601,/*tips_index*/1,/*title*/"和我共度治愈时光");
 INSERT INTO `tips` VALUES (/*id*/4117701,/*value*/118001,/*tips_index*/1,/*title*/"第一忠臣！");
 INSERT INTO `tips` VALUES (/*id*/4118501,/*value*/118501,/*tips_index*/1,/*title*/"优秀的同伴");
+INSERT INTO `tips` VALUES (/*id*/4119001,/*value*/119001,/*tips_index*/1,/*title*/"暗黑授课");
 INSERT INTO `tips` VALUES (/*id*/4170101,/*value*/170101,/*tips_index*/1,/*title*/"闪亮登场");
 INSERT INTO `tips` VALUES (/*id*/4170201,/*value*/170201,/*tips_index*/1,/*title*/"努力打年糕");
 INSERT INTO `tips` VALUES (/*id*/4180101,/*value*/180101,/*tips_index*/1,/*title*/"猜拳时间！");
