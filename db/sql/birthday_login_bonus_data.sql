@@ -51,6 +51,7 @@ INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102303,/*name
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102501,/*name*/"铃莓「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2022/12/12 5:00:00",/*end_time*/"2022/12/13 4:59:00",/*adv_id*/1025500);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102502,/*name*/"铃莓「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2023/12/12 5:00:00",/*end_time*/"2023/12/13 4:59:00",/*adv_id*/1025501);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102601,/*name*/"铃「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2023/1/1 5:00:00",/*end_time*/"2023/1/2 4:59:00",/*adv_id*/1026500);
+INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102602,/*name*/"铃「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2024/1/1 5:00:00",/*end_time*/"2024/1/2 4:59:00",/*adv_id*/1026501);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102701,/*name*/"惠理子「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2022/7/30 5:00:00",/*end_time*/"2022/7/31 4:59:00",/*adv_id*/1027500);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102702,/*name*/"惠理子「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2023/7/30 5:00:00",/*end_time*/"2023/7/31 4:59:00",/*adv_id*/1027501);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9102801,/*name*/"咲恋「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2022/10/4 5:00:00",/*end_time*/"2022/10/5 4:59:00",/*adv_id*/1028500);
