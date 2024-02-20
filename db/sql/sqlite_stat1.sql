@@ -247,9 +247,9 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_ev
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change_data",/*idx*/"hatsune_bg_change_data_0_target_type_1_area_id",/*stat*/"55 28 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"gacha_exchange_lineup",/*idx*/"gacha_exchange_lineup_0_exchange_id",/*stat*/"353 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"1126");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1120 6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1120 6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1120 6 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1122 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1122 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1122 6 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_parameter",/*idx*/NULL,/*stat*/"12568");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_boss_enemy_setting",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_quest_data",/*idx*/"legion_quest_data_0_map_type",/*stat*/"5 3");
