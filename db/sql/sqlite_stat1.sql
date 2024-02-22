@@ -157,7 +157,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_enemy_parameter",/*idx*/NULL,/
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"143");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"140");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1571");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
@@ -334,7 +334,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_enable_voice",/*idx*/NULL,/*sta
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clanprofile_content",/*idx*/NULL,/*stat*/"35");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_reward_data",/*idx*/NULL,/*stat*/"3949");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_skip_data",/*idx*/NULL,/*stat*/"8");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_item",/*idx*/NULL,/*stat*/"465");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_item",/*idx*/NULL,/*stat*/"466");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"svd_story_script",/*idx*/"svd_story_script_0_story_id",/*stat*/"262 27");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_training_data",/*idx*/"clan_battle_training_data_0_training_id",/*stat*/"70 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"skill_cost",/*idx*/NULL,/*stat*/"245");
