@@ -95,7 +95,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_special_enemy_setting",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"album_production_list",/*idx*/"album_production_list_0_unit_id",/*stat*/"1767 10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"still",/*idx*/"still_0_still_group_id",/*stat*/"1226 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"still",/*idx*/"still_0_story_id",/*stat*/"1226 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_story_banner",/*idx*/"special_story_banner_0_story_group_id",/*stat*/"1 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_story_banner",/*idx*/"special_story_banner_0_story_group_id",/*stat*/"2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_mission_reward_data",/*idx*/"seasonpass_mission_reward_data_0_mission_reward_id",/*stat*/"18 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss_condition",/*idx*/NULL,/*stat*/"81");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_still",/*idx*/NULL,/*stat*/"2");
@@ -157,7 +157,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_enemy_parameter",/*idx*/NULL,/
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"186 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"147");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"145");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/NULL,/*stat*/"1607");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"odds_name_data",/*idx*/NULL,/*stat*/"197");
