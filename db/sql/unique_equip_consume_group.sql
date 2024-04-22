@@ -1,7 +1,4 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unique_equip_consume_group' ('group_id' INTEGER NOT NULL, 'index_in_group' INTEGER NOT NULL, 'item_id' INTEGER NOT NULL, PRIMARY KEY('group_id','index_in_group'));
-INSERT INTO `unique_equip_consume_group` VALUES (/*group_id*/1,/*index_in_group*/1,/*item_id*/32025);
-INSERT INTO `unique_equip_consume_group` VALUES (/*group_id*/2,/*index_in_group*/1,/*item_id*/32046);
-INSERT INTO `unique_equip_consume_group` VALUES (/*group_id*/3,/*index_in_group*/1,/*item_id*/32048);
 COMMIT;
