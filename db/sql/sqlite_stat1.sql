@@ -198,8 +198,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_emblem_mission",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_daily_rank_reward",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_effect",/*idx*/NULL,/*stat*/"29");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_chat_info",/*idx*/NULL,/*stat*/"37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"149 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"149 1 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"152 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"152 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_skill_data",/*idx*/NULL,/*stat*/"1750");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_category_icon",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_scenario",/*idx*/"ccc_scenario_0_ccc_scenario_id",/*stat*/"1000 200");
@@ -329,9 +329,9 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_ev
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change_data",/*idx*/"hatsune_bg_change_data_0_target_type_1_area_id",/*stat*/"118 59 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"gacha_exchange_lineup",/*idx*/"gacha_exchange_lineup_0_exchange_id",/*stat*/"413 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"1213");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1407 6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1407 6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1407 6 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1408 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1408 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1408 6 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_parameter",/*idx*/NULL,/*stat*/"12568");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_mission_data",/*idx*/"sre_mission_data_0_sre_id",/*stat*/"50 50");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_mission_data",/*idx*/"sre_mission_data_0_sre_id_1_category_id",/*stat*/"50 50 13");
@@ -385,6 +385,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lsv_story_script",/*idx*/"lsv_story_s
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_quest_condition",/*idx*/"hatsune_quest_condition_0_event_id",/*stat*/"2540 20");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"login_bonus_adv",/*idx*/"login_bonus_adv_0_login_bonus_id",/*stat*/"54 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_pos_adjustment",/*idx*/NULL,/*stat*/"4");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mypage_frame",/*idx*/"mypage_frame_0_group_id",/*stat*/"1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_battle_bonus",/*idx*/"sre_battle_bonus_0_sre_id_1_type",/*stat*/"197 197 66");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_battle_bonus",/*idx*/"sre_battle_bonus_0_sre_id_1_sre_boss_id",/*stat*/"197 197 29");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_battle_bonus",/*idx*/"sre_battle_bonus_0_type_1_sre_boss_id",/*stat*/"197 66 10");
