@@ -330,7 +330,7 @@ tbl,idx,stat
 "unit_rarity","unit_rarity_0_unit_material_id","1408 6"
 "unit_rarity","unit_rarity_0_unit_id","1408 6"
 "unit_rarity","sqlite_autoindex_unit_rarity_1","1408 6 1"
-"enemy_parameter",NULL,"12568"
+"enemy_parameter",NULL,"16538"
 "sre_mission_data","sre_mission_data_0_sre_id","50 50"
 "sre_mission_data","sre_mission_data_0_sre_id_1_category_id","50 50 13"
 "legion_boss_enemy_setting",NULL,"4"

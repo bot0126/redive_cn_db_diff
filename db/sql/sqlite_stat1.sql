@@ -332,7 +332,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1408 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1408 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1408 6 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_parameter",/*idx*/NULL,/*stat*/"12568");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"enemy_parameter",/*idx*/NULL,/*stat*/"16538");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_mission_data",/*idx*/"sre_mission_data_0_sre_id",/*stat*/"50 50");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_mission_data",/*idx*/"sre_mission_data_0_sre_id_1_category_id",/*stat*/"50 50 13");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_boss_enemy_setting",/*idx*/NULL,/*stat*/"4");
