@@ -203,8 +203,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_skill_data",/*idx*/NULL,/*stat*/"1750");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_category_icon",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_scenario",/*idx*/"ccc_scenario_0_ccc_scenario_id",/*stat*/"1000 200");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_reward_id",/*stat*/"927 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_mission_reward_id",/*stat*/"927 2");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_reward_id",/*stat*/"1168 2");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"emblem_mission_reward_data",/*idx*/"emblem_mission_reward_data_0_mission_reward_id",/*stat*/"1168 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"psy_reward",/*idx*/NULL,/*stat*/"11");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_quest_fix_reward_group",/*idx*/NULL,/*stat*/"809");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dvs_story_data",/*idx*/"dvs_story_data_0_dvs_story_type",/*stat*/"13 5");
