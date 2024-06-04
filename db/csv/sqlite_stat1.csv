@@ -363,7 +363,7 @@ tbl,idx,stat
 "arcade_list",NULL,"9"
 "kaiser_schedule",NULL,"1"
 "pkb_drama","pkb_drama_0_drama_id","429 12"
-"tower_quest_data","tower_quest_data_0_floor_num","650 1"
+"tower_quest_data","tower_quest_data_0_floor_num","660 1"
 "svd_drama_script","svd_drama_script_0_drama_id","703 88"
 "minigame","minigame_0_event_id","9 1"
 "event_series_wave_group_data",NULL,"4518"

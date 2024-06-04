@@ -365,7 +365,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"caravan_sound_setting",/*idx*/"carava
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arcade_list",/*idx*/NULL,/*stat*/"9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"kaiser_schedule",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pkb_drama",/*idx*/"pkb_drama_0_drama_id",/*stat*/"429 12");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_quest_data",/*idx*/"tower_quest_data_0_floor_num",/*stat*/"650 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_quest_data",/*idx*/"tower_quest_data_0_floor_num",/*stat*/"660 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"svd_drama_script",/*idx*/"svd_drama_script_0_drama_id",/*stat*/"703 88");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"minigame",/*idx*/"minigame_0_event_id",/*stat*/"9 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_series_wave_group_data",/*idx*/NULL,/*stat*/"4518");
