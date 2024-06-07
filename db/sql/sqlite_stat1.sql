@@ -16,7 +16,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ssp_story_data",/*idx*/"ssp_story_dat
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_special_battle",/*idx*/"hatsune_special_battle_0_wave_group_id",/*stat*/"324 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_special_battle",/*idx*/"hatsune_special_battle_0_event_id",/*stat*/"324 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_special_battle",/*idx*/"sqlite_autoindex_hatsune_special_battle_1",/*stat*/"324 3 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_introduction",/*idx*/"event_introduction_0_event_id",/*stat*/"74 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_introduction",/*idx*/"event_introduction_0_event_id",/*stat*/"75 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stamp",/*idx*/NULL,/*stat*/"65");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_area_data",/*idx*/NULL,/*stat*/"7");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"colosseum_mission_data",/*idx*/"colosseum_mission_data_0_schedule_id_1_difficulty",/*stat*/"26 26 7");
@@ -247,7 +247,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"travel_top_event_data",/*idx*/"travel
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"travel_top_event_data",/*idx*/"sqlite_autoindex_travel_top_event_data_1",/*stat*/"44 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_diary_script",/*idx*/"hatsune_diary_script_0_diary_id",/*stat*/"427 31");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"gift_message",/*idx*/NULL,/*stat*/"135");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"skill_action",/*idx*/NULL,/*stat*/"13124");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"skill_action",/*idx*/NULL,/*stat*/"13128");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ex_equipment_recycle_reward",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_enemy_parameter",/*idx*/NULL,/*stat*/"61");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_effective_unit",/*idx*/"sre_effective_unit_0_sre_boss_id_1_sre_id",/*stat*/"209 30 30");
