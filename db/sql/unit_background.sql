@@ -66,10 +66,10 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/106801,/*unit_name*/"模索路�
 INSERT INTO `unit_background` VALUES (/*unit_id*/106901,/*unit_name*/"霸瞳皇帝",/*bg_id*/500100,/*bg_name*/"兰德索尔王城_谒见大厅",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/107001,/*unit_name*/"似似花",/*bg_id*/500341,/*bg_name*/"拉比林斯公会据点",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/107101,/*unit_name*/"克莉丝提娜·摩根",/*bg_id*/500090,/*bg_name*/"兰德索尔 王城入口",/*position*/0.0,/*face_type*/2);
-INSERT INTO `unit_background` VALUES (/*unit_id*/107501,/*unit_name*/"佩可莉姆（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/107601,/*unit_name*/"可可萝（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/107701,/*unit_name*/"铃莓（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/107801,/*unit_name*/"凯露（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/6);
+INSERT INTO `unit_background` VALUES (/*unit_id*/107501,/*unit_name*/"佩可莉姆（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/107601,/*unit_name*/"可可萝（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/107701,/*unit_name*/"铃莓（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/107801,/*unit_name*/"凯露（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/6);
 INSERT INTO `unit_background` VALUES (/*unit_id*/107901,/*unit_name*/"珠希（夏日）",/*bg_id*/500284,/*bg_name*/"无人岛",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/108001,/*unit_name*/"美冬（夏日）",/*bg_id*/500284,/*bg_name*/"无人岛",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/108101,/*unit_name*/"忍（万圣节）",/*bg_id*/500264,/*bg_name*/"古城 万圣节",/*position*/0.0,/*face_type*/4);
@@ -93,7 +93,7 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/109801,/*unit_name*/"拉姆",/*
 INSERT INTO `unit_background` VALUES (/*unit_id*/109901,/*unit_name*/"爱蜜莉雅",/*bg_id*/500175,/*bg_name*/"神秘森林",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110001,/*unit_name*/"铃奈（夏日）",/*bg_id*/500683,/*bg_name*/"海_舞台",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110101,/*unit_name*/"伊绪（夏日）",/*bg_id*/500683,/*bg_name*/"海_舞台",/*position*/0.0,/*face_type*/2);
-INSERT INTO `unit_background` VALUES (/*unit_id*/110301,/*unit_name*/"咲恋（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/2);
+INSERT INTO `unit_background` VALUES (/*unit_id*/110301,/*unit_name*/"咲恋（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110401,/*unit_name*/"真琴（夏日）",/*bg_id*/500710,/*bg_name*/"琉球风海岸",/*position*/0.0,/*face_type*/6);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110501,/*unit_name*/"香织（夏日）",/*bg_id*/500710,/*bg_name*/"琉球风海岸",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/110601,/*unit_name*/"真步（夏日）",/*bg_id*/500710,/*bg_name*/"琉球风海岸",/*position*/0.0,/*face_type*/4);
@@ -105,9 +105,9 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/111101,/*unit_name*/"镜华（�
 INSERT INTO `unit_background` VALUES (/*unit_id*/111201,/*unit_name*/"未奏希（万圣节）",/*bg_id*/500811,/*bg_name*/"宅邸_大厅",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111301,/*unit_name*/"美美（万圣节）",/*bg_id*/500811,/*bg_name*/"宅邸_大厅",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111401,/*unit_name*/"露娜",/*bg_id*/500175,/*bg_name*/"神秘森林",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/111501,/*unit_name*/"克莉丝提娜（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/111601,/*unit_name*/"望（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/111701,/*unit_name*/"伊莉亚（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/111501,/*unit_name*/"克莉丝提娜（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节_夜",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/111601,/*unit_name*/"望（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节_夜",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/111701,/*unit_name*/"伊莉亚（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节_夜",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111801,/*unit_name*/"佩可莉姆（新年）",/*bg_id*/500910,/*bg_name*/"兰德索尔_繁华街_驿站接力",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/111901,/*unit_name*/"可可萝（新年）",/*bg_id*/500910,/*bg_name*/"兰德索尔_繁华街_接力",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/112001,/*unit_name*/"凯露（新年）",/*bg_id*/500910,/*bg_name*/"兰德索尔_繁华街_接力",/*position*/0.0,/*face_type*/6);
@@ -126,7 +126,7 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/113201,/*unit_name*/"杏奈（�
 INSERT INTO `unit_background` VALUES (/*unit_id*/113301,/*unit_name*/"七七香（夏日）",/*bg_id*/501030,/*bg_name*/"心愿海滩",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/113401,/*unit_name*/"初音（夏日）",/*bg_id*/501100,/*bg_name*/"沙滩广场",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/113501,/*unit_name*/"美里（夏日）",/*bg_id*/501100,/*bg_name*/"沙滩广场",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/113601,/*unit_name*/"纯（夏日）",/*bg_id*/500164,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/2);
+INSERT INTO `unit_background` VALUES (/*unit_id*/113601,/*unit_name*/"纯（夏日）",/*bg_id*/500164,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/113701,/*unit_name*/"茜里（天使）",/*bg_id*/500010,/*bg_name*/"兰德索尔_市区_白天",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/113801,/*unit_name*/"依里（天使）",/*bg_id*/500010,/*bg_name*/"兰德索尔_市区_白天",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/113901,/*unit_name*/"纺希（万圣节）",/*bg_id*/501130,/*bg_name*/"万圣节公园_白天",/*position*/0.0,/*face_type*/4);
@@ -141,7 +141,7 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/114701,/*unit_name*/"矛依未�
 INSERT INTO `unit_background` VALUES (/*unit_id*/115001,/*unit_name*/"似似花（新年）",/*bg_id*/501162,/*bg_name*/"大间镇_白天",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/115501,/*unit_name*/"可可萝（礼服）",/*bg_id*/500140,/*bg_name*/"普拉诺平原",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/115601,/*unit_name*/"优衣（礼服）",/*bg_id*/500140,/*bg_name*/"普拉诺平原",/*position*/0.0,/*face_type*/17);
-INSERT INTO `unit_background` VALUES (/*unit_id*/115701,/*unit_name*/"香澄（夏日）",/*bg_id*/500160,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/115701,/*unit_name*/"香澄（夏日）",/*bg_id*/500160,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/115801,/*unit_name*/"莉玛（灰姑娘）",/*bg_id*/500130,/*bg_name*/"埃斯特雷拉街道",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/115901,/*unit_name*/"真琴（灰姑娘）",/*bg_id*/500130,/*bg_name*/"埃斯特雷拉街道",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/116001,/*unit_name*/"真步（灰姑娘）",/*bg_id*/500060,/*bg_name*/"自卫团 据点",/*position*/0.0,/*face_type*/4);
@@ -153,8 +153,8 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/116601,/*unit_name*/"嘉夜（�
 INSERT INTO `unit_background` VALUES (/*unit_id*/116701,/*unit_name*/"碧（工作服）",/*bg_id*/501340,/*bg_name*/"玩具工厂",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/116801,/*unit_name*/"珠希（工作服）",/*bg_id*/501340,/*bg_name*/"玩具工厂",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/116901,/*unit_name*/"美冬（工作服）",/*bg_id*/501340,/*bg_name*/"玩具工厂",/*position*/0.0,/*face_type*/2);
-INSERT INTO `unit_background` VALUES (/*unit_id*/117001,/*unit_name*/"惠理子（夏日）",/*bg_id*/500160,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/117101,/*unit_name*/"静流（夏日）",/*bg_id*/500160,/*bg_name*/"马尔冈海岸",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/117001,/*unit_name*/"惠理子（夏日）",/*bg_id*/500160,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/117101,/*unit_name*/"静流（夏日）",/*bg_id*/500160,/*bg_name*/"马尔简海岸_昼",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/117201,/*unit_name*/"望（夏日）",/*bg_id*/501363,/*bg_name*/"夏日庆典会场",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/117301,/*unit_name*/"千歌（夏日）",/*bg_id*/501363,/*bg_name*/"夏日庆典会场",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/117401,/*unit_name*/"纺希（夏日）",/*bg_id*/501363,/*bg_name*/"夏日庆典会场",/*position*/0.0,/*face_type*/4);
@@ -170,8 +170,8 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/118501,/*unit_name*/"花凛",/*
 INSERT INTO `unit_background` VALUES (/*unit_id*/119001,/*unit_name*/"伊绪（黑暗）",/*bg_id*/501450,/*bg_name*/"黑暗据点",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/119101,/*unit_name*/"空花（黑暗）",/*bg_id*/501450,/*bg_name*/"黑暗据点",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/119201,/*unit_name*/"真阳（圣诞节）",/*bg_id*/500863,/*bg_name*/"牧场_雪_昼",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/119301,/*unit_name*/"璃乃（圣诞节）",/*bg_id*/500036,/*bg_name*/"兰德索尔_繁华街_圣诞节",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/119901,/*unit_name*/"宫子（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/119301,/*unit_name*/"璃乃（圣诞节）",/*bg_id*/500036,/*bg_name*/"兰德索尔_繁华街_圣诞节_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/119901,/*unit_name*/"宫子（圣诞节）",/*bg_id*/500038,/*bg_name*/"兰德索尔_繁华街_圣诞节_夜",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/120001,/*unit_name*/"静流（黑暗）",/*bg_id*/501450,/*bg_name*/"黑暗据点",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/120701,/*unit_name*/"雪菲（新年）",/*bg_id*/501480,/*bg_name*/"美食殿堂_公会之家_外观_新年",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/120801,/*unit_name*/"流夏（新年）",/*bg_id*/500560,/*bg_name*/"神道_昼",/*position*/0.0,/*face_type*/3);
@@ -217,7 +217,7 @@ INSERT INTO `unit_background` VALUES (/*unit_id*/125201,/*unit_name*/"莫妮卡�
 INSERT INTO `unit_background` VALUES (/*unit_id*/125301,/*unit_name*/"可可萝（游骑兵）",/*bg_id*/501690,/*bg_name*/"平原_竞技场_昼",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/125401,/*unit_name*/"栞（游骑兵）",/*bg_id*/501690,/*bg_name*/"平原_竞技场_昼",/*position*/0.0,/*face_type*/20);
 INSERT INTO `unit_background` VALUES (/*unit_id*/125501,/*unit_name*/"姬塔（术士）",/*bg_id*/500033,/*bg_name*/"兰德索尔_繁华街_庆典_昼",/*position*/0.0,/*face_type*/4);
-INSERT INTO `unit_background` VALUES (/*unit_id*/125601,/*unit_name*/"碧卡拉",/*bg_id*/500033,/*bg_name*/"兰德索尔_繁华街_庆典_昼",/*position*/0.0,/*face_type*/4);
+INSERT INTO `unit_background` VALUES (/*unit_id*/125601,/*unit_name*/"毗伽菈",/*bg_id*/500033,/*bg_name*/"兰德索尔_繁华街_庆典_昼",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/125701,/*unit_name*/"花凛（炼金术师）",/*bg_id*/500371,/*bg_name*/"兰德索尔_市政府",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/125801,/*unit_name*/"莉莉（堕天使）",/*bg_id*/501670,/*bg_name*/"吉奥·特尔哥尼亚_街道_昼",/*position*/0.0,/*face_type*/2);
 INSERT INTO `unit_background` VALUES (/*unit_id*/126201,/*unit_name*/"伊莉亚（礼服）",/*bg_id*/501372,/*bg_name*/"瀑布潭_夜",/*position*/0.0,/*face_type*/20);
