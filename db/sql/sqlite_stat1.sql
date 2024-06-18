@@ -198,8 +198,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_emblem_mission",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_daily_rank_reward",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_effect",/*idx*/NULL,/*stat*/"29");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_chat_info",/*idx*/NULL,/*stat*/"37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"154 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"154 1 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"152 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"152 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_skill_data",/*idx*/NULL,/*stat*/"1750");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_category_icon",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_scenario",/*idx*/"ccc_scenario_0_ccc_scenario_id",/*stat*/"1000 200");
@@ -374,7 +374,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_2_boss_data",/*idx*/NULL,
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_skin_color",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"resist_data",/*idx*/NULL,/*stat*/"51");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_chara",/*idx*/NULL,/*stat*/"3");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sjr_chara",/*idx*/NULL,/*stat*/"30");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sjr_chara",/*idx*/NULL,/*stat*/"27");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"taq_unit",/*idx*/NULL,/*stat*/"72");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"serial_code_data",/*idx*/NULL,/*stat*/"26");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_special_battle",/*idx*/NULL,/*stat*/"3");
@@ -433,7 +433,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_revival_series_wave_group_data"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"fix_lineup_group_set_data",/*idx*/NULL,/*stat*/"37");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_odds_data",/*idx*/"clan_battle_odds_data_0_odds_group_id",/*stat*/"35 7");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_odds_data",/*idx*/"sqlite_autoindex_clan_battle_odds_data_1",/*stat*/"35 7 1 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_data",/*idx*/"unit_data_0_original_unit_id",/*stat*/"262 66");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_data",/*idx*/"unit_data_0_original_unit_id",/*stat*/"263 66");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ailment_data",/*idx*/NULL,/*stat*/"48");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"broadcast_schedule",/*idx*/NULL,/*stat*/"6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"travel_ex_event_drama",/*idx*/"travel_ex_event_drama_0_drama_id",/*stat*/"359 11");
