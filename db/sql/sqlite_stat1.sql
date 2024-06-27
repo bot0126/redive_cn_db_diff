@@ -595,7 +595,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_effect_setting",/*idx*/"sqlite_
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_defence_reward",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_schedule",/*idx*/NULL,/*stat*/"10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_mypage_pos",/*idx*/NULL,/*stat*/"36");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"197");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unlock_unit_condition",/*idx*/NULL,/*stat*/"198");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hp_drain_at",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"daily_mission_data",/*idx*/NULL,/*stat*/"430");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"equipment_donation",/*idx*/NULL,/*stat*/"9");

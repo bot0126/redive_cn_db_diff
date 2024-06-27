@@ -593,7 +593,7 @@ tbl,idx,stat
 "grand_arena_defence_reward",NULL,"1"
 "chara_fortune_schedule",NULL,"10"
 "unit_mypage_pos",NULL,"36"
-"unlock_unit_condition",NULL,"197"
+"unlock_unit_condition",NULL,"198"
 "hp_drain_at",NULL,"1"
 "daily_mission_data",NULL,"430"
 "equipment_donation",NULL,"9"
