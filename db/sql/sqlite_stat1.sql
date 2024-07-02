@@ -234,8 +234,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"prizegacha_sp_data",/*idx*/"prizegach
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"prizegacha_sp_data",/*idx*/"sqlite_autoindex_prizegacha_sp_data_1",/*stat*/"43 11 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"custom_mypage_group",/*idx*/NULL,/*stat*/"17");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"album_voice_list",/*idx*/"album_voice_list_0_unit_id",/*stat*/"3182 37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_pack_type",/*stat*/"40 8");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_mission_id",/*stat*/"40 7");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_pack_type",/*stat*/"42 9");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_mission_id",/*stat*/"42 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_difficulty",/*stat*/"2050 684");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_genre_id_1_difficulty",/*stat*/"2050 342 114");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_genre_id",/*stat*/"2050 342");
