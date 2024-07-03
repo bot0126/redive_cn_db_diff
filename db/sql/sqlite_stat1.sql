@@ -544,7 +544,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_item_get_announcement",/*idx*/NU
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"exceed_level_unit",/*idx*/"exceed_level_unit_0_unit_id",/*stat*/"243 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"exceed_level_unit",/*idx*/"sqlite_autoindex_exceed_level_unit_1",/*stat*/"243 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tp_recovery_at",/*idx*/NULL,/*stat*/"1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"bg_data",/*idx*/"sqlite_autoindex_bg_data_1",/*stat*/"181 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"bg_data",/*idx*/"sqlite_autoindex_bg_data_1",/*stat*/"182 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_reaction_data",/*idx*/"asm_reaction_data_0_unit_id_1_reaction_type",/*stat*/"524 262 8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ttk_enemy",/*idx*/NULL,/*stat*/"8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_fortune_scenario",/*idx*/NULL,/*stat*/"33");

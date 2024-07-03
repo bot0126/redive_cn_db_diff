@@ -542,7 +542,7 @@ tbl,idx,stat
 "exceed_level_unit","exceed_level_unit_0_unit_id","243 1"
 "exceed_level_unit","sqlite_autoindex_exceed_level_unit_1","243 1 1"
 "tp_recovery_at",NULL,"1"
-"bg_data","sqlite_autoindex_bg_data_1","181 1"
+"bg_data","sqlite_autoindex_bg_data_1","182 1"
 "asm_reaction_data","asm_reaction_data_0_unit_id_1_reaction_type","524 262 8"
 "ttk_enemy",NULL,"8"
 "chara_fortune_scenario",NULL,"33"
