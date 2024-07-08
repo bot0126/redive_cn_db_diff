@@ -349,7 +349,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_cloister_quest_data",/*idx*/NUL
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change",/*idx*/NULL,/*stat*/"2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"custom_mypage",/*idx*/"custom_mypage_0_still_group_id",/*stat*/"228 228");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild",/*idx*/NULL,/*stat*/"20");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_reward_data_0_mission_reward_id",/*stat*/"793 4");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_reward_data_0_mission_reward_id",/*stat*/"796 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"music_content",/*idx*/NULL,/*stat*/"300");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_ex_quest_data",/*idx*/"tower_ex_quest_data_0_floor_num",/*stat*/"45 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_enemy_parameter",/*idx*/NULL,/*stat*/"3764");
