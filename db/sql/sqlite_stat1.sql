@@ -234,8 +234,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"prizegacha_sp_data",/*idx*/"prizegach
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"prizegacha_sp_data",/*idx*/"sqlite_autoindex_prizegacha_sp_data_1",/*stat*/"43 11 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"custom_mypage_group",/*idx*/NULL,/*stat*/"17");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"album_voice_list",/*idx*/"album_voice_list_0_unit_id",/*stat*/"3182 37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_pack_type",/*stat*/"42 9");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_mission_id",/*stat*/"42 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_pack_type",/*stat*/"43 9");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"season_pack",/*idx*/"season_pack_0_mission_id",/*stat*/"43 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_difficulty",/*stat*/"2050 684");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_genre_id_1_difficulty",/*stat*/"2050 342 114");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"asm_data",/*idx*/"asm_data_0_genre_id",/*stat*/"2050 342");
@@ -308,7 +308,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sp_battle_voice",/*idx*/"sqlite_autoi
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_navi_comment",/*idx*/NULL,/*stat*/"2774");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"thumbnail_hide_condition",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"cooperation_quest_data",/*idx*/NULL,/*stat*/"6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_e_ticket_data",/*idx*/"chara_e_ticket_data_0_jewel_store_id",/*stat*/"5 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_e_ticket_data",/*idx*/"chara_e_ticket_data_0_jewel_store_id",/*stat*/"6 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_mission_data",/*idx*/NULL,/*stat*/"67");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_foundation",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_extermination_reward",/*idx*/NULL,/*stat*/"5");
@@ -652,7 +652,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_character_personality",/*idx*/NU
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild_additional_member",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"unit_promotion_0_unit_id",/*stat*/"7170 26");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_promotion",/*idx*/"sqlite_autoindex_unit_promotion_1",/*stat*/"7170 26 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"item_data",/*idx*/NULL,/*stat*/"755");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"item_data",/*idx*/NULL,/*stat*/"756");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"caravan_treasure_block_rank",/*idx*/NULL,/*stat*/"3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sjr_npc_action_odds",/*idx*/"sjr_npc_action_odds_0_action_odds_id",/*stat*/"258 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"trial_battle_mission_data",/*idx*/NULL,/*stat*/"25");
