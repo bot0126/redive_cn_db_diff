@@ -303,7 +303,7 @@ tbl,idx,stat
 "room_setup",NULL,"409"
 "sp_battle_voice","sp_battle_voice_0_unit_id","54 14"
 "sp_battle_voice","sqlite_autoindex_sp_battle_voice_1","54 1 1"
-"event_navi_comment",NULL,"2774"
+"event_navi_comment",NULL,"2795"
 "thumbnail_hide_condition",NULL,"4"
 "cooperation_quest_data",NULL,"6"
 "chara_e_ticket_data","chara_e_ticket_data_0_jewel_store_id","6 1"

@@ -305,7 +305,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_boss_fix_reward",/*idx*/N
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_setup",/*idx*/NULL,/*stat*/"409");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sp_battle_voice",/*idx*/"sp_battle_voice_0_unit_id",/*stat*/"54 14");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sp_battle_voice",/*idx*/"sqlite_autoindex_sp_battle_voice_1",/*stat*/"54 1 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_navi_comment",/*idx*/NULL,/*stat*/"2774");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_navi_comment",/*idx*/NULL,/*stat*/"2795");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"thumbnail_hide_condition",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"cooperation_quest_data",/*idx*/NULL,/*stat*/"6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"chara_e_ticket_data",/*idx*/"chara_e_ticket_data_0_jewel_store_id",/*stat*/"6 1");
