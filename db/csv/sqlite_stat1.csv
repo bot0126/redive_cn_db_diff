@@ -154,7 +154,7 @@ tbl,idx,stat
 "pkb_drama_data",NULL,"38"
 "srt_score",NULL,"3"
 "lsv_story_data","lsv_story_data_0_original_event_id","15 15"
-"hatsune_daily_mission_data",NULL,"189"
+"hatsune_daily_mission_data",NULL,"191"
 "room_exclusive_condition","room_exclusive_condition_0_room_item_id","2 2"
 "room_exclusive_condition","room_exclusive_condition_0_unit_id","2 1"
 "login_bonus_message_data","login_bonus_message_data_0_login_bonus_id","572 72"

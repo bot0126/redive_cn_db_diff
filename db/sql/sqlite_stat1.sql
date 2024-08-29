@@ -156,7 +156,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"travel_quest_sub_reward",/*idx*/"trav
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pkb_drama_data",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_score",/*idx*/NULL,/*stat*/"3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lsv_story_data",/*idx*/"lsv_story_data_0_original_event_id",/*stat*/"15 15");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_daily_mission_data",/*idx*/NULL,/*stat*/"189");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_daily_mission_data",/*idx*/NULL,/*stat*/"191");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_exclusive_condition",/*idx*/"room_exclusive_condition_0_room_item_id",/*stat*/"2 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_exclusive_condition",/*idx*/"room_exclusive_condition_0_unit_id",/*stat*/"2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"login_bonus_message_data",/*idx*/"login_bonus_message_data_0_login_bonus_id",/*stat*/"572 72");
