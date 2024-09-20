@@ -198,8 +198,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_emblem_mission",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_daily_rank_reward",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_effect",/*idx*/NULL,/*stat*/"29");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_chat_info",/*idx*/NULL,/*stat*/"37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"163 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"163 1 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"160 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"160 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_skill_data",/*idx*/NULL,/*stat*/"1750");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_category_icon",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_scenario",/*idx*/"ccc_scenario_0_ccc_scenario_id",/*stat*/"1000 200");
@@ -451,7 +451,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"won_story_data",/*idx*/"won_story_dat
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"won_story_data",/*idx*/"won_story_data_0_original_event_id",/*stat*/"30 30");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lsv_drama_script",/*idx*/"lsv_drama_script_0_drama_id",/*stat*/"2440 163");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_skip_data",/*idx*/NULL,/*stat*/"9");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_item",/*idx*/NULL,/*stat*/"471");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_item",/*idx*/NULL,/*stat*/"472");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"bmy_navi_comment",/*idx*/"bmy_navi_comment_0_where_type",/*stat*/"5 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"svd_story_script",/*idx*/"svd_story_script_0_story_id",/*stat*/"262 27");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_training_data",/*idx*/"clan_battle_training_data_0_training_id",/*stat*/"140 5");
