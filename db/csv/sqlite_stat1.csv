@@ -60,7 +60,7 @@ tbl,idx,stat
 "growth_restriction_unit","growth_restriction_unit_0_growth_id","20 1"
 "sre_quest_difficulty_data","sqlite_autoindex_sre_quest_difficulty_data_1","21 3 1"
 "pct_combo_coefficient",NULL,"6"
-"campaign_freegacha_data",NULL,"105"
+"campaign_freegacha_data",NULL,"106"
 "actual_unit_background",NULL,"235"
 "room_effect_reward_get","sqlite_autoindex_room_effect_reward_get_1","126 9 1"
 "voice_group",NULL,"370"

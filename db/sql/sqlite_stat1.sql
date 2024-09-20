@@ -62,7 +62,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_drama_script",/*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"growth_restriction_unit",/*idx*/"growth_restriction_unit_0_growth_id",/*stat*/"20 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_quest_difficulty_data",/*idx*/"sqlite_autoindex_sre_quest_difficulty_data_1",/*stat*/"21 3 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pct_combo_coefficient",/*idx*/NULL,/*stat*/"6");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_freegacha_data",/*idx*/NULL,/*stat*/"105");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_freegacha_data",/*idx*/NULL,/*stat*/"106");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"actual_unit_background",/*idx*/NULL,/*stat*/"235");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_effect_reward_get",/*idx*/"sqlite_autoindex_room_effect_reward_get_1",/*stat*/"126 9 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"voice_group",/*idx*/NULL,/*stat*/"370");
