@@ -89,7 +89,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_special_enemy_setting",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"album_production_list",/*idx*/"album_production_list_0_unit_id",/*stat*/"2239 10");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"still",/*idx*/"still_0_still_group_id",/*stat*/"1623 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"still",/*idx*/"still_0_story_id",/*stat*/"1623 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_story_banner",/*idx*/"special_story_banner_0_story_group_id",/*stat*/"2 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_story_banner",/*idx*/"special_story_banner_0_story_group_id",/*stat*/"3 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_mission_reward_data",/*idx*/"seasonpass_mission_reward_data_0_mission_reward_id",/*stat*/"18 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss_condition",/*idx*/NULL,/*stat*/"132");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"special_still",/*idx*/NULL,/*stat*/"2");
@@ -105,7 +105,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_boss_data",/*idx*/NULL,
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_2_map_data",/*idx*/"clan_battle_2_map_data_0_clan_battle_id",/*stat*/"262 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"love_rankup_0_unit_id",/*stat*/"32 7");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"sqlite_autoindex_love_rankup_1",/*stat*/"32 7 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_data",/*idx*/NULL,/*stat*/"267");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_data",/*idx*/NULL,/*stat*/"268");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"colosseum_quest_data",/*idx*/NULL,/*stat*/"9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_add_times_data",/*idx*/"sre_add_times_data_0_sre_id",/*stat*/"168 168");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"taq_game_setting",/*idx*/NULL,/*stat*/"1");
@@ -167,7 +167,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"goldset_data",/*idx*/NULL,/*stat*/"70
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sekai_add_times_data",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"clan_battle_s_map_data",/*idx*/"clan_battle_s_map_data_0_clan_battle_id",/*stat*/"246 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equip",/*idx*/NULL,/*stat*/"186");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/"story_detail_0_unlock_quest_id",/*stat*/"1758 6");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_detail",/*idx*/"story_detail_0_unlock_quest_id",/*stat*/"1773 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_map_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"colosseum_mission_reward_data",/*idx*/"colosseum_mission_reward_data_0_mission_reward_id",/*stat*/"26 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_effect",/*idx*/NULL,/*stat*/"2");
@@ -328,7 +328,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_ev
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_boss",/*idx*/"shiori_boss_0_event_id",/*stat*/"96 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change_data",/*idx*/"hatsune_bg_change_data_0_target_type_1_area_id",/*stat*/"118 59 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"gacha_exchange_lineup",/*idx*/"gacha_exchange_lineup_0_exchange_id",/*stat*/"524 3");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"1420");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"campaign_schedule",/*idx*/NULL,/*stat*/"1414");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_material_id",/*stat*/"1413 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"unit_rarity_0_unit_id",/*stat*/"1413 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_rarity",/*idx*/"sqlite_autoindex_unit_rarity_1",/*stat*/"1413 6 1");
