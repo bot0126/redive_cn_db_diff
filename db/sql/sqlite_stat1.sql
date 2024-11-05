@@ -353,7 +353,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"music_content",/*idx*/NULL,/*stat*/"300");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_ex_quest_data",/*idx*/"tower_ex_quest_data_0_floor_num",/*stat*/"47 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_enemy_parameter",/*idx*/NULL,/*stat*/"3764");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_description",/*idx*/"shiori_description_0_type",/*stat*/"22 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_description",/*idx*/"shiori_description_0_type",/*stat*/"23 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_quest_area",/*idx*/"shiori_quest_area_0_event_id",/*stat*/"78 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_schedule",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_emotion_icon",/*idx*/NULL,/*stat*/"18");

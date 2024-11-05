@@ -351,7 +351,7 @@ tbl,idx,stat
 "music_content",NULL,"300"
 "tower_ex_quest_data","tower_ex_quest_data_0_floor_num","47 1"
 "event_enemy_parameter",NULL,"3764"
-"shiori_description","shiori_description_0_type","22 1"
+"shiori_description","shiori_description_0_type","23 1"
 "shiori_quest_area","shiori_quest_area_0_event_id","78 3"
 "secret_dungeon_schedule",NULL,"4"
 "room_emotion_icon",NULL,"18"
