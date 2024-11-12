@@ -166,4 +166,6 @@ INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/117901,/*equip_slot*/1,/*
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/118001,/*equip_slot*/1,/*equip_id*/131801);
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/119001,/*equip_slot*/1,/*equip_id*/131901);
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/119101,/*equip_slot*/1,/*equip_id*/131911);
+INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/180101,/*equip_slot*/1,/*equip_id*/138011);
+INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/180601,/*equip_slot*/1,/*equip_id*/138061);
 COMMIT;
