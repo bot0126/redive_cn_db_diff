@@ -588,7 +588,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"birthday_login_bonus_detail",/*idx*/"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"profile_frame",/*idx*/NULL,/*stat*/"11");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sjr_name_former",/*idx*/NULL,/*stat*/"131");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sjr_proper_feature",/*idx*/NULL,/*stat*/"30");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_level_reward",/*idx*/NULL,/*stat*/"100");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_level_reward",/*idx*/"seasonpass_level_reward_0_event_id",/*stat*/"100 100");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"seasonpass_level_reward",/*idx*/"sqlite_autoindex_seasonpass_level_reward_1",/*stat*/"100 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_mission_category_data",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"psy_note",/*idx*/NULL,/*stat*/"66");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_effect_setting",/*idx*/"sqlite_autoindex_event_effect_setting_1",/*stat*/"160 3 1");
