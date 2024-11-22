@@ -107,7 +107,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"love_rankup_0_un
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"love_rankup",/*idx*/"sqlite_autoindex_love_rankup_1",/*stat*/"32 7 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"story_data",/*idx*/NULL,/*stat*/"275");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"colosseum_quest_data",/*idx*/NULL,/*stat*/"9");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_add_times_data",/*idx*/"sre_add_times_data_0_sre_id",/*stat*/"168 168");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_add_times_data",/*idx*/"sre_add_times_data_0_sre_id",/*stat*/"166 166");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"taq_game_setting",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"kaiser_special_battle",/*idx*/NULL,/*stat*/"3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"pkb_pitcher_ball_type",/*idx*/"pkb_pitcher_ball_type_0_pitcher_id",/*stat*/"17 5");
@@ -197,8 +197,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"secret_dungeon_emblem_mission",/*idx*
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"grand_arena_daily_rank_reward",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_effect",/*idx*/NULL,/*stat*/"29");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"room_chat_info",/*idx*/NULL,/*stat*/"37");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"170 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"170 1 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"unit_unique_equipment_0_unit_id",/*stat*/"167 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_unique_equipment",/*idx*/"sqlite_autoindex_unit_unique_equipment_1",/*stat*/"167 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"unit_skill_data",/*idx*/NULL,/*stat*/"1750");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_category_icon",/*idx*/NULL,/*stat*/"38");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ccc_scenario",/*idx*/"ccc_scenario_0_ccc_scenario_id",/*stat*/"1000 200");
