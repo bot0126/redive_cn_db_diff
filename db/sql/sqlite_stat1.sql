@@ -619,7 +619,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"36"
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_area",/*idx*/NULL,/*stat*/"13");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1918");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"267");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"268");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"cgg_gacha_lineup",/*idx*/"cgg_gacha_lineup_0_gacha_type",/*stat*/"60 20");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lto_story_data",/*idx*/"lto_story_data_0_event_id",/*stat*/"1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"dear_chara_0_event_id",/*stat*/"72 3");
