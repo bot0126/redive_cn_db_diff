@@ -340,7 +340,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sre_mission_data",/*idx*/"sre_mission
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_boss_enemy_setting",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"legion_quest_data",/*idx*/"legion_quest_data_0_map_type",/*stat*/"5 3");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_enemy_parameter",/*idx*/NULL,/*stat*/"4322");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ticket_gacha_data",/*idx*/NULL,/*stat*/"1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"ticket_gacha_data",/*idx*/NULL,/*stat*/"2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"sp_lose_voice_group",/*idx*/"sqlite_autoindex_sp_lose_voice_group_1",/*stat*/"23 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"content_release_data",/*idx*/NULL,/*stat*/"48");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"caravan_event_effect",/*idx*/NULL,/*stat*/"7");
@@ -351,7 +351,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_cloister_quest_data",/*idx*/NUL
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"hatsune_bg_change",/*idx*/NULL,/*stat*/"2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"custom_mypage",/*idx*/"custom_mypage_0_still_group_id",/*stat*/"228 228");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"guild",/*idx*/NULL,/*stat*/"20");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_reward_data_0_mission_reward_id",/*stat*/"1068 5");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"mission_reward_data",/*idx*/"mission_reward_data_0_mission_reward_id",/*stat*/"1074 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"music_content",/*idx*/NULL,/*stat*/"300");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"tower_ex_quest_data",/*idx*/"tower_ex_quest_data_0_floor_num",/*stat*/"48 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"event_enemy_parameter",/*idx*/NULL,/*stat*/"3764");
@@ -620,8 +620,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"srt_action",/*idx*/"sqlite_autoindex_
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"shiori_item",/*idx*/NULL,/*stat*/"37");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dungeon_area",/*idx*/NULL,/*stat*/"13");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"arena_defence_reward",/*idx*/NULL,/*stat*/"1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1935");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"273");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"stationary_mission_data",/*idx*/NULL,/*stat*/"1936");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"banner",/*idx*/NULL,/*stat*/"274");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"cgg_gacha_lineup",/*idx*/"cgg_gacha_lineup_0_gacha_type",/*stat*/"60 20");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"lto_story_data",/*idx*/"lto_story_data_0_event_id",/*stat*/"1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"dear_chara",/*idx*/"dear_chara_0_event_id",/*stat*/"72 3");
