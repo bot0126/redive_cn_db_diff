@@ -425,7 +425,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_eb3777cf73501fd92b606c65634ec894d1
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_eb3777cf73501fd92b606c65634ec894d1b1ce9d271560e4a718f1afd204baed",/*idx*/"v1_eb3777cf73501fd92b606c65634ec894d1b1ce9d271560e4a718f1afd204baed_0_special_battle_id_1_enemy_identify",/*stat*/"5 2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_eb3777cf73501fd92b606c65634ec894d1b1ce9d271560e4a718f1afd204baed",/*idx*/"sqlite_autoindex_v1_eb3777cf73501fd92b606c65634ec894d1b1ce9d271560e4a718f1afd204baed_1",/*stat*/"5 2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_c02ac70cbead5c4e2e0320b7ce4eeda91383ff1e2ae82a5bd684596f4116f702",/*idx*/"v1_c02ac70cbead5c4e2e0320b7ce4eeda91383ff1e2ae82a5bd684596f4116f702_0_rarity_6_quest_id",/*stat*/"54 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2a3485b2961433bfad8d15714d2ed919e64acb6971c2c788b8fb3c732c71b786",/*idx*/"v1_2a3485b2961433bfad8d15714d2ed919e64acb6971c2c788b8fb3c732c71b786_0_mission_reward_id",/*stat*/"1109 5");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2a3485b2961433bfad8d15714d2ed919e64acb6971c2c788b8fb3c732c71b786",/*idx*/"v1_2a3485b2961433bfad8d15714d2ed919e64acb6971c2c788b8fb3c732c71b786_0_mission_reward_id",/*stat*/"1098 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_af15260810ed97ee01fdcb275e5278d744ce5d7f02293c3ea29d5ca90eb442b8",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2e2a60f0e715759c1167fc81fee07e8efc742db68a0dd3b3bed59db7197f37b3",/*idx*/NULL,/*stat*/"66");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_5630bcd9239ac6503285b4581517e17dc8d3daafe7beb13f65fc0031597e7316",/*idx*/"v1_5630bcd9239ac6503285b4581517e17dc8d3daafe7beb13f65fc0031597e7316_0_where_type",/*stat*/"5 5");
