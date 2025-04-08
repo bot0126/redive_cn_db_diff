@@ -452,7 +452,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_077ac11ad774b15eb80f383787eed7f261
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2a60b649e2188c8dbd0b2431291468e2213b4d0d37ab24d4e95ea9c761dd56ec",/*idx*/NULL,/*stat*/"48");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a88ab747bf3504411ecc55ca4c366cbc2d1aa98d496ef3b61d24298775ba3a30",/*idx*/NULL,/*stat*/"153");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_f76326e888aadf57c5c287d2120ed0f4b2b5c8443cafe78ef2cd1fce01b88ea5",/*idx*/"v1_f76326e888aadf57c5c287d2120ed0f4b2b5c8443cafe78ef2cd1fce01b88ea5_0_campaign_id_1_type",/*stat*/"2 2 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_0ed9943e72fc03f39c3ef3d8e5c8a62549bbce7de2b1974489742cd9701efe11",/*idx*/NULL,/*stat*/"876");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_0ed9943e72fc03f39c3ef3d8e5c8a62549bbce7de2b1974489742cd9701efe11",/*idx*/NULL,/*stat*/"877");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a44d1fe07f28e4b676e24f70a11e2b08df9ebbb5cf15e1df463dbbe902b81396",/*idx*/NULL,/*stat*/"1229");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_55f702c629c538d3acd4f082b7cf9f78f99430ff13a55f085b6ff1ae7531645b",/*idx*/NULL,/*stat*/"15");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_91c0ffea895a2951771a9d59f8774ac930c3f9f89471efa72f5892a7cd57ed4a",/*idx*/NULL,/*stat*/"534");
