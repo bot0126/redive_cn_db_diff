@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_drama' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `ttk_drama` VALUES (/*command_id*/1010001,/*drama_id*/1,/*command_type*/5,/*param_01*/"1",/*param_02*/"102611",/*param_03*/"850",/*param_04*/"100",/*param_05*/"-120",/*param_06*/"1",/*param_07*/"1",/*param_08*/"ttk_idle_def");
 INSERT INTO `ttk_drama` VALUES (/*command_id*/1010002,/*drama_id*/1,/*command_type*/31,/*param_01*/"2",/*param_02*/"2",/*param_03*/"0",/*param_04*/"0",/*param_05*/"1",/*param_06*/"1",/*param_07*/"",/*param_08*/"");
 INSERT INTO `ttk_drama` VALUES (/*command_id*/1010003,/*drama_id*/1,/*command_type*/31,/*param_01*/"1",/*param_02*/"1",/*param_03*/"-80",/*param_04*/"-120",/*param_05*/"1",/*param_06*/"1",/*param_07*/"",/*param_08*/"");

@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_ub_data' ('ub_id' INTEGER NOT NULL, 'top_description' TEXT NOT NULL, 'in_game_description' TEXT NOT NULL, 'ub_type' INTEGER NOT NULL, 'ub_value_1' INTEGER NOT NULL, 'ub_value_2' INTEGER NOT NULL, 'ub_value_3' INTEGER NOT NULL, 'ub_value_4' INTEGER NOT NULL, PRIMARY KEY('ub_id'));
+-- Column Names:
+-- ub_id INTEGER
+-- top_description TEXT
+-- in_game_description TEXT
+-- ub_type INTEGER
+-- ub_value_1 INTEGER
+-- ub_value_2 INTEGER
+-- ub_value_3 INTEGER
+-- ub_value_4 INTEGER
 INSERT INTO `sjr_ub_data` VALUES (/*ub_id*/101,/*top_description*/"短时间内，展开障碍物屏障　（技能值上升量：大）",/*in_game_description*/"短时间内，展开障碍物屏障！",/*ub_type*/2001,/*ub_value_1*/3,/*ub_value_2*/0,/*ub_value_3*/0,/*ub_value_4*/0);
 INSERT INTO `sjr_ub_data` VALUES (/*ub_id*/102,/*top_description*/"中等时间内，小幅提升　　速度与跳跃（技能值上升量：小）",/*in_game_description*/"中等时间内，小幅提升速度与跳跃！",/*ub_type*/3,/*ub_value_1*/5,/*ub_value_2*/5,/*ub_value_3*/5,/*ub_value_4*/0);
 INSERT INTO `sjr_ub_data` VALUES (/*ub_id*/103,/*top_description*/"短时间内，中幅提升速度　　　（技能值上升量：中）",/*in_game_description*/"短时间内，中幅提升速度！",/*ub_type*/1,/*ub_value_1*/4,/*ub_value_2*/6,/*ub_value_3*/0,/*ub_value_4*/0);

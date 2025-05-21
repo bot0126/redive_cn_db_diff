@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'story_data' ('story_group_id' INTEGER NOT NULL, 'story_type' INTEGER NOT NULL, 'value' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'thumbnail_id' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'order' INTEGER NOT NULL, 'condition_free_flag' INTEGER NOT NULL, 'gojuon_order' INTEGER NOT NULL, PRIMARY KEY('story_group_id'));
+-- Column Names:
+-- story_group_id INTEGER
+-- story_type INTEGER
+-- value INTEGER
+-- title TEXT
+-- thumbnail_id INTEGER
+-- disp_order INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- order INTEGER
+-- condition_free_flag INTEGER
+-- gojuon_order INTEGER
 INSERT INTO `story_data` VALUES (/*story_group_id*/1001,/*story_type*/1,/*value*/1001,/*title*/"日和莉",/*thumbnail_id*/0,/*disp_order*/170,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/170);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1002,/*story_type*/1,/*value*/1002,/*title*/"优衣",/*thumbnail_id*/0,/*disp_order*/219,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/219);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1003,/*story_type*/1,/*value*/1003,/*title*/"怜",/*thumbnail_id*/0,/*disp_order*/91,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/91);
@@ -172,7 +184,6 @@ INSERT INTO `story_data` VALUES (/*story_group_id*/1191,/*story_type*/1,/*value*
 INSERT INTO `story_data` VALUES (/*story_group_id*/1192,/*story_type*/1,/*value*/1192,/*title*/"真阳（圣诞节）",/*thumbnail_id*/0,/*disp_order*/236,/*start_time*/"2023/11/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/236);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1193,/*story_type*/1,/*value*/1193,/*title*/"璃乃（圣诞节）",/*thumbnail_id*/0,/*disp_order*/86,/*start_time*/"2023/12/20 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/86);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1199,/*story_type*/1,/*value*/1199,/*title*/"宫子（圣诞节）",/*thumbnail_id*/0,/*disp_order*/27,/*start_time*/"2023/11/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/27);
-INSERT INTO `story_data` VALUES (/*story_group_id*/1200,/*story_type*/1,/*value*/1200,/*title*/"静流（黑暗）",/*thumbnail_id*/0,/*disp_order*/46,/*start_time*/"2025/03/17 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/46);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1207,/*story_type*/1,/*value*/1207,/*title*/"雪菲（新年）",/*thumbnail_id*/0,/*disp_order*/205,/*start_time*/"2024/01/01 18:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/205);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1208,/*story_type*/1,/*value*/1208,/*title*/"流夏（新年）",/*thumbnail_id*/0,/*disp_order*/112,/*start_time*/"2023/12/29 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/112);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1209,/*story_type*/1,/*value*/1209,/*title*/"伊莉亚（新年）",/*thumbnail_id*/0,/*disp_order*/210,/*start_time*/"2024/01/15 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/210);
@@ -212,8 +223,6 @@ INSERT INTO `story_data` VALUES (/*story_group_id*/1247,/*story_type*/1,/*value*
 INSERT INTO `story_data` VALUES (/*story_group_id*/1248,/*story_type*/1,/*value*/1248,/*title*/"望（解放者）",/*thumbnail_id*/0,/*disp_order*/181,/*start_time*/"2025/01/27 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/181);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1249,/*story_type*/1,/*value*/1249,/*title*/"嘉夜（解放者）",/*thumbnail_id*/0,/*disp_order*/43,/*start_time*/"2025/01/27 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/43);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1250,/*story_type*/1,/*value*/1250,/*title*/"矛依未（解放者）",/*thumbnail_id*/0,/*disp_order*/116,/*start_time*/"2025/02/13 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/116);
-INSERT INTO `story_data` VALUES (/*story_group_id*/1251,/*story_type*/1,/*value*/1251,/*title*/"珠希（咖啡厅）",/*thumbnail_id*/0,/*disp_order*/243,/*start_time*/"2025/03/01 18:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/243);
-INSERT INTO `story_data` VALUES (/*story_group_id*/1252,/*story_type*/1,/*value*/1252,/*title*/"莫妮卡（咖啡厅）",/*thumbnail_id*/0,/*disp_order*/136,/*start_time*/"2025/03/09 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/136);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1701,/*story_type*/1,/*value*/1701,/*title*/"环奈",/*thumbnail_id*/0,/*disp_order*/35,/*start_time*/"2020/10/16 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/35);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1702,/*story_type*/1,/*value*/1702,/*title*/"环奈（振袖）",/*thumbnail_id*/0,/*disp_order*/36,/*start_time*/"2020/12/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/36);
 INSERT INTO `story_data` VALUES (/*story_group_id*/1801,/*story_type*/1,/*value*/1801,/*title*/"日和莉（公主）",/*thumbnail_id*/0,/*disp_order*/171,/*start_time*/"2022/12/31 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/0,/*condition_free_flag*/0,/*gojuon_order*/171);
@@ -286,7 +295,6 @@ INSERT INTO `story_data` VALUES (/*story_group_id*/4006,/*story_type*/4,/*value*
 INSERT INTO `story_data` VALUES (/*story_group_id*/4007,/*story_type*/4,/*value*/0,/*title*/"兰德索尔之战",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2022/04/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/6,/*condition_free_flag*/0,/*gojuon_order*/503411);
 INSERT INTO `story_data` VALUES (/*story_group_id*/4008,/*story_type*/4,/*value*/0,/*title*/"冒险家",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2024/10/31 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/3,/*condition_free_flag*/0,/*gojuon_order*/3411);
 INSERT INTO `story_data` VALUES (/*story_group_id*/4009,/*story_type*/4,/*value*/0,/*title*/"次元断层（伪）",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2025/02/15 12:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/3,/*condition_free_flag*/0,/*gojuon_order*/3411);
-INSERT INTO `story_data` VALUES (/*story_group_id*/4010,/*story_type*/4,/*value*/0,/*title*/"生日剧情",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2025/03/31 05:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/7,/*condition_free_flag*/0,/*gojuon_order*/5000);
 INSERT INTO `story_data` VALUES (/*story_group_id*/9001,/*story_type*/9,/*value*/0,/*title*/"王都终末决战",/*thumbnail_id*/0,/*disp_order*/0,/*start_time*/"2021/12/22 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/6,/*condition_free_flag*/0,/*gojuon_order*/40211);
 INSERT INTO `story_data` VALUES (/*story_group_id*/9002,/*story_type*/4,/*value*/0,/*title*/"3rd Anniversary",/*thumbnail_id*/0,/*disp_order*/0,/*start_time*/"2023/04/01 5:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/6,/*condition_free_flag*/0,/*gojuon_order*/40211);
 INSERT INTO `story_data` VALUES (/*story_group_id*/9004,/*story_type*/4,/*value*/0,/*title*/"4th Anniversary",/*thumbnail_id*/0,/*disp_order*/0,/*start_time*/"2024/04/01 5:00:00",/*end_time*/"2099/12/31 23:59:59",/*order*/6,/*condition_free_flag*/0,/*gojuon_order*/40211);

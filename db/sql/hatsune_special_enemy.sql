@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_special_enemy' ('enemy_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'mode' INTEGER NOT NULL, 'enemy_point' INTEGER NOT NULL, 'initial_position' INTEGER NOT NULL, 'order' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- event_id INTEGER
+-- mode INTEGER
+-- enemy_point INTEGER
+-- initial_position INTEGER
+-- order INTEGER
 INSERT INTO `hatsune_special_enemy` VALUES (/*enemy_id*/610010501,/*event_id*/10010,/*mode*/1,/*enemy_point*/0,/*initial_position*/100,/*order*/0);
 INSERT INTO `hatsune_special_enemy` VALUES (/*enemy_id*/610010502,/*event_id*/10010,/*mode*/1,/*enemy_point*/0,/*initial_position*/250,/*order*/0);
 INSERT INTO `hatsune_special_enemy` VALUES (/*enemy_id*/610010503,/*event_id*/10010,/*mode*/1,/*enemy_point*/0,/*initial_position*/450,/*order*/0);

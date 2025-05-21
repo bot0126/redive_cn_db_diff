@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_data' ('asm_id' INTEGER NOT NULL, 'genre_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'asm_type' INTEGER NOT NULL, 'image_id' INTEGER NOT NULL, 'detail' TEXT NOT NULL, 'category' INTEGER NOT NULL, PRIMARY KEY('asm_id'));
+-- Column Names:
+-- asm_id INTEGER
+-- genre_id INTEGER
+-- difficulty INTEGER
+-- asm_type INTEGER
+-- image_id INTEGER
+-- detail TEXT
+-- category INTEGER
 INSERT INTO `asm_data` VALUES (/*asm_id*/1110001,/*genre_id*/1,/*difficulty*/1,/*asm_type*/2,/*image_id*/0,/*detail*/"被称作「铂金」的金属是「金」",/*category*/1);
 INSERT INTO `asm_data` VALUES (/*asm_id*/1110002,/*genre_id*/1,/*difficulty*/1,/*asm_type*/2,/*image_id*/0,/*detail*/"拉丁字母中，用「I」表示罗马数字中的「1」",/*category*/1);
 INSERT INTO `asm_data` VALUES (/*asm_id*/1110003,/*genre_id*/1,/*difficulty*/1,/*asm_type*/2,/*image_id*/0,/*detail*/"英文的「tornado」是指「台风」",/*category*/1);

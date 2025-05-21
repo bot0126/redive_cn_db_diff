@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_e_ticket_data' ('ticket_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'jewel_store_id' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, PRIMARY KEY('ticket_id'));
+-- Column Names:
+-- ticket_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- jewel_store_id INTEGER
+-- icon_id INTEGER
 INSERT INTO `chara_e_ticket_data` VALUES (/*ticket_id*/27001,/*start_time*/"2022/01/28 9:00:00",/*end_time*/"2022/02/25 4:59:59",/*jewel_store_id*/10028,/*icon_id*/27001);
 INSERT INTO `chara_e_ticket_data` VALUES (/*ticket_id*/27002,/*start_time*/"2023/02/15 11:00:00",/*end_time*/"2023/3/05 23:59:59",/*jewel_store_id*/10033,/*icon_id*/27001);
 INSERT INTO `chara_e_ticket_data` VALUES (/*ticket_id*/27003,/*start_time*/"2023/08/15 11:00:00",/*end_time*/"2023/9/05 23:59:59",/*jewel_store_id*/42,/*icon_id*/27001);

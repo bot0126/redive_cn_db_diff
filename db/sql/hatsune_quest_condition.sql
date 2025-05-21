@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_quest_condition' ('quest_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_quest_id_1' INTEGER NOT NULL, 'condition_quest_id_2' INTEGER NOT NULL, 'condition_boss_id_1' INTEGER NOT NULL, 'condition_boss_id_2' INTEGER NOT NULL, 'release_quest_id_1' INTEGER NOT NULL, 'release_quest_id_2' INTEGER NOT NULL, 'release_boss_id_1' INTEGER NOT NULL, 'release_boss_id_2' INTEGER NOT NULL, 'condition_main_quest_id' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- event_id INTEGER
+-- condition_quest_id_1 INTEGER
+-- condition_quest_id_2 INTEGER
+-- condition_boss_id_1 INTEGER
+-- condition_boss_id_2 INTEGER
+-- release_quest_id_1 INTEGER
+-- release_quest_id_2 INTEGER
+-- release_boss_id_1 INTEGER
+-- release_boss_id_2 INTEGER
+-- condition_main_quest_id INTEGER
 INSERT INTO `hatsune_quest_condition` VALUES (/*quest_id*/10001101,/*event_id*/10001,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*release_quest_id_1*/10001102,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0,/*condition_main_quest_id*/11002012);
 INSERT INTO `hatsune_quest_condition` VALUES (/*quest_id*/10001102,/*event_id*/10001,/*condition_quest_id_1*/10001101,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*release_quest_id_1*/10001103,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0,/*condition_main_quest_id*/0);
 INSERT INTO `hatsune_quest_condition` VALUES (/*quest_id*/10001103,/*event_id*/10001,/*condition_quest_id_1*/10001102,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*release_quest_id_1*/10001104,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0,/*condition_main_quest_id*/0);

@@ -1,6 +1,29 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'equipment_craft' ('equipment_id' INTEGER NOT NULL, 'crafted_cost' INTEGER NOT NULL, 'condition_equipment_id_1' INTEGER NOT NULL, 'consume_num_1' INTEGER NOT NULL, 'condition_equipment_id_2' INTEGER NOT NULL, 'consume_num_2' INTEGER NOT NULL, 'condition_equipment_id_3' INTEGER NOT NULL, 'consume_num_3' INTEGER NOT NULL, 'condition_equipment_id_4' INTEGER NOT NULL, 'consume_num_4' INTEGER NOT NULL, 'condition_equipment_id_5' INTEGER NOT NULL, 'consume_num_5' INTEGER NOT NULL, 'condition_equipment_id_6' INTEGER NOT NULL, 'consume_num_6' INTEGER NOT NULL, 'condition_equipment_id_7' INTEGER NOT NULL, 'consume_num_7' INTEGER NOT NULL, 'condition_equipment_id_8' INTEGER NOT NULL, 'consume_num_8' INTEGER NOT NULL, 'condition_equipment_id_9' INTEGER NOT NULL, 'consume_num_9' INTEGER NOT NULL, 'condition_equipment_id_10' INTEGER NOT NULL, 'consume_num_10' INTEGER NOT NULL, PRIMARY KEY('equipment_id'));
+-- Column Names:
+-- equipment_id INTEGER
+-- crafted_cost INTEGER
+-- condition_equipment_id_1 INTEGER
+-- consume_num_1 INTEGER
+-- condition_equipment_id_2 INTEGER
+-- consume_num_2 INTEGER
+-- condition_equipment_id_3 INTEGER
+-- consume_num_3 INTEGER
+-- condition_equipment_id_4 INTEGER
+-- consume_num_4 INTEGER
+-- condition_equipment_id_5 INTEGER
+-- consume_num_5 INTEGER
+-- condition_equipment_id_6 INTEGER
+-- consume_num_6 INTEGER
+-- condition_equipment_id_7 INTEGER
+-- consume_num_7 INTEGER
+-- condition_equipment_id_8 INTEGER
+-- consume_num_8 INTEGER
+-- condition_equipment_id_9 INTEGER
+-- consume_num_9 INTEGER
+-- condition_equipment_id_10 INTEGER
+-- consume_num_10 INTEGER
 INSERT INTO `equipment_craft` VALUES (/*equipment_id*/102282,/*crafted_cost*/2000,/*condition_equipment_id_1*/122282,/*consume_num_1*/1,/*condition_equipment_id_2*/102281,/*consume_num_2*/1,/*condition_equipment_id_3*/0,/*consume_num_3*/0,/*condition_equipment_id_4*/0,/*consume_num_4*/0,/*condition_equipment_id_5*/0,/*consume_num_5*/0,/*condition_equipment_id_6*/0,/*consume_num_6*/0,/*condition_equipment_id_7*/0,/*consume_num_7*/0,/*condition_equipment_id_8*/0,/*consume_num_8*/0,/*condition_equipment_id_9*/0,/*consume_num_9*/0,/*condition_equipment_id_10*/0,/*consume_num_10*/0);
 INSERT INTO `equipment_craft` VALUES (/*equipment_id*/102311,/*crafted_cost*/1500,/*condition_equipment_id_1*/122311,/*consume_num_1*/1,/*condition_equipment_id_2*/101281,/*consume_num_2*/1,/*condition_equipment_id_3*/0,/*consume_num_3*/0,/*condition_equipment_id_4*/0,/*consume_num_4*/0,/*condition_equipment_id_5*/0,/*consume_num_5*/0,/*condition_equipment_id_6*/0,/*consume_num_6*/0,/*condition_equipment_id_7*/0,/*consume_num_7*/0,/*condition_equipment_id_8*/0,/*consume_num_8*/0,/*condition_equipment_id_9*/0,/*consume_num_9*/0,/*condition_equipment_id_10*/0,/*consume_num_10*/0);
 INSERT INTO `equipment_craft` VALUES (/*equipment_id*/102312,/*crafted_cost*/2000,/*condition_equipment_id_1*/122312,/*consume_num_1*/1,/*condition_equipment_id_2*/102311,/*consume_num_2*/1,/*condition_equipment_id_3*/0,/*consume_num_3*/0,/*condition_equipment_id_4*/0,/*consume_num_4*/0,/*condition_equipment_id_5*/0,/*consume_num_5*/0,/*condition_equipment_id_6*/0,/*consume_num_6*/0,/*condition_equipment_id_7*/0,/*consume_num_7*/0,/*condition_equipment_id_8*/0,/*consume_num_8*/0,/*condition_equipment_id_9*/0,/*consume_num_9*/0,/*condition_equipment_id_10*/0,/*consume_num_10*/0);

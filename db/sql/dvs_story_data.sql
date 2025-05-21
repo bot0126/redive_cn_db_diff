@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dvs_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'detail_title' TEXT NOT NULL, 'detail_description' TEXT NOT NULL, 'dvs_story_type' INTEGER NOT NULL, 'is_last' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- detail_title TEXT
+-- detail_description TEXT
+-- dvs_story_type INTEGER
+-- is_last INTEGER
+-- condition_quest_id INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_count_2 INTEGER
 INSERT INTO `dvs_story_data` VALUES (/*sub_story_id*/5118061,/*original_event_id*/10118,/*title*/"与佩可莉姆的相遇",/*sub_title*/"在蓝天下谒见",/*detail_title*/"跳蚤市场",/*detail_description*/"来到跳蚤市场的姬塔遇到了\n从城里偷偷溜出来的佩可莉姆。",/*dvs_story_type*/2,/*is_last*/0,/*condition_quest_id*/0,/*reward_type_1*/7,/*reward_id_1*/2834,/*reward_count_1*/1,/*reward_type_2*/8,/*reward_id_2*/91002,/*reward_count_2*/40);
 INSERT INTO `dvs_story_data` VALUES (/*sub_story_id*/5118062,/*original_event_id*/10118,/*title*/"与真步的相遇",/*sub_title*/"未来的骑空团\n吉祥物？",/*detail_title*/"跳蚤市场",/*detail_description*/"姬塔一行人在逛跳蚤市场的时候，\n被摆摊的真步叫住了。",/*dvs_story_type*/2,/*is_last*/0,/*condition_quest_id*/0,/*reward_type_1*/7,/*reward_id_1*/2835,/*reward_count_1*/1,/*reward_type_2*/8,/*reward_id_2*/91002,/*reward_count_2*/40);
 INSERT INTO `dvs_story_data` VALUES (/*sub_story_id*/5118063,/*original_event_id*/10118,/*title*/"与秋乃的相遇",/*sub_title*/"大小姐的\n紧急委托",/*detail_title*/"兰德索尔市区",/*detail_description*/"姬塔正在确认骑空团的委托，\n秋乃就大笑着出现了。",/*dvs_story_type*/2,/*is_last*/0,/*condition_quest_id*/0,/*reward_type_1*/7,/*reward_id_1*/2837,/*reward_count_1*/1,/*reward_type_2*/8,/*reward_id_2*/91002,/*reward_count_2*/40);

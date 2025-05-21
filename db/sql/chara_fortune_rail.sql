@@ -1,6 +1,28 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_fortune_rail' ('rail_id' INTEGER NOT NULL, 'gimmick_1_id' TEXT NOT NULL, 'gimmick_1_x' INTEGER NOT NULL, 'gimmick_2_id' TEXT NOT NULL, 'gimmick_2_x' INTEGER NOT NULL, 'gimmick_3_id' TEXT NOT NULL, 'gimmick_3_x' INTEGER NOT NULL, 'gimmick_4_id' TEXT NOT NULL, 'gimmick_4_x' INTEGER NOT NULL, 'gimmick_5_id' TEXT NOT NULL, 'gimmick_5_x' INTEGER NOT NULL, 'gimmick_6_id' TEXT NOT NULL, 'gimmick_6_x' INTEGER NOT NULL, 'gimmick_7_id' TEXT NOT NULL, 'gimmick_7_x' INTEGER NOT NULL, 'gimmick_8_id' TEXT NOT NULL, 'gimmick_8_x' INTEGER NOT NULL, 'gimmick_9_id' TEXT NOT NULL, 'gimmick_9_x' INTEGER NOT NULL, 'gimmick_10_id' TEXT NOT NULL, 'gimmick_10_x' INTEGER NOT NULL, PRIMARY KEY('rail_id'));
+-- Column Names:
+-- rail_id INTEGER
+-- gimmick_1_id TEXT
+-- gimmick_1_x INTEGER
+-- gimmick_2_id TEXT
+-- gimmick_2_x INTEGER
+-- gimmick_3_id TEXT
+-- gimmick_3_x INTEGER
+-- gimmick_4_id TEXT
+-- gimmick_4_x INTEGER
+-- gimmick_5_id TEXT
+-- gimmick_5_x INTEGER
+-- gimmick_6_id TEXT
+-- gimmick_6_x INTEGER
+-- gimmick_7_id TEXT
+-- gimmick_7_x INTEGER
+-- gimmick_8_id TEXT
+-- gimmick_8_x INTEGER
+-- gimmick_9_id TEXT
+-- gimmick_9_x INTEGER
+-- gimmick_10_id TEXT
+-- gimmick_10_x INTEGER
 INSERT INTO `chara_fortune_rail` VALUES (/*rail_id*/1000,/*gimmick_1_id*/"EnemyA",/*gimmick_1_x*/600,/*gimmick_2_id*/"AccelBoardA",/*gimmick_2_x*/1000,/*gimmick_3_id*/"EnemyD",/*gimmick_3_x*/1800,/*gimmick_4_id*/"SpeedTerritoryA",/*gimmick_4_x*/2500,/*gimmick_5_id*/"JumpOverTrap",/*gimmick_5_x*/3100,/*gimmick_6_id*/"NONE",/*gimmick_6_x*/0,/*gimmick_7_id*/"NONE",/*gimmick_7_x*/0,/*gimmick_8_id*/"NONE",/*gimmick_8_x*/0,/*gimmick_9_id*/"NONE",/*gimmick_9_x*/0,/*gimmick_10_id*/"NONE",/*gimmick_10_x*/0);
 INSERT INTO `chara_fortune_rail` VALUES (/*rail_id*/1001,/*gimmick_1_id*/"EnemyC",/*gimmick_1_x*/500,/*gimmick_2_id*/"AccelBoardA",/*gimmick_2_x*/800,/*gimmick_3_id*/"SpeedTerritoryA",/*gimmick_3_x*/1300,/*gimmick_4_id*/"WholeCake",/*gimmick_4_x*/2000,/*gimmick_5_id*/"AccelBoardA",/*gimmick_5_x*/3000,/*gimmick_6_id*/"NONE",/*gimmick_6_x*/0,/*gimmick_7_id*/"NONE",/*gimmick_7_x*/0,/*gimmick_8_id*/"NONE",/*gimmick_8_x*/0,/*gimmick_9_id*/"NONE",/*gimmick_9_x*/0,/*gimmick_10_id*/"NONE",/*gimmick_10_x*/0);
 INSERT INTO `chara_fortune_rail` VALUES (/*rail_id*/1002,/*gimmick_1_id*/"Balloon",/*gimmick_1_x*/400,/*gimmick_2_id*/"EnemyA_NoColl",/*gimmick_2_x*/1000,/*gimmick_3_id*/"SpeedTerritoryA_NoColl",/*gimmick_3_x*/1300,/*gimmick_4_id*/"EnemyB_NoColl",/*gimmick_4_x*/1600,/*gimmick_5_id*/"TrapA_NoColl",/*gimmick_5_x*/2000,/*gimmick_6_id*/"NONE",/*gimmick_6_x*/0,/*gimmick_7_id*/"NONE",/*gimmick_7_x*/0,/*gimmick_8_id*/"NONE",/*gimmick_8_x*/0,/*gimmick_9_id*/"NONE",/*gimmick_9_x*/0,/*gimmick_10_id*/"NONE",/*gimmick_10_x*/0);

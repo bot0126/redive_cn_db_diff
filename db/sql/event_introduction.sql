@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'event_introduction' ('id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'introduction_number' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'maximum_chunk_size_1' INTEGER NOT NULL, 'maximum_chunk_size_loop_1' INTEGER NOT NULL, 'maximum_chunk_size_2' INTEGER NOT NULL, 'maximum_chunk_size_loop_2' INTEGER NOT NULL, 'maximum_chunk_size_3' INTEGER NOT NULL, 'maximum_chunk_size_loop_3' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- event_id INTEGER
+-- introduction_number INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- maximum_chunk_size_1 INTEGER
+-- maximum_chunk_size_loop_1 INTEGER
+-- maximum_chunk_size_2 INTEGER
+-- maximum_chunk_size_loop_2 INTEGER
+-- maximum_chunk_size_3 INTEGER
+-- maximum_chunk_size_loop_3 INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
 INSERT INTO `event_introduction` VALUES (/*id*/1,/*event_id*/10001,/*introduction_number*/1,/*start_time*/"2020/05/11 13:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M33",/*que_id*/"bgm_M33");
 INSERT INTO `event_introduction` VALUES (/*id*/2,/*event_id*/10002,/*introduction_number*/1,/*start_time*/"2020/06/03 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M99",/*que_id*/"bgm_M99");
 INSERT INTO `event_introduction` VALUES (/*id*/3,/*event_id*/10003,/*introduction_number*/1,/*start_time*/"2020/07/02 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M107",/*que_id*/"bgm_M107");
@@ -85,5 +99,4 @@ INSERT INTO `event_introduction` VALUES (/*id*/108,/*event_id*/10108,/*introduct
 INSERT INTO `event_introduction` VALUES (/*id*/110,/*event_id*/10110,/*introduction_number*/1,/*start_time*/"2025/01/24 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M659",/*que_id*/"bgm_M659");
 INSERT INTO `event_introduction` VALUES (/*id*/111,/*event_id*/10111,/*introduction_number*/1,/*start_time*/"2025/01/24 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M668",/*que_id*/"bgm_M668");
 INSERT INTO `event_introduction` VALUES (/*id*/114,/*event_id*/10114,/*introduction_number*/1,/*start_time*/"2025/02/21 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_M668",/*que_id*/"bgm_M668");
-INSERT INTO `event_introduction` VALUES (/*id*/116,/*event_id*/10116,/*introduction_number*/1,/*start_time*/"2025/03/27 15:00:00",/*end_time*/"2099/12/31 23:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0,/*sheet_id*/"bgm_MC017",/*que_id*/"bgm_MC017");
 COMMIT;

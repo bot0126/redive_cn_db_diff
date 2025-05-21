@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_proper_feature' ('proper_id' INTEGER NOT NULL, 'feature_group_1' INTEGER NOT NULL, 'feature_group_2' INTEGER NOT NULL, 'feature_group_3' INTEGER NOT NULL, 'value_1' INTEGER NOT NULL, 'value_2' INTEGER NOT NULL, 'value_3' INTEGER NOT NULL, PRIMARY KEY('proper_id'));
+-- Column Names:
+-- proper_id INTEGER
+-- feature_group_1 INTEGER
+-- feature_group_2 INTEGER
+-- feature_group_3 INTEGER
+-- value_1 INTEGER
+-- value_2 INTEGER
+-- value_3 INTEGER
 INSERT INTO `sjr_proper_feature` VALUES (/*proper_id*/1,/*feature_group_1*/1,/*feature_group_2*/2,/*feature_group_3*/3,/*value_1*/105,/*value_2*/105,/*value_3*/105);
 INSERT INTO `sjr_proper_feature` VALUES (/*proper_id*/2,/*feature_group_1*/1,/*feature_group_2*/2,/*feature_group_3*/3,/*value_1*/105,/*value_2*/120,/*value_3*/120);
 INSERT INTO `sjr_proper_feature` VALUES (/*proper_id*/3,/*feature_group_1*/1,/*feature_group_2*/2,/*feature_group_3*/3,/*value_1*/100,/*value_2*/120,/*value_3*/100);

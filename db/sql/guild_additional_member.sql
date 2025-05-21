@@ -1,5 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'guild_additional_member' ('guild_id' INTEGER NOT NULL, 'unlock_story_id' INTEGER NOT NULL, 'thumb_id' INTEGER NOT NULL, 'member1' INTEGER NOT NULL, 'member2' INTEGER NOT NULL, 'member3' INTEGER NOT NULL, 'member4' INTEGER NOT NULL, 'member5' INTEGER NOT NULL, 'member6' INTEGER NOT NULL, 'member7' INTEGER NOT NULL, 'member8' INTEGER NOT NULL, 'member9' INTEGER NOT NULL, 'member10' INTEGER NOT NULL, PRIMARY KEY('guild_id'));
+-- Column Names:
+-- guild_id INTEGER
+-- unlock_story_id INTEGER
+-- thumb_id INTEGER
+-- member1 INTEGER
+-- member2 INTEGER
+-- member3 INTEGER
+-- member4 INTEGER
+-- member5 INTEGER
+-- member6 INTEGER
+-- member7 INTEGER
+-- member8 INTEGER
+-- member9 INTEGER
+-- member10 INTEGER
 INSERT INTO `guild_additional_member` VALUES (/*guild_id*/1,/*unlock_story_id*/2104010,/*thumb_id*/3101,/*member1*/1064,/*member2*/1207,/*member3*/0,/*member4*/0,/*member5*/0,/*member6*/0,/*member7*/0,/*member8*/0,/*member9*/0,/*member10*/0);
 COMMIT;

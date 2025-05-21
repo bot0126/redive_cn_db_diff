@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'cgg_goods_data' ('goods_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'rarity' INTEGER NOT NULL, 'shelf_position_id' INTEGER NOT NULL, 'detail_scale_x' REAL NOT NULL, 'detail_scale_y' REAL NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('goods_id'));
+-- Column Names:
+-- goods_id INTEGER
+-- name TEXT
+-- rarity INTEGER
+-- shelf_position_id INTEGER
+-- detail_scale_x REAL
+-- detail_scale_y REAL
+-- description TEXT
 INSERT INTO `cgg_goods_data` VALUES (/*goods_id*/10101,/*name*/"纺希的手办",/*rarity*/3,/*shelf_position_id*/1,/*detail_scale_x*/0.3046875,/*detail_scale_y*/0.478515625,/*description*/"在细节上精益求精，充满跃动感的\n极品纺希手办。能让人鲜明地回想起演唱会上的热情和感动，\n每日都给人带来活力。");
 INSERT INTO `cgg_goods_data` VALUES (/*goods_id*/10102,/*name*/"望的手办",/*rarity*/3,/*shelf_position_id*/1,/*detail_scale_x*/0.365234375,/*detail_scale_y*/0.490234375,/*description*/"在细节上精益求精，充满跃动感的\n极品望手办。能让人鲜明地回想起演唱会上的热情和感动，\n每日都给人带来活力。");
 INSERT INTO `cgg_goods_data` VALUES (/*goods_id*/10103,/*name*/"千歌的手办",/*rarity*/3,/*shelf_position_id*/1,/*detail_scale_x*/0.291015625,/*detail_scale_y*/0.478515625,/*description*/"在细节上精益求精，充满跃动感的\n极品千歌手办。能让人鲜明地回想起演唱会上的热情和感动，\n每日都给人带来活力。");

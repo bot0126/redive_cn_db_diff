@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_map_object' ('object_id' INTEGER NOT NULL, 'season_id' INTEGER NOT NULL, 'object_type' INTEGER NOT NULL, 'position_x' REAL NOT NULL, 'position_y' REAL NOT NULL, PRIMARY KEY('object_id'));
+-- Column Names:
+-- object_id INTEGER
+-- season_id INTEGER
+-- object_type INTEGER
+-- position_x REAL
+-- position_y REAL
 INSERT INTO `caravan_map_object` VALUES (/*object_id*/30010001,/*season_id*/1,/*object_type*/990001,/*position_x*/-7.0,/*position_y*/-4.5);
 INSERT INTO `caravan_map_object` VALUES (/*object_id*/30010003,/*season_id*/1,/*object_type*/990001,/*position_x*/12.0,/*position_y*/-21.5);
 INSERT INTO `caravan_map_object` VALUES (/*object_id*/30010004,/*season_id*/1,/*object_type*/990001,/*position_x*/-3.0,/*position_y*/-21.5);

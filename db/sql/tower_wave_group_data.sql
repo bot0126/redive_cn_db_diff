@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_wave_group_data' ('id' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'odds' INTEGER NOT NULL, 'enemy_id_1' INTEGER NOT NULL, 'enemy_id_2' INTEGER NOT NULL, 'enemy_id_3' INTEGER NOT NULL, 'enemy_id_4' INTEGER NOT NULL, 'enemy_id_5' INTEGER NOT NULL, PRIMARY KEY('wave_group_id'));
+-- Column Names:
+-- id INTEGER
+-- wave_group_id INTEGER
+-- odds INTEGER
+-- enemy_id_1 INTEGER
+-- enemy_id_2 INTEGER
+-- enemy_id_3 INTEGER
+-- enemy_id_4 INTEGER
+-- enemy_id_5 INTEGER
 INSERT INTO `tower_wave_group_data` VALUES (/*id*/710000001,/*wave_group_id*/710100011,/*odds*/100,/*enemy_id_1*/710000104,/*enemy_id_2*/710000101,/*enemy_id_3*/710000102,/*enemy_id_4*/710000105,/*enemy_id_5*/0);
 INSERT INTO `tower_wave_group_data` VALUES (/*id*/710000002,/*wave_group_id*/710100021,/*odds*/100,/*enemy_id_1*/710000204,/*enemy_id_2*/710000201,/*enemy_id_3*/710000202,/*enemy_id_4*/710000203,/*enemy_id_5*/0);
 INSERT INTO `tower_wave_group_data` VALUES (/*id*/710000003,/*wave_group_id*/710100031,/*odds*/100,/*enemy_id_1*/710000302,/*enemy_id_2*/710000301,/*enemy_id_3*/710000304,/*enemy_id_4*/710000305,/*enemy_id_5*/0);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'wac_mural_bg_data' ('wac_id' INTEGER NOT NULL, 'date_id' INTEGER NOT NULL, 'bg_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'start_offset_x' TEXT NOT NULL, 'end_offset_x' TEXT NOT NULL, PRIMARY KEY('wac_id','date_id'));
+-- Column Names:
+-- wac_id INTEGER
+-- date_id INTEGER
+-- bg_id INTEGER
+-- type INTEGER
+-- start_offset_x TEXT
+-- end_offset_x TEXT
 INSERT INTO `wac_mural_bg_data` VALUES (/*wac_id*/2816,/*date_id*/11,/*bg_id*/1,/*type*/1,/*start_offset_x*/"-1480",/*end_offset_x*/"-1480");
 INSERT INTO `wac_mural_bg_data` VALUES (/*wac_id*/2816,/*date_id*/21,/*bg_id*/1,/*type*/1,/*start_offset_x*/"-1400",/*end_offset_x*/"-1302");
 INSERT INTO `wac_mural_bg_data` VALUES (/*wac_id*/2816,/*date_id*/31,/*bg_id*/1,/*type*/1,/*start_offset_x*/"-1302",/*end_offset_x*/"-1263");

@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'omp_drama' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `omp_drama` VALUES (/*command_id*/1010001,/*drama_id*/1,/*command_type*/1,/*param_01*/"1",/*param_02*/"112511",/*param_03*/"1500",/*param_04*/"-140",/*param_05*/"-190",/*param_06*/"1.8",/*param_07*/"0",/*param_08*/"omp_talk_worry");
 INSERT INTO `omp_drama` VALUES (/*command_id*/1010002,/*drama_id*/1,/*command_type*/1,/*param_01*/"1",/*param_02*/"112411",/*param_03*/"1500",/*param_04*/"140",/*param_05*/"-190",/*param_06*/"1.8",/*param_07*/"1",/*param_08*/"omp_idle_normal");
 INSERT INTO `omp_drama` VALUES (/*command_id*/1010003,/*drama_id*/1,/*command_type*/31,/*param_01*/"1",/*param_02*/"1",/*param_03*/"0",/*param_04*/"0",/*param_05*/"1",/*param_06*/"1",/*param_07*/"",/*param_08*/"");

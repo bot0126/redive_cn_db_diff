@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'content_release_data' ('system_id' INTEGER NOT NULL, 'team_level' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'dialog' TEXT NOT NULL, PRIMARY KEY('system_id'));
+-- Column Names:
+-- system_id INTEGER
+-- team_level INTEGER
+-- story_id INTEGER
+-- quest_id INTEGER
+-- dialog TEXT
 INSERT INTO `content_release_data` VALUES (/*system_id*/101,/*team_level*/1,/*story_id*/0,/*quest_id*/0,/*dialog*/"");
 INSERT INTO `content_release_data` VALUES (/*system_id*/102,/*team_level*/1,/*story_id*/0,/*quest_id*/11002008,/*dialog*/"通关主线战斗2-8（普通难度）后解锁");
 INSERT INTO `content_release_data` VALUES (/*system_id*/103,/*team_level*/1,/*story_id*/0,/*quest_id*/11002005,/*dialog*/"通关主线战斗\n2-5（普通难度）\n后解锁");

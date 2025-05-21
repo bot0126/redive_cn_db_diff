@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'lto_letter_script' ('id' INTEGER NOT NULL, 'letter_id' INTEGER NOT NULL, 'seq_num' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'line_num' INTEGER NOT NULL, 'start_pos' INTEGER NOT NULL, 'end_pos' INTEGER NOT NULL, 'seek_time' REAL NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'command' INTEGER NOT NULL, 'command_param' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- letter_id INTEGER
+-- seq_num INTEGER
+-- type INTEGER
+-- line_num INTEGER
+-- start_pos INTEGER
+-- end_pos INTEGER
+-- seek_time REAL
+-- sheet_name TEXT
+-- cue_name TEXT
+-- command INTEGER
+-- command_param REAL
 INSERT INTO `lto_letter_script` VALUES (/*id*/1010001,/*letter_id*/1,/*seq_num*/1,/*type*/2,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"vo_10020900",/*cue_name*/"vo_10020900_0001",/*command*/0,/*command_param*/0.0);
 INSERT INTO `lto_letter_script` VALUES (/*id*/1010002,/*letter_id*/1,/*seq_num*/2,/*type*/1,/*line_num*/1,/*start_pos*/0,/*end_pos*/180,/*seek_time*/0.818181818181818,/*sheet_name*/"0",/*cue_name*/"0",/*command*/0,/*command_param*/0.0);
 INSERT INTO `lto_letter_script` VALUES (/*id*/1010003,/*letter_id*/1,/*seq_num*/3,/*type*/4,/*line_num*/1,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"0",/*cue_name*/"0",/*command*/1,/*command_param*/0.818181818181818);

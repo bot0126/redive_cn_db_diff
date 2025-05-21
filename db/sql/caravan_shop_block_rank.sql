@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_shop_block_rank' ('group_id' INTEGER NOT NULL, 'upgrade_id' INTEGER NOT NULL, PRIMARY KEY('group_id'));
+-- Column Names:
+-- group_id INTEGER
+-- upgrade_id INTEGER
 INSERT INTO `caravan_shop_block_rank` VALUES (/*group_id*/1,/*upgrade_id*/2);
 INSERT INTO `caravan_shop_block_rank` VALUES (/*group_id*/2,/*upgrade_id*/3);
 INSERT INTO `caravan_shop_block_rank` VALUES (/*group_id*/3,/*upgrade_id*/3);

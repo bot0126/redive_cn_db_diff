@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_memory_gauge' ('gauge_id' INTEGER NOT NULL, 'trigger_score' INTEGER NOT NULL, 'completion_detail' TEXT NOT NULL, 'unlock_story_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('gauge_id','trigger_score'));
+-- Column Names:
+-- gauge_id INTEGER
+-- trigger_score INTEGER
+-- completion_detail TEXT
+-- unlock_story_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `asm_memory_gauge` VALUES (/*gauge_id*/1,/*trigger_score*/2500,/*completion_detail*/"获得2500pt累积分数吧",/*unlock_story_id*/5126700,/*reward_type*/12,/*reward_id*/94002,/*reward_count*/50000);
 INSERT INTO `asm_memory_gauge` VALUES (/*gauge_id*/1,/*trigger_score*/5000,/*completion_detail*/"获得5000pt累积分数吧",/*unlock_story_id*/0,/*reward_type*/12,/*reward_id*/94002,/*reward_count*/50000);
 INSERT INTO `asm_memory_gauge` VALUES (/*gauge_id*/1,/*trigger_score*/7500,/*completion_detail*/"获得7500pt累积分数吧",/*unlock_story_id*/0,/*reward_type*/12,/*reward_id*/94002,/*reward_count*/50000);

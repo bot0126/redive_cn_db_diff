@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_story_data' ('story_group_id' INTEGER NOT NULL, 'story_type' INTEGER NOT NULL, 'value' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'thumbnail_id' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('story_group_id'));
+-- Column Names:
+-- story_group_id INTEGER
+-- story_type INTEGER
+-- value INTEGER
+-- title TEXT
+-- thumbnail_id INTEGER
+-- disp_order INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7001,/*story_type*/7,/*value*/1,/*title*/"寻求失去的记忆",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2020/09/28 9:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7002,/*story_type*/7,/*value*/2,/*title*/"姐妹的羁绊与愿望之塔",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2020/11/09 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7003,/*story_type*/7,/*value*/3,/*title*/"星星们的二重奏",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2020/12/07 12:00:00",/*end_time*/"2099/12/31 23:59:59");
@@ -26,5 +35,4 @@ INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7022,/*story_type*/7,/*
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7023,/*story_type*/7,/*value*/23,/*title*/"振作吧，英雄们！",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2024/03/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7024,/*story_type*/7,/*value*/24,/*title*/"变貌大妃与（原）黑心商人",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2024/06/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7025,/*story_type*/7,/*value*/25,/*title*/"激战！交锋的龙兽之拳",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2024/10/18 12:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `tower_story_data` VALUES (/*story_group_id*/7026,/*story_type*/7,/*value*/26,/*title*/"孤独女孩交流会",/*thumbnail_id*/0,/*disp_order*/1,/*start_time*/"2025/03/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;

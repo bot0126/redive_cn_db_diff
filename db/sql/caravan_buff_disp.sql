@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_buff_disp' ('id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'effect_id' INTEGER NOT NULL, 'category' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'count_from' INTEGER NOT NULL, 'count_to' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- type INTEGER
+-- effect_id INTEGER
+-- category INTEGER
+-- icon_id INTEGER
+-- description TEXT
+-- count_from INTEGER
+-- count_to INTEGER
 INSERT INTO `caravan_buff_disp` VALUES (/*id*/1,/*type*/1,/*effect_id*/52001,/*category*/1,/*icon_id*/1,/*description*/"【料理】骰子增加至两个",/*count_from*/0,/*count_to*/0);
 INSERT INTO `caravan_buff_disp` VALUES (/*id*/2,/*type*/1,/*effect_id*/52002,/*category*/1,/*icon_id*/1,/*description*/"【料理】投掷骰子的结果必定是“1”",/*count_from*/0,/*count_to*/0);
 INSERT INTO `caravan_buff_disp` VALUES (/*id*/3,/*type*/1,/*effect_id*/52002,/*category*/3,/*icon_id*/2,/*description*/"【料理】跳过对下一个回合的计数",/*count_from*/0,/*count_to*/0);

@@ -1,6 +1,8 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'enemy_ignore_skill_rf' ('enemy_id' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
 INSERT INTO `enemy_ignore_skill_rf` VALUES (/*enemy_id*/102350210);
 INSERT INTO `enemy_ignore_skill_rf` VALUES (/*enemy_id*/103280210);
 INSERT INTO `enemy_ignore_skill_rf` VALUES (/*enemy_id*/550101402);

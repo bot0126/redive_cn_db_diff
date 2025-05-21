@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_treasure' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'new_line_name' TEXT NOT NULL, 'rarity' INTEGER NOT NULL, 'value' INTEGER NOT NULL, 'reset_value' INTEGER NOT NULL, 'appraise_flag' INTEGER NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- new_line_name TEXT
+-- rarity INTEGER
+-- value INTEGER
+-- reset_value INTEGER
+-- appraise_flag INTEGER
+-- description TEXT
 INSERT INTO `caravan_treasure` VALUES (/*id*/53001,/*name*/"平凡的未鉴定宝藏",/*new_line_name*/"平凡的\n未鉴定宝藏",/*rarity*/1,/*value*/200,/*reset_value*/100,/*appraise_flag*/1,/*description*/"无法辨别的神秘宝物。拿去公会管理协会分会的话，花凛会帮忙进行鉴定。经过鉴定后，稀有度可能会上升。");
 INSERT INTO `caravan_treasure` VALUES (/*id*/53002,/*name*/"珍贵的未鉴定宝藏",/*new_line_name*/"珍贵的\n未鉴定宝藏",/*rarity*/2,/*value*/400,/*reset_value*/200,/*appraise_flag*/1,/*description*/"无法辨别的神秘宝物。拿去公会管理协会分会的话，花凛会帮忙进行鉴定。经过鉴定后，稀有度可能会上升。");
 INSERT INTO `caravan_treasure` VALUES (/*id*/53003,/*name*/"至高无上的未鉴定宝藏",/*new_line_name*/"至高无上的\n未鉴定宝藏",/*rarity*/3,/*value*/800,/*reset_value*/400,/*appraise_flag*/1,/*description*/"无法辨别的神秘宝物。拿去公会管理协会分会的话，花凛会帮忙进行鉴定。");

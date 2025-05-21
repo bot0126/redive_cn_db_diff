@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'login_bonus_detail' ('id' INTEGER NOT NULL, 'login_bonus_id' INTEGER NOT NULL, 'count' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_num' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'voice_id' INTEGER NOT NULL, 'bg_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- login_bonus_id INTEGER
+-- count INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_num INTEGER
+-- character_id INTEGER
+-- character_name TEXT
+-- description TEXT
+-- voice_id INTEGER
+-- bg_id INTEGER
 INSERT INTO `login_bonus_detail` VALUES (/*id*/1,/*login_bonus_id*/20000,/*count*/1,/*reward_type*/8,/*reward_id*/91002,/*reward_num*/100,/*character_id*/0,/*character_name*/"",/*description*/"",/*voice_id*/0,/*bg_id*/0);
 INSERT INTO `login_bonus_detail` VALUES (/*id*/2,/*login_bonus_id*/20000,/*count*/1,/*reward_type*/2,/*reward_id*/23001,/*reward_num*/20,/*character_id*/0,/*character_name*/"",/*description*/"",/*voice_id*/0,/*bg_id*/0);
 INSERT INTO `login_bonus_detail` VALUES (/*id*/3,/*login_bonus_id*/20000,/*count*/2,/*reward_type*/8,/*reward_id*/91002,/*reward_num*/100,/*character_id*/0,/*character_name*/"",/*description*/"",/*voice_id*/0,/*bg_id*/0);

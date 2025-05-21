@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_special_mission_data' ('special_mission_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'purpose_type' INTEGER NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER , 'condition_value_2' INTEGER , 'condition_value_3' INTEGER , 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'system_id' INTEGER , 'event_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('special_mission_id'));
+-- Column Names:
+-- special_mission_id INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- description TEXT
+-- purpose_type INTEGER
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
+-- system_id INTEGER
+-- event_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81010001,/*disp_group*/103,/*category_icon*/601,/*description*/"打倒优衣、怜和日和莉的暗影吧",/*purpose_type*/0,/*mission_condition*/9001,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/3,/*mission_reward_id*/81010001,/*system_id*/6011,/*event_id*/10010,/*start_time*/"2021/01/18 9:00:00",/*end_time*/"2021/02/11 14:59:59");
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81010002,/*disp_group*/104,/*category_icon*/601,/*description*/"歼灭36只烦恼吧",/*purpose_type*/0,/*mission_condition*/9014,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/36,/*mission_reward_id*/81010002,/*system_id*/6011,/*event_id*/10010,/*start_time*/"2021/01/18 9:00:00",/*end_time*/"2021/02/11 14:59:59");
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81010003,/*disp_group*/105,/*category_icon*/601,/*description*/"歼灭72只烦恼吧",/*purpose_type*/0,/*mission_condition*/9014,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/72,/*mission_reward_id*/81010003,/*system_id*/6011,/*event_id*/10010,/*start_time*/"2021/01/18 9:00:00",/*end_time*/"2021/02/11 14:59:59");
@@ -756,12 +772,4 @@ INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/8111400
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81114006,/*disp_group*/10114108,/*category_icon*/601,/*description*/"将特别关卡的首领的生命值削减到18300000",/*purpose_type*/1,/*mission_condition*/9018,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/76700000,/*mission_reward_id*/81114007,/*system_id*/6011,/*event_id*/10114,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/17 14:59:59");
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81114007,/*disp_group*/10114109,/*category_icon*/601,/*description*/"讨伐特别关卡的首领吧",/*purpose_type*/0,/*mission_condition*/9016,/*condition_value_1*/3,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/81114008,/*system_id*/6011,/*event_id*/10114,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/17 14:59:59");
 INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81114008,/*disp_group*/10114110,/*category_icon*/601,/*description*/"在5次内讨伐特别战斗或表演赛模式下的首领吧",/*purpose_type*/0,/*mission_condition*/9015,/*condition_value_1*/5,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/81114009,/*system_id*/6011,/*event_id*/10114,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/17 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115001,/*disp_group*/10115103,/*category_icon*/601,/*description*/"打倒15只老鼠手下吧",/*purpose_type*/0,/*mission_condition*/9014,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/15,/*mission_reward_id*/81115001,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115002,/*disp_group*/10115104,/*category_icon*/601,/*description*/"将特别关卡的首领的生命值削减到4100000",/*purpose_type*/1,/*mission_condition*/9018,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/400000,/*mission_reward_id*/81115002,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115003,/*disp_group*/10115105,/*category_icon*/601,/*description*/"将特别关卡的首领的生命值削减到3700000",/*purpose_type*/1,/*mission_condition*/9018,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/800000,/*mission_reward_id*/81115003,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115004,/*disp_group*/10115106,/*category_icon*/601,/*description*/"通关特别关卡的模式2吧",/*purpose_type*/0,/*mission_condition*/9016,/*condition_value_1*/2,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/81115004,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115005,/*disp_group*/10115107,/*category_icon*/601,/*description*/"将特别关卡的首领的生命值削减到2100000",/*purpose_type*/1,/*mission_condition*/9018,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/2400000,/*mission_reward_id*/81115005,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115006,/*disp_group*/10115108,/*category_icon*/601,/*description*/"将特别关卡的首领的生命值削减到1000000",/*purpose_type*/1,/*mission_condition*/9018,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/3500000,/*mission_reward_id*/81115006,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115007,/*disp_group*/10115109,/*category_icon*/601,/*description*/"讨伐特别关卡的首领吧",/*purpose_type*/0,/*mission_condition*/9016,/*condition_value_1*/3,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/81115007,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_special_mission_data` VALUES (/*special_mission_id*/81115008,/*disp_group*/10115110,/*category_icon*/601,/*description*/"在5次内讨伐特别战斗或表演赛模式下的首领吧",/*purpose_type*/0,/*mission_condition*/9015,/*condition_value_1*/5,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/81115008,/*system_id*/6011,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
 COMMIT;

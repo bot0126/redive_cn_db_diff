@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sp_battle_voice' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'voice_type' INTEGER NOT NULL, 'value' INTEGER NOT NULL, PRIMARY KEY('id','unit_id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- voice_type INTEGER
+-- value INTEGER
 INSERT INTO `sp_battle_voice` VALUES (/*id*/1,/*unit_id*/180701,/*voice_type*/1001,/*value*/4);
 INSERT INTO `sp_battle_voice` VALUES (/*id*/2,/*unit_id*/180701,/*voice_type*/1002,/*value*/4);
 INSERT INTO `sp_battle_voice` VALUES (/*id*/3,/*unit_id*/180701,/*voice_type*/1003,/*value*/4);

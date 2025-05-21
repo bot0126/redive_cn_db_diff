@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_sound_setting' ('id' INTEGER NOT NULL, 'scene_type' INTEGER NOT NULL, 'effect_type' INTEGER NOT NULL, 'sound_type' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- scene_type INTEGER
+-- effect_type INTEGER
+-- sound_type INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
 INSERT INTO `caravan_sound_setting` VALUES (/*id*/11101,/*scene_type*/1,/*effect_type*/1,/*sound_type*/1,/*sheet_id*/"vo_caravan",/*que_id*/"vo_caravan_105801_start_001");
 INSERT INTO `caravan_sound_setting` VALUES (/*id*/11102,/*scene_type*/1,/*effect_type*/1,/*sound_type*/1,/*sheet_id*/"vo_caravan",/*que_id*/"vo_caravan_105801_start_002");
 INSERT INTO `caravan_sound_setting` VALUES (/*id*/12101,/*scene_type*/1,/*effect_type*/2,/*sound_type*/1,/*sheet_id*/"vo_caravan",/*que_id*/"vo_caravan_105901_start_001");

@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'fke_happening_list' ('happening_id' INTEGER NOT NULL, 'happening_name' TEXT NOT NULL, PRIMARY KEY('happening_id'));
+-- Column Names:
+-- happening_id INTEGER
+-- happening_name TEXT
 INSERT INTO `fke_happening_list` VALUES (/*happening_id*/1,/*happening_name*/"梦魇牡羊");
 INSERT INTO `fke_happening_list` VALUES (/*happening_id*/2,/*happening_name*/"香蕉皮跳跃");
 INSERT INTO `fke_happening_list` VALUES (/*happening_id*/3,/*happening_name*/"香蕉皮滑行");

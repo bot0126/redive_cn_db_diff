@@ -1,6 +1,42 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tdf_quest_data' ('quest_id' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'limit_num' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'reward_image_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_image_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_image_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_image_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'reward_image_5' INTEGER NOT NULL, 'reward_count_5' INTEGER NOT NULL, 'reward_group_id' INTEGER NOT NULL, 'chest_id' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'enemy_position_x_1' INTEGER NOT NULL, 'enemy_local_position_y_1' INTEGER NOT NULL, 'enemy_size_1' REAL NOT NULL, 'enemy_position_x_2' INTEGER NOT NULL, 'enemy_local_position_y_2' INTEGER NOT NULL, 'enemy_size_2' REAL NOT NULL, 'enemy_position_x_3' INTEGER NOT NULL, 'enemy_local_position_y_3' INTEGER NOT NULL, 'enemy_size_3' REAL NOT NULL, 'enemy_position_x_4' INTEGER NOT NULL, 'enemy_local_position_y_4' INTEGER NOT NULL, 'enemy_size_4' REAL NOT NULL, 'enemy_position_x_5' INTEGER NOT NULL, 'enemy_local_position_y_5' INTEGER NOT NULL, 'enemy_size_5' REAL NOT NULL, 'wave_bgm' TEXT NOT NULL, 'background' INTEGER NOT NULL, 'bg_position' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- limit_time INTEGER
+-- limit_num INTEGER
+-- difficulty INTEGER
+-- reward_image_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_image_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_image_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_image_4 INTEGER
+-- reward_count_4 INTEGER
+-- reward_image_5 INTEGER
+-- reward_count_5 INTEGER
+-- reward_group_id INTEGER
+-- chest_id INTEGER
+-- wave_group_id INTEGER
+-- enemy_position_x_1 INTEGER
+-- enemy_local_position_y_1 INTEGER
+-- enemy_size_1 REAL
+-- enemy_position_x_2 INTEGER
+-- enemy_local_position_y_2 INTEGER
+-- enemy_size_2 REAL
+-- enemy_position_x_3 INTEGER
+-- enemy_local_position_y_3 INTEGER
+-- enemy_size_3 REAL
+-- enemy_position_x_4 INTEGER
+-- enemy_local_position_y_4 INTEGER
+-- enemy_size_4 REAL
+-- enemy_position_x_5 INTEGER
+-- enemy_local_position_y_5 INTEGER
+-- enemy_size_5 REAL
+-- wave_bgm TEXT
+-- background INTEGER
+-- bg_position INTEGER
 INSERT INTO `tdf_quest_data` VALUES (/*quest_id*/74001101,/*limit_time*/90,/*limit_num*/5,/*difficulty*/1,/*reward_image_1*/91002,/*reward_count_1*/10,/*reward_image_2*/90008,/*reward_count_2*/200,/*reward_image_3*/150003,/*reward_count_3*/3,/*reward_image_4*/140001,/*reward_count_4*/1,/*reward_image_5*/94002,/*reward_count_5*/200000,/*reward_group_id*/741001101,/*chest_id*/40002,/*wave_group_id*/74001101,/*enemy_position_x_1*/-379,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-190,/*enemy_local_position_y_2*/0,/*enemy_size_2*/1.0,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/1.0,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/377,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_MC008",/*background*/103121,/*bg_position*/-100);
 INSERT INTO `tdf_quest_data` VALUES (/*quest_id*/74001102,/*limit_time*/90,/*limit_num*/5,/*difficulty*/2,/*reward_image_1*/91002,/*reward_count_1*/10,/*reward_image_2*/90008,/*reward_count_2*/200,/*reward_image_3*/150004,/*reward_count_3*/3,/*reward_image_4*/140001,/*reward_count_4*/1,/*reward_image_5*/94002,/*reward_count_5*/200000,/*reward_group_id*/741001102,/*chest_id*/40003,/*wave_group_id*/74001102,/*enemy_position_x_1*/-379,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-190,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.8,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/1.0,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/377,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_MC008",/*background*/103121,/*bg_position*/-100);
 INSERT INTO `tdf_quest_data` VALUES (/*quest_id*/74001103,/*limit_time*/90,/*limit_num*/5,/*difficulty*/3,/*reward_image_1*/91002,/*reward_count_1*/10,/*reward_image_2*/90008,/*reward_count_2*/500,/*reward_image_3*/150005,/*reward_count_3*/3,/*reward_image_4*/140001,/*reward_count_4*/1,/*reward_image_5*/94002,/*reward_count_5*/300000,/*reward_group_id*/741001103,/*chest_id*/40004,/*wave_group_id*/74001103,/*enemy_position_x_1*/-379,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-190,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.8,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.8,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/377,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_MC008",/*background*/103121,/*bg_position*/-100);

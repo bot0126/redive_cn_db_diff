@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_daily_mission_data' ('daily_mission_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER , 'condition_value_2' INTEGER , 'condition_value_3' INTEGER , 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'system_id' INTEGER , 'event_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('daily_mission_id'));
+-- Column Names:
+-- daily_mission_id INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
+-- system_id INTEGER
+-- event_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61001001,/*disp_group*/101,/*category_icon*/601,/*description*/"挑战基兹1次（普通难度、困难难度共通）",/*mission_condition*/9012,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/61001001,/*system_id*/6008,/*event_id*/10001,/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/28 10:59:59");
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61001002,/*disp_group*/102,/*category_icon*/601,/*description*/"通关10次活动关卡吧",/*mission_condition*/9004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/61001002,/*system_id*/6004,/*event_id*/10001,/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/28 10:59:59");
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61002001,/*disp_group*/101,/*category_icon*/601,/*description*/"挑战阿尔玛1次（普通难度、困难难度共通）",/*mission_condition*/9012,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/61002001,/*system_id*/6008,/*event_id*/10002,/*start_time*/"2020/06/08 11:00:00",/*end_time*/"2020/07/02 14:59:59");
@@ -222,6 +237,4 @@ INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61113001,/*
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61113002,/*disp_group*/10113102,/*category_icon*/601,/*description*/"【后篇】通关10次活动关卡吧（前后篇共通）",/*mission_condition*/9021,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/61113002,/*system_id*/6004,/*event_id*/10112,/*start_time*/"2025/02/10 12:00:00",/*end_time*/"2025/02/23 14:59:59");
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61114001,/*disp_group*/10114101,/*category_icon*/601,/*description*/"挑战1次祈福引灾的招财猫吧（全难度共通）",/*mission_condition*/9012,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/61114001,/*system_id*/6008,/*event_id*/10114,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/17 14:59:59");
 INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61114002,/*disp_group*/10114102,/*category_icon*/601,/*description*/"通关10次活动关卡吧",/*mission_condition*/9004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/61114002,/*system_id*/6004,/*event_id*/10114,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/17 14:59:59");
-INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61115001,/*disp_group*/10115101,/*category_icon*/601,/*description*/"挑战1次仇鼠·怒发冲冠的啾地吧（全难度共通）",/*mission_condition*/9012,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/1,/*mission_reward_id*/61115001,/*system_id*/6008,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
-INSERT INTO `hatsune_daily_mission_data` VALUES (/*daily_mission_id*/61115002,/*disp_group*/10115102,/*category_icon*/601,/*description*/"通关10次活动关卡吧",/*mission_condition*/9004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/61115002,/*system_id*/6004,/*event_id*/10115,/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/26 14:59:59");
 COMMIT;

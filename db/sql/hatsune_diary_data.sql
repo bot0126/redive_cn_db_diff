@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_diary_data' ('diary_id' INTEGER NOT NULL, 'contents_type' INTEGER NOT NULL, 'diary_date' INTEGER NOT NULL, 'sub_title' TEXT NOT NULL, 'forced_release_time' TEXT NOT NULL, 'condition_time' TEXT NOT NULL, 'condition_story_id' INTEGER NOT NULL, 'condition_boss_count' INTEGER NOT NULL, PRIMARY KEY('diary_id'));
+-- Column Names:
+-- diary_id INTEGER
+-- contents_type INTEGER
+-- diary_date INTEGER
+-- sub_title TEXT
+-- forced_release_time TEXT
+-- condition_time TEXT
+-- condition_story_id INTEGER
+-- condition_boss_count INTEGER
 INSERT INTO `hatsune_diary_data` VALUES (/*diary_id*/1,/*contents_type*/0,/*diary_date*/1,/*sub_title*/"为什么会\n变成这样呢……",/*forced_release_time*/"2030/01/01 1:00:00",/*condition_time*/"2019/08/31 5:00:00",/*condition_story_id*/5023000,/*condition_boss_count*/0);
 INSERT INTO `hatsune_diary_data` VALUES (/*diary_id*/2,/*contents_type*/0,/*diary_date*/2,/*sub_title*/"连一声贵安\n都说不出口",/*forced_release_time*/"2030/01/01 1:00:00",/*condition_time*/"2019/08/31 5:00:00",/*condition_story_id*/5023001,/*condition_boss_count*/0);
 INSERT INTO `hatsune_diary_data` VALUES (/*diary_id*/3,/*contents_type*/0,/*diary_date*/3,/*sub_title*/"搞砸了！",/*forced_release_time*/"2030/01/01 1:00:00",/*condition_time*/"2019/08/31 5:00:00",/*condition_story_id*/5023002,/*condition_boss_count*/0);

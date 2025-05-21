@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'quest_area_data' ('area_id' INTEGER NOT NULL, 'area_name' TEXT NOT NULL, 'area_display_name' TEXT NOT NULL, 'map_type' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('area_id'));
+-- Column Names:
+-- area_id INTEGER
+-- area_name TEXT
+-- area_display_name TEXT
+-- map_type INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11001,/*area_name*/"1.朱诺平原",/*area_display_name*/"1.朱诺平原",/*map_type*/101,/*sheet_id*/"bgm_M61",/*que_id*/"bgm_M61",/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11002,/*area_name*/"2.帕拉斯高原",/*area_display_name*/"2.帕拉斯高原",/*map_type*/101,/*sheet_id*/"bgm_M61",/*que_id*/"bgm_M61_02",/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11003,/*area_name*/"3.赫柏丘陵",/*area_display_name*/"3.赫柏丘陵",/*map_type*/101,/*sheet_id*/"bgm_M61",/*que_id*/"bgm_M61_03",/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59");
@@ -63,7 +72,7 @@ INSERT INTO `quest_area_data` VALUES (/*area_id*/11059,/*area_name*/"59.库鲁�
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11060,/*area_name*/"60.卡乌达沙滩·北部",/*area_display_name*/"60.卡乌达\n　　　　　沙滩·北部",/*map_type*/102,/*sheet_id*/"bgm_M599A",/*que_id*/"bgm_M599A",/*start_time*/"2024/09/14 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11061,/*area_name*/"61.卡乌达沙滩·南部",/*area_display_name*/"61.卡乌达\n　　　　　沙滩·南部",/*map_type*/102,/*sheet_id*/"bgm_M599A",/*que_id*/"bgm_M599A",/*start_time*/"2024/11/15 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11062,/*area_name*/"62.普罗皮纳岬",/*area_display_name*/"62.普罗皮纳岬",/*map_type*/102,/*sheet_id*/"bgm_M599A",/*que_id*/"bgm_M599A",/*start_time*/"2025/01/15 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `quest_area_data` VALUES (/*area_id*/11063,/*area_name*/"63.阿帕雷优街道·西侧",/*area_display_name*/"63.阿帕雷优\n　　　　　街道·西侧",/*map_type*/103,/*sheet_id*/"bgm_MC001",/*que_id*/"bgm_MC001",/*start_time*/"2025/03/14 11:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `quest_area_data` VALUES (/*area_id*/11063,/*area_name*/"63.阿帕雷优街道·西侧",/*area_display_name*/"63.阿帕雷优\n　　　　　街道·西侧",/*map_type*/103,/*sheet_id*/"bgm_MC001",/*que_id*/"bgm_MC001",/*start_time*/"2090/12/20 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11064,/*area_name*/"64.阿帕雷优街道·东侧",/*area_display_name*/"64.阿帕雷优\n　　　　　街道·东侧",/*map_type*/103,/*sheet_id*/"bgm_MC001",/*que_id*/"bgm_MC001",/*start_time*/"2090/12/20 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11065,/*area_name*/"65.巴尔菲城堡　城下镇",/*area_display_name*/"65.巴尔菲城堡\n　　　　　　城下镇",/*map_type*/103,/*sheet_id*/"bgm_MC001",/*que_id*/"bgm_MC001",/*start_time*/"2090/12/20 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `quest_area_data` VALUES (/*area_id*/11066,/*area_name*/"66.拉莫利尔平原",/*area_display_name*/"66.拉莫利尔平原",/*map_type*/103,/*sheet_id*/"bgm_MC001",/*que_id*/"bgm_MC001",/*start_time*/"2090/12/20 11:00:00",/*end_time*/"2099/12/31 23:59:59");

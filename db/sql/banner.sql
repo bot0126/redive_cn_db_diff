@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'banner' ('banner_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'system_id' INTEGER NOT NULL, 'gacha_id' INTEGER NOT NULL, 'condition_id' INTEGER NOT NULL, 'priority' INTEGER NOT NULL, 'start_date' TEXT NOT NULL, 'end_date' TEXT NOT NULL, 'sub_banner_id_1' INTEGER NOT NULL, 'is_show_room' INTEGER NOT NULL, 'url' TEXT NOT NULL, 'show_type' INTEGER NOT NULL, 'thumbnail_id' INTEGER NOT NULL, 'poster_id' INTEGER NOT NULL, PRIMARY KEY('banner_id'));
+-- Column Names:
+-- banner_id INTEGER
+-- type INTEGER
+-- system_id INTEGER
+-- gacha_id INTEGER
+-- condition_id INTEGER
+-- priority INTEGER
+-- start_date TEXT
+-- end_date TEXT
+-- sub_banner_id_1 INTEGER
+-- is_show_room INTEGER
+-- url TEXT
+-- show_type INTEGER
+-- thumbnail_id INTEGER
+-- poster_id INTEGER
 INSERT INTO `banner` VALUES (/*banner_id*/10000,/*type*/1,/*system_id*/90001,/*gacha_id*/0,/*condition_id*/0,/*priority*/1,/*start_date*/"2021/12/20 11:00:00",/*end_date*/"2021/12/31 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/2,/*thumbnail_id*/20,/*poster_id*/20);
 INSERT INTO `banner` VALUES (/*banner_id*/10001,/*type*/1,/*system_id*/90001,/*gacha_id*/0,/*condition_id*/0,/*priority*/1,/*start_date*/"2023/1/17 11:00:00",/*end_date*/"2023/3/31 4:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/10002,/*type*/1,/*system_id*/90001,/*gacha_id*/0,/*condition_id*/0,/*priority*/1,/*start_date*/"2022/2/14 11:00:00",/*end_date*/"2022/2/26 4:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/2,/*thumbnail_id*/21,/*poster_id*/21);
@@ -218,15 +233,13 @@ INSERT INTO `banner` VALUES (/*banner_id*/10213,/*type*/1,/*system_id*/302,/*gac
 INSERT INTO `banner` VALUES (/*banner_id*/10214,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/9,/*start_date*/"2025/02/22 11:00:00",/*end_date*/"2025/02/26 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/10215,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/9,/*start_date*/"2025/03/01 18:00:00",/*end_date*/"2025/03/09 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/10216,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/9,/*start_date*/"2025/03/09 11:00:00",/*end_date*/"2025/03/17 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
-INSERT INTO `banner` VALUES (/*banner_id*/10217,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/9,/*start_date*/"2025/03/17 11:00:00",/*end_date*/"2025/03/27 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
-INSERT INTO `banner` VALUES (/*banner_id*/10218,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/9,/*start_date*/"2025/03/27 11:00:00",/*end_date*/"2025/03/31 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/18001,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/1,/*start_date*/"2020/10/16 11:00:00",/*end_date*/"2020/10/26 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/18002,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/1,/*start_date*/"2020/12/30 11:00:00",/*end_date*/"2021/01/08 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/18003,/*type*/1,/*system_id*/302,/*gacha_id*/30803,/*condition_id*/0,/*priority*/1,/*start_date*/"2023/10/17 11:00:00",/*end_date*/"2023/10/31 10:59:59",/*sub_banner_id_1*/18004,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20000,/*type*/2,/*system_id*/101,/*gacha_id*/0,/*condition_id*/0,/*priority*/6,/*start_date*/"2020/01/01 0:00:00",/*end_date*/"2099/12/31 23:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20002,/*type*/1,/*system_id*/902,/*gacha_id*/0,/*condition_id*/0,/*priority*/3,/*start_date*/"2020/06/23 11:00:00",/*end_date*/"2099/12/31 23:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20003,/*type*/1,/*system_id*/302,/*gacha_id*/0,/*condition_id*/0,/*priority*/4,/*start_date*/"2025/02/13 5:00:00",/*end_date*/"2025/02/27 4:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
-INSERT INTO `banner` VALUES (/*banner_id*/20004,/*type*/1,/*system_id*/305,/*gacha_id*/0,/*condition_id*/0,/*priority*/2,/*start_date*/"2025/03/17 11:00:00",/*end_date*/"2025/03/24 23:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
+INSERT INTO `banner` VALUES (/*banner_id*/20004,/*type*/1,/*system_id*/305,/*gacha_id*/0,/*condition_id*/0,/*priority*/2,/*start_date*/"2025/02/26 11:00:00",/*end_date*/"2025/03/01 17:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20005,/*type*/4,/*system_id*/908,/*gacha_id*/0,/*condition_id*/0,/*priority*/3,/*start_date*/"2023/08/15 11:00:00",/*end_date*/"2023/08/21 23:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20009,/*type*/1,/*system_id*/906,/*gacha_id*/0,/*condition_id*/0,/*priority*/7,/*start_date*/"2022/08/15 11:00:00",/*end_date*/"2022/08/31 10:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);
 INSERT INTO `banner` VALUES (/*banner_id*/20010,/*type*/1,/*system_id*/906,/*gacha_id*/0,/*condition_id*/0,/*priority*/7,/*start_date*/"2022/08/31 11:00:00",/*end_date*/"2022/09/05 23:59:59",/*sub_banner_id_1*/0,/*is_show_room*/0,/*url*/"0",/*show_type*/0,/*thumbnail_id*/0,/*poster_id*/0);

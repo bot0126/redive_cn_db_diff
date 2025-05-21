@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pkb_batter_condition' ('batter_id' INTEGER NOT NULL, 'pkb_score' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'detail' TEXT NOT NULL, 'meet' INTEGER NOT NULL, 'critical' INTEGER NOT NULL, 'power' INTEGER NOT NULL, 'ability_name' TEXT NOT NULL, 'ability_detail' TEXT NOT NULL, 'is_playable' INTEGER NOT NULL, PRIMARY KEY('batter_id'));
+-- Column Names:
+-- batter_id INTEGER
+-- pkb_score INTEGER
+-- name TEXT
+-- detail TEXT
+-- meet INTEGER
+-- critical INTEGER
+-- power INTEGER
+-- ability_name TEXT
+-- ability_detail TEXT
+-- is_playable INTEGER
 INSERT INTO `pkb_batter_condition` VALUES (/*batter_id*/1,/*pkb_score*/0,/*name*/"绫音",/*detail*/"",/*meet*/1,/*critical*/2,/*power*/1,/*ability_name*/"---",/*ability_detail*/"",/*is_playable*/1);
 INSERT INTO `pkb_batter_condition` VALUES (/*batter_id*/2,/*pkb_score*/6000,/*name*/"朝日",/*detail*/"主将，不屈服于逆境，一直带着社员前进。活用击球能力、充满安定感的击打是其特征。",/*meet*/0,/*critical*/1,/*power*/3,/*ability_name*/"---",/*ability_detail*/"",/*is_playable*/1);
 INSERT INTO `pkb_batter_condition` VALUES (/*batter_id*/3,/*pkb_score*/16000,/*name*/"社员3",/*detail*/"虽然表情很少，但重视同伴的心情不输给任何人，十分强大。拥有通过斗殴得来的强劲腕力，是充满力量的打者。",/*meet*/3,/*critical*/3,/*power*/0,/*ability_name*/"肾上腺素",/*ability_detail*/"可连续打出全垒打，根据连续次数不断提升力量。",/*is_playable*/1);

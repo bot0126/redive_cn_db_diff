@@ -1,6 +1,27 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_quiz' ('event_id' INTEGER NOT NULL, 'quiz_id' INTEGER NOT NULL, 'question_title' TEXT NOT NULL, 'question' TEXT NOT NULL, 'choice_1' TEXT NOT NULL, 'choice_2' TEXT NOT NULL, 'choice_3' TEXT NOT NULL, 'choice_4' TEXT NOT NULL, 'choice_5' TEXT NOT NULL, 'choice_6' TEXT NOT NULL, 'answer' INTEGER NOT NULL, 'hint' TEXT NOT NULL, 'resource_id' INTEGER NOT NULL, 'release_quest_id' INTEGER NOT NULL, 'quiz_position_x' INTEGER NOT NULL, 'quiz_position_y' INTEGER NOT NULL, 'quiz_icon_id' INTEGER NOT NULL, 'quiz_point_name' TEXT NOT NULL, 'adv_id_quiz_start' INTEGER NOT NULL, 'adv_id_quiz_end' INTEGER NOT NULL, PRIMARY KEY('quiz_id'));
+-- Column Names:
+-- event_id INTEGER
+-- quiz_id INTEGER
+-- question_title TEXT
+-- question TEXT
+-- choice_1 TEXT
+-- choice_2 TEXT
+-- choice_3 TEXT
+-- choice_4 TEXT
+-- choice_5 TEXT
+-- choice_6 TEXT
+-- answer INTEGER
+-- hint TEXT
+-- resource_id INTEGER
+-- release_quest_id INTEGER
+-- quiz_position_x INTEGER
+-- quiz_position_y INTEGER
+-- quiz_icon_id INTEGER
+-- quiz_point_name TEXT
+-- adv_id_quiz_start INTEGER
+-- adv_id_quiz_end INTEGER
 INSERT INTO `hatsune_quiz` VALUES (/*event_id*/10012,/*quiz_id*/1001201,/*question_title*/"哪一个组合是错误的呢？",/*question*/"0",/*choice_1*/"1.姐妹",/*choice_2*/"2.双胞胎",/*choice_3*/"3.老师和学生",/*choice_4*/"4.父亲和女儿",/*choice_5*/"",/*choice_6*/"",/*answer*/3,/*hint*/"将注意力放在武器或发型等外形特征上吧。",/*resource_id*/0,/*release_quest_id*/10012104,/*quiz_position_x*/-689,/*quiz_position_y*/103,/*quiz_icon_id*/910012,/*quiz_point_name*/"谜题1",/*adv_id_quiz_start*/5012600,/*adv_id_quiz_end*/5012601);
 INSERT INTO `hatsune_quiz` VALUES (/*event_id*/10012,/*quiz_id*/1001202,/*question_title*/"要寻找的目标人物是谁呢？",/*question*/"0",/*choice_1*/"1.惠理子",/*choice_2*/"2.初音",/*choice_3*/"3.真步",/*choice_4*/"4.莫妮卡",/*choice_5*/"",/*choice_6*/"",/*answer*/4,/*hint*/"将注意力放在角色所属的公会上吧。",/*resource_id*/0,/*release_quest_id*/10012108,/*quiz_position_x*/-220,/*quiz_position_y*/74,/*quiz_icon_id*/910012,/*quiz_point_name*/"谜题2",/*adv_id_quiz_start*/5012602,/*adv_id_quiz_end*/5012603);
 INSERT INTO `hatsune_quiz` VALUES (/*event_id*/10012,/*quiz_id*/1001203,/*question_title*/"有主角的是哪一个呢？",/*question*/"0",/*choice_1*/"1.美美和镜华看到了某人，大吃一惊",/*choice_2*/"2.在夏日度假胜地烤肉",/*choice_3*/"3.暮光流星群的成员正在谈笑",/*choice_4*/"4.和克莉丝提娜对峙的是……",/*choice_5*/"",/*choice_6*/"",/*answer*/3,/*hint*/"一张明显体现主角性格的图。",/*resource_id*/0,/*release_quest_id*/10012110,/*quiz_position_x*/135,/*quiz_position_y*/-84,/*quiz_icon_id*/910012,/*quiz_point_name*/"谜题3",/*adv_id_quiz_start*/5012604,/*adv_id_quiz_end*/5012605);

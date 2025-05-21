@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'colosseum_enhance_data' ('id' INTEGER NOT NULL, 'enhance_id' INTEGER NOT NULL, 'min_level' INTEGER NOT NULL, 'max_level' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'promotion_level' INTEGER NOT NULL, 'equipment_slot_1' INTEGER NOT NULL, 'equipment_slot_2' INTEGER NOT NULL, 'equipment_slot_3' INTEGER NOT NULL, 'equipment_slot_4' INTEGER NOT NULL, 'equipment_slot_5' INTEGER NOT NULL, 'equipment_slot_6' INTEGER NOT NULL, 'unique_equipment_level_1' INTEGER NOT NULL, 'unique_equipment_level_2' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- enhance_id INTEGER
+-- min_level INTEGER
+-- max_level INTEGER
+-- rarity INTEGER
+-- promotion_level INTEGER
+-- equipment_slot_1 INTEGER
+-- equipment_slot_2 INTEGER
+-- equipment_slot_3 INTEGER
+-- equipment_slot_4 INTEGER
+-- equipment_slot_5 INTEGER
+-- equipment_slot_6 INTEGER
+-- unique_equipment_level_1 INTEGER
+-- unique_equipment_level_2 INTEGER
 INSERT INTO `colosseum_enhance_data` VALUES (/*id*/1001,/*enhance_id*/1,/*min_level*/4,/*max_level*/30,/*rarity*/6,/*promotion_level*/7,/*equipment_slot_1*/1,/*equipment_slot_2*/1,/*equipment_slot_3*/1,/*equipment_slot_4*/1,/*equipment_slot_5*/1,/*equipment_slot_6*/1,/*unique_equipment_level_1*/30,/*unique_equipment_level_2*/-1);
 INSERT INTO `colosseum_enhance_data` VALUES (/*id*/1002,/*enhance_id*/1,/*min_level*/31,/*max_level*/60,/*rarity*/6,/*promotion_level*/11,/*equipment_slot_1*/1,/*equipment_slot_2*/1,/*equipment_slot_3*/1,/*equipment_slot_4*/1,/*equipment_slot_5*/1,/*equipment_slot_6*/1,/*unique_equipment_level_1*/60,/*unique_equipment_level_2*/-1);
 INSERT INTO `colosseum_enhance_data` VALUES (/*id*/1003,/*enhance_id*/1,/*min_level*/61,/*max_level*/90,/*rarity*/6,/*promotion_level*/15,/*equipment_slot_1*/1,/*equipment_slot_2*/1,/*equipment_slot_3*/1,/*equipment_slot_4*/1,/*equipment_slot_5*/1,/*equipment_slot_6*/1,/*unique_equipment_level_1*/90,/*unique_equipment_level_2*/-1);

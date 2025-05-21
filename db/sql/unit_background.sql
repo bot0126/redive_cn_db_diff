@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_background' ('unit_id' INTEGER NOT NULL, 'unit_name' TEXT NOT NULL, 'bg_id' INTEGER NOT NULL, 'bg_name' TEXT NOT NULL, 'position' REAL NOT NULL, 'face_type' INTEGER NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- unit_name TEXT
+-- bg_id INTEGER
+-- bg_name TEXT
+-- position REAL
+-- face_type INTEGER
 INSERT INTO `unit_background` VALUES (/*unit_id*/100101,/*unit_name*/"春咲日和莉",/*bg_id*/500040,/*bg_name*/"兰德索尔 公会之家",/*position*/0.0,/*face_type*/9);
 INSERT INTO `unit_background` VALUES (/*unit_id*/100201,/*unit_name*/"草野优衣",/*bg_id*/500040,/*bg_name*/"兰德索尔 公会之家",/*position*/0.0,/*face_type*/4);
 INSERT INTO `unit_background` VALUES (/*unit_id*/100301,/*unit_name*/"士条怜",/*bg_id*/500040,/*bg_name*/"兰德索尔 公会之家",/*position*/0.0,/*face_type*/3);

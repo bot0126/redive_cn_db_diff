@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'colosseum_score' ('quest_id' INTEGER NOT NULL, 'win_pt' INTEGER NOT NULL, 'time_pt_rate' INTEGER NOT NULL, 'bonus_pos_1' INTEGER NOT NULL, 'bonus_param_1' INTEGER NOT NULL, 'bonus_pos_2' INTEGER NOT NULL, 'bonus_param_2' INTEGER NOT NULL, 'threshold_pt_1' INTEGER NOT NULL, 'threshold_pt_2' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- win_pt INTEGER
+-- time_pt_rate INTEGER
+-- bonus_pos_1 INTEGER
+-- bonus_param_1 INTEGER
+-- bonus_pos_2 INTEGER
+-- bonus_param_2 INTEGER
+-- threshold_pt_1 INTEGER
+-- threshold_pt_2 INTEGER
 INSERT INTO `colosseum_score` VALUES (/*quest_id*/100111,/*win_pt*/5000,/*time_pt_rate*/50,/*bonus_pos_1*/0,/*bonus_param_1*/0,/*bonus_pos_2*/0,/*bonus_param_2*/0,/*threshold_pt_1*/20000,/*threshold_pt_2*/30000);
 INSERT INTO `colosseum_score` VALUES (/*quest_id*/100112,/*win_pt*/5000,/*time_pt_rate*/50,/*bonus_pos_1*/0,/*bonus_param_1*/0,/*bonus_pos_2*/0,/*bonus_param_2*/0,/*threshold_pt_1*/20000,/*threshold_pt_2*/30000);
 INSERT INTO `colosseum_score` VALUES (/*quest_id*/100113,/*win_pt*/5000,/*time_pt_rate*/50,/*bonus_pos_1*/0,/*bonus_param_1*/0,/*bonus_pos_2*/0,/*bonus_param_2*/0,/*threshold_pt_1*/20000,/*threshold_pt_2*/30000);

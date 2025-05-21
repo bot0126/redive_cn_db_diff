@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'wac_unit_search_data' ('id' INTEGER NOT NULL, 'unit_search_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_search_id INTEGER
+-- unit_id INTEGER
 INSERT INTO `wac_unit_search_data` VALUES (/*id*/1,/*unit_search_id*/1,/*unit_id*/118501);
 INSERT INTO `wac_unit_search_data` VALUES (/*id*/2,/*unit_search_id*/1,/*unit_id*/105801);
 INSERT INTO `wac_unit_search_data` VALUES (/*id*/3,/*unit_search_id*/1,/*unit_id*/105901);

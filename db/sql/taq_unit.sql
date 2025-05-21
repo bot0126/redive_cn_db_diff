@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_unit' ('unit_id' INTEGER NOT NULL, 'sort_order' INTEGER NOT NULL, 'personality_id' INTEGER NOT NULL, 'genre_status_1' INTEGER NOT NULL, 'genre_status_2' INTEGER NOT NULL, 'genre_status_3' INTEGER NOT NULL, 'genre_status_4' INTEGER NOT NULL, 'genre_status_5' INTEGER NOT NULL, 'genre_status_6' INTEGER NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- sort_order INTEGER
+-- personality_id INTEGER
+-- genre_status_1 INTEGER
+-- genre_status_2 INTEGER
+-- genre_status_3 INTEGER
+-- genre_status_4 INTEGER
+-- genre_status_5 INTEGER
+-- genre_status_6 INTEGER
 INSERT INTO `taq_unit` VALUES (/*unit_id*/100101,/*sort_order*/6,/*personality_id*/2,/*genre_status_1*/1,/*genre_status_2*/2,/*genre_status_3*/3,/*genre_status_4*/3,/*genre_status_5*/2,/*genre_status_6*/1);
 INSERT INTO `taq_unit` VALUES (/*unit_id*/100201,/*sort_order*/5,/*personality_id*/1,/*genre_status_1*/3,/*genre_status_2*/1,/*genre_status_3*/2,/*genre_status_4*/3,/*genre_status_5*/1,/*genre_status_6*/2);
 INSERT INTO `taq_unit` VALUES (/*unit_id*/100301,/*sort_order*/7,/*personality_id*/3,/*genre_status_1*/1,/*genre_status_2*/1,/*genre_status_3*/3,/*genre_status_4*/2,/*genre_status_5*/2,/*genre_status_6*/3);

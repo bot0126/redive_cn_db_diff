@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'omp_story_data' ('omp_story_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'story_seq' INTEGER NOT NULL, 'is_readable_on_result' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, 'sub_title' TEXT NOT NULL, PRIMARY KEY('omp_story_id'));
+-- Column Names:
+-- omp_story_id INTEGER
+-- event_id INTEGER
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- story_seq INTEGER
+-- is_readable_on_result INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
+-- sub_title TEXT
 INSERT INTO `omp_story_data` VALUES (/*omp_story_id*/7001,/*event_id*/10062,/*condition_quest_id*/10062103,/*condition_boss_id*/0,/*story_seq*/1,/*is_readable_on_result*/0,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*sub_title*/"卯月和凛的回忆");
 INSERT INTO `omp_story_data` VALUES (/*omp_story_id*/7002,/*event_id*/10062,/*condition_quest_id*/10062107,/*condition_boss_id*/0,/*story_seq*/2,/*is_readable_on_result*/0,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*sub_title*/"New Generations的回忆");
 INSERT INTO `omp_story_data` VALUES (/*omp_story_id*/7003,/*event_id*/10062,/*condition_quest_id*/10062107,/*condition_boss_id*/0,/*story_seq*/4,/*is_readable_on_result*/0,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*sub_title*/"卯月和未央的回忆");

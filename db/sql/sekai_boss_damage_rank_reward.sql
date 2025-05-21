@@ -1,6 +1,26 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sekai_boss_damage_rank_reward' ('id' INTEGER NOT NULL, 'damage_rank_id' INTEGER NOT NULL, 'ranking_from' INTEGER NOT NULL, 'ranking_to' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- damage_rank_id INTEGER
+-- ranking_from INTEGER
+-- ranking_to INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
 INSERT INTO `sekai_boss_damage_rank_reward` VALUES (/*id*/1,/*damage_rank_id*/1002200,/*ranking_from*/1,/*ranking_to*/50,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/2000000,/*reward_type_2*/2,/*reward_id_2*/20004,/*reward_num_2*/80,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/50,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `sekai_boss_damage_rank_reward` VALUES (/*id*/2,/*damage_rank_id*/1002200,/*ranking_from*/51,/*ranking_to*/100,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/1600000,/*reward_type_2*/2,/*reward_id_2*/20004,/*reward_num_2*/80,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/40,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `sekai_boss_damage_rank_reward` VALUES (/*id*/3,/*damage_rank_id*/1002200,/*ranking_from*/101,/*ranking_to*/200,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/1400000,/*reward_type_2*/2,/*reward_id_2*/20004,/*reward_num_2*/60,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/40,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);

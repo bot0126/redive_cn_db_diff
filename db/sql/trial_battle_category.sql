@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'trial_battle_category' ('category_id' INTEGER NOT NULL, 'category_name' TEXT NOT NULL, 'icon_id' INTEGER NOT NULL, 'label_type_1' INTEGER NOT NULL, 'label_type_2' INTEGER NOT NULL, 'label_type_3' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'description_detail' TEXT NOT NULL, PRIMARY KEY('category_id'));
+-- Column Names:
+-- category_id INTEGER
+-- category_name TEXT
+-- icon_id INTEGER
+-- label_type_1 INTEGER
+-- label_type_2 INTEGER
+-- label_type_3 INTEGER
+-- description TEXT
+-- description_detail TEXT
 INSERT INTO `trial_battle_category` VALUES (/*category_id*/1,/*category_name*/"滴水嘴兽",/*icon_id*/1,/*label_type_1*/101,/*label_type_2*/0,/*label_type_3*/0,/*description*/"刚力鸟像",/*description_detail*/"该首领怪物具备高物理攻击力，\n可发动强大的范围攻击。");
 INSERT INTO `trial_battle_category` VALUES (/*category_id*/2,/*category_name*/"法师滴水嘴兽",/*icon_id*/2,/*label_type_1*/102,/*label_type_2*/0,/*label_type_3*/0,/*description*/"魔业鸟像",/*description_detail*/"该首领怪物具备高魔法攻击力，\n可发动强大的范围攻击。");
 INSERT INTO `trial_battle_category` VALUES (/*category_id*/3,/*category_name*/"持盾滴水嘴兽",/*icon_id*/3,/*label_type_1*/103,/*label_type_2*/0,/*label_type_3*/0,/*description*/"坚固鸟像",/*description_detail*/"该首领怪物具备防御力提升技能，\n可通过极高的耐久力来抵挡敌人的攻击。");

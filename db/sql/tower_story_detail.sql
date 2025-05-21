@@ -1,6 +1,30 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_story_detail' ('story_id' INTEGER NOT NULL, 'story_group_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'visible_type' INTEGER NOT NULL, 'story_end' INTEGER NOT NULL, 'pre_story_id' INTEGER NOT NULL, 'love_level' INTEGER NOT NULL, 'requirement_id' INTEGER NOT NULL, 'unlock_quest_id' INTEGER NOT NULL, 'story_quest_id' INTEGER NOT NULL, 'lock_all_text' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_value_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_value_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_value_3' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('story_id'));
+-- Column Names:
+-- story_id INTEGER
+-- story_group_id INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- visible_type INTEGER
+-- story_end INTEGER
+-- pre_story_id INTEGER
+-- love_level INTEGER
+-- requirement_id INTEGER
+-- unlock_quest_id INTEGER
+-- story_quest_id INTEGER
+-- lock_all_text INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_value_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_value_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_value_3 INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7001000,/*story_group_id*/7001,/*title*/"露娜之塔 第1章 开场",/*sub_title*/"探索开始！　露娜之塔",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/0,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/0,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2020/09/28 9:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7001001,/*story_group_id*/7001,/*title*/"露娜之塔 第1章 第1话",/*sub_title*/"调查会一直持续下去",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7001000,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71010020,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2020/09/28 9:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7001002,/*story_group_id*/7001,/*title*/"露娜之塔 第1章 第2话",/*sub_title*/"懂得撒娇才是恋爱胜者",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7001001,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71010040,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2020/09/28 9:00:00",/*end_time*/"2099/12/31 23:59:59");
@@ -151,7 +175,4 @@ INSERT INTO `tower_story_detail` VALUES (/*story_id*/7025002,/*story_group_id*/7
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7025003,/*story_group_id*/7025,/*title*/"露娜之塔 第25章 第3话",/*sub_title*/"龙兽相争",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7025002,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71470680,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2024/12/19 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7025004,/*story_group_id*/7025,/*title*/"露娜之塔 第25章 第4话",/*sub_title*/"那是守护者的热血双拳",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7025003,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71480685,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2024/12/19 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `tower_story_detail` VALUES (/*story_id*/7025005,/*story_group_id*/7025,/*title*/"露娜之塔 第25章 第5话",/*sub_title*/"空手道女孩的心事",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7025004,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71480690,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2024/12/19 12:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `tower_story_detail` VALUES (/*story_id*/7026000,/*story_group_id*/7026,/*title*/"露娜之塔 第26章 序章",/*sub_title*/"没有相交的视线",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7025005,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71480690,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2025/03/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `tower_story_detail` VALUES (/*story_id*/7026001,/*story_group_id*/7026,/*title*/"露娜之塔 第26章 第1话",/*sub_title*/"天真的理想和残酷的现实",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7026000,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71490695,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2025/03/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `tower_story_detail` VALUES (/*story_id*/7026002,/*story_group_id*/7026,/*title*/"露娜之塔 第26章 第2话",/*sub_title*/"交错的感情",/*visible_type*/2,/*story_end*/0,/*pre_story_id*/7026001,/*love_level*/0,/*requirement_id*/108,/*unlock_quest_id*/71490700,/*story_quest_id*/0,/*lock_all_text*/0,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_value_1*/20,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_value_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_value_3*/0,/*start_time*/"2025/03/17 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;

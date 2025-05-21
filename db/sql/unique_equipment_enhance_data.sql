@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unique_equipment_enhance_data' ('equip_slot' INTEGER NOT NULL, 'enhance_level' INTEGER NOT NULL, 'needed_point' INTEGER NOT NULL, 'total_point' INTEGER NOT NULL, 'needed_mana' INTEGER NOT NULL, 'rank' INTEGER NOT NULL, PRIMARY KEY('equip_slot','enhance_level'));
+-- Column Names:
+-- equip_slot INTEGER
+-- enhance_level INTEGER
+-- needed_point INTEGER
+-- total_point INTEGER
+-- needed_mana INTEGER
+-- rank INTEGER
 INSERT INTO `unique_equipment_enhance_data` VALUES (/*equip_slot*/1,/*enhance_level*/2,/*needed_point*/10,/*total_point*/10,/*needed_mana*/500,/*rank*/1);
 INSERT INTO `unique_equipment_enhance_data` VALUES (/*equip_slot*/1,/*enhance_level*/3,/*needed_point*/10,/*total_point*/20,/*needed_mana*/500,/*rank*/1);
 INSERT INTO `unique_equipment_enhance_data` VALUES (/*equip_slot*/1,/*enhance_level*/4,/*needed_point*/10,/*total_point*/30,/*needed_mana*/500,/*rank*/1);

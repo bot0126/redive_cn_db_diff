@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dodge_tp_recovery' ('system_id' INTEGER NOT NULL, 'recovery_ratio' REAL NOT NULL, PRIMARY KEY('system_id'));
+-- Column Names:
+-- system_id INTEGER
+-- recovery_ratio REAL
 INSERT INTO `dodge_tp_recovery` VALUES (/*system_id*/101,/*recovery_ratio*/0.0);
 INSERT INTO `dodge_tp_recovery` VALUES (/*system_id*/102,/*recovery_ratio*/0.0);
 INSERT INTO `dodge_tp_recovery` VALUES (/*system_id*/103,/*recovery_ratio*/0.0);

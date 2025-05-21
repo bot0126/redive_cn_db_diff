@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'recover_stamina' ('count' INTEGER NOT NULL, 'cost' INTEGER NOT NULL, PRIMARY KEY('count'));
+-- Column Names:
+-- count INTEGER
+-- cost INTEGER
 INSERT INTO `recover_stamina` VALUES (/*count*/1,/*cost*/40);
 INSERT INTO `recover_stamina` VALUES (/*count*/2,/*cost*/40);
 INSERT INTO `recover_stamina` VALUES (/*count*/3,/*cost*/40);

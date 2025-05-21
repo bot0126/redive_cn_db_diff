@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'campaign_freegacha' ('id' INTEGER NOT NULL, 'campaign_id' INTEGER NOT NULL, 'freegacha_1' INTEGER NOT NULL, 'freegacha_10' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'stock_10_flag' INTEGER NOT NULL, 'relation_id' INTEGER NOT NULL, 'relation_count' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- campaign_id INTEGER
+-- freegacha_1 INTEGER
+-- freegacha_10 INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- stock_10_flag INTEGER
+-- relation_id INTEGER
+-- relation_count INTEGER
 INSERT INTO `campaign_freegacha` VALUES (/*id*/1,/*campaign_id*/1,/*freegacha_1*/0,/*freegacha_10*/1,/*start_time*/"2020/06/27 5:00:00",/*end_time*/"2020/07/08 4:59:59",/*stock_10_flag*/0,/*relation_id*/0,/*relation_count*/0);
 INSERT INTO `campaign_freegacha` VALUES (/*id*/2,/*campaign_id*/2,/*freegacha_1*/0,/*freegacha_10*/1,/*start_time*/"2020/09/15 5:00:00",/*end_time*/"2020/09/29 4:59:59",/*stock_10_flag*/0,/*relation_id*/0,/*relation_count*/0);
 INSERT INTO `campaign_freegacha` VALUES (/*id*/3,/*campaign_id*/3,/*freegacha_1*/0,/*freegacha_10*/1,/*start_time*/"2021/01/08 5:00:00",/*end_time*/"2021/01/22 4:59:59",/*stock_10_flag*/0,/*relation_id*/0,/*relation_count*/0);

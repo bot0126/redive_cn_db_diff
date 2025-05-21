@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_effect_reward_get' ('id' INTEGER NOT NULL, 'level' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'max_count' INTEGER NOT NULL, 'inc_step' INTEGER NOT NULL, 'interval_second' INTEGER NOT NULL, 'stock_min_step' TEXT NOT NULL, 'stock_mid_step' TEXT NOT NULL, PRIMARY KEY('id','level'));
+-- Column Names:
+-- id INTEGER
+-- level INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- max_count INTEGER
+-- inc_step INTEGER
+-- interval_second INTEGER
+-- stock_min_step TEXT
+-- stock_mid_step TEXT
 INSERT INTO `room_effect_reward_get` VALUES (/*id*/1,/*level*/1,/*reward_type*/2,/*reward_id*/23001,/*max_count*/2,/*inc_step*/1,/*interval_second*/21600,/*stock_min_step*/"",/*stock_mid_step*/"");
 INSERT INTO `room_effect_reward_get` VALUES (/*id*/1,/*level*/2,/*reward_type*/2,/*reward_id*/23001,/*max_count*/3,/*inc_step*/1,/*interval_second*/19800,/*stock_min_step*/"",/*stock_mid_step*/"");
 INSERT INTO `room_effect_reward_get` VALUES (/*id*/1,/*level*/3,/*reward_type*/2,/*reward_id*/23001,/*max_count*/3,/*inc_step*/1,/*interval_second*/18000,/*stock_min_step*/"",/*stock_mid_step*/"");

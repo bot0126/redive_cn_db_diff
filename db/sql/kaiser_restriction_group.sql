@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'kaiser_restriction_group' ('restriction_group_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, PRIMARY KEY('restriction_group_id','unit_id'));
+-- Column Names:
+-- restriction_group_id INTEGER
+-- unit_id INTEGER
 INSERT INTO `kaiser_restriction_group` VALUES (/*restriction_group_id*/2001,/*unit_id*/100101);
 INSERT INTO `kaiser_restriction_group` VALUES (/*restriction_group_id*/2001,/*unit_id*/100201);
 INSERT INTO `kaiser_restriction_group` VALUES (/*restriction_group_id*/2001,/*unit_id*/100301);

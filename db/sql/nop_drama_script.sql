@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'nop_drama_script' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `nop_drama_script` VALUES (/*command_id*/101001,/*drama_id*/101,/*command_type*/1,/*param_01*/"1",/*param_02*/"111831",/*param_03*/"115",/*param_04*/"-100",/*param_05*/"-150",/*param_06*/"1.5",/*param_07*/"0",/*param_08*/"nop_idle_joy1");
 INSERT INTO `nop_drama_script` VALUES (/*command_id*/101002,/*drama_id*/101,/*command_type*/1,/*param_01*/"1",/*param_02*/"120731",/*param_03*/"114",/*param_04*/"100",/*param_05*/"-150",/*param_06*/"1.5",/*param_07*/"1",/*param_08*/"nop_idle_normal_joy");
 INSERT INTO `nop_drama_script` VALUES (/*command_id*/101003,/*drama_id*/101,/*command_type*/1,/*param_01*/"1",/*param_02*/"120831",/*param_03*/"111",/*param_04*/"-215",/*param_05*/"-127",/*param_06*/"1.5",/*param_07*/"0",/*param_08*/"nop_idle_arm_crossed");

@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ske_story_script' ('id' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'seq_num' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'line_num' INTEGER NOT NULL, 'start_pos' INTEGER NOT NULL, 'end_pos' INTEGER NOT NULL, 'seek_time' REAL NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'command' INTEGER NOT NULL, 'command_param' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- story_id INTEGER
+-- seq_num INTEGER
+-- type INTEGER
+-- line_num INTEGER
+-- start_pos INTEGER
+-- end_pos INTEGER
+-- seek_time REAL
+-- sheet_name TEXT
+-- cue_name TEXT
+-- command INTEGER
+-- command_param REAL
 INSERT INTO `ske_story_script` VALUES (/*id*/100580101,/*story_id*/1005801,/*seq_num*/1,/*type*/4,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"0",/*cue_name*/"0",/*command*/1,/*command_param*/0.8);
 INSERT INTO `ske_story_script` VALUES (/*id*/100580102,/*story_id*/1005801,/*seq_num*/2,/*type*/2,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"vo_ske",/*cue_name*/"vo_ske_0101",/*command*/0,/*command_param*/0.0);
 INSERT INTO `ske_story_script` VALUES (/*id*/100580103,/*story_id*/1005801,/*seq_num*/3,/*type*/1,/*line_num*/1,/*start_pos*/0,/*end_pos*/304,/*seek_time*/0.705,/*sheet_name*/"0",/*cue_name*/"0",/*command*/0,/*command_param*/0.0);

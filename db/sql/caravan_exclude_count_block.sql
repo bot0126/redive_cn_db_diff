@@ -1,5 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_exclude_count_block' ('exclude_group_id' INTEGER NOT NULL, 'block_type_1' INTEGER NOT NULL, 'block_type_2' INTEGER NOT NULL, 'block_type_3' INTEGER NOT NULL, PRIMARY KEY('exclude_group_id'));
+-- Column Names:
+-- exclude_group_id INTEGER
+-- block_type_1 INTEGER
+-- block_type_2 INTEGER
+-- block_type_3 INTEGER
 INSERT INTO `caravan_exclude_count_block` VALUES (/*exclude_group_id*/1,/*block_type_1*/2,/*block_type_2*/0,/*block_type_3*/0);
 COMMIT;

@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'character_love_rankup_text' ('chara_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'love_level' INTEGER NOT NULL, 'scale' REAL NOT NULL, 'position_x' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, 'voice_id_1' INTEGER NOT NULL, 'face_1' INTEGER NOT NULL, 'serif_1' TEXT NOT NULL, 'voice_id_2' INTEGER NOT NULL, 'face_2' INTEGER NOT NULL, 'serif_2' TEXT NOT NULL, 'voice_id_3' INTEGER NOT NULL, 'face_3' INTEGER NOT NULL, 'serif_3' TEXT NOT NULL, PRIMARY KEY('chara_id'));
+-- Column Names:
+-- chara_id INTEGER
+-- name TEXT
+-- love_level INTEGER
+-- scale REAL
+-- position_x INTEGER
+-- position_y INTEGER
+-- voice_id_1 INTEGER
+-- face_1 INTEGER
+-- serif_1 TEXT
+-- voice_id_2 INTEGER
+-- face_2 INTEGER
+-- serif_2 TEXT
+-- voice_id_3 INTEGER
+-- face_3 INTEGER
+-- serif_3 TEXT
 INSERT INTO `character_love_rankup_text` VALUES (/*chara_id*/1001,/*name*/"春咲 日和莉",/*love_level*/2,/*scale*/1.4,/*position_x*/0,/*position_y*/0,/*voice_id_1*/0,/*face_1*/1,/*serif_1*/"我是日和莉♪\n我会精神百倍地加油的♪",/*voice_id_2*/0,/*face_2*/1,/*serif_2*/"哦！\n那个人好像在发愁！",/*voice_id_3*/0,/*face_3*/1,/*serif_3*/"喂喂，骑士先生，\n我们去帮帮忙吧～");
 INSERT INTO `character_love_rankup_text` VALUES (/*chara_id*/1002,/*name*/"草野 优衣",/*love_level*/2,/*scale*/1.4,/*position_x*/0,/*position_y*/0,/*voice_id_1*/0,/*face_1*/1,/*serif_1*/"我必须要像大家那样\n变得更强才行。",/*voice_id_2*/0,/*face_2*/1,/*serif_2*/"我希望能强大到\n足以守护最重要的人……啊。",/*voice_id_3*/0,/*face_3*/1,/*serif_3*/"我、我、\n都在说些什么呀，\n啊哈哈……");
 INSERT INTO `character_love_rankup_text` VALUES (/*chara_id*/1003,/*name*/"士条 怜",/*love_level*/2,/*scale*/1.4,/*position_x*/0,/*position_y*/0,/*voice_id_1*/0,/*face_1*/1,/*serif_1*/"试着练习击剑吧？",/*voice_id_2*/0,/*face_2*/1,/*serif_2*/"应该可以稍微锻炼一下",/*voice_id_3*/0,/*face_3*/1,/*serif_3*/"对你而言必需的集中力和敏感度哦。");

@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_s_boss_fix_reward' ('fix_reward_id' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, PRIMARY KEY('fix_reward_id'));
+-- Column Names:
+-- fix_reward_id INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
 INSERT INTO `clan_battle_s_boss_fix_reward` VALUES (/*fix_reward_id*/1001101,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/40,/*reward_type_2*/2,/*reward_id_2*/90006,/*reward_num_2*/40,/*reward_type_3*/2,/*reward_id_3*/22002,/*reward_num_3*/1,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `clan_battle_s_boss_fix_reward` VALUES (/*fix_reward_id*/1001102,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/60,/*reward_type_2*/2,/*reward_id_2*/90006,/*reward_num_2*/50,/*reward_type_3*/2,/*reward_id_3*/22002,/*reward_num_3*/2,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `clan_battle_s_boss_fix_reward` VALUES (/*fix_reward_id*/1001103,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/80,/*reward_type_2*/2,/*reward_id_2*/90006,/*reward_num_2*/60,/*reward_type_3*/2,/*reward_id_3*/22002,/*reward_num_3*/3,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);

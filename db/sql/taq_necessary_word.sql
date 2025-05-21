@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_necessary_word' ('taq_no' INTEGER NOT NULL, 'necessary_word_1' TEXT NOT NULL, 'unnecessary_word_1' TEXT NOT NULL, 'necessary_word_2' TEXT NOT NULL, 'unnecessary_word_2' TEXT NOT NULL, 'necessary_word_3' TEXT NOT NULL, 'unnecessary_word_3' TEXT NOT NULL, 'necessary_word_4' TEXT NOT NULL, 'unnecessary_word_4' TEXT NOT NULL, 'necessary_word_5' TEXT NOT NULL, 'unnecessary_word_5' TEXT NOT NULL, PRIMARY KEY('taq_no'));
+-- Column Names:
+-- taq_no INTEGER
+-- necessary_word_1 TEXT
+-- unnecessary_word_1 TEXT
+-- necessary_word_2 TEXT
+-- unnecessary_word_2 TEXT
+-- necessary_word_3 TEXT
+-- unnecessary_word_3 TEXT
+-- necessary_word_4 TEXT
+-- unnecessary_word_4 TEXT
+-- necessary_word_5 TEXT
+-- unnecessary_word_5 TEXT
 INSERT INTO `taq_necessary_word` VALUES (/*taq_no*/1082,/*necessary_word_1*/"",/*unnecessary_word_1*/"",/*necessary_word_2*/"",/*unnecessary_word_2*/"",/*necessary_word_3*/"",/*unnecessary_word_3*/"",/*necessary_word_4*/"",/*unnecessary_word_4*/"",/*necessary_word_5*/"",/*unnecessary_word_5*/"");
 INSERT INTO `taq_necessary_word` VALUES (/*taq_no*/1107,/*necessary_word_1*/"",/*unnecessary_word_1*/"",/*necessary_word_2*/"",/*unnecessary_word_2*/"",/*necessary_word_3*/"",/*unnecessary_word_3*/"",/*necessary_word_4*/"",/*unnecessary_word_4*/"",/*necessary_word_5*/"",/*unnecessary_word_5*/"");
 INSERT INTO `taq_necessary_word` VALUES (/*taq_no*/1176,/*necessary_word_1*/"",/*unnecessary_word_1*/"",/*necessary_word_2*/"",/*unnecessary_word_2*/"",/*necessary_word_3*/"",/*unnecessary_word_3*/"",/*necessary_word_4*/"",/*unnecessary_word_4*/"",/*necessary_word_5*/"",/*unnecessary_word_5*/"");

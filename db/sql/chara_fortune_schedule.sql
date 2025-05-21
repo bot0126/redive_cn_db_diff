@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_fortune_schedule' ('fortune_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('fortune_id'));
+-- Column Names:
+-- fortune_id INTEGER
+-- name TEXT
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `chara_fortune_schedule` VALUES (/*fortune_id*/10000,/*name*/"第1届 兰德索尔杯",/*start_time*/"2020/07/11 5:00",/*end_time*/"2020/07/25 4:59");
 INSERT INTO `chara_fortune_schedule` VALUES (/*fortune_id*/10003,/*name*/"2周年纪念 兰德索尔杯",/*start_time*/"2022/04/17 5:00",/*end_time*/"2022/05/02 4:59");
 INSERT INTO `chara_fortune_schedule` VALUES (/*fortune_id*/10005,/*name*/"3周年纪念 兰德索尔杯",/*start_time*/"2023/04/17 5:00:00",/*end_time*/"2023/5/1 4:59:59");

@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_skill_data_rf' ('id' INTEGER NOT NULL, 'skill_id' INTEGER NOT NULL, 'rf_skill_id' INTEGER NOT NULL, 'min_lv' INTEGER NOT NULL, 'max_lv' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- skill_id INTEGER
+-- rf_skill_id INTEGER
+-- min_lv INTEGER
+-- max_lv INTEGER
 INSERT INTO `unit_skill_data_rf` VALUES (/*id*/1008003,/*skill_id*/1008003,/*rf_skill_id*/1008203,/*min_lv*/261,/*max_lv*/-1);
 INSERT INTO `unit_skill_data_rf` VALUES (/*id*/1018003,/*skill_id*/1018003,/*rf_skill_id*/1018203,/*min_lv*/261,/*max_lv*/-1);
 INSERT INTO `unit_skill_data_rf` VALUES (/*id*/1018011,/*skill_id*/1018011,/*rf_skill_id*/1018211,/*min_lv*/261,/*max_lv*/-1);

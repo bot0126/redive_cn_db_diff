@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dungeon_skip_data' ('area_id' INTEGER NOT NULL, 'skip_motion_id' INTEGER NOT NULL, 'skip_bg_id' INTEGER NOT NULL, 'skip_position_x' INTEGER NOT NULL, 'skip_position_y' INTEGER NOT NULL, 'skip_scale_x' REAL NOT NULL, 'skip_scale_y' REAL NOT NULL, PRIMARY KEY('area_id'));
+-- Column Names:
+-- area_id INTEGER
+-- skip_motion_id INTEGER
+-- skip_bg_id INTEGER
+-- skip_position_x INTEGER
+-- skip_position_y INTEGER
+-- skip_scale_x REAL
+-- skip_scale_y REAL
 INSERT INTO `dungeon_skip_data` VALUES (/*area_id*/31001,/*skip_motion_id*/300900,/*skip_bg_id*/100721,/*skip_position_x*/0,/*skip_position_y*/-10,/*skip_scale_x*/0.8,/*skip_scale_y*/0.8);
 INSERT INTO `dungeon_skip_data` VALUES (/*area_id*/31002,/*skip_motion_id*/302300,/*skip_bg_id*/100722,/*skip_position_x*/0,/*skip_position_y*/-40,/*skip_scale_x*/0.7,/*skip_scale_y*/0.7);
 INSERT INTO `dungeon_skip_data` VALUES (/*area_id*/31003,/*skip_motion_id*/302400,/*skip_bg_id*/100261,/*skip_position_x*/0,/*skip_position_y*/-40,/*skip_scale_x*/0.8,/*skip_scale_y*/0.8);

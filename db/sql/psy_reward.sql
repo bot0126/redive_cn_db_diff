@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'psy_reward' ('id' INTEGER NOT NULL, 'condition_type' INTEGER NOT NULL, 'condition_num' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- condition_type INTEGER
+-- condition_num INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_count_4 INTEGER
+-- description TEXT
 INSERT INTO `psy_reward` VALUES (/*id*/1,/*condition_type*/1,/*condition_num*/15,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/20000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*description*/"品尝15种布丁");
 INSERT INTO `psy_reward` VALUES (/*id*/2,/*condition_type*/1,/*condition_num*/30,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/30000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*description*/"品尝30种布丁");
 INSERT INTO `psy_reward` VALUES (/*id*/3,/*condition_type*/1,/*condition_num*/40,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_count_1*/50,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*description*/"品尝40种布丁");

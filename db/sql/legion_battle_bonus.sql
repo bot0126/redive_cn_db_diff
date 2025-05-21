@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'legion_battle_bonus' ('legion_battle_bonus_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'legion_boss_id' INTEGER NOT NULL, 'condition_hp' TEXT NOT NULL, 'legion_battle_effect_id' INTEGER NOT NULL, 'duration' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('legion_battle_bonus_id'));
+-- Column Names:
+-- legion_battle_bonus_id INTEGER
+-- type INTEGER
+-- legion_boss_id INTEGER
+-- condition_hp TEXT
+-- legion_battle_effect_id INTEGER
+-- duration INTEGER
+-- title TEXT
+-- description TEXT
 INSERT INTO `legion_battle_bonus` VALUES (/*legion_battle_bonus_id*/1005,/*type*/2,/*legion_boss_id*/1005,/*condition_hp*/"0",/*legion_battle_effect_id*/1005,/*duration*/0,/*title*/"提升250技能值",/*description*/"战斗开始时，提升我方技能值250");
 INSERT INTO `legion_battle_bonus` VALUES (/*legion_battle_bonus_id*/1006,/*type*/2,/*legion_boss_id*/1006,/*condition_hp*/"0",/*legion_battle_effect_id*/1006,/*duration*/0,/*title*/"提升250技能值",/*description*/"战斗开始时，提升我方技能值250");
 INSERT INTO `legion_battle_bonus` VALUES (/*legion_battle_bonus_id*/1007,/*type*/2,/*legion_boss_id*/1007,/*condition_hp*/"0",/*legion_battle_effect_id*/1007,/*duration*/0,/*title*/"提升250技能值",/*description*/"战斗开始时，提升我方技能值250");

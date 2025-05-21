@@ -1,6 +1,34 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'uek_mission' ('mission_id' INTEGER NOT NULL, 'area' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_value_2' INTEGER NOT NULL, 'condition_value_3' INTEGER NOT NULL, 'condition_value_4' INTEGER NOT NULL, 'condition_value_5' INTEGER NOT NULL, 'condition_num' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, 'system_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, PRIMARY KEY('mission_id'));
+-- Column Names:
+-- mission_id INTEGER
+-- area INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_value_4 INTEGER
+-- condition_value_5 INTEGER
+-- condition_num INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
+-- system_id INTEGER
+-- event_id INTEGER
 INSERT INTO `uek_mission` VALUES (/*mission_id*/10001,/*area*/1,/*description*/"阅读活动剧情前篇第3话吧",/*mission_condition*/8008,/*condition_value_1*/5035003,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/1,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/2500,/*reward_type_2*/2,/*reward_id_2*/20002,/*reward_num_2*/5,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/5,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*system_id*/6001,/*event_id*/10062);
 INSERT INTO `uek_mission` VALUES (/*mission_id*/10002,/*area*/1,/*description*/"阅读活动剧情前篇终章吧",/*mission_condition*/8008,/*condition_value_1*/5035005,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/1,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/5000,/*reward_type_2*/2,/*reward_id_2*/20002,/*reward_num_2*/5,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/5,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*system_id*/6001,/*event_id*/10062);
 INSERT INTO `uek_mission` VALUES (/*mission_id*/10003,/*area*/1,/*description*/"通关3次活动前篇困难关卡1-1吧",/*mission_condition*/9004,/*condition_value_1*/10062201,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/3,/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_num_1*/7500,/*reward_type_2*/2,/*reward_id_2*/20002,/*reward_num_2*/5,/*reward_type_3*/2,/*reward_id_3*/23001,/*reward_num_3*/5,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*system_id*/6005,/*event_id*/10062);

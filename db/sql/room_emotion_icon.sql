@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_emotion_icon' ('id' INTEGER NOT NULL, 'enable_auto' INTEGER NOT NULL, 'enable_tap' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- enable_auto INTEGER
+-- enable_tap INTEGER
 INSERT INTO `room_emotion_icon` VALUES (/*id*/0,/*enable_auto*/0,/*enable_tap*/0);
 INSERT INTO `room_emotion_icon` VALUES (/*id*/1,/*enable_auto*/0,/*enable_tap*/0);
 INSERT INTO `room_emotion_icon` VALUES (/*id*/2,/*enable_auto*/0,/*enable_tap*/0);

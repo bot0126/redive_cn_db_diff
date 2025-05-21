@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'define_spskill' ('link_skill_slot' INTEGER NOT NULL, 'sp_skill_id' INTEGER NOT NULL, 'base_skill_id' INTEGER NOT NULL, 'skill_category' INTEGER NOT NULL, PRIMARY KEY('link_skill_slot'));
+-- Column Names:
+-- link_skill_slot INTEGER
+-- sp_skill_id INTEGER
+-- base_skill_id INTEGER
+-- skill_category INTEGER
 INSERT INTO `define_spskill` VALUES (/*link_skill_slot*/1061002,/*sp_skill_id*/1061101,/*base_skill_id*/1061001,/*skill_category*/2);
 INSERT INTO `define_spskill` VALUES (/*link_skill_slot*/1061003,/*sp_skill_id*/1061102,/*base_skill_id*/1061001,/*skill_category*/2);
 INSERT INTO `define_spskill` VALUES (/*link_skill_slot*/1061012,/*sp_skill_id*/1061111,/*base_skill_id*/1061001,/*skill_category*/2);

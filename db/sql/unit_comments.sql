@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_comments' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'use_type' INTEGER NOT NULL, 'voice_id' INTEGER NOT NULL, 'face_id' INTEGER NOT NULL, 'change_time' REAL NOT NULL, 'change_face' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'all_comments_flag' INTEGER NOT NULL, 'target_unit_id' INTEGER NOT NULL, 'face_id_2' INTEGER NOT NULL, 'change_time_2' REAL NOT NULL, 'change_face_2' INTEGER NOT NULL, 'face_id_3' INTEGER NOT NULL, 'change_time_3' REAL NOT NULL, 'change_face_3' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- use_type INTEGER
+-- voice_id INTEGER
+-- face_id INTEGER
+-- change_time REAL
+-- change_face INTEGER
+-- description TEXT
+-- all_comments_flag INTEGER
+-- target_unit_id INTEGER
+-- face_id_2 INTEGER
+-- change_time_2 REAL
+-- change_face_2 INTEGER
+-- face_id_3 INTEGER
+-- change_time_3 REAL
+-- change_face_3 INTEGER
 INSERT INTO `unit_comments` VALUES (/*id*/1001001,/*unit_id*/100101,/*use_type*/1,/*voice_id*/1,/*face_id*/1,/*change_time*/4.0,/*change_face*/2,/*description*/"只要大家开心，我就开心！\n所以，来，笑一笑！",/*all_comments_flag*/0,/*target_unit_id*/0,/*face_id_2*/0,/*change_time_2*/0.0,/*change_face_2*/0,/*face_id_3*/0,/*change_time_3*/0.0,/*change_face_3*/0);
 INSERT INTO `unit_comments` VALUES (/*id*/1001002,/*unit_id*/100101,/*use_type*/1,/*voice_id*/2,/*face_id*/1,/*change_time*/3.0,/*change_face*/2,/*description*/"困难的时候就要互帮互助！\n遇到什么事情，就要和我商量哦！\n一定有我可以帮到的事情！",/*all_comments_flag*/0,/*target_unit_id*/0,/*face_id_2*/0,/*change_time_2*/0.0,/*change_face_2*/0,/*face_id_3*/0,/*change_time_3*/0.0,/*change_face_3*/0);
 INSERT INTO `unit_comments` VALUES (/*id*/1001003,/*unit_id*/100101,/*use_type*/1,/*voice_id*/3,/*face_id*/1,/*change_time*/7.5,/*change_face*/2,/*description*/"无论什么时候都要活力十足！\n累了的时候要好好休息哦？\n我……还很精神呢。",/*all_comments_flag*/0,/*target_unit_id*/0,/*face_id_2*/0,/*change_time_2*/0.0,/*change_face_2*/0,/*face_id_3*/0,/*change_time_3*/0.0,/*change_face_3*/0);

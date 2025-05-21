@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_quest_area' ('area_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'area_name' TEXT NOT NULL, 'map_type' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'area_disp' INTEGER NOT NULL, 'map_id' INTEGER NOT NULL, 'scroll_width' INTEGER NOT NULL, 'scroll_height' INTEGER NOT NULL, 'open_tutorial_id' INTEGER NOT NULL, 'tutorial_param_1' TEXT NOT NULL, 'tutorial_param_2' TEXT NOT NULL, 'additional_effect' INTEGER NOT NULL, PRIMARY KEY('area_id'));
+-- Column Names:
+-- area_id INTEGER
+-- event_id INTEGER
+-- area_name TEXT
+-- map_type INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- area_disp INTEGER
+-- map_id INTEGER
+-- scroll_width INTEGER
+-- scroll_height INTEGER
+-- open_tutorial_id INTEGER
+-- tutorial_param_1 TEXT
+-- tutorial_param_2 TEXT
+-- additional_effect INTEGER
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20001101,/*event_id*/20001,/*area_name*/"塔古姆地区",/*map_type*/201,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*area_disp*/1,/*map_id*/1,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20001201,/*event_id*/20001,/*area_name*/"塔古姆地区",/*map_type*/201,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20002101,/*event_id*/20002,/*area_name*/"马希纳地区",/*map_type*/201,/*sheet_id*/"bgm_M98",/*que_id*/"bgm_M98_2",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
@@ -87,7 +102,4 @@ INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20036201,/*event_id*/20036,/*
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20037101,/*event_id*/20037,/*area_name*/"异时间轴的兰德索尔",/*map_type*/201,/*sheet_id*/"bgm_M467",/*que_id*/"bgm_M467",/*area_disp*/1,/*map_id*/1,/*scroll_width*/90,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20037102,/*event_id*/20037,/*area_name*/"时间隧道",/*map_type*/201,/*sheet_id*/"bgm_M467",/*que_id*/"bgm_M467",/*area_disp*/1,/*map_id*/2,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20037201,/*event_id*/20037,/*area_name*/"时间隧道",/*map_type*/201,/*sheet_id*/"bgm_M467",/*que_id*/"bgm_M467",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20038101,/*event_id*/20038,/*area_name*/"玩具工厂",/*map_type*/201,/*sheet_id*/"bgm_M478",/*que_id*/"bgm_M478_Lofi",/*area_disp*/1,/*map_id*/1,/*scroll_width*/0,/*scroll_height*/40,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20038102,/*event_id*/20038,/*area_name*/"王都兰德索尔",/*map_type*/201,/*sheet_id*/"bgm_M478",/*que_id*/"bgm_M478_Lofi",/*area_disp*/1,/*map_id*/2,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `shiori_quest_area` VALUES (/*area_id*/20038201,/*event_id*/20038,/*area_name*/"王都兰德索尔",/*map_type*/201,/*sheet_id*/"bgm_M478",/*que_id*/"bgm_M478_Lofi",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 COMMIT;

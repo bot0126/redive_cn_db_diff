@@ -1,6 +1,27 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_wave_group_data' ('id' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'odds' INTEGER NOT NULL, 'enemy_id_1' INTEGER NOT NULL, 'drop_gold_1' INTEGER NOT NULL, 'drop_reward_id_1' INTEGER NOT NULL, 'enemy_id_2' INTEGER NOT NULL, 'drop_gold_2' INTEGER NOT NULL, 'drop_reward_id_2' INTEGER NOT NULL, 'enemy_id_3' INTEGER NOT NULL, 'drop_gold_3' INTEGER NOT NULL, 'drop_reward_id_3' INTEGER NOT NULL, 'enemy_id_4' INTEGER NOT NULL, 'drop_gold_4' INTEGER NOT NULL, 'drop_reward_id_4' INTEGER NOT NULL, 'enemy_id_5' INTEGER NOT NULL, 'drop_gold_5' INTEGER NOT NULL, 'drop_reward_id_5' INTEGER NOT NULL, 'guest_enemy_id' INTEGER NOT NULL, 'guest_lane' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- wave_group_id INTEGER
+-- odds INTEGER
+-- enemy_id_1 INTEGER
+-- drop_gold_1 INTEGER
+-- drop_reward_id_1 INTEGER
+-- enemy_id_2 INTEGER
+-- drop_gold_2 INTEGER
+-- drop_reward_id_2 INTEGER
+-- enemy_id_3 INTEGER
+-- drop_gold_3 INTEGER
+-- drop_reward_id_3 INTEGER
+-- enemy_id_4 INTEGER
+-- drop_gold_4 INTEGER
+-- drop_reward_id_4 INTEGER
+-- enemy_id_5 INTEGER
+-- drop_gold_5 INTEGER
+-- drop_reward_id_5 INTEGER
+-- guest_enemy_id INTEGER
+-- guest_lane INTEGER
 INSERT INTO `sre_wave_group_data` VALUES (/*id*/803100201,/*wave_group_id*/803100201,/*odds*/100,/*enemy_id_1*/803100201,/*drop_gold_1*/0,/*drop_reward_id_1*/0,/*enemy_id_2*/803100251,/*drop_gold_2*/0,/*drop_reward_id_2*/0,/*enemy_id_3*/803100252,/*drop_gold_3*/0,/*drop_reward_id_3*/0,/*enemy_id_4*/803100253,/*drop_gold_4*/0,/*drop_reward_id_4*/0,/*enemy_id_5*/803100263,/*drop_gold_5*/0,/*drop_reward_id_5*/0,/*guest_enemy_id*/0,/*guest_lane*/0);
 INSERT INTO `sre_wave_group_data` VALUES (/*id*/803100202,/*wave_group_id*/803100202,/*odds*/100,/*enemy_id_1*/803100205,/*drop_gold_1*/0,/*drop_reward_id_1*/0,/*enemy_id_2*/803100251,/*drop_gold_2*/0,/*drop_reward_id_2*/0,/*enemy_id_3*/803100252,/*drop_gold_3*/0,/*drop_reward_id_3*/0,/*enemy_id_4*/803100253,/*drop_gold_4*/0,/*drop_reward_id_4*/0,/*enemy_id_5*/803100263,/*drop_gold_5*/0,/*drop_reward_id_5*/0,/*guest_enemy_id*/0,/*guest_lane*/0);
 INSERT INTO `sre_wave_group_data` VALUES (/*id*/803100203,/*wave_group_id*/803100203,/*odds*/100,/*enemy_id_1*/803100209,/*drop_gold_1*/0,/*drop_reward_id_1*/0,/*enemy_id_2*/803100251,/*drop_gold_2*/0,/*drop_reward_id_2*/0,/*enemy_id_3*/803100252,/*drop_gold_3*/0,/*drop_reward_id_3*/0,/*enemy_id_4*/803100253,/*drop_gold_4*/0,/*drop_reward_id_4*/0,/*enemy_id_5*/803100263,/*drop_gold_5*/0,/*drop_reward_id_5*/0,/*guest_enemy_id*/0,/*guest_lane*/0);

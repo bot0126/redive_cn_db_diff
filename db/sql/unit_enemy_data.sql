@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_enemy_data' ('unit_id' INTEGER NOT NULL, 'unit_name' TEXT NOT NULL, 'prefab_id' INTEGER NOT NULL, 'motion_type' INTEGER NOT NULL, 'se_type' INTEGER NOT NULL, 'move_speed' INTEGER NOT NULL, 'search_area_width' INTEGER NOT NULL, 'atk_type' INTEGER NOT NULL, 'normal_atk_cast_time' REAL NOT NULL, 'cutin' INTEGER NOT NULL, 'cutin_star6' INTEGER NOT NULL, 'visual_change_flag' INTEGER NOT NULL, 'comment' TEXT NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- unit_name TEXT
+-- prefab_id INTEGER
+-- motion_type INTEGER
+-- se_type INTEGER
+-- move_speed INTEGER
+-- search_area_width INTEGER
+-- atk_type INTEGER
+-- normal_atk_cast_time REAL
+-- cutin INTEGER
+-- cutin_star6 INTEGER
+-- visual_change_flag INTEGER
+-- comment TEXT
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/200100,/*unit_name*/"长耳猴",/*prefab_id*/200100,/*motion_type*/0,/*se_type*/0,/*move_speed*/270,/*search_area_width*/800,/*atk_type*/1,/*normal_atk_cast_time*/3.5,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/0,/*comment*/"【物理】远距离攻击\n会投掷巨大的岩石，能从远处\n进动攻击的猴类魔物。");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/200200,/*unit_name*/"气球鸟",/*prefab_id*/200200,/*motion_type*/0,/*se_type*/0,/*move_speed*/270,/*search_area_width*/800,/*atk_type*/1,/*normal_atk_cast_time*/3.0,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/0,/*comment*/"【回复】范围回复\n将腹部积攒的满满魔力\n变为治愈波动的鸟类魔物。");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/200300,/*unit_name*/"魔界守门人",/*prefab_id*/200300,/*motion_type*/0,/*se_type*/0,/*move_speed*/270,/*search_area_width*/200,/*atk_type*/2,/*normal_atk_cast_time*/3.5,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/0,/*comment*/"【魔法】范围攻击\n打开地狱之门，吐出\n伴随灼伤的火焰的魔界守门人。");
@@ -1447,7 +1461,7 @@ INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/617901,/*unit_name*/"铃奈（�
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/618001,/*unit_name*/"克蕾琪塔的暗影",/*prefab_id*/118001,/*motion_type*/35,/*se_type*/35,/*move_speed*/450,/*search_area_width*/751,/*atk_type*/1,/*normal_atk_cast_time*/1.97,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有克蕾琪塔外貌的特殊魔物");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/618101,/*unit_name*/"兰法的暗影",/*prefab_id*/118101,/*motion_type*/21,/*se_type*/7,/*move_speed*/450,/*search_area_width*/782,/*atk_type*/2,/*normal_atk_cast_time*/2.07,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有兰法外貌的特殊魔物");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/618201,/*unit_name*/"美空的暗影",/*prefab_id*/118201,/*motion_type*/0,/*se_type*/0,/*move_speed*/450,/*search_area_width*/775,/*atk_type*/2,/*normal_atk_cast_time*/1.7,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有美空外貌的特殊魔物");
-INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/618501,/*unit_name*/"花凛的暗影",/*prefab_id*/118501,/*motion_type*/37,/*se_type*/37,/*move_speed*/450,/*search_area_width*/787,/*atk_type*/2,/*normal_atk_cast_time*/2.0,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有花凛外貌的特殊魔物\n\n·特殊技能为中幅提升我方全体的物理攻击力、\n魔法攻击力、物理防御力和魔法防御力。");
+INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/618501,/*unit_name*/"花凛的暗影",/*prefab_id*/118501,/*motion_type*/37,/*se_type*/37,/*move_speed*/450,/*search_area_width*/655,/*atk_type*/2,/*normal_atk_cast_time*/2.0,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有花凛外貌的特殊魔物\n\n·特殊技能为中幅提升我方全体的物理攻击力、\n魔法攻击力、物理防御力和魔法防御力。");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/619001,/*unit_name*/"伊绪（黑暗）的暗影",/*prefab_id*/119001,/*motion_type*/7,/*se_type*/7,/*move_speed*/450,/*search_area_width*/714,/*atk_type*/2,/*normal_atk_cast_time*/2.27,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有伊绪（黑暗）外貌的特殊魔物");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/619101,/*unit_name*/"空花（黑暗）的暗影",/*prefab_id*/119101,/*motion_type*/26,/*se_type*/7,/*move_speed*/450,/*search_area_width*/143,/*atk_type*/2,/*normal_atk_cast_time*/2.545,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有空花（黑暗）外貌的特殊魔物");
 INSERT INTO `unit_enemy_data` VALUES (/*unit_id*/619201,/*unit_name*/"真阳（圣诞节）的暗影",/*prefab_id*/119201,/*motion_type*/6,/*se_type*/6,/*move_speed*/450,/*search_area_width*/397,/*atk_type*/1,/*normal_atk_cast_time*/2.19,/*cutin*/0,/*cutin_star6*/0,/*visual_change_flag*/1,/*comment*/"拥有真阳（圣诞节）外貌的特殊魔物");

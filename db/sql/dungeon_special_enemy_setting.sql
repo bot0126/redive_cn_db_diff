@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dungeon_special_enemy_setting' ('id' INTEGER NOT NULL, 'special_battle_id' INTEGER NOT NULL, 'enemy_identify' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, 'must_kill_flag' INTEGER NOT NULL, 'detail_offset_x' REAL NOT NULL, 'detail_offset_y' REAL NOT NULL, 'detail_scale' REAL NOT NULL, PRIMARY KEY('id'), UNIQUE('special_battle_id','disp_order'));
+-- Column Names:
+-- id INTEGER
+-- special_battle_id INTEGER
+-- enemy_identify INTEGER
+-- disp_order INTEGER
+-- must_kill_flag INTEGER
+-- detail_offset_x REAL
+-- detail_offset_y REAL
+-- detail_scale REAL
 INSERT INTO `dungeon_special_enemy_setting` VALUES (/*id*/101001,/*special_battle_id*/101,/*enemy_identify*/1,/*disp_order*/1,/*must_kill_flag*/1,/*detail_offset_x*/0.0,/*detail_offset_y*/0.0,/*detail_scale*/1.0);
 INSERT INTO `dungeon_special_enemy_setting` VALUES (/*id*/101002,/*special_battle_id*/102,/*enemy_identify*/1,/*disp_order*/3,/*must_kill_flag*/0,/*detail_offset_x*/0.0,/*detail_offset_y*/0.0,/*detail_scale*/1.1);
 INSERT INTO `dungeon_special_enemy_setting` VALUES (/*id*/101003,/*special_battle_id*/102,/*enemy_identify*/2,/*disp_order*/1,/*must_kill_flag*/1,/*detail_offset_x*/0.0,/*detail_offset_y*/0.0,/*detail_scale*/0.6);

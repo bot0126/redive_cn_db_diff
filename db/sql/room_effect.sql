@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_effect' ('id' INTEGER NOT NULL, 'reward_get' INTEGER NOT NULL, 'jukebox' INTEGER NOT NULL, 'nebbia' INTEGER NOT NULL, 'arcade' INTEGER NOT NULL, 'vegetable' INTEGER NOT NULL, 'poster' INTEGER NOT NULL, 'stock' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- reward_get INTEGER
+-- jukebox INTEGER
+-- nebbia INTEGER
+-- arcade INTEGER
+-- vegetable INTEGER
+-- poster INTEGER
+-- stock INTEGER
 INSERT INTO `room_effect` VALUES (/*id*/1,/*reward_get*/1,/*jukebox*/0,/*nebbia*/0,/*arcade*/0,/*vegetable*/0,/*poster*/0,/*stock*/0);
 INSERT INTO `room_effect` VALUES (/*id*/2,/*reward_get*/2,/*jukebox*/0,/*nebbia*/0,/*arcade*/0,/*vegetable*/0,/*poster*/0,/*stock*/0);
 INSERT INTO `room_effect` VALUES (/*id*/3,/*reward_get*/3,/*jukebox*/0,/*nebbia*/0,/*arcade*/0,/*vegetable*/0,/*poster*/0,/*stock*/0);

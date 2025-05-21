@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_setup' ('room_item_id' INTEGER NOT NULL, 'grid_height' INTEGER NOT NULL, 'grid_width' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, PRIMARY KEY('room_item_id'));
+-- Column Names:
+-- room_item_id INTEGER
+-- grid_height INTEGER
+-- grid_width INTEGER
+-- unit_id INTEGER
 INSERT INTO `room_setup` VALUES (/*room_item_id*/1,/*grid_height*/2,/*grid_width*/3,/*unit_id*/190801);
 INSERT INTO `room_setup` VALUES (/*room_item_id*/7,/*grid_height*/1,/*grid_width*/1,/*unit_id*/0);
 INSERT INTO `room_setup` VALUES (/*room_item_id*/8,/*grid_height*/1,/*grid_width*/1,/*unit_id*/0);

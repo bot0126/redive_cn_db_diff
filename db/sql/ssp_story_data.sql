@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ssp_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'contents_type' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'read_condition' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- contents_type INTEGER
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- read_condition INTEGER
 INSERT INTO `ssp_story_data` VALUES (/*sub_story_id*/1006401,/*original_event_id*/10064,/*title*/"开幕式",/*contents_type*/4,/*condition_quest_id*/20036104,/*condition_boss_id*/0,/*read_condition*/0);
 INSERT INTO `ssp_story_data` VALUES (/*sub_story_id*/1006402,/*original_event_id*/10064,/*title*/"开幕式",/*contents_type*/3,/*condition_quest_id*/20036104,/*condition_boss_id*/0,/*read_condition*/0);
 INSERT INTO `ssp_story_data` VALUES (/*sub_story_id*/1006403,/*original_event_id*/10064,/*title*/"赛跑",/*contents_type*/1,/*condition_quest_id*/20036104,/*condition_boss_id*/0,/*read_condition*/1006402);

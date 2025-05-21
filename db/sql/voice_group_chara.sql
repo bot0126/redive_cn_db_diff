@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'voice_group_chara' ('group_unit_id' INTEGER NOT NULL, 'group_unit_id_comment' TEXT NOT NULL, 'unit_id_01' INTEGER NOT NULL, 'unit_id_02' INTEGER NOT NULL, 'unit_id_03' INTEGER NOT NULL, 'unit_id_04' INTEGER NOT NULL, 'unit_id_05' INTEGER NOT NULL, 'unit_id_06' INTEGER NOT NULL, 'unit_id_07' INTEGER NOT NULL, 'unit_id_08' INTEGER NOT NULL, 'unit_id_09' INTEGER NOT NULL, 'unit_id_10' INTEGER NOT NULL, PRIMARY KEY('group_unit_id'));
+-- Column Names:
+-- group_unit_id INTEGER
+-- group_unit_id_comment TEXT
+-- unit_id_01 INTEGER
+-- unit_id_02 INTEGER
+-- unit_id_03 INTEGER
+-- unit_id_04 INTEGER
+-- unit_id_05 INTEGER
+-- unit_id_06 INTEGER
+-- unit_id_07 INTEGER
+-- unit_id_08 INTEGER
+-- unit_id_09 INTEGER
+-- unit_id_10 INTEGER
 INSERT INTO `voice_group_chara` VALUES (/*group_unit_id*/100101001,/*group_unit_id_comment*/"破晓之星（日和莉）",/*unit_id_01*/100101,/*unit_id_02*/108701,/*unit_id_03*/180101,/*unit_id_04*/122401,/*unit_id_05*/0,/*unit_id_06*/0,/*unit_id_07*/0,/*unit_id_08*/0,/*unit_id_09*/0,/*unit_id_10*/0);
 INSERT INTO `voice_group_chara` VALUES (/*group_unit_id*/100201001,/*group_unit_id_comment*/"破晓之星（优衣）",/*unit_id_01*/100201,/*unit_id_02*/108801,/*unit_id_03*/180201,/*unit_id_04*/115601,/*unit_id_05*/122601,/*unit_id_06*/0,/*unit_id_07*/0,/*unit_id_08*/0,/*unit_id_09*/0,/*unit_id_10*/0);
 INSERT INTO `voice_group_chara` VALUES (/*group_unit_id*/100301001,/*group_unit_id_comment*/"破晓之星（怜）",/*unit_id_01*/100301,/*unit_id_02*/108901,/*unit_id_03*/114001,/*unit_id_04*/180301,/*unit_id_05*/122501,/*unit_id_06*/0,/*unit_id_07*/0,/*unit_id_08*/0,/*unit_id_09*/0,/*unit_id_10*/0);

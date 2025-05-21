@@ -1,4 +1,7 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ex_equipment_restriction_unit' ('restriction_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, PRIMARY KEY('restriction_id','unit_id'));
+-- Column Names:
+-- restriction_id INTEGER
+-- unit_id INTEGER
 COMMIT;

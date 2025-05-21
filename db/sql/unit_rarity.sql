@@ -1,6 +1,46 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_rarity' ('unit_id' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'hp' REAL NOT NULL, 'hp_growth' REAL NOT NULL, 'atk' REAL NOT NULL, 'atk_growth' REAL NOT NULL, 'magic_str' REAL NOT NULL, 'magic_str_growth' REAL NOT NULL, 'def' REAL NOT NULL, 'def_growth' REAL NOT NULL, 'magic_def' REAL NOT NULL, 'magic_def_growth' REAL NOT NULL, 'physical_critical' REAL NOT NULL, 'physical_critical_growth' REAL NOT NULL, 'magic_critical' REAL NOT NULL, 'magic_critical_growth' REAL NOT NULL, 'wave_hp_recovery' REAL NOT NULL, 'wave_hp_recovery_growth' REAL NOT NULL, 'wave_energy_recovery' REAL NOT NULL, 'wave_energy_recovery_growth' REAL NOT NULL, 'dodge' REAL NOT NULL, 'dodge_growth' REAL NOT NULL, 'physical_penetrate' REAL NOT NULL, 'physical_penetrate_growth' REAL NOT NULL, 'magic_penetrate' REAL NOT NULL, 'magic_penetrate_growth' REAL NOT NULL, 'life_steal' REAL NOT NULL, 'life_steal_growth' REAL NOT NULL, 'hp_recovery_rate' REAL NOT NULL, 'hp_recovery_rate_growth' REAL NOT NULL, 'energy_recovery_rate' REAL NOT NULL, 'energy_recovery_rate_growth' REAL NOT NULL, 'energy_reduce_rate' REAL NOT NULL, 'energy_reduce_rate_growth' REAL NOT NULL, 'unit_material_id' INTEGER NOT NULL, 'consume_num' INTEGER NOT NULL, 'consume_gold' INTEGER NOT NULL, 'accuracy' REAL NOT NULL, 'accuracy_growth' REAL NOT NULL, PRIMARY KEY('unit_id','rarity'));
+-- Column Names:
+-- unit_id INTEGER
+-- rarity INTEGER
+-- hp REAL
+-- hp_growth REAL
+-- atk REAL
+-- atk_growth REAL
+-- magic_str REAL
+-- magic_str_growth REAL
+-- def REAL
+-- def_growth REAL
+-- magic_def REAL
+-- magic_def_growth REAL
+-- physical_critical REAL
+-- physical_critical_growth REAL
+-- magic_critical REAL
+-- magic_critical_growth REAL
+-- wave_hp_recovery REAL
+-- wave_hp_recovery_growth REAL
+-- wave_energy_recovery REAL
+-- wave_energy_recovery_growth REAL
+-- dodge REAL
+-- dodge_growth REAL
+-- physical_penetrate REAL
+-- physical_penetrate_growth REAL
+-- magic_penetrate REAL
+-- magic_penetrate_growth REAL
+-- life_steal REAL
+-- life_steal_growth REAL
+-- hp_recovery_rate REAL
+-- hp_recovery_rate_growth REAL
+-- energy_recovery_rate REAL
+-- energy_recovery_rate_growth REAL
+-- energy_reduce_rate REAL
+-- energy_reduce_rate_growth REAL
+-- unit_material_id INTEGER
+-- consume_num INTEGER
+-- consume_gold INTEGER
+-- accuracy REAL
+-- accuracy_growth REAL
 INSERT INTO `unit_rarity` VALUES (/*unit_id*/100101,/*rarity*/1,/*hp*/376.0,/*hp_growth*/41.77,/*atk*/51.04,/*atk_growth*/5.67,/*magic_str*/0.0,/*magic_str_growth*/0.0,/*def*/2.73,/*def_growth*/0.3,/*magic_def*/2.28,/*magic_def_growth*/0.25,/*physical_critical*/20.0,/*physical_critical_growth*/0.0,/*magic_critical*/0.0,/*magic_critical_growth*/0.0,/*wave_hp_recovery*/0.0,/*wave_hp_recovery_growth*/0.0,/*wave_energy_recovery*/0.0,/*wave_energy_recovery_growth*/0.0,/*dodge*/0.0,/*dodge_growth*/0.0,/*physical_penetrate*/0.0,/*physical_penetrate_growth*/0.0,/*magic_penetrate*/0.0,/*magic_penetrate_growth*/0.0,/*life_steal*/0.0,/*life_steal_growth*/0.0,/*hp_recovery_rate*/0.0,/*hp_recovery_rate_growth*/0.0,/*energy_recovery_rate*/0.0,/*energy_recovery_rate_growth*/0.0,/*energy_reduce_rate*/0.0,/*energy_reduce_rate_growth*/0.0,/*unit_material_id*/31001,/*consume_num*/15,/*consume_gold*/10000,/*accuracy*/0.0,/*accuracy_growth*/0.0);
 INSERT INTO `unit_rarity` VALUES (/*unit_id*/100101,/*rarity*/2,/*hp*/451.2,/*hp_growth*/62.65,/*atk*/61.24,/*atk_growth*/8.5,/*magic_str*/0.0,/*magic_str_growth*/0.0,/*def*/3.27,/*def_growth*/0.45,/*magic_def*/2.73,/*magic_def_growth*/0.37,/*physical_critical*/20.0,/*physical_critical_growth*/0.0,/*magic_critical*/0.0,/*magic_critical_growth*/0.0,/*wave_hp_recovery*/0.0,/*wave_hp_recovery_growth*/0.0,/*wave_energy_recovery*/0.0,/*wave_energy_recovery_growth*/0.0,/*dodge*/0.0,/*dodge_growth*/0.0,/*physical_penetrate*/0.0,/*physical_penetrate_growth*/0.0,/*magic_penetrate*/0.0,/*magic_penetrate_growth*/0.0,/*life_steal*/0.0,/*life_steal_growth*/0.0,/*hp_recovery_rate*/0.0,/*hp_recovery_rate_growth*/0.0,/*energy_recovery_rate*/0.0,/*energy_recovery_rate_growth*/0.0,/*energy_reduce_rate*/0.0,/*energy_reduce_rate_growth*/0.0,/*unit_material_id*/31001,/*consume_num*/30,/*consume_gold*/20000,/*accuracy*/0.0,/*accuracy_growth*/0.0);
 INSERT INTO `unit_rarity` VALUES (/*unit_id*/100101,/*rarity*/3,/*hp*/526.4,/*hp_growth*/83.54,/*atk*/71.45,/*atk_growth*/11.34,/*magic_str*/0.0,/*magic_str_growth*/0.0,/*def*/3.82,/*def_growth*/0.6,/*magic_def*/3.19,/*magic_def_growth*/0.5,/*physical_critical*/20.0,/*physical_critical_growth*/0.0,/*magic_critical*/0.0,/*magic_critical_growth*/0.0,/*wave_hp_recovery*/0.0,/*wave_hp_recovery_growth*/0.0,/*wave_energy_recovery*/0.0,/*wave_energy_recovery_growth*/0.0,/*dodge*/0.0,/*dodge_growth*/0.0,/*physical_penetrate*/0.0,/*physical_penetrate_growth*/0.0,/*magic_penetrate*/0.0,/*magic_penetrate_growth*/0.0,/*life_steal*/0.0,/*life_steal_growth*/0.0,/*hp_recovery_rate*/0.0,/*hp_recovery_rate_growth*/0.0,/*energy_recovery_rate*/0.0,/*energy_recovery_rate_growth*/0.0,/*energy_reduce_rate*/0.0,/*energy_reduce_rate_growth*/0.0,/*unit_material_id*/31001,/*consume_num*/100,/*consume_gold*/30000,/*accuracy*/0.0,/*accuracy_growth*/0.0);

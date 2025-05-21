@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'secret_dungeon_emblem_mission' ('mission_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'mission_description' TEXT NOT NULL, 'emblem_description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_value_2' INTEGER NOT NULL, 'condition_value_3' INTEGER NOT NULL, 'condition_num' TEXT NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'dungeon_area_id' INTEGER NOT NULL, 'visible_flag' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('mission_id'));
+-- Column Names:
+-- mission_id INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- mission_description TEXT
+-- emblem_description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_num TEXT
+-- mission_reward_id INTEGER
+-- dungeon_area_id INTEGER
+-- visible_flag INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `secret_dungeon_emblem_mission` VALUES (/*mission_id*/3200101,/*disp_group*/1004110,/*category_icon*/603,/*mission_description*/"登顶特别地下城1次吧",/*emblem_description*/"1st Round Clear！",/*mission_condition*/80001,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/"1",/*mission_reward_id*/32001001,/*dungeon_area_id*/32001,/*visible_flag*/1,/*start_time*/"2015/4/1 15:00",/*end_time*/"2030/4/1 14:59");
 INSERT INTO `secret_dungeon_emblem_mission` VALUES (/*mission_id*/3200102,/*disp_group*/1004110,/*category_icon*/603,/*mission_description*/"登顶特别地下城2次吧",/*emblem_description*/"2nd Round Clear！",/*mission_condition*/80001,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/"2",/*mission_reward_id*/32001002,/*dungeon_area_id*/32001,/*visible_flag*/1,/*start_time*/"2015/4/1 15:00",/*end_time*/"2030/4/1 14:59");
 INSERT INTO `secret_dungeon_emblem_mission` VALUES (/*mission_id*/3200103,/*disp_group*/1004110,/*category_icon*/603,/*mission_description*/"登顶特别地下城3次吧",/*emblem_description*/"3rd Round Clear！",/*mission_condition*/80001,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/"3",/*mission_reward_id*/32001003,/*dungeon_area_id*/32001,/*visible_flag*/1,/*start_time*/"2015/4/1 15:00",/*end_time*/"2030/4/1 14:59");

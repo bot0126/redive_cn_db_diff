@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_chara' ('sjr_chara_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'personality' INTEGER NOT NULL, 'speed' INTEGER NOT NULL, 'tired_coefficient' INTEGER NOT NULL, 'spring' INTEGER NOT NULL, 'resume_time' REAL NOT NULL, 'proper_id' INTEGER NOT NULL, 'ub_id' INTEGER NOT NULL, 'tp_length' REAL NOT NULL, 'description' TEXT NOT NULL, 'recommend_type_1' INTEGER NOT NULL, 'recommend_type_2' INTEGER NOT NULL, 'recommend_type_3' INTEGER NOT NULL, PRIMARY KEY('sjr_chara_id'));
+-- Column Names:
+-- sjr_chara_id INTEGER
+-- unit_id INTEGER
+-- personality INTEGER
+-- speed INTEGER
+-- tired_coefficient INTEGER
+-- spring INTEGER
+-- resume_time REAL
+-- proper_id INTEGER
+-- ub_id INTEGER
+-- tp_length REAL
+-- description TEXT
+-- recommend_type_1 INTEGER
+-- recommend_type_2 INTEGER
+-- recommend_type_3 INTEGER
 INSERT INTO `sjr_chara` VALUES (/*sjr_chara_id*/1,/*unit_id*/122601,/*personality*/1,/*speed*/105,/*tired_coefficient*/160,/*spring*/110,/*resume_time*/1.5,/*proper_id*/1,/*ub_id*/101,/*tp_length*/0.029,/*description*/"和朋友一起享受夏天，夏日海边的魔法士。抱着想要改变自己的坚定决心，让障碍物无效化，继续奔跑。",/*recommend_type_1*/1,/*recommend_type_2*/0,/*recommend_type_3*/0);
 INSERT INTO `sjr_chara` VALUES (/*sjr_chara_id*/2,/*unit_id*/122401,/*personality*/3,/*speed*/111,/*tired_coefficient*/120,/*spring*/105,/*resume_time*/2.5,/*proper_id*/2,/*ub_id*/102,/*tp_length*/0.014,/*description*/"比太阳还灿烂的夏日海边元气少女。　凭借天生的身体能力，无论什么路线都能灵活应对，跑完全程。",/*recommend_type_1*/0,/*recommend_type_2*/1,/*recommend_type_3*/0);
 INSERT INTO `sjr_chara` VALUES (/*sjr_chara_id*/3,/*unit_id*/122501,/*personality*/2,/*speed*/105,/*tired_coefficient*/350,/*spring*/110,/*resume_time*/2.5,/*proper_id*/3,/*ub_id*/103,/*tp_length*/0.017,/*description*/"在海浪中闪耀的夏日海边剑士。　凭借每天锻炼的双腿，面对长距离也可以毫不减速地跑完。",/*recommend_type_1*/0,/*recommend_type_2*/0,/*recommend_type_3*/1);

@@ -1,6 +1,51 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_s_map_data' ('id' INTEGER NOT NULL, 'clan_battle_id' INTEGER NOT NULL, 'map_bg' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'lap_num_from' INTEGER NOT NULL, 'lap_num_to' INTEGER NOT NULL, 'boss_id_1' INTEGER NOT NULL, 'boss_id_2' INTEGER NOT NULL, 'boss_id_3' INTEGER NOT NULL, 'boss_id_4' INTEGER NOT NULL, 'boss_id_5' INTEGER NOT NULL, 'extra_battle_flag1' INTEGER NOT NULL, 'extra_battle_flag2' INTEGER NOT NULL, 'extra_battle_flag3' INTEGER NOT NULL, 'extra_battle_flag4' INTEGER NOT NULL, 'extra_battle_flag5' INTEGER NOT NULL, 'aura_effect' INTEGER NOT NULL, 'rsl_unlock_lap' INTEGER NOT NULL, 'phase' INTEGER NOT NULL, 'wave_group_id_1' INTEGER NOT NULL, 'wave_group_id_2' INTEGER NOT NULL, 'wave_group_id_3' INTEGER NOT NULL, 'wave_group_id_4' INTEGER NOT NULL, 'wave_group_id_5' INTEGER NOT NULL, 'fix_reward_id_1' INTEGER NOT NULL, 'fix_reward_id_2' INTEGER NOT NULL, 'fix_reward_id_3' INTEGER NOT NULL, 'fix_reward_id_4' INTEGER NOT NULL, 'fix_reward_id_5' INTEGER NOT NULL, 'damage_rank_id_1' INTEGER NOT NULL, 'damage_rank_id_2' INTEGER NOT NULL, 'damage_rank_id_3' INTEGER NOT NULL, 'damage_rank_id_4' INTEGER NOT NULL, 'damage_rank_id_5' INTEGER NOT NULL, 'reward_gold_coefficient' REAL NOT NULL, 'limited_mana' INTEGER NOT NULL, 'last_attack_reward_id' INTEGER NOT NULL, 'score_coefficient_1' REAL NOT NULL, 'score_coefficient_2' REAL NOT NULL, 'score_coefficient_3' REAL NOT NULL, 'score_coefficient_4' REAL NOT NULL, 'score_coefficient_5' REAL NOT NULL, 'param_adjust_id' INTEGER NOT NULL, 'param_adjust_interval' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- clan_battle_id INTEGER
+-- map_bg INTEGER
+-- difficulty INTEGER
+-- lap_num_from INTEGER
+-- lap_num_to INTEGER
+-- boss_id_1 INTEGER
+-- boss_id_2 INTEGER
+-- boss_id_3 INTEGER
+-- boss_id_4 INTEGER
+-- boss_id_5 INTEGER
+-- extra_battle_flag1 INTEGER
+-- extra_battle_flag2 INTEGER
+-- extra_battle_flag3 INTEGER
+-- extra_battle_flag4 INTEGER
+-- extra_battle_flag5 INTEGER
+-- aura_effect INTEGER
+-- rsl_unlock_lap INTEGER
+-- phase INTEGER
+-- wave_group_id_1 INTEGER
+-- wave_group_id_2 INTEGER
+-- wave_group_id_3 INTEGER
+-- wave_group_id_4 INTEGER
+-- wave_group_id_5 INTEGER
+-- fix_reward_id_1 INTEGER
+-- fix_reward_id_2 INTEGER
+-- fix_reward_id_3 INTEGER
+-- fix_reward_id_4 INTEGER
+-- fix_reward_id_5 INTEGER
+-- damage_rank_id_1 INTEGER
+-- damage_rank_id_2 INTEGER
+-- damage_rank_id_3 INTEGER
+-- damage_rank_id_4 INTEGER
+-- damage_rank_id_5 INTEGER
+-- reward_gold_coefficient REAL
+-- limited_mana INTEGER
+-- last_attack_reward_id INTEGER
+-- score_coefficient_1 REAL
+-- score_coefficient_2 REAL
+-- score_coefficient_3 REAL
+-- score_coefficient_4 REAL
+-- score_coefficient_5 REAL
+-- param_adjust_id INTEGER
+-- param_adjust_interval INTEGER
 INSERT INTO `clan_battle_s_map_data` VALUES (/*id*/1,/*clan_battle_id*/1001,/*map_bg*/710011,/*difficulty*/1,/*lap_num_from*/1,/*lap_num_to*/1,/*boss_id_1*/10010101,/*boss_id_2*/10010102,/*boss_id_3*/10010103,/*boss_id_4*/10010104,/*boss_id_5*/10010105,/*extra_battle_flag1*/0,/*extra_battle_flag2*/0,/*extra_battle_flag3*/0,/*extra_battle_flag4*/0,/*extra_battle_flag5*/0,/*aura_effect*/1,/*rsl_unlock_lap*/1,/*phase*/1,/*wave_group_id_1*/401010011,/*wave_group_id_2*/401010021,/*wave_group_id_3*/401010031,/*wave_group_id_4*/401010041,/*wave_group_id_5*/401010051,/*fix_reward_id_1*/1001101,/*fix_reward_id_2*/1001102,/*fix_reward_id_3*/1001103,/*fix_reward_id_4*/1001104,/*fix_reward_id_5*/1001105,/*damage_rank_id_1*/0,/*damage_rank_id_2*/0,/*damage_rank_id_3*/0,/*damage_rank_id_4*/0,/*damage_rank_id_5*/0,/*reward_gold_coefficient*/0.03,/*limited_mana*/100000,/*last_attack_reward_id*/0,/*score_coefficient_1*/1.0,/*score_coefficient_2*/1.0,/*score_coefficient_3*/1.1,/*score_coefficient_4*/1.1,/*score_coefficient_5*/1.2,/*param_adjust_id*/0,/*param_adjust_interval*/0);
 INSERT INTO `clan_battle_s_map_data` VALUES (/*id*/2,/*clan_battle_id*/1001,/*map_bg*/710011,/*difficulty*/1,/*lap_num_from*/2,/*lap_num_to*/-1,/*boss_id_1*/10010101,/*boss_id_2*/10010102,/*boss_id_3*/10010103,/*boss_id_4*/10010104,/*boss_id_5*/10010105,/*extra_battle_flag1*/0,/*extra_battle_flag2*/0,/*extra_battle_flag3*/0,/*extra_battle_flag4*/0,/*extra_battle_flag5*/0,/*aura_effect*/2,/*rsl_unlock_lap*/1,/*phase*/1,/*wave_group_id_1*/401010011,/*wave_group_id_2*/401010021,/*wave_group_id_3*/401010031,/*wave_group_id_4*/401010041,/*wave_group_id_5*/401010051,/*fix_reward_id_1*/1001106,/*fix_reward_id_2*/1001107,/*fix_reward_id_3*/1001108,/*fix_reward_id_4*/1001109,/*fix_reward_id_5*/1001110,/*damage_rank_id_1*/0,/*damage_rank_id_2*/0,/*damage_rank_id_3*/0,/*damage_rank_id_4*/0,/*damage_rank_id_5*/0,/*reward_gold_coefficient*/0.06,/*limited_mana*/100000,/*last_attack_reward_id*/0,/*score_coefficient_1*/1.2,/*score_coefficient_2*/1.2,/*score_coefficient_3*/1.5,/*score_coefficient_4*/1.7,/*score_coefficient_5*/2.0,/*param_adjust_id*/0,/*param_adjust_interval*/0);
 INSERT INTO `clan_battle_s_map_data` VALUES (/*id*/3,/*clan_battle_id*/1002,/*map_bg*/710021,/*difficulty*/1,/*lap_num_from*/1,/*lap_num_to*/1,/*boss_id_1*/10020101,/*boss_id_2*/10020102,/*boss_id_3*/10020103,/*boss_id_4*/10020104,/*boss_id_5*/10020105,/*extra_battle_flag1*/0,/*extra_battle_flag2*/0,/*extra_battle_flag3*/0,/*extra_battle_flag4*/0,/*extra_battle_flag5*/0,/*aura_effect*/1,/*rsl_unlock_lap*/1,/*phase*/1,/*wave_group_id_1*/401020011,/*wave_group_id_2*/401020021,/*wave_group_id_3*/401020031,/*wave_group_id_4*/401020041,/*wave_group_id_5*/401020051,/*fix_reward_id_1*/1002101,/*fix_reward_id_2*/1002102,/*fix_reward_id_3*/1002103,/*fix_reward_id_4*/1002104,/*fix_reward_id_5*/1002105,/*damage_rank_id_1*/0,/*damage_rank_id_2*/0,/*damage_rank_id_3*/0,/*damage_rank_id_4*/0,/*damage_rank_id_5*/0,/*reward_gold_coefficient*/0.03,/*limited_mana*/100000,/*last_attack_reward_id*/0,/*score_coefficient_1*/1.0,/*score_coefficient_2*/1.0,/*score_coefficient_3*/1.1,/*score_coefficient_4*/1.1,/*score_coefficient_5*/1.2,/*param_adjust_id*/0,/*param_adjust_interval*/0);

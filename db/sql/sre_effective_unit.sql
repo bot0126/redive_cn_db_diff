@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_effective_unit' ('sre_boss_id' INTEGER NOT NULL, 'sre_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'effect_id' INTEGER NOT NULL, 'support_effect_id' INTEGER NOT NULL, PRIMARY KEY('sre_boss_id','unit_id'));
+-- Column Names:
+-- sre_boss_id INTEGER
+-- sre_id INTEGER
+-- unit_id INTEGER
+-- effect_id INTEGER
+-- support_effect_id INTEGER
 INSERT INTO `sre_effective_unit` VALUES (/*sre_boss_id*/3001,/*sre_id*/3,/*unit_id*/101001,/*effect_id*/100,/*support_effect_id*/200);
 INSERT INTO `sre_effective_unit` VALUES (/*sre_boss_id*/3001,/*sre_id*/3,/*unit_id*/101101,/*effect_id*/100,/*support_effect_id*/200);
 INSERT INTO `sre_effective_unit` VALUES (/*sre_boss_id*/3001,/*sre_id*/3,/*unit_id*/101401,/*effect_id*/100,/*support_effect_id*/200);

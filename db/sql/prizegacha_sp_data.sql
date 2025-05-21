@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'prizegacha_sp_data' ('gacha_id' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'disp_rarity' INTEGER NOT NULL, PRIMARY KEY('gacha_id','rarity'));
+-- Column Names:
+-- gacha_id INTEGER
+-- rarity INTEGER
+-- disp_rarity INTEGER
 INSERT INTO `prizegacha_sp_data` VALUES (/*gacha_id*/50183,/*rarity*/1,/*disp_rarity*/101);
 INSERT INTO `prizegacha_sp_data` VALUES (/*gacha_id*/50183,/*rarity*/2,/*disp_rarity*/102);
 INSERT INTO `prizegacha_sp_data` VALUES (/*gacha_id*/50183,/*rarity*/3,/*disp_rarity*/103);

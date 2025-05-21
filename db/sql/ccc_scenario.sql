@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ccc_scenario' ('idx' INTEGER NOT NULL, 'ccc_scenario_id' INTEGER NOT NULL, 'ccc_object_id' INTEGER NOT NULL, 'position' INTEGER NOT NULL, 'frame' INTEGER NOT NULL, PRIMARY KEY('idx'));
+-- Column Names:
+-- idx INTEGER
+-- ccc_scenario_id INTEGER
+-- ccc_object_id INTEGER
+-- position INTEGER
+-- frame INTEGER
 INSERT INTO `ccc_scenario` VALUES (/*idx*/10001,/*ccc_scenario_id*/10,/*ccc_object_id*/100,/*position*/391,/*frame*/30);
 INSERT INTO `ccc_scenario` VALUES (/*idx*/10002,/*ccc_scenario_id*/10,/*ccc_object_id*/100,/*position*/408,/*frame*/35);
 INSERT INTO `ccc_scenario` VALUES (/*idx*/10003,/*ccc_scenario_id*/10,/*ccc_object_id*/101,/*position*/594,/*frame*/38);

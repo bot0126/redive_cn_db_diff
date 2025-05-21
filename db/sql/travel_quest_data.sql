@@ -1,6 +1,24 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_quest_data' ('travel_quest_id' INTEGER NOT NULL, 'travel_area_id' INTEGER NOT NULL, 'travel_quest_name' TEXT NOT NULL, 'limit_unit_num' INTEGER NOT NULL, 'need_power' INTEGER NOT NULL, 'travel_time' INTEGER NOT NULL, 'travel_time_decrease_limit' INTEGER NOT NULL, 'travel_decrease_flag' INTEGER NOT NULL, 'main_reward_1' INTEGER NOT NULL, 'main_reward_2' INTEGER NOT NULL, 'main_reward_3' INTEGER NOT NULL, 'main_reward_4' INTEGER NOT NULL, 'main_reward_5' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, 'icon_x' INTEGER NOT NULL, 'icon_y' INTEGER NOT NULL, 'situation_group_id' INTEGER NOT NULL, PRIMARY KEY('travel_quest_id'));
+-- Column Names:
+-- travel_quest_id INTEGER
+-- travel_area_id INTEGER
+-- travel_quest_name TEXT
+-- limit_unit_num INTEGER
+-- need_power INTEGER
+-- travel_time INTEGER
+-- travel_time_decrease_limit INTEGER
+-- travel_decrease_flag INTEGER
+-- main_reward_1 INTEGER
+-- main_reward_2 INTEGER
+-- main_reward_3 INTEGER
+-- main_reward_4 INTEGER
+-- main_reward_5 INTEGER
+-- icon_id INTEGER
+-- icon_x INTEGER
+-- icon_y INTEGER
+-- situation_group_id INTEGER
 INSERT INTO `travel_quest_data` VALUES (/*travel_quest_id*/11001001,/*travel_area_id*/11001,/*travel_quest_name*/"堤俄涅\n树林",/*limit_unit_num*/10,/*need_power*/100000,/*travel_time*/43200,/*travel_time_decrease_limit*/7200,/*travel_decrease_flag*/1,/*main_reward_1*/4101351,/*main_reward_2*/4104351,/*main_reward_3*/4101401,/*main_reward_4*/4104401,/*main_reward_5*/4201401,/*icon_id*/11001001,/*icon_x*/-470,/*icon_y*/108,/*situation_group_id*/1);
 INSERT INTO `travel_quest_data` VALUES (/*travel_quest_id*/11001002,/*travel_area_id*/11001,/*travel_quest_name*/"赫里克巨木",/*limit_unit_num*/10,/*need_power*/100000,/*travel_time*/43200,/*travel_time_decrease_limit*/7200,/*travel_decrease_flag*/1,/*main_reward_1*/4106351,/*main_reward_2*/4110351,/*main_reward_3*/4106401,/*main_reward_4*/4110401,/*main_reward_5*/4203401,/*icon_id*/11001002,/*icon_x*/-235,/*icon_y*/90,/*situation_group_id*/2);
 INSERT INTO `travel_quest_data` VALUES (/*travel_quest_id*/11001003,/*travel_area_id*/11001,/*travel_quest_name*/"伊俄卡斯忒\n岩山",/*limit_unit_num*/10,/*need_power*/100000,/*travel_time*/43200,/*travel_time_decrease_limit*/7200,/*travel_decrease_flag*/1,/*main_reward_1*/4102351,/*main_reward_2*/4105351,/*main_reward_3*/4102401,/*main_reward_4*/4105401,/*main_reward_5*/4201401,/*icon_id*/11001003,/*icon_x*/0,/*icon_y*/108,/*situation_group_id*/3);

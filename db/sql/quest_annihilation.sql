@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'quest_annihilation' ('system_id' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'effect_type' INTEGER NOT NULL, 'quest_effect_position' INTEGER NOT NULL, 'se_cue_name' TEXT NOT NULL, PRIMARY KEY('system_id','quest_id'));
+-- Column Names:
+-- system_id INTEGER
+-- quest_id INTEGER
+-- effect_type INTEGER
+-- quest_effect_position INTEGER
+-- se_cue_name TEXT
 INSERT INTO `quest_annihilation` VALUES (/*system_id*/104,/*quest_id*/31006005,/*effect_type*/501,/*quest_effect_position*/0,/*se_cue_name*/"se_btl_tower_timeup");
 INSERT INTO `quest_annihilation` VALUES (/*system_id*/104,/*quest_id*/31007005,/*effect_type*/501,/*quest_effect_position*/0,/*se_cue_name*/"se_btl_tower_timeup");
 INSERT INTO `quest_annihilation` VALUES (/*system_id*/104,/*quest_id*/31008005,/*effect_type*/501,/*quest_effect_position*/0,/*se_cue_name*/"se_btl_tower_timeup");

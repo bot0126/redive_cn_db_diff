@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_npc_action_odds' ('id' INTEGER NOT NULL, 'action_odds_id' INTEGER NOT NULL, 'distance' INTEGER NOT NULL, 'angle' INTEGER NOT NULL, 'rate' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- action_odds_id INTEGER
+-- distance INTEGER
+-- angle INTEGER
+-- rate INTEGER
 INSERT INTO `sjr_npc_action_odds` VALUES (/*id*/1,/*action_odds_id*/1,/*distance*/200,/*angle*/30,/*rate*/8500);
 INSERT INTO `sjr_npc_action_odds` VALUES (/*id*/2,/*action_odds_id*/1,/*distance*/5,/*angle*/30,/*rate*/1500);
 INSERT INTO `sjr_npc_action_odds` VALUES (/*id*/3,/*action_odds_id*/2,/*distance*/220,/*angle*/60,/*rate*/8500);

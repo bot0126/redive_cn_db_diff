@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ex_equipment_recycle_reward' ('rarity' INTEGER NOT NULL, 'enhance_pt_coefficient' INTEGER NOT NULL, 'coin_coefficient' INTEGER NOT NULL, PRIMARY KEY('rarity'));
+-- Column Names:
+-- rarity INTEGER
+-- enhance_pt_coefficient INTEGER
+-- coin_coefficient INTEGER
 INSERT INTO `ex_equipment_recycle_reward` VALUES (/*rarity*/1,/*enhance_pt_coefficient*/50,/*coin_coefficient*/10);
 INSERT INTO `ex_equipment_recycle_reward` VALUES (/*rarity*/2,/*enhance_pt_coefficient*/150,/*coin_coefficient*/30);
 INSERT INTO `ex_equipment_recycle_reward` VALUES (/*rarity*/3,/*enhance_pt_coefficient*/500,/*coin_coefficient*/100);

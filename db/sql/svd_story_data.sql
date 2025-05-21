@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'svd_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'read_condition_time' TEXT NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'read_condition' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- read_condition_time TEXT
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- read_condition INTEGER
 INSERT INTO `svd_story_data` VALUES (/*sub_story_id*/1007001,/*original_event_id*/10070,/*title*/"绘画日记1",/*read_condition_time*/"0",/*condition_quest_id*/10097101,/*condition_boss_id*/0,/*read_condition*/0);
 INSERT INTO `svd_story_data` VALUES (/*sub_story_id*/1007002,/*original_event_id*/10070,/*title*/"绘画日记2",/*read_condition_time*/"0",/*condition_quest_id*/10097101,/*condition_boss_id*/0,/*read_condition*/1007001);
 INSERT INTO `svd_story_data` VALUES (/*sub_story_id*/1007003,/*original_event_id*/10070,/*title*/"绘画日记3",/*read_condition_time*/"0",/*condition_quest_id*/10097103,/*condition_boss_id*/0,/*read_condition*/1007002);

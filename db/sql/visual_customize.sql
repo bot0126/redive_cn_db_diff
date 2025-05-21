@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'visual_customize' ('id' INTEGER NOT NULL, 'title_prefab' INTEGER NOT NULL, 'title_movie' INTEGER NOT NULL, 'title_voice' INTEGER NOT NULL, 'story_top_movie' INTEGER NOT NULL, 'quest_top_movie' INTEGER NOT NULL, 'profile_logo' INTEGER NOT NULL, 'watched_story_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- title_prefab INTEGER
+-- title_movie INTEGER
+-- title_voice INTEGER
+-- story_top_movie INTEGER
+-- quest_top_movie INTEGER
+-- profile_logo INTEGER
+-- watched_story_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `visual_customize` VALUES (/*id*/10001,/*title_prefab*/0,/*title_movie*/0,/*title_voice*/0,/*story_top_movie*/0,/*quest_top_movie*/0,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2021/04/17 8:59:59");
 INSERT INTO `visual_customize` VALUES (/*id*/10002,/*title_prefab*/1001,/*title_movie*/1001,/*title_voice*/1001,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2021/04/17 9:00:00",/*end_time*/"2021/05/01 10:59:59");
 INSERT INTO `visual_customize` VALUES (/*id*/10003,/*title_prefab*/0,/*title_movie*/1001,/*title_voice*/0,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2021/05/01 11:00:00",/*end_time*/"2022/02/28 8:59:59");
@@ -20,9 +31,6 @@ INSERT INTO `visual_customize` VALUES (/*id*/10016,/*title_prefab*/0,/*title_mov
 INSERT INTO `visual_customize` VALUES (/*id*/10017,/*title_prefab*/0,/*title_movie*/1002,/*title_voice*/0,/*story_top_movie*/2,/*quest_top_movie*/2,/*profile_logo*/0,/*watched_story_id*/2015009,/*start_time*/"2023/04/28 11:00:00",/*end_time*/"2023/10/17 11:00:00");
 INSERT INTO `visual_customize` VALUES (/*id*/10018,/*title_prefab*/0,/*title_movie*/1001,/*title_voice*/0,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/1005,/*watched_story_id*/0,/*start_time*/"2023/10/17 12:00:00",/*end_time*/"2023/11/02 11:59:59");
 INSERT INTO `visual_customize` VALUES (/*id*/10019,/*title_prefab*/0,/*title_movie*/1002,/*title_voice*/0,/*story_top_movie*/2,/*quest_top_movie*/2,/*profile_logo*/1005,/*watched_story_id*/2015009,/*start_time*/"2023/10/17 12:00:00",/*end_time*/"2023/11/02 11:59:59");
-INSERT INTO `visual_customize` VALUES (/*id*/10020,/*title_prefab*/0,/*title_movie*/1001,/*title_voice*/0,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2023/11/02 12:00:00",/*end_time*/"2025/03/14 10:59:59");
-INSERT INTO `visual_customize` VALUES (/*id*/10021,/*title_prefab*/0,/*title_movie*/1002,/*title_voice*/0,/*story_top_movie*/2,/*quest_top_movie*/2,/*profile_logo*/0,/*watched_story_id*/2015009,/*start_time*/"2023/11/02 12:00:00",/*end_time*/"2025/03/14 10:59:59");
-INSERT INTO `visual_customize` VALUES (/*id*/10030,/*title_prefab*/0,/*title_movie*/1001,/*title_voice*/0,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2025/03/14 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `visual_customize` VALUES (/*id*/10031,/*title_prefab*/0,/*title_movie*/1002,/*title_voice*/0,/*story_top_movie*/2,/*quest_top_movie*/2,/*profile_logo*/0,/*watched_story_id*/2015009,/*start_time*/"2025/03/14 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `visual_customize` VALUES (/*id*/10032,/*title_prefab*/0,/*title_movie*/1003,/*title_voice*/0,/*story_top_movie*/3,/*quest_top_movie*/2,/*profile_logo*/0,/*watched_story_id*/2201005,/*start_time*/"2025/03/14 11:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `visual_customize` VALUES (/*id*/10020,/*title_prefab*/0,/*title_movie*/1001,/*title_voice*/0,/*story_top_movie*/1,/*quest_top_movie*/1,/*profile_logo*/0,/*watched_story_id*/0,/*start_time*/"2023/11/02 12:00:00",/*end_time*/"2099/12/31 23:59:59");
+INSERT INTO `visual_customize` VALUES (/*id*/10021,/*title_prefab*/0,/*title_movie*/1002,/*title_voice*/0,/*story_top_movie*/2,/*quest_top_movie*/2,/*profile_logo*/0,/*watched_story_id*/2015009,/*start_time*/"2023/11/02 12:00:00",/*end_time*/"2099/12/31 23:59:59");
 COMMIT;

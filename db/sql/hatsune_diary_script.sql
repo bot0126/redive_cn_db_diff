@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_diary_script' ('id' INTEGER NOT NULL, 'diary_id' INTEGER NOT NULL, 'seq_num' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'diary_text' TEXT NOT NULL, 'text_animation_speed' INTEGER NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'command' INTEGER NOT NULL, 'command_param' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- diary_id INTEGER
+-- seq_num INTEGER
+-- type INTEGER
+-- diary_text TEXT
+-- text_animation_speed INTEGER
+-- sheet_name TEXT
+-- cue_name TEXT
+-- command INTEGER
+-- command_param REAL
 INSERT INTO `hatsune_diary_script` VALUES (/*id*/1010001,/*diary_id*/1,/*seq_num*/1,/*type*/2,/*diary_text*/"",/*text_animation_speed*/0,/*sheet_name*/"vo_10011600",/*cue_name*/"vo_10011600_0101",/*command*/0,/*command_param*/0.0);
 INSERT INTO `hatsune_diary_script` VALUES (/*id*/1010002,/*diary_id*/1,/*seq_num*/2,/*type*/1,/*diary_text*/"　从明天开始",/*text_animation_speed*/8,/*sheet_name*/"0",/*cue_name*/"0",/*command*/0,/*command_param*/0.0);
 INSERT INTO `hatsune_diary_script` VALUES (/*id*/1010003,/*diary_id*/1,/*seq_num*/3,/*type*/4,/*diary_text*/"",/*text_animation_speed*/0,/*sheet_name*/"0",/*cue_name*/"0",/*command*/1,/*command_param*/1.625);

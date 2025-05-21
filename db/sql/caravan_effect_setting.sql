@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_effect_setting' ('id' INTEGER NOT NULL, 'scene_type' INTEGER NOT NULL, 'effect_type' INTEGER NOT NULL, 'rank' INTEGER NOT NULL, 'value' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- scene_type INTEGER
+-- effect_type INTEGER
+-- rank INTEGER
+-- value INTEGER
 INSERT INTO `caravan_effect_setting` VALUES (/*id*/1001,/*scene_type*/1,/*effect_type*/0,/*rank*/0,/*value*/1);
 INSERT INTO `caravan_effect_setting` VALUES (/*id*/1002,/*scene_type*/1,/*effect_type*/0,/*rank*/0,/*value*/2);
 INSERT INTO `caravan_effect_setting` VALUES (/*id*/1003,/*scene_type*/1,/*effect_type*/0,/*rank*/0,/*value*/3);

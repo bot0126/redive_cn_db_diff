@@ -1,6 +1,26 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pct_reward' ('id' INTEGER NOT NULL, 'pct_point_type' INTEGER NOT NULL, 'pct_point' INTEGER NOT NULL, 'mission_detail' TEXT NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_count_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- pct_point_type INTEGER
+-- pct_point INTEGER
+-- mission_detail TEXT
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_count_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_count_5 INTEGER
 INSERT INTO `pct_reward` VALUES (/*id*/1,/*pct_point_type*/2,/*pct_point*/10000,/*mission_detail*/"帮助静流，获得10000pt",/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/5000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);
 INSERT INTO `pct_reward` VALUES (/*id*/2,/*pct_point_type*/2,/*pct_point*/20000,/*mission_detail*/"帮助静流，获得20000pt",/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/10000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);
 INSERT INTO `pct_reward` VALUES (/*id*/3,/*pct_point_type*/2,/*pct_point*/30000,/*mission_detail*/"帮助静流，获得30000pt",/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_count_1*/50,/*reward_type_2*/2,/*reward_id_2*/23001,/*reward_count_2*/5,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);

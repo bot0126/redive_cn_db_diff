@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'glossary_detail' ('glossary_id' INTEGER NOT NULL, 'glossary_category_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'description' TEXT NOT NULL, 'unlock_story_id' INTEGER NOT NULL, 'category_type' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('glossary_id'));
+-- Column Names:
+-- glossary_id INTEGER
+-- glossary_category_id INTEGER
+-- title TEXT
+-- description TEXT
+-- unlock_story_id INTEGER
+-- category_type INTEGER
+-- disp_order INTEGER
 INSERT INTO `glossary_detail` VALUES (/*glossary_id*/1001,/*glossary_category_id*/1,/*title*/"阿克托伊商会",/*description*/"会长是大坏蛋「阿克托伊」，放高利贷、拐卖人口、走私违法武器……是一家无恶不作的黑心商会。阿克托伊说话彬彬有礼，但他其实是个恶棍。真正的坏人经常是表里不一的。",/*unlock_story_id*/0,/*category_type*/1,/*disp_order*/1);
 INSERT INTO `glossary_detail` VALUES (/*glossary_id*/1002,/*glossary_category_id*/1,/*title*/"阿斯特莱亚大陆",/*description*/"世界最大的大陆。大陆的中心是大型都市・兰德索尔，索尔之塔在其上空高高耸立着。",/*unlock_story_id*/0,/*category_type*/1,/*disp_order*/2);
 INSERT INTO `glossary_detail` VALUES (/*glossary_id*/1003,/*glossary_category_id*/1,/*title*/"阿斯特朗",/*description*/"这个词的意思是整个世界。它也是阿斯特莱亚大陆的语源。只是，「阿斯特朗」这个词的语源尚未有所定论。",/*unlock_story_id*/0,/*category_type*/1,/*disp_order*/3);

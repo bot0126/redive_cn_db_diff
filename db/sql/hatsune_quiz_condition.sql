@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_quiz_condition' ('id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'quiz_id' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_quiz_id' INTEGER NOT NULL, 'condition_unit_id' INTEGER NOT NULL, 'condition_mission_id' INTEGER NOT NULL, 'condition_time_from' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- event_id INTEGER
+-- quiz_id INTEGER
+-- condition_quest_id INTEGER
+-- condition_quiz_id INTEGER
+-- condition_unit_id INTEGER
+-- condition_mission_id INTEGER
+-- condition_time_from INTEGER
 INSERT INTO `hatsune_quiz_condition` VALUES (/*id*/1,/*event_id*/10012,/*quiz_id*/1001201,/*condition_quest_id*/10012103,/*condition_quiz_id*/0,/*condition_unit_id*/0,/*condition_mission_id*/0,/*condition_time_from*/0);
 INSERT INTO `hatsune_quiz_condition` VALUES (/*id*/2,/*event_id*/10012,/*quiz_id*/1001202,/*condition_quest_id*/10012107,/*condition_quiz_id*/0,/*condition_unit_id*/0,/*condition_mission_id*/0,/*condition_time_from*/0);
 INSERT INTO `hatsune_quiz_condition` VALUES (/*id*/3,/*event_id*/10012,/*quiz_id*/1001203,/*condition_quest_id*/10012109,/*condition_quiz_id*/0,/*condition_unit_id*/0,/*condition_mission_id*/0,/*condition_time_from*/0);

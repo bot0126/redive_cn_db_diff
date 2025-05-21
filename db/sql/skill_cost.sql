@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'skill_cost' ('target_level' INTEGER NOT NULL, 'cost' INTEGER NOT NULL, PRIMARY KEY('target_level'));
+-- Column Names:
+-- target_level INTEGER
+-- cost INTEGER
 INSERT INTO `skill_cost` VALUES (/*target_level*/1,/*cost*/0);
 INSERT INTO `skill_cost` VALUES (/*target_level*/2,/*cost*/240);
 INSERT INTO `skill_cost` VALUES (/*target_level*/3,/*cost*/240);

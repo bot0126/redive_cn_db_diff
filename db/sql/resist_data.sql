@@ -1,6 +1,58 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'resist_data' ('resist_status_id' INTEGER NOT NULL, 'ailment_1' INTEGER NOT NULL, 'ailment_2' INTEGER NOT NULL, 'ailment_3' INTEGER NOT NULL, 'ailment_4' INTEGER NOT NULL, 'ailment_5' INTEGER NOT NULL, 'ailment_6' INTEGER NOT NULL, 'ailment_7' INTEGER NOT NULL, 'ailment_8' INTEGER NOT NULL, 'ailment_9' INTEGER NOT NULL, 'ailment_10' INTEGER NOT NULL, 'ailment_11' INTEGER NOT NULL, 'ailment_12' INTEGER NOT NULL, 'ailment_13' INTEGER NOT NULL, 'ailment_14' INTEGER NOT NULL, 'ailment_15' INTEGER NOT NULL, 'ailment_16' INTEGER NOT NULL, 'ailment_17' INTEGER NOT NULL, 'ailment_18' INTEGER NOT NULL, 'ailment_19' INTEGER NOT NULL, 'ailment_20' INTEGER NOT NULL, 'ailment_21' INTEGER NOT NULL, 'ailment_22' INTEGER NOT NULL, 'ailment_23' INTEGER NOT NULL, 'ailment_24' INTEGER NOT NULL, 'ailment_25' INTEGER NOT NULL, 'ailment_26' INTEGER NOT NULL, 'ailment_27' INTEGER NOT NULL, 'ailment_28' INTEGER NOT NULL, 'ailment_29' INTEGER NOT NULL, 'ailment_30' INTEGER NOT NULL, 'ailment_31' INTEGER NOT NULL, 'ailment_32' INTEGER NOT NULL, 'ailment_33' INTEGER NOT NULL, 'ailment_34' INTEGER NOT NULL, 'ailment_35' INTEGER NOT NULL, 'ailment_36' INTEGER NOT NULL, 'ailment_37' INTEGER NOT NULL, 'ailment_38' INTEGER NOT NULL, 'ailment_39' INTEGER NOT NULL, 'ailment_40' INTEGER NOT NULL, 'ailment_41' INTEGER NOT NULL, 'ailment_42' INTEGER NOT NULL, 'ailment_43' INTEGER NOT NULL, 'ailment_44' INTEGER NOT NULL, 'ailment_45' INTEGER NOT NULL, 'ailment_46' INTEGER NOT NULL, 'ailment_47' INTEGER NOT NULL, 'ailment_48' INTEGER NOT NULL, 'ailment_49' INTEGER NOT NULL, 'ailment_50' INTEGER NOT NULL, PRIMARY KEY('resist_status_id'));
+-- Column Names:
+-- resist_status_id INTEGER
+-- ailment_1 INTEGER
+-- ailment_2 INTEGER
+-- ailment_3 INTEGER
+-- ailment_4 INTEGER
+-- ailment_5 INTEGER
+-- ailment_6 INTEGER
+-- ailment_7 INTEGER
+-- ailment_8 INTEGER
+-- ailment_9 INTEGER
+-- ailment_10 INTEGER
+-- ailment_11 INTEGER
+-- ailment_12 INTEGER
+-- ailment_13 INTEGER
+-- ailment_14 INTEGER
+-- ailment_15 INTEGER
+-- ailment_16 INTEGER
+-- ailment_17 INTEGER
+-- ailment_18 INTEGER
+-- ailment_19 INTEGER
+-- ailment_20 INTEGER
+-- ailment_21 INTEGER
+-- ailment_22 INTEGER
+-- ailment_23 INTEGER
+-- ailment_24 INTEGER
+-- ailment_25 INTEGER
+-- ailment_26 INTEGER
+-- ailment_27 INTEGER
+-- ailment_28 INTEGER
+-- ailment_29 INTEGER
+-- ailment_30 INTEGER
+-- ailment_31 INTEGER
+-- ailment_32 INTEGER
+-- ailment_33 INTEGER
+-- ailment_34 INTEGER
+-- ailment_35 INTEGER
+-- ailment_36 INTEGER
+-- ailment_37 INTEGER
+-- ailment_38 INTEGER
+-- ailment_39 INTEGER
+-- ailment_40 INTEGER
+-- ailment_41 INTEGER
+-- ailment_42 INTEGER
+-- ailment_43 INTEGER
+-- ailment_44 INTEGER
+-- ailment_45 INTEGER
+-- ailment_46 INTEGER
+-- ailment_47 INTEGER
+-- ailment_48 INTEGER
+-- ailment_49 INTEGER
+-- ailment_50 INTEGER
 INSERT INTO `resist_data` VALUES (/*resist_status_id*/200000001,/*ailment_1*/0,/*ailment_2*/0,/*ailment_3*/0,/*ailment_4*/0,/*ailment_5*/0,/*ailment_6*/0,/*ailment_7*/0,/*ailment_8*/0,/*ailment_9*/0,/*ailment_10*/0,/*ailment_11*/0,/*ailment_12*/0,/*ailment_13*/0,/*ailment_14*/0,/*ailment_15*/0,/*ailment_16*/0,/*ailment_17*/0,/*ailment_18*/0,/*ailment_19*/0,/*ailment_20*/0,/*ailment_21*/0,/*ailment_22*/0,/*ailment_23*/0,/*ailment_24*/0,/*ailment_25*/0,/*ailment_26*/0,/*ailment_27*/0,/*ailment_28*/0,/*ailment_29*/100,/*ailment_30*/0,/*ailment_31*/0,/*ailment_32*/0,/*ailment_33*/0,/*ailment_34*/0,/*ailment_35*/0,/*ailment_36*/0,/*ailment_37*/0,/*ailment_38*/0,/*ailment_39*/0,/*ailment_40*/0,/*ailment_41*/0,/*ailment_42*/0,/*ailment_43*/0,/*ailment_44*/0,/*ailment_45*/0,/*ailment_46*/0,/*ailment_47*/0,/*ailment_48*/0,/*ailment_49*/0,/*ailment_50*/0);
 INSERT INTO `resist_data` VALUES (/*resist_status_id*/200000002,/*ailment_1*/0,/*ailment_2*/0,/*ailment_3*/0,/*ailment_4*/100,/*ailment_5*/0,/*ailment_6*/0,/*ailment_7*/0,/*ailment_8*/0,/*ailment_9*/0,/*ailment_10*/0,/*ailment_11*/0,/*ailment_12*/0,/*ailment_13*/0,/*ailment_14*/0,/*ailment_15*/0,/*ailment_16*/0,/*ailment_17*/0,/*ailment_18*/0,/*ailment_19*/0,/*ailment_20*/0,/*ailment_21*/0,/*ailment_22*/0,/*ailment_23*/0,/*ailment_24*/0,/*ailment_25*/0,/*ailment_26*/0,/*ailment_27*/0,/*ailment_28*/0,/*ailment_29*/100,/*ailment_30*/0,/*ailment_31*/0,/*ailment_32*/0,/*ailment_33*/0,/*ailment_34*/0,/*ailment_35*/0,/*ailment_36*/0,/*ailment_37*/0,/*ailment_38*/0,/*ailment_39*/0,/*ailment_40*/0,/*ailment_41*/0,/*ailment_42*/0,/*ailment_43*/0,/*ailment_44*/0,/*ailment_45*/0,/*ailment_46*/0,/*ailment_47*/0,/*ailment_48*/0,/*ailment_49*/0,/*ailment_50*/0);
 INSERT INTO `resist_data` VALUES (/*resist_status_id*/200000003,/*ailment_1*/0,/*ailment_2*/0,/*ailment_3*/0,/*ailment_4*/0,/*ailment_5*/0,/*ailment_6*/0,/*ailment_7*/0,/*ailment_8*/100,/*ailment_9*/0,/*ailment_10*/0,/*ailment_11*/0,/*ailment_12*/0,/*ailment_13*/0,/*ailment_14*/0,/*ailment_15*/0,/*ailment_16*/0,/*ailment_17*/0,/*ailment_18*/0,/*ailment_19*/0,/*ailment_20*/0,/*ailment_21*/0,/*ailment_22*/0,/*ailment_23*/0,/*ailment_24*/0,/*ailment_25*/0,/*ailment_26*/0,/*ailment_27*/0,/*ailment_28*/0,/*ailment_29*/100,/*ailment_30*/0,/*ailment_31*/0,/*ailment_32*/0,/*ailment_33*/0,/*ailment_34*/0,/*ailment_35*/0,/*ailment_36*/0,/*ailment_37*/0,/*ailment_38*/0,/*ailment_39*/0,/*ailment_40*/0,/*ailment_41*/0,/*ailment_42*/0,/*ailment_43*/0,/*ailment_44*/0,/*ailment_45*/0,/*ailment_46*/0,/*ailment_47*/0,/*ailment_48*/0,/*ailment_49*/0,/*ailment_50*/0);

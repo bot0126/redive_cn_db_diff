@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'nyx_story_data' ('story_id' INTEGER NOT NULL, 'story_seq' INTEGER NOT NULL, 'story_phase' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'read_condition_time' TEXT NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_count' INTEGER NOT NULL, 'adv_flg' INTEGER NOT NULL, 'adv_id' INTEGER NOT NULL, PRIMARY KEY('story_id'));
+-- Column Names:
+-- story_id INTEGER
+-- story_seq INTEGER
+-- story_phase INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- read_condition_time TEXT
+-- condition_quest_id INTEGER
+-- condition_boss_count INTEGER
+-- adv_flg INTEGER
+-- adv_id INTEGER
 INSERT INTO `nyx_story_data` VALUES (/*story_id*/11,/*story_seq*/1,/*story_phase*/1,/*title*/"",/*sub_title*/"",/*read_condition_time*/"0",/*condition_quest_id*/20023105,/*condition_boss_count*/0,/*adv_flg*/1,/*adv_id*/5038600);
 INSERT INTO `nyx_story_data` VALUES (/*story_id*/12,/*story_seq*/2,/*story_phase*/1,/*title*/"高中1年级　千爱瑠",/*sub_title*/"应该流传至下世纪的新言语",/*read_condition_time*/"0",/*condition_quest_id*/20023105,/*condition_boss_count*/0,/*adv_flg*/0,/*adv_id*/0);
 INSERT INTO `nyx_story_data` VALUES (/*story_id*/13,/*story_seq*/3,/*story_phase*/1,/*title*/"高中2年级　克罗依",/*sub_title*/"我非常不擅长写作文",/*read_condition_time*/"0",/*condition_quest_id*/20023107,/*condition_boss_count*/0,/*adv_flg*/0,/*adv_id*/0);

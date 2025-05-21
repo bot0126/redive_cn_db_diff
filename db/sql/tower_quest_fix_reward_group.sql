@@ -1,6 +1,48 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_quest_fix_reward_group' ('fix_reward_group_id' INTEGER NOT NULL, 'treasure_type_1' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'treasure_type_2' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'treasure_type_3' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'treasure_type_4' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'treasure_type_5' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, 'treasure_type_6' INTEGER NOT NULL, 'reward_type_6' INTEGER NOT NULL, 'reward_id_6' INTEGER NOT NULL, 'reward_num_6' INTEGER NOT NULL, 'treasure_type_7' INTEGER NOT NULL, 'reward_type_7' INTEGER NOT NULL, 'reward_id_7' INTEGER NOT NULL, 'reward_num_7' INTEGER NOT NULL, 'treasure_type_8' INTEGER NOT NULL, 'reward_type_8' INTEGER NOT NULL, 'reward_id_8' INTEGER NOT NULL, 'reward_num_8' INTEGER NOT NULL, 'treasure_type_9' INTEGER NOT NULL, 'reward_type_9' INTEGER NOT NULL, 'reward_id_9' INTEGER NOT NULL, 'reward_num_9' INTEGER NOT NULL, 'treasure_type_10' INTEGER NOT NULL, 'reward_type_10' INTEGER NOT NULL, 'reward_id_10' INTEGER NOT NULL, 'reward_num_10' INTEGER NOT NULL, PRIMARY KEY('fix_reward_group_id'));
+-- Column Names:
+-- fix_reward_group_id INTEGER
+-- treasure_type_1 INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- treasure_type_2 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- treasure_type_3 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- treasure_type_4 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- treasure_type_5 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
+-- treasure_type_6 INTEGER
+-- reward_type_6 INTEGER
+-- reward_id_6 INTEGER
+-- reward_num_6 INTEGER
+-- treasure_type_7 INTEGER
+-- reward_type_7 INTEGER
+-- reward_id_7 INTEGER
+-- reward_num_7 INTEGER
+-- treasure_type_8 INTEGER
+-- reward_type_8 INTEGER
+-- reward_id_8 INTEGER
+-- reward_num_8 INTEGER
+-- treasure_type_9 INTEGER
+-- reward_type_9 INTEGER
+-- reward_id_9 INTEGER
+-- reward_num_9 INTEGER
+-- treasure_type_10 INTEGER
+-- reward_type_10 INTEGER
+-- reward_id_10 INTEGER
+-- reward_num_10 INTEGER
 INSERT INTO `tower_quest_fix_reward_group` VALUES (/*fix_reward_group_id*/2100101,/*treasure_type_1*/1,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/30,/*treasure_type_2*/1,/*reward_type_2*/4,/*reward_id_2*/113011,/*reward_num_2*/5,/*treasure_type_3*/1,/*reward_type_3*/12,/*reward_id_3*/94002,/*reward_num_3*/12000,/*treasure_type_4*/1,/*reward_type_4*/2,/*reward_id_4*/20001,/*reward_num_4*/3,/*treasure_type_5*/1,/*reward_type_5*/2,/*reward_id_5*/50001,/*reward_num_5*/1,/*treasure_type_6*/0,/*reward_type_6*/0,/*reward_id_6*/0,/*reward_num_6*/0,/*treasure_type_7*/0,/*reward_type_7*/0,/*reward_id_7*/0,/*reward_num_7*/0,/*treasure_type_8*/0,/*reward_type_8*/0,/*reward_id_8*/0,/*reward_num_8*/0,/*treasure_type_9*/0,/*reward_type_9*/0,/*reward_id_9*/0,/*reward_num_9*/0,/*treasure_type_10*/0,/*reward_type_10*/0,/*reward_id_10*/0,/*reward_num_10*/0);
 INSERT INTO `tower_quest_fix_reward_group` VALUES (/*fix_reward_group_id*/2100102,/*treasure_type_1*/1,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/30,/*treasure_type_2*/1,/*reward_type_2*/4,/*reward_id_2*/123042,/*reward_num_2*/5,/*treasure_type_3*/1,/*reward_type_3*/12,/*reward_id_3*/94002,/*reward_num_3*/12100,/*treasure_type_4*/1,/*reward_type_4*/2,/*reward_id_4*/20001,/*reward_num_4*/3,/*treasure_type_5*/1,/*reward_type_5*/2,/*reward_id_5*/50001,/*reward_num_5*/1,/*treasure_type_6*/0,/*reward_type_6*/0,/*reward_id_6*/0,/*reward_num_6*/0,/*treasure_type_7*/0,/*reward_type_7*/0,/*reward_id_7*/0,/*reward_num_7*/0,/*treasure_type_8*/0,/*reward_type_8*/0,/*reward_id_8*/0,/*reward_num_8*/0,/*treasure_type_9*/0,/*reward_type_9*/0,/*reward_id_9*/0,/*reward_num_9*/0,/*treasure_type_10*/0,/*reward_type_10*/0,/*reward_id_10*/0,/*reward_num_10*/0);
 INSERT INTO `tower_quest_fix_reward_group` VALUES (/*fix_reward_group_id*/2100103,/*treasure_type_1*/1,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/30,/*treasure_type_2*/1,/*reward_type_2*/4,/*reward_id_2*/113071,/*reward_num_2*/5,/*treasure_type_3*/1,/*reward_type_3*/12,/*reward_id_3*/94002,/*reward_num_3*/12200,/*treasure_type_4*/1,/*reward_type_4*/2,/*reward_id_4*/20001,/*reward_num_4*/3,/*treasure_type_5*/1,/*reward_type_5*/2,/*reward_id_5*/50001,/*reward_num_5*/1,/*treasure_type_6*/0,/*reward_type_6*/0,/*reward_id_6*/0,/*reward_num_6*/0,/*treasure_type_7*/0,/*reward_type_7*/0,/*reward_id_7*/0,/*reward_num_7*/0,/*treasure_type_8*/0,/*reward_type_8*/0,/*reward_id_8*/0,/*reward_num_8*/0,/*treasure_type_9*/0,/*reward_type_9*/0,/*reward_id_9*/0,/*reward_num_9*/0,/*treasure_type_10*/0,/*reward_type_10*/0,/*reward_id_10*/0,/*reward_num_10*/0);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'gift_message' ('id' INTEGER NOT NULL, 'discription' TEXT NOT NULL, 'type_1' INTEGER NOT NULL, 'type_2' INTEGER NOT NULL, 'type_3' INTEGER NOT NULL, 'type_4' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- discription TEXT
+-- type_1 INTEGER
+-- type_2 INTEGER
+-- type_3 INTEGER
+-- type_4 INTEGER
 INSERT INTO `gift_message` VALUES (/*id*/2001,/*discription*/"「{0}」第{1}天获得的道具。",/*type_1*/1,/*type_2*/2,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2002,/*discription*/"在「{0}」获得的道具。",/*type_1*/3,/*type_2*/0,/*type_3*/0,/*type_4*/0);
 INSERT INTO `gift_message` VALUES (/*id*/2003,/*discription*/"在「{0}」获得的道具。",/*type_1*/4,/*type_2*/0,/*type_3*/0,/*type_4*/0);

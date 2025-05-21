@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pkb_drama_data' ('drama_id' INTEGER NOT NULL, 'condition_pitcher_id_1' INTEGER NOT NULL, 'condition_pitcher_id_2' INTEGER NOT NULL, 'condition_batter_id_1' INTEGER NOT NULL, 'condition_batter_id_2' INTEGER NOT NULL, PRIMARY KEY('drama_id'));
+-- Column Names:
+-- drama_id INTEGER
+-- condition_pitcher_id_1 INTEGER
+-- condition_pitcher_id_2 INTEGER
+-- condition_batter_id_1 INTEGER
+-- condition_batter_id_2 INTEGER
 INSERT INTO `pkb_drama_data` VALUES (/*drama_id*/1,/*condition_pitcher_id_1*/0,/*condition_pitcher_id_2*/0,/*condition_batter_id_1*/0,/*condition_batter_id_2*/0);
 INSERT INTO `pkb_drama_data` VALUES (/*drama_id*/2,/*condition_pitcher_id_1*/0,/*condition_pitcher_id_2*/0,/*condition_batter_id_1*/0,/*condition_batter_id_2*/0);
 INSERT INTO `pkb_drama_data` VALUES (/*drama_id*/3,/*condition_pitcher_id_1*/0,/*condition_pitcher_id_2*/0,/*condition_batter_id_1*/0,/*condition_batter_id_2*/0);

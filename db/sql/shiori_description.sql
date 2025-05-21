@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_description' ('id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- type INTEGER
+-- description TEXT
 INSERT INTO `shiori_description` VALUES (/*id*/101,/*type*/1,/*description*/"在外传中，可以观看特别的故事。\n活动剧情会根据活动关卡的通关进度解锁。");
 INSERT INTO `shiori_description` VALUES (/*id*/201,/*type*/2,/*description*/"完成任务后，会有可解锁的角色登场。\n努力完成任务吧。");
 INSERT INTO `shiori_description` VALUES (/*id*/301,/*type*/3,/*description*/"挑战活动关卡和首领时，\n会触发信赖度章节。根据对话的结果，能提升信赖度，\n当信赖度达到一定程度时，还能获得礼物。");
@@ -24,6 +28,5 @@ INSERT INTO `shiori_description` VALUES (/*id*/20031,/*type*/20,/*description*/"
 INSERT INTO `shiori_description` VALUES (/*id*/20032,/*type*/21,/*description*/"完成任务后，会有可解锁的角色登场。\n努力完成任务吧。");
 INSERT INTO `shiori_description` VALUES (/*id*/20033,/*type*/22,/*description*/"完成任务后，会有可解锁的角色登场。\n努力完成任务吧。");
 INSERT INTO `shiori_description` VALUES (/*id*/20035,/*type*/23,/*description*/"完成任务后，会有可解锁的角色登场。\n努力完成任务吧。");
-INSERT INTO `shiori_description` VALUES (/*id*/20038,/*type*/24,/*description*/"完成任务后，会有可解锁的角色登场。\n努力完成任务吧。");
 INSERT INTO `shiori_description` VALUES (/*id*/2003201,/*type*/2003201,/*description*/"在高难难度下可获得一正大人的支援。\n可以通过具有强大眩晕效果的连结爆发来进行支援哦。\n趁着首领无法行动，一口气击倒它吧。");
 COMMIT;

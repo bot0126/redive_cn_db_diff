@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'colosseum_mission_data' ('schedule_id' INTEGER NOT NULL, 'mission_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, PRIMARY KEY('mission_id'));
+-- Column Names:
+-- schedule_id INTEGER
+-- mission_id INTEGER
+-- difficulty INTEGER
+-- disp_group INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
 INSERT INTO `colosseum_mission_data` VALUES (/*schedule_id*/1001,/*mission_id*/100101,/*difficulty*/0,/*disp_group*/0,/*description*/"全部难度合计获得10000pt吧",/*mission_condition*/1001,/*condition_value_1*/10000,/*condition_num*/1,/*mission_reward_id*/100101);
 INSERT INTO `colosseum_mission_data` VALUES (/*schedule_id*/1001,/*mission_id*/100102,/*difficulty*/0,/*disp_group*/0,/*description*/"全部难度合计获得30000pt吧",/*mission_condition*/1001,/*condition_value_1*/30000,/*condition_num*/1,/*mission_reward_id*/100102);
 INSERT INTO `colosseum_mission_data` VALUES (/*schedule_id*/1001,/*mission_id*/100103,/*difficulty*/0,/*disp_group*/0,/*description*/"全部难度合计获得50000pt吧",/*mission_condition*/1001,/*condition_value_1*/50000,/*condition_num*/1,/*mission_reward_id*/100103);

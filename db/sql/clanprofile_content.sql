@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clanprofile_content' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- start_time TEXT
+-- end_time TEXT
+-- disp_order INTEGER
 INSERT INTO `clanprofile_content` VALUES (/*id*/1,/*name*/"美食殿堂",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/17);
 INSERT INTO `clanprofile_content` VALUES (/*id*/2,/*name*/"破晓之星",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/18);
 INSERT INTO `clanprofile_content` VALUES (/*id*/3,/*name*/"拉比林斯",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/19);

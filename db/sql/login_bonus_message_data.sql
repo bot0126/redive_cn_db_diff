@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'login_bonus_message_data' ('id' INTEGER NOT NULL, 'login_bonus_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'day_count' INTEGER NOT NULL, 'luck_pattern' INTEGER NOT NULL, 'rate' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'message' TEXT NOT NULL, 'voice_id' INTEGER NOT NULL, 'additional_type' INTEGER NOT NULL, 'additional_param' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- login_bonus_id INTEGER
+-- type INTEGER
+-- day_count INTEGER
+-- luck_pattern INTEGER
+-- rate INTEGER
+-- character_id INTEGER
+-- character_name TEXT
+-- message TEXT
+-- voice_id INTEGER
+-- additional_type INTEGER
+-- additional_param TEXT
 INSERT INTO `login_bonus_message_data` VALUES (/*id*/1,/*login_bonus_id*/60000,/*type*/1,/*day_count*/0,/*luck_pattern*/0,/*rate*/1,/*character_id*/190804,/*character_name*/"花凛",/*message*/"新年来临，要不要用抽签\n来占卜一下新一天的运势呢？\n运势越好，\n越能获得大量的礼物哦♪",/*voice_id*/1,/*additional_type*/0,/*additional_param*/"");
 INSERT INTO `login_bonus_message_data` VALUES (/*id*/2,/*login_bonus_id*/60000,/*type*/2,/*day_count*/0,/*luck_pattern*/1,/*rate*/1,/*character_id*/0,/*character_name*/"",/*message*/"今日运势是姬吉！所有方面的运气都是最好的！　　　　　　　　　现在的你甚至可以征服「传说中的吸血鬼」，称霸世界也不是梦！",/*voice_id*/0,/*additional_type*/0,/*additional_param*/"");
 INSERT INTO `login_bonus_message_data` VALUES (/*id*/3,/*login_bonus_id*/60000,/*type*/2,/*day_count*/0,/*luck_pattern*/1,/*rate*/1,/*character_id*/0,/*character_name*/"",/*message*/"今日运势是姬吉！做什么都很顺利！超棒的对吧☆　　　　　　　　幸运物品是饭团！能吃得饱饱的，继续幸福下去！",/*voice_id*/0,/*additional_type*/0,/*additional_param*/"");

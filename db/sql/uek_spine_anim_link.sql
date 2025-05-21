@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'uek_spine_anim_link' ('spine_id' INTEGER NOT NULL, 'anim_num' INTEGER NOT NULL, PRIMARY KEY('spine_id'));
+-- Column Names:
+-- spine_id INTEGER
+-- anim_num INTEGER
 INSERT INTO `uek_spine_anim_link` VALUES (/*spine_id*/100101,/*anim_num*/1);
 INSERT INTO `uek_spine_anim_link` VALUES (/*spine_id*/100201,/*anim_num*/1);
 INSERT INTO `uek_spine_anim_link` VALUES (/*spine_id*/100301,/*anim_num*/1);

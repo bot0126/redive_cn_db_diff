@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'event_effect_setting' ('event_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'value' INTEGER NOT NULL, PRIMARY KEY('event_id','type'));
+-- Column Names:
+-- event_id INTEGER
+-- type INTEGER
+-- value INTEGER
 INSERT INTO `event_effect_setting` VALUES (/*event_id*/20013,/*type*/1,/*value*/90001);
 INSERT INTO `event_effect_setting` VALUES (/*event_id*/20013,/*type*/2,/*value*/90001);
 INSERT INTO `event_effect_setting` VALUES (/*event_id*/20013,/*type*/3,/*value*/90001);

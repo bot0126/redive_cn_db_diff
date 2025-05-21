@@ -1,6 +1,31 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_attack_pattern' ('pattern_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'loop_start' INTEGER NOT NULL, 'loop_end' INTEGER NOT NULL, 'atk_pattern_1' INTEGER NOT NULL, 'atk_pattern_2' INTEGER NOT NULL, 'atk_pattern_3' INTEGER NOT NULL, 'atk_pattern_4' INTEGER NOT NULL, 'atk_pattern_5' INTEGER NOT NULL, 'atk_pattern_6' INTEGER NOT NULL, 'atk_pattern_7' INTEGER NOT NULL, 'atk_pattern_8' INTEGER NOT NULL, 'atk_pattern_9' INTEGER NOT NULL, 'atk_pattern_10' INTEGER NOT NULL, 'atk_pattern_11' INTEGER NOT NULL, 'atk_pattern_12' INTEGER NOT NULL, 'atk_pattern_13' INTEGER NOT NULL, 'atk_pattern_14' INTEGER NOT NULL, 'atk_pattern_15' INTEGER NOT NULL, 'atk_pattern_16' INTEGER NOT NULL, 'atk_pattern_17' INTEGER NOT NULL, 'atk_pattern_18' INTEGER NOT NULL, 'atk_pattern_19' INTEGER NOT NULL, 'atk_pattern_20' INTEGER NOT NULL, PRIMARY KEY('pattern_id'));
+-- Column Names:
+-- pattern_id INTEGER
+-- unit_id INTEGER
+-- loop_start INTEGER
+-- loop_end INTEGER
+-- atk_pattern_1 INTEGER
+-- atk_pattern_2 INTEGER
+-- atk_pattern_3 INTEGER
+-- atk_pattern_4 INTEGER
+-- atk_pattern_5 INTEGER
+-- atk_pattern_6 INTEGER
+-- atk_pattern_7 INTEGER
+-- atk_pattern_8 INTEGER
+-- atk_pattern_9 INTEGER
+-- atk_pattern_10 INTEGER
+-- atk_pattern_11 INTEGER
+-- atk_pattern_12 INTEGER
+-- atk_pattern_13 INTEGER
+-- atk_pattern_14 INTEGER
+-- atk_pattern_15 INTEGER
+-- atk_pattern_16 INTEGER
+-- atk_pattern_17 INTEGER
+-- atk_pattern_18 INTEGER
+-- atk_pattern_19 INTEGER
+-- atk_pattern_20 INTEGER
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/10010101,/*unit_id*/100101,/*loop_start*/3,/*loop_end*/7,/*atk_pattern_1*/1002,/*atk_pattern_2*/1001,/*atk_pattern_3*/1,/*atk_pattern_4*/1,/*atk_pattern_5*/1002,/*atk_pattern_6*/1,/*atk_pattern_7*/1001,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/10020101,/*unit_id*/100201,/*loop_start*/3,/*loop_end*/10,/*atk_pattern_1*/1002,/*atk_pattern_2*/1001,/*atk_pattern_3*/1,/*atk_pattern_4*/1,/*atk_pattern_5*/1002,/*atk_pattern_6*/1,/*atk_pattern_7*/1001,/*atk_pattern_8*/1,/*atk_pattern_9*/1,/*atk_pattern_10*/1001,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/10030101,/*unit_id*/100301,/*loop_start*/4,/*loop_end*/8,/*atk_pattern_1*/1,/*atk_pattern_2*/1001,/*atk_pattern_3*/1002,/*atk_pattern_4*/1,/*atk_pattern_5*/1,/*atk_pattern_6*/1001,/*atk_pattern_7*/1,/*atk_pattern_8*/1002,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
@@ -717,8 +742,8 @@ INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30140201,/*unit_id*/3014
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30140301,/*unit_id*/301403,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1005,/*atk_pattern_2*/1002,/*atk_pattern_3*/1001,/*atk_pattern_4*/1004,/*atk_pattern_5*/1002,/*atk_pattern_6*/1003,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30140401,/*unit_id*/301404,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1005,/*atk_pattern_2*/1002,/*atk_pattern_3*/1001,/*atk_pattern_4*/1004,/*atk_pattern_5*/1002,/*atk_pattern_6*/1003,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30150001,/*unit_id*/301500,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1,/*atk_pattern_2*/1002,/*atk_pattern_3*/1002,/*atk_pattern_4*/1001,/*atk_pattern_5*/1002,/*atk_pattern_6*/1,/*atk_pattern_7*/1001,/*atk_pattern_8*/1,/*atk_pattern_9*/1,/*atk_pattern_10*/1,/*atk_pattern_11*/1,/*atk_pattern_12*/1,/*atk_pattern_13*/1,/*atk_pattern_14*/1,/*atk_pattern_15*/1,/*atk_pattern_16*/1,/*atk_pattern_17*/1,/*atk_pattern_18*/1,/*atk_pattern_19*/1,/*atk_pattern_20*/1);
-INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30150101,/*unit_id*/301501,/*loop_start*/4,/*loop_end*/8,/*atk_pattern_1*/1001,/*atk_pattern_2*/1002,/*atk_pattern_3*/1002,/*atk_pattern_4*/1002,/*atk_pattern_5*/1002,/*atk_pattern_6*/1001,/*atk_pattern_7*/1002,/*atk_pattern_8*/1002,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
-INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30150201,/*unit_id*/301502,/*loop_start*/4,/*loop_end*/8,/*atk_pattern_1*/1001,/*atk_pattern_2*/1002,/*atk_pattern_3*/1002,/*atk_pattern_4*/1002,/*atk_pattern_5*/1002,/*atk_pattern_6*/1001,/*atk_pattern_7*/1002,/*atk_pattern_8*/1002,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
+INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30150101,/*unit_id*/301501,/*loop_start*/1,/*loop_end*/3,/*atk_pattern_1*/1002,/*atk_pattern_2*/1002,/*atk_pattern_3*/1001,/*atk_pattern_4*/0,/*atk_pattern_5*/0,/*atk_pattern_6*/0,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
+INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30150201,/*unit_id*/301502,/*loop_start*/1,/*loop_end*/3,/*atk_pattern_1*/1002,/*atk_pattern_2*/1002,/*atk_pattern_3*/1001,/*atk_pattern_4*/0,/*atk_pattern_5*/0,/*atk_pattern_6*/0,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/0,/*atk_pattern_11*/0,/*atk_pattern_12*/0,/*atk_pattern_13*/0,/*atk_pattern_14*/0,/*atk_pattern_15*/0,/*atk_pattern_16*/0,/*atk_pattern_17*/0,/*atk_pattern_18*/0,/*atk_pattern_19*/0,/*atk_pattern_20*/0);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30160001,/*unit_id*/301600,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1,/*atk_pattern_2*/1,/*atk_pattern_3*/1001,/*atk_pattern_4*/1001,/*atk_pattern_5*/1,/*atk_pattern_6*/1001,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/1,/*atk_pattern_11*/1,/*atk_pattern_12*/1,/*atk_pattern_13*/1,/*atk_pattern_14*/1,/*atk_pattern_15*/1,/*atk_pattern_16*/1,/*atk_pattern_17*/1,/*atk_pattern_18*/1,/*atk_pattern_19*/1,/*atk_pattern_20*/1);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30160101,/*unit_id*/301601,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1,/*atk_pattern_2*/1001,/*atk_pattern_3*/1002,/*atk_pattern_4*/1001,/*atk_pattern_5*/1,/*atk_pattern_6*/1001,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/1,/*atk_pattern_11*/1,/*atk_pattern_12*/1,/*atk_pattern_13*/1,/*atk_pattern_14*/1,/*atk_pattern_15*/1,/*atk_pattern_16*/1,/*atk_pattern_17*/1,/*atk_pattern_18*/1,/*atk_pattern_19*/1,/*atk_pattern_20*/1);
 INSERT INTO `unit_attack_pattern` VALUES (/*pattern_id*/30160102,/*unit_id*/301601,/*loop_start*/1,/*loop_end*/6,/*atk_pattern_1*/1001,/*atk_pattern_2*/1001,/*atk_pattern_3*/1,/*atk_pattern_4*/1002,/*atk_pattern_5*/1002,/*atk_pattern_6*/1,/*atk_pattern_7*/0,/*atk_pattern_8*/0,/*atk_pattern_9*/0,/*atk_pattern_10*/1,/*atk_pattern_11*/1,/*atk_pattern_12*/1,/*atk_pattern_13*/1,/*atk_pattern_14*/1,/*atk_pattern_15*/1,/*atk_pattern_16*/1,/*atk_pattern_17*/1,/*atk_pattern_18*/1,/*atk_pattern_19*/1,/*atk_pattern_20*/1);

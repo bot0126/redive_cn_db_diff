@@ -1,6 +1,26 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'promotion_bonus' ('unit_id' INTEGER NOT NULL, 'promotion_level' INTEGER NOT NULL, 'hp' REAL NOT NULL, 'atk' REAL NOT NULL, 'magic_str' REAL NOT NULL, 'def' REAL NOT NULL, 'magic_def' REAL NOT NULL, 'physical_critical' REAL NOT NULL, 'magic_critical' REAL NOT NULL, 'wave_hp_recovery' REAL NOT NULL, 'wave_energy_recovery' REAL NOT NULL, 'dodge' REAL NOT NULL, 'physical_penetrate' REAL NOT NULL, 'magic_penetrate' REAL NOT NULL, 'life_steal' REAL NOT NULL, 'hp_recovery_rate' REAL NOT NULL, 'energy_recovery_rate' REAL NOT NULL, 'energy_reduce_rate' REAL NOT NULL, 'accuracy' REAL NOT NULL, PRIMARY KEY('unit_id','promotion_level'));
+-- Column Names:
+-- unit_id INTEGER
+-- promotion_level INTEGER
+-- hp REAL
+-- atk REAL
+-- magic_str REAL
+-- def REAL
+-- magic_def REAL
+-- physical_critical REAL
+-- magic_critical REAL
+-- wave_hp_recovery REAL
+-- wave_energy_recovery REAL
+-- dodge REAL
+-- physical_penetrate REAL
+-- magic_penetrate REAL
+-- life_steal REAL
+-- hp_recovery_rate REAL
+-- energy_recovery_rate REAL
+-- energy_reduce_rate REAL
+-- accuracy REAL
 INSERT INTO `promotion_bonus` VALUES (/*unit_id*/100101,/*promotion_level*/27,/*hp*/0.0,/*atk*/1800.0,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/10.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `promotion_bonus` VALUES (/*unit_id*/100101,/*promotion_level*/28,/*hp*/0.0,/*atk*/1800.0,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/10.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `promotion_bonus` VALUES (/*unit_id*/100201,/*promotion_level*/27,/*hp*/0.0,/*atk*/0.0,/*magic_str*/1800.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/10.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);

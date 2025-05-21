@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_area_data' ('tower_area_id' INTEGER NOT NULL, 'max_floor_num' INTEGER NOT NULL, 'area_bg' INTEGER NOT NULL, 'tower_bgm' TEXT NOT NULL, 'cloister_quest_id' INTEGER NOT NULL, PRIMARY KEY('tower_area_id'));
+-- Column Names:
+-- tower_area_id INTEGER
+-- max_floor_num INTEGER
+-- area_bg INTEGER
+-- tower_bgm TEXT
+-- cloister_quest_id INTEGER
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/1,/*max_floor_num*/70,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/0);
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/2,/*max_floor_num*/110,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/0);
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/3,/*max_floor_num*/130,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/0);
@@ -49,5 +55,4 @@ INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/45,/*max_floor_num*/660,/
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/46,/*max_floor_num*/670,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/73460670);
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/47,/*max_floor_num*/680,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/73470680);
 INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/48,/*max_floor_num*/690,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/73480690);
-INSERT INTO `tower_area_data` VALUES (/*tower_area_id*/49,/*max_floor_num*/700,/*area_bg*/81000104,/*tower_bgm*/"bgm_M125",/*cloister_quest_id*/73490700);
 COMMIT;

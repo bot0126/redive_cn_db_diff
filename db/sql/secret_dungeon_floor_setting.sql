@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'secret_dungeon_floor_setting' ('id' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'enemy_identify' INTEGER NOT NULL, 'mode' INTEGER NOT NULL, 'enemy_id' INTEGER NOT NULL, 'floor_position_x' REAL NOT NULL, 'floor_position_y' REAL NOT NULL, 'floor_scale' REAL NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- quest_id INTEGER
+-- enemy_identify INTEGER
+-- mode INTEGER
+-- enemy_id INTEGER
+-- floor_position_x REAL
+-- floor_position_y REAL
+-- floor_scale REAL
+-- disp_order INTEGER
 INSERT INTO `secret_dungeon_floor_setting` VALUES (/*id*/1,/*quest_id*/320010106,/*enemy_identify*/1,/*mode*/0,/*enemy_id*/502001102,/*floor_position_x*/43.5,/*floor_position_y*/11.0,/*floor_scale*/0.7,/*disp_order*/1);
 INSERT INTO `secret_dungeon_floor_setting` VALUES (/*id*/2,/*quest_id*/320010106,/*enemy_identify*/2,/*mode*/0,/*enemy_id*/502001103,/*floor_position_x*/13.0,/*floor_position_y*/67.0,/*floor_scale*/0.65,/*disp_order*/3);
 INSERT INTO `secret_dungeon_floor_setting` VALUES (/*id*/3,/*quest_id*/320010106,/*enemy_identify*/3,/*mode*/0,/*enemy_id*/0,/*floor_position_x*/-74.0,/*floor_position_y*/49.0,/*floor_scale*/0.65,/*disp_order*/2);

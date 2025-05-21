@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_reaction_data' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'mode' INTEGER NOT NULL, 'reaction_type' INTEGER NOT NULL, 'condition_param_1' INTEGER NOT NULL, 'condition_param_2' INTEGER NOT NULL, 'condition_param_3' INTEGER NOT NULL, 'face_id' INTEGER NOT NULL, 'face_change_time' REAL NOT NULL, 'change_face_id' INTEGER NOT NULL, 'face_change_effect_id' INTEGER NOT NULL, 'cue_name' TEXT NOT NULL, 'message' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- mode INTEGER
+-- reaction_type INTEGER
+-- condition_param_1 INTEGER
+-- condition_param_2 INTEGER
+-- condition_param_3 INTEGER
+-- face_id INTEGER
+-- face_change_time REAL
+-- change_face_id INTEGER
+-- face_change_effect_id INTEGER
+-- cue_name TEXT
+-- message TEXT
 INSERT INTO `asm_reaction_data` VALUES (/*id*/11120101,/*unit_id*/1,/*mode*/1,/*reaction_type*/1201,/*condition_param_1*/0,/*condition_param_2*/0,/*condition_param_3*/0,/*face_id*/8,/*face_change_time*/0.0,/*change_face_id*/8,/*face_change_effect_id*/0,/*cue_name*/"vo_minigame_1012_correct_107",/*message*/"这样就好了！");
 INSERT INTO `asm_reaction_data` VALUES (/*id*/11120102,/*unit_id*/1,/*mode*/1,/*reaction_type*/1201,/*condition_param_1*/0,/*condition_param_2*/0,/*condition_param_3*/0,/*face_id*/8,/*face_change_time*/0.0,/*change_face_id*/8,/*face_change_effect_id*/0,/*cue_name*/"vo_minigame_1012_correct_108",/*message*/"嗯，可以！");
 INSERT INTO `asm_reaction_data` VALUES (/*id*/11120103,/*unit_id*/1,/*mode*/1,/*reaction_type*/1201,/*condition_param_1*/0,/*condition_param_2*/0,/*condition_param_3*/0,/*face_id*/1,/*face_change_time*/0.0,/*change_face_id*/1,/*face_change_effect_id*/0,/*cue_name*/"vo_minigame_1012_correct_109",/*message*/"状态绝佳！");

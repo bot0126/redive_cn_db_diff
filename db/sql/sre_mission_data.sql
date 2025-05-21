@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_mission_data' ('sre_mission_id' INTEGER NOT NULL, 'sre_id' INTEGER NOT NULL, 'category_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'sre_boss_id' INTEGER NOT NULL, 'condition_value' INTEGER NOT NULL, 'condition_num' TEXT NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('sre_mission_id'));
+-- Column Names:
+-- sre_mission_id INTEGER
+-- sre_id INTEGER
+-- category_id INTEGER
+-- disp_group INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- sre_boss_id INTEGER
+-- condition_value INTEGER
+-- condition_num TEXT
+-- mission_reward_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `sre_mission_data` VALUES (/*sre_mission_id*/31000101,/*sre_id*/3,/*category_id*/1000,/*disp_group*/10,/*description*/"进行1次战斗吧",/*mission_condition*/7003,/*sre_boss_id*/0,/*condition_value*/0,/*condition_num*/"1",/*mission_reward_id*/31000101,/*start_time*/"2024/12/16 12:00:00",/*end_time*/"2024/12/23 11:59:59");
 INSERT INTO `sre_mission_data` VALUES (/*sre_mission_id*/31000102,/*sre_id*/3,/*category_id*/1000,/*disp_group*/10,/*description*/"进行5次战斗吧",/*mission_condition*/7003,/*sre_boss_id*/0,/*condition_value*/0,/*condition_num*/"5",/*mission_reward_id*/31000102,/*start_time*/"2024/12/16 12:00:00",/*end_time*/"2024/12/23 11:59:59");
 INSERT INTO `sre_mission_data` VALUES (/*sre_mission_id*/31000103,/*sre_id*/3,/*category_id*/1000,/*disp_group*/10,/*description*/"进行10次战斗吧",/*mission_condition*/7003,/*sre_boss_id*/0,/*condition_value*/0,/*condition_num*/"10",/*mission_reward_id*/31000103,/*start_time*/"2024/12/16 12:00:00",/*end_time*/"2024/12/23 11:59:59");

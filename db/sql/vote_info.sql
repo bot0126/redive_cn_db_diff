@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'vote_info' ('vote_id' INTEGER NOT NULL, 'vote_help_index' INTEGER NOT NULL, 'vote_title' TEXT NOT NULL, 'vote_help' TEXT NOT NULL, PRIMARY KEY('vote_id','vote_help_index'));
+-- Column Names:
+-- vote_id INTEGER
+-- vote_help_index INTEGER
+-- vote_title TEXT
+-- vote_help TEXT
 INSERT INTO `vote_info` VALUES (/*vote_id*/1,/*vote_help_index*/1,/*vote_title*/"投票对象角色",/*vote_help*/"可以为除限定版本以外的所有角色投票。\n※限定版本的角色即带有夏日、万圣节、圣诞节、新年、情人节字样的角色。");
 INSERT INTO `vote_info` VALUES (/*vote_id*/1,/*vote_help_index*/2,/*vote_title*/"投票方法",/*vote_help*/"可按照以下顺序投票。\n1. 点击想要投票的角色。\n2. 点击［投票］。\n3. 点击［确定］。\n※可选择是否将已投票内容在推特上转发。\n※投票时也可以不在推特上转发。");
 INSERT INTO `vote_info` VALUES (/*vote_id*/1,/*vote_help_index*/3,/*vote_title*/"关于投票数",/*vote_help*/"预计今后将举办投票数排名靠前角色出率提升的精选扭蛋。\n※佩可莉姆、可可萝、凯露、优衣、克莉丝提娜不包含在精选扭蛋中。");

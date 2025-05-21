@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_score' ('round' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'first_score' INTEGER NOT NULL, 'second_score' INTEGER NOT NULL, 'third_score' INTEGER NOT NULL, 'time_score' INTEGER NOT NULL, 'action_score' INTEGER NOT NULL, 'normal_bonus' REAL NOT NULL, 'hard_bonus' REAL NOT NULL, 'extra_bonus' REAL NOT NULL, PRIMARY KEY('round','type'));
+-- Column Names:
+-- round INTEGER
+-- type INTEGER
+-- first_score INTEGER
+-- second_score INTEGER
+-- third_score INTEGER
+-- time_score INTEGER
+-- action_score INTEGER
+-- normal_bonus REAL
+-- hard_bonus REAL
+-- extra_bonus REAL
 INSERT INTO `sjr_score` VALUES (/*round*/1,/*type*/1,/*first_score*/8000,/*second_score*/7500,/*third_score*/7000,/*time_score*/130,/*action_score*/115,/*normal_bonus*/1.2,/*hard_bonus*/2.4,/*extra_bonus*/4.0);
 INSERT INTO `sjr_score` VALUES (/*round*/2,/*type*/1,/*first_score*/8000,/*second_score*/7500,/*third_score*/7000,/*time_score*/130,/*action_score*/115,/*normal_bonus*/1.2,/*hard_bonus*/2.4,/*extra_bonus*/4.0);
 INSERT INTO `sjr_score` VALUES (/*round*/3,/*type*/1,/*first_score*/8000,/*second_score*/7500,/*third_score*/7000,/*time_score*/130,/*action_score*/115,/*normal_bonus*/1.2,/*hard_bonus*/2.4,/*extra_bonus*/4.0);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'legion_battle_bonus_effect' ('legion_battle_effect_id' INTEGER NOT NULL, 'enemy_id' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, 'text_id' INTEGER NOT NULL, 'skill_id' INTEGER NOT NULL, 'target_type' INTEGER NOT NULL, PRIMARY KEY('legion_battle_effect_id'));
+-- Column Names:
+-- legion_battle_effect_id INTEGER
+-- enemy_id INTEGER
+-- icon_id INTEGER
+-- text_id INTEGER
+-- skill_id INTEGER
+-- target_type INTEGER
 INSERT INTO `legion_battle_bonus_effect` VALUES (/*legion_battle_effect_id*/1005,/*enemy_id*/802100290,/*icon_id*/212,/*text_id*/211,/*skill_id*/2114001,/*target_type*/1);
 INSERT INTO `legion_battle_bonus_effect` VALUES (/*legion_battle_effect_id*/1006,/*enemy_id*/802100290,/*icon_id*/212,/*text_id*/211,/*skill_id*/2114002,/*target_type*/1);
 INSERT INTO `legion_battle_bonus_effect` VALUES (/*legion_battle_effect_id*/1007,/*enemy_id*/802100290,/*icon_id*/212,/*text_id*/211,/*skill_id*/2114003,/*target_type*/1);

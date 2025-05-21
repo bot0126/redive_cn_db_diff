@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_motion_list' ('unit_id' INTEGER NOT NULL, 'sp_motion' INTEGER NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- sp_motion INTEGER
 INSERT INTO `unit_motion_list` VALUES (/*unit_id*/100101,/*sp_motion*/1);
 INSERT INTO `unit_motion_list` VALUES (/*unit_id*/100201,/*sp_motion*/1);
 INSERT INTO `unit_motion_list` VALUES (/*unit_id*/100301,/*sp_motion*/1);

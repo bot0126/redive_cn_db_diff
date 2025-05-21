@@ -1,13 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_recommend_data' ('level_id' INTEGER NOT NULL, 'recommend_group' INTEGER NOT NULL, 'level_from' INTEGER NOT NULL, 'level_to' INTEGER NOT NULL, 'atack_party_count' INTEGER NOT NULL, 'magic_party_count' INTEGER NOT NULL, PRIMARY KEY('level_id'));
+-- Column Names:
+-- level_id INTEGER
+-- recommend_group INTEGER
+-- level_from INTEGER
+-- level_to INTEGER
+-- atack_party_count INTEGER
+-- magic_party_count INTEGER
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/1,/*recommend_group*/1,/*level_from*/10,/*level_to*/60,/*atack_party_count*/2,/*magic_party_count*/2);
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/2,/*recommend_group*/1,/*level_from*/61,/*level_to*/80,/*atack_party_count*/2,/*magic_party_count*/2);
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/3,/*recommend_group*/1,/*level_from*/81,/*level_to*/100,/*atack_party_count*/2,/*magic_party_count*/2);
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/4,/*recommend_group*/2,/*level_from*/101,/*level_to*/120,/*atack_party_count*/2,/*magic_party_count*/2);
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/5,/*recommend_group*/2,/*level_from*/121,/*level_to*/140,/*atack_party_count*/2,/*magic_party_count*/2);
 INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/6,/*recommend_group*/2,/*level_from*/141,/*level_to*/160,/*atack_party_count*/2,/*magic_party_count*/2);
-INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/7,/*recommend_group*/3,/*level_from*/235,/*level_to*/254,/*atack_party_count*/2,/*magic_party_count*/2);
-INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/8,/*recommend_group*/3,/*level_from*/255,/*level_to*/264,/*atack_party_count*/2,/*magic_party_count*/2);
-INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/9,/*recommend_group*/3,/*level_from*/265,/*level_to*/274,/*atack_party_count*/2,/*magic_party_count*/2);
+INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/7,/*recommend_group*/3,/*level_from*/223,/*level_to*/242,/*atack_party_count*/2,/*magic_party_count*/2);
+INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/8,/*recommend_group*/3,/*level_from*/243,/*level_to*/252,/*atack_party_count*/2,/*magic_party_count*/2);
+INSERT INTO `clan_battle_recommend_data` VALUES (/*level_id*/9,/*recommend_group*/3,/*level_from*/253,/*level_to*/262,/*atack_party_count*/2,/*magic_party_count*/2);
 COMMIT;

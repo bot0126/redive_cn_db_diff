@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_treasure_block_real' ('id' INTEGER NOT NULL, 'odds_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- odds_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `caravan_treasure_block_real` VALUES (/*id*/10001001,/*odds_id*/10001,/*reward_type*/22,/*reward_id*/53001,/*reward_count*/1);
 INSERT INTO `caravan_treasure_block_real` VALUES (/*id*/10001002,/*odds_id*/10001,/*reward_type*/22,/*reward_id*/53004,/*reward_count*/1);
 INSERT INTO `caravan_treasure_block_real` VALUES (/*id*/10001003,/*odds_id*/10001,/*reward_type*/22,/*reward_id*/53007,/*reward_count*/1);

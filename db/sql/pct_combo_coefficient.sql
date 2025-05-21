@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pct_combo_coefficient' ('id' INTEGER NOT NULL, 'combo_min' INTEGER NOT NULL, 'combo_max' INTEGER NOT NULL, 'combo_coefficient' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- combo_min INTEGER
+-- combo_max INTEGER
+-- combo_coefficient INTEGER
 INSERT INTO `pct_combo_coefficient` VALUES (/*id*/1,/*combo_min*/1,/*combo_max*/9,/*combo_coefficient*/1010);
 INSERT INTO `pct_combo_coefficient` VALUES (/*id*/2,/*combo_min*/10,/*combo_max*/19,/*combo_coefficient*/1030);
 INSERT INTO `pct_combo_coefficient` VALUES (/*id*/3,/*combo_min*/20,/*combo_max*/29,/*combo_coefficient*/1050);

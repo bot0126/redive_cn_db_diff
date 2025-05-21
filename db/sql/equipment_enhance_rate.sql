@@ -1,6 +1,28 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'equipment_enhance_rate' ('equipment_id' INTEGER NOT NULL, 'equipment_name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'promotion_level' INTEGER NOT NULL, 'hp' REAL NOT NULL, 'atk' REAL NOT NULL, 'magic_str' REAL NOT NULL, 'def' REAL NOT NULL, 'magic_def' REAL NOT NULL, 'physical_critical' REAL NOT NULL, 'magic_critical' REAL NOT NULL, 'wave_hp_recovery' REAL NOT NULL, 'wave_energy_recovery' REAL NOT NULL, 'dodge' REAL NOT NULL, 'physical_penetrate' REAL NOT NULL, 'magic_penetrate' REAL NOT NULL, 'life_steal' REAL NOT NULL, 'hp_recovery_rate' REAL NOT NULL, 'energy_recovery_rate' REAL NOT NULL, 'energy_reduce_rate' REAL NOT NULL, 'accuracy' REAL NOT NULL, PRIMARY KEY('equipment_id'));
+-- Column Names:
+-- equipment_id INTEGER
+-- equipment_name TEXT
+-- description TEXT
+-- promotion_level INTEGER
+-- hp REAL
+-- atk REAL
+-- magic_str REAL
+-- def REAL
+-- magic_def REAL
+-- physical_critical REAL
+-- magic_critical REAL
+-- wave_hp_recovery REAL
+-- wave_energy_recovery REAL
+-- dodge REAL
+-- physical_penetrate REAL
+-- magic_penetrate REAL
+-- life_steal REAL
+-- hp_recovery_rate REAL
+-- energy_recovery_rate REAL
+-- energy_reduce_rate REAL
+-- accuracy REAL
 INSERT INTO `equipment_enhance_rate` VALUES (/*equipment_id*/101011,/*equipment_name*/"铁剑",/*description*/"剑",/*promotion_level*/1,/*hp*/0.0,/*atk*/0.0,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `equipment_enhance_rate` VALUES (/*equipment_id*/101071,/*equipment_name*/"杀手铅笔",/*description*/"短剑",/*promotion_level*/1,/*hp*/0.0,/*atk*/0.0,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `equipment_enhance_rate` VALUES (/*equipment_id*/101101,/*equipment_name*/"木制拳套",/*description*/"拳套",/*promotion_level*/1,/*hp*/0.0,/*atk*/0.0,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);

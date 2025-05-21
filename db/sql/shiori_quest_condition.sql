@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_quest_condition' ('quest_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'release_quest_id' INTEGER NOT NULL, 'release_boss_id' INTEGER NOT NULL, 'condition_main_quest_id' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- event_id INTEGER
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- release_quest_id INTEGER
+-- release_boss_id INTEGER
+-- condition_main_quest_id INTEGER
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20001101,/*event_id*/20001,/*condition_quest_id*/0,/*condition_boss_id*/0,/*release_quest_id*/20001102,/*release_boss_id*/0,/*condition_main_quest_id*/11002012);
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20001102,/*event_id*/20001,/*condition_quest_id*/20001101,/*condition_boss_id*/0,/*release_quest_id*/20001103,/*release_boss_id*/0,/*condition_main_quest_id*/0);
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20001103,/*event_id*/20001,/*condition_quest_id*/20001102,/*condition_boss_id*/0,/*release_quest_id*/20001104,/*release_boss_id*/0,/*condition_main_quest_id*/0);
@@ -741,24 +749,4 @@ INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20037202,/*event_id*/20
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20037203,/*event_id*/20037,/*condition_quest_id*/20037202,/*condition_boss_id*/0,/*release_quest_id*/20037204,/*release_boss_id*/0,/*condition_main_quest_id*/0);
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20037204,/*event_id*/20037,/*condition_quest_id*/20037203,/*condition_boss_id*/0,/*release_quest_id*/20037205,/*release_boss_id*/0,/*condition_main_quest_id*/0);
 INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20037205,/*event_id*/20037,/*condition_quest_id*/20037204,/*condition_boss_id*/0,/*release_quest_id*/0,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038101,/*event_id*/20038,/*condition_quest_id*/0,/*condition_boss_id*/0,/*release_quest_id*/20038102,/*release_boss_id*/0,/*condition_main_quest_id*/11002012);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038102,/*event_id*/20038,/*condition_quest_id*/20038101,/*condition_boss_id*/0,/*release_quest_id*/20038103,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038103,/*event_id*/20038,/*condition_quest_id*/20038102,/*condition_boss_id*/0,/*release_quest_id*/20038104,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038104,/*event_id*/20038,/*condition_quest_id*/20038103,/*condition_boss_id*/0,/*release_quest_id*/20038105,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038105,/*event_id*/20038,/*condition_quest_id*/20038104,/*condition_boss_id*/0,/*release_quest_id*/20038106,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038106,/*event_id*/20038,/*condition_quest_id*/20038105,/*condition_boss_id*/0,/*release_quest_id*/20038107,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038107,/*event_id*/20038,/*condition_quest_id*/20038106,/*condition_boss_id*/0,/*release_quest_id*/20038108,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038108,/*event_id*/20038,/*condition_quest_id*/20038107,/*condition_boss_id*/0,/*release_quest_id*/20038109,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038109,/*event_id*/20038,/*condition_quest_id*/20038108,/*condition_boss_id*/0,/*release_quest_id*/20038110,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038110,/*event_id*/20038,/*condition_quest_id*/20038109,/*condition_boss_id*/0,/*release_quest_id*/20038111,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038111,/*event_id*/20038,/*condition_quest_id*/20038110,/*condition_boss_id*/0,/*release_quest_id*/20038112,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038112,/*event_id*/20038,/*condition_quest_id*/20038111,/*condition_boss_id*/0,/*release_quest_id*/20038113,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038113,/*event_id*/20038,/*condition_quest_id*/20038112,/*condition_boss_id*/0,/*release_quest_id*/20038114,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038114,/*event_id*/20038,/*condition_quest_id*/20038113,/*condition_boss_id*/0,/*release_quest_id*/20038115,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038115,/*event_id*/20038,/*condition_quest_id*/20038114,/*condition_boss_id*/0,/*release_quest_id*/0,/*release_boss_id*/2003801,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038201,/*event_id*/20038,/*condition_quest_id*/0,/*condition_boss_id*/2003801,/*release_quest_id*/20038202,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038202,/*event_id*/20038,/*condition_quest_id*/20038201,/*condition_boss_id*/0,/*release_quest_id*/20038203,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038203,/*event_id*/20038,/*condition_quest_id*/20038202,/*condition_boss_id*/0,/*release_quest_id*/20038204,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038204,/*event_id*/20038,/*condition_quest_id*/20038203,/*condition_boss_id*/0,/*release_quest_id*/20038205,/*release_boss_id*/0,/*condition_main_quest_id*/0);
-INSERT INTO `shiori_quest_condition` VALUES (/*quest_id*/20038205,/*event_id*/20038,/*condition_quest_id*/20038204,/*condition_boss_id*/0,/*release_quest_id*/0,/*release_boss_id*/0,/*condition_main_quest_id*/0);
 COMMIT;

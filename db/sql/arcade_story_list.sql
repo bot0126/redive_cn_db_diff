@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'arcade_story_list' ('story_id' INTEGER NOT NULL, 'arcade_id' INTEGER NOT NULL, 'sub_title' TEXT NOT NULL, PRIMARY KEY('story_id'));
+-- Column Names:
+-- story_id INTEGER
+-- arcade_id INTEGER
+-- sub_title TEXT
 INSERT INTO `arcade_story_list` VALUES (/*story_id*/5021700,/*arcade_id*/1003,/*sub_title*/"和香织在海边大特训！");
 INSERT INTO `arcade_story_list` VALUES (/*story_id*/5021701,/*arcade_id*/1003,/*sub_title*/"以礼而始以礼而终");
 INSERT INTO `arcade_story_list` VALUES (/*story_id*/5021710,/*arcade_id*/1003,/*sub_title*/"挑战自己的极限");

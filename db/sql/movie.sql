@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'movie' ('movie_id' INTEGER NOT NULL, 'story_group_id' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'bgm_id' TEXT NOT NULL, 'se_id' TEXT NOT NULL, 'my_page_flag' INTEGER NOT NULL, 'fade_loop_flag' INTEGER NOT NULL, 'bgm_volume_rate' REAL NOT NULL, PRIMARY KEY('movie_id'));
+-- Column Names:
+-- movie_id INTEGER
+-- story_group_id INTEGER
+-- story_id INTEGER
+-- bgm_id TEXT
+-- se_id TEXT
+-- my_page_flag INTEGER
+-- fade_loop_flag INTEGER
+-- bgm_volume_rate REAL
 INSERT INTO `movie` VALUES (/*movie_id*/1000101,/*story_group_id*/5001,/*story_id*/5001000,/*bgm_id*/"bgm_M32",/*se_id*/"",/*my_page_flag*/0,/*fade_loop_flag*/1,/*bgm_volume_rate*/1.0);
 INSERT INTO `movie` VALUES (/*movie_id*/1000201,/*story_group_id*/5002,/*story_id*/5002000,/*bgm_id*/"bgm_M98",/*se_id*/"",/*my_page_flag*/0,/*fade_loop_flag*/1,/*bgm_volume_rate*/1.0);
 INSERT INTO `movie` VALUES (/*movie_id*/1000301,/*story_group_id*/5003,/*story_id*/5003000,/*bgm_id*/"bgm_M106",/*se_id*/"",/*my_page_flag*/0,/*fade_loop_flag*/1,/*bgm_volume_rate*/1.0);

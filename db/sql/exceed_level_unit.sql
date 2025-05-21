@@ -1,6 +1,26 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'exceed_level_unit' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'exceed_stage' INTEGER NOT NULL, 'exceed_item_id' INTEGER NOT NULL, 'item_id_1' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'consume_num_1' INTEGER NOT NULL, 'item_id_2' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'consume_num_2' INTEGER NOT NULL, 'item_id_3' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'consume_num_3' INTEGER NOT NULL, 'item_id_4' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'consume_num_4' INTEGER NOT NULL, 'item_id_5' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'consume_num_5' INTEGER NOT NULL, PRIMARY KEY('unit_id','exceed_stage'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- exceed_stage INTEGER
+-- exceed_item_id INTEGER
+-- item_id_1 INTEGER
+-- reward_type_1 INTEGER
+-- consume_num_1 INTEGER
+-- item_id_2 INTEGER
+-- reward_type_2 INTEGER
+-- consume_num_2 INTEGER
+-- item_id_3 INTEGER
+-- reward_type_3 INTEGER
+-- consume_num_3 INTEGER
+-- item_id_4 INTEGER
+-- reward_type_4 INTEGER
+-- consume_num_4 INTEGER
+-- item_id_5 INTEGER
+-- reward_type_5 INTEGER
+-- consume_num_5 INTEGER
 INSERT INTO `exceed_level_unit` VALUES (/*id*/1100101,/*unit_id*/100101,/*exceed_stage*/1,/*exceed_item_id*/41001,/*item_id_1*/31001,/*reward_type_1*/2,/*consume_num_1*/120,/*item_id_2*/94000,/*reward_type_2*/12,/*consume_num_2*/20000000,/*item_id_3*/0,/*reward_type_3*/0,/*consume_num_3*/0,/*item_id_4*/0,/*reward_type_4*/0,/*consume_num_4*/0,/*item_id_5*/0,/*reward_type_5*/0,/*consume_num_5*/0);
 INSERT INTO `exceed_level_unit` VALUES (/*id*/1100201,/*unit_id*/100201,/*exceed_stage*/1,/*exceed_item_id*/41002,/*item_id_1*/31002,/*reward_type_1*/2,/*consume_num_1*/120,/*item_id_2*/94000,/*reward_type_2*/12,/*consume_num_2*/20000000,/*item_id_3*/0,/*reward_type_3*/0,/*consume_num_3*/0,/*item_id_4*/0,/*reward_type_4*/0,/*consume_num_4*/0,/*item_id_5*/0,/*reward_type_5*/0,/*consume_num_5*/0);
 INSERT INTO `exceed_level_unit` VALUES (/*id*/1100301,/*unit_id*/100301,/*exceed_stage*/1,/*exceed_item_id*/41003,/*item_id_1*/31003,/*reward_type_1*/2,/*consume_num_1*/120,/*item_id_2*/94000,/*reward_type_2*/12,/*consume_num_2*/20000000,/*item_id_3*/0,/*reward_type_3*/0,/*consume_num_3*/0,/*item_id_4*/0,/*reward_type_4*/0,/*consume_num_4*/0,/*item_id_5*/0,/*reward_type_5*/0,/*consume_num_5*/0);

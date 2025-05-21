@@ -1,6 +1,24 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_schedule' ('event_id' INTEGER NOT NULL, 'teaser_time' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'close_time' TEXT NOT NULL, 'background' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'banner_unit_id' INTEGER NOT NULL, 'count_start_time' TEXT NOT NULL, 'backgroud_size_x' INTEGER NOT NULL, 'backgroud_size_y' INTEGER NOT NULL, 'backgroud_pos_x' INTEGER NOT NULL, 'backgroud_pos_y' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'series_event_id' INTEGER NOT NULL, 'teaser_dialog_type' INTEGER NOT NULL, PRIMARY KEY('event_id'));
+-- Column Names:
+-- event_id INTEGER
+-- teaser_time TEXT
+-- start_time TEXT
+-- end_time TEXT
+-- close_time TEXT
+-- background INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- banner_unit_id INTEGER
+-- count_start_time TEXT
+-- backgroud_size_x INTEGER
+-- backgroud_size_y INTEGER
+-- backgroud_pos_x INTEGER
+-- backgroud_pos_y INTEGER
+-- original_event_id INTEGER
+-- series_event_id INTEGER
+-- teaser_dialog_type INTEGER
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10001,/*teaser_time*/"2020/05/11 13:00:00",/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/26 18:59:59",/*close_time*/"2020/05/28 10:59:59",/*background*/500213,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*banner_unit_id*/101201,/*count_start_time*/"2020/05/23 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/0,/*series_event_id*/0,/*teaser_dialog_type*/0);
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10002,/*teaser_time*/"2020/06/03 15:00:00",/*start_time*/"2020/06/08 11:00:00",/*end_time*/"2020/06/27 23:59:59",/*close_time*/"2020/07/02 14:59:59",/*background*/500193,/*sheet_id*/"bgm_M98",/*que_id*/"bgm_M98",/*banner_unit_id*/103601,/*count_start_time*/"2020/06/24 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/0,/*series_event_id*/0,/*teaser_dialog_type*/0);
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10003,/*teaser_time*/"2020/07/02 15:00:00",/*start_time*/"2020/07/06 11:00:00",/*end_time*/"2020/07/25 23:59:59",/*close_time*/"2020/07/30 14:59:59",/*background*/500263,/*sheet_id*/"bgm_M106",/*que_id*/"bgm_M106",/*banner_unit_id*/104401,/*count_start_time*/"2020/07/22 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/0,/*series_event_id*/0,/*teaser_dialog_type*/0);
@@ -116,6 +134,4 @@ INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10112,/*teaser_time*/"2025/01
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10113,/*teaser_time*/"2025/01/29 15:00:00",/*start_time*/"2025/02/10 12:00:00",/*end_time*/"2025/02/18 23:59:59",/*close_time*/"2025/02/23 14:59:59",/*background*/510225,/*sheet_id*/"bgm_M553",/*que_id*/"bgm_M553",/*banner_unit_id*/121201,/*count_start_time*/"2025/02/14 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/10085,/*series_event_id*/10112,/*teaser_dialog_type*/0);
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10114,/*teaser_time*/"2025/02/21 15:00:00",/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/12 23:59:59",/*close_time*/"2025/03/17 14:59:59",/*background*/501463,/*sheet_id*/"bgm_M668",/*que_id*/"bgm_M668",/*banner_unit_id*/125201,/*count_start_time*/"2025/03/08 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/0,/*series_event_id*/0,/*teaser_dialog_type*/0);
 INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10115,/*teaser_time*/"2025/03/12 15:00:00",/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/23 23:59:59",/*close_time*/"2025/03/26 14:59:59",/*background*/500118,/*sheet_id*/"bgm_M565",/*que_id*/"bgm_M565",/*banner_unit_id*/121401,/*count_start_time*/"2025/03/20 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/10088,/*series_event_id*/0,/*teaser_dialog_type*/0);
-INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10116,/*teaser_time*/"2025/03/27 15:00:00",/*start_time*/"2025/03/31 09:00:00",/*end_time*/"2025/04/14 23:59:59",/*close_time*/"2025/04/19 14:59:59",/*background*/501683,/*sheet_id*/"bgm_MC017",/*que_id*/"bgm_MC017",/*banner_unit_id*/125401,/*count_start_time*/"2025/04/10 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/0,/*series_event_id*/0,/*teaser_dialog_type*/0);
-INSERT INTO `hatsune_schedule` VALUES (/*event_id*/10117,/*teaser_time*/"2025/03/27 15:00:00",/*start_time*/"2025/03/31 09:00:00",/*end_time*/"2025/04/07 23:59:59",/*close_time*/"2025/04/10 14:59:59",/*background*/500016,/*sheet_id*/"bgm_M574",/*que_id*/"bgm_M574",/*banner_unit_id*/121601,/*count_start_time*/"2025/04/04 19:00:00",/*backgroud_size_x*/1768,/*backgroud_size_y*/1060,/*backgroud_pos_x*/60,/*backgroud_pos_y*/50,/*original_event_id*/10090,/*series_event_id*/0,/*teaser_dialog_type*/1);
 COMMIT;

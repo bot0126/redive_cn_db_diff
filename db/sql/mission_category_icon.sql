@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'mission_category_icon' ('id' INTEGER NOT NULL, 'icon_name' TEXT NOT NULL, 'color' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- icon_name TEXT
+-- color TEXT
 INSERT INTO `mission_category_icon` VALUES (/*id*/101,/*icon_name*/"pink",/*color*/"#E24E7F");
 INSERT INTO `mission_category_icon` VALUES (/*id*/102,/*icon_name*/"pink",/*color*/"#E24E7F");
 INSERT INTO `mission_category_icon` VALUES (/*id*/103,/*icon_name*/"pink",/*color*/"#E24E7F");

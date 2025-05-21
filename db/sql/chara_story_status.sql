@@ -1,6 +1,39 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_story_status' ('story_id' INTEGER NOT NULL, 'unlock_story_name' TEXT NOT NULL, 'status_type_1' INTEGER NOT NULL, 'status_rate_1' INTEGER NOT NULL, 'status_type_2' INTEGER NOT NULL, 'status_rate_2' INTEGER NOT NULL, 'status_type_3' INTEGER NOT NULL, 'status_rate_3' INTEGER NOT NULL, 'status_type_4' INTEGER NOT NULL, 'status_rate_4' INTEGER NOT NULL, 'status_type_5' INTEGER NOT NULL, 'status_rate_5' INTEGER NOT NULL, 'chara_id_1' INTEGER NOT NULL, 'chara_id_2' INTEGER NOT NULL, 'chara_id_3' INTEGER NOT NULL, 'chara_id_4' INTEGER NOT NULL, 'chara_id_5' INTEGER NOT NULL, 'chara_id_6' INTEGER NOT NULL, 'chara_id_7' INTEGER NOT NULL, 'chara_id_8' INTEGER NOT NULL, 'chara_id_9' INTEGER NOT NULL, 'chara_id_10' INTEGER NOT NULL, 'chara_id_11' INTEGER NOT NULL, 'chara_id_12' INTEGER NOT NULL, 'chara_id_13' INTEGER NOT NULL, 'chara_id_14' INTEGER NOT NULL, 'chara_id_15' INTEGER NOT NULL, 'chara_id_16' INTEGER NOT NULL, 'chara_id_17' INTEGER NOT NULL, 'chara_id_18' INTEGER NOT NULL, 'chara_id_19' INTEGER NOT NULL, 'chara_id_20' INTEGER NOT NULL, PRIMARY KEY('story_id'));
+-- Column Names:
+-- story_id INTEGER
+-- unlock_story_name TEXT
+-- status_type_1 INTEGER
+-- status_rate_1 INTEGER
+-- status_type_2 INTEGER
+-- status_rate_2 INTEGER
+-- status_type_3 INTEGER
+-- status_rate_3 INTEGER
+-- status_type_4 INTEGER
+-- status_rate_4 INTEGER
+-- status_type_5 INTEGER
+-- status_rate_5 INTEGER
+-- chara_id_1 INTEGER
+-- chara_id_2 INTEGER
+-- chara_id_3 INTEGER
+-- chara_id_4 INTEGER
+-- chara_id_5 INTEGER
+-- chara_id_6 INTEGER
+-- chara_id_7 INTEGER
+-- chara_id_8 INTEGER
+-- chara_id_9 INTEGER
+-- chara_id_10 INTEGER
+-- chara_id_11 INTEGER
+-- chara_id_12 INTEGER
+-- chara_id_13 INTEGER
+-- chara_id_14 INTEGER
+-- chara_id_15 INTEGER
+-- chara_id_16 INTEGER
+-- chara_id_17 INTEGER
+-- chara_id_18 INTEGER
+-- chara_id_19 INTEGER
+-- chara_id_20 INTEGER
 INSERT INTO `chara_story_status` VALUES (/*story_id*/1001002,/*unlock_story_name*/"日和莉的小故事第2话",/*status_type_1*/2,/*status_rate_1*/15,/*status_type_2*/0,/*status_rate_2*/0,/*status_type_3*/0,/*status_rate_3*/0,/*status_type_4*/0,/*status_rate_4*/0,/*status_type_5*/0,/*status_rate_5*/0,/*chara_id_1*/1001,/*chara_id_2*/1087,/*chara_id_3*/1801,/*chara_id_4*/1224,/*chara_id_5*/0,/*chara_id_6*/0,/*chara_id_7*/0,/*chara_id_8*/0,/*chara_id_9*/0,/*chara_id_10*/0,/*chara_id_11*/0,/*chara_id_12*/0,/*chara_id_13*/0,/*chara_id_14*/0,/*chara_id_15*/0,/*chara_id_16*/0,/*chara_id_17*/0,/*chara_id_18*/0,/*chara_id_19*/0,/*chara_id_20*/0);
 INSERT INTO `chara_story_status` VALUES (/*story_id*/1001003,/*unlock_story_name*/"日和莉的小故事第3话",/*status_type_1*/2,/*status_rate_1*/30,/*status_type_2*/0,/*status_rate_2*/0,/*status_type_3*/0,/*status_rate_3*/0,/*status_type_4*/0,/*status_rate_4*/0,/*status_type_5*/0,/*status_rate_5*/0,/*chara_id_1*/1001,/*chara_id_2*/1087,/*chara_id_3*/1801,/*chara_id_4*/1224,/*chara_id_5*/0,/*chara_id_6*/0,/*chara_id_7*/0,/*chara_id_8*/0,/*chara_id_9*/0,/*chara_id_10*/0,/*chara_id_11*/0,/*chara_id_12*/0,/*chara_id_13*/0,/*chara_id_14*/0,/*chara_id_15*/0,/*chara_id_16*/0,/*chara_id_17*/0,/*chara_id_18*/0,/*chara_id_19*/0,/*chara_id_20*/0);
 INSERT INTO `chara_story_status` VALUES (/*story_id*/1001004,/*unlock_story_name*/"日和莉的小故事第4话",/*status_type_1*/2,/*status_rate_1*/30,/*status_type_2*/0,/*status_rate_2*/0,/*status_type_3*/0,/*status_rate_3*/0,/*status_type_4*/0,/*status_rate_4*/0,/*status_type_5*/0,/*status_rate_5*/0,/*chara_id_1*/1001,/*chara_id_2*/1087,/*chara_id_3*/1801,/*chara_id_4*/1224,/*chara_id_5*/0,/*chara_id_6*/0,/*chara_id_7*/0,/*chara_id_8*/0,/*chara_id_9*/0,/*chara_id_10*/0,/*chara_id_11*/0,/*chara_id_12*/0,/*chara_id_13*/0,/*chara_id_14*/0,/*chara_id_15*/0,/*chara_id_16*/0,/*chara_id_17*/0,/*chara_id_18*/0,/*chara_id_19*/0,/*chara_id_20*/0);

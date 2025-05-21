@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'stamp' ('stamp_id' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'start_date' TEXT NOT NULL, 'end_date' TEXT NOT NULL, PRIMARY KEY('stamp_id'));
+-- Column Names:
+-- stamp_id INTEGER
+-- disp_order INTEGER
+-- description TEXT
+-- start_date TEXT
+-- end_date TEXT
 INSERT INTO `stamp` VALUES (/*stamp_id*/100101,/*disp_order*/4,/*description*/"加油！",/*start_date*/"2020/01/01 0:00:00",/*end_date*/"2099/12/31 23:59:59");
 INSERT INTO `stamp` VALUES (/*stamp_id*/100201,/*disp_order*/5,/*description*/"谢谢",/*start_date*/"2020/01/01 0:00:00",/*end_date*/"2099/12/31 23:59:59");
 INSERT INTO `stamp` VALUES (/*stamp_id*/100301,/*disp_order*/6,/*description*/"参战",/*start_date*/"2020/01/01 0:00:00",/*end_date*/"2099/12/31 23:59:59");

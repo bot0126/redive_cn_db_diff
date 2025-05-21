@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tdf_phase_data' ('schedule_id' INTEGER NOT NULL, 'phase_num' INTEGER NOT NULL, 'need_clear_num' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, PRIMARY KEY('schedule_id','phase_num'));
+-- Column Names:
+-- schedule_id INTEGER
+-- phase_num INTEGER
+-- need_clear_num INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
 INSERT INTO `tdf_phase_data` VALUES (/*schedule_id*/1001,/*phase_num*/1,/*need_clear_num*/3,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/100,/*reward_type_2*/2,/*reward_id_2*/20004,/*reward_num_2*/8,/*reward_type_3*/4,/*reward_id_3*/150003,/*reward_num_3*/30,/*reward_type_4*/2,/*reward_id_4*/90005,/*reward_num_4*/3,/*reward_type_5*/12,/*reward_id_5*/94002,/*reward_num_5*/300000);
 INSERT INTO `tdf_phase_data` VALUES (/*schedule_id*/1001,/*phase_num*/2,/*need_clear_num*/3,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/150,/*reward_type_2*/4,/*reward_id_2*/140001,/*reward_num_2*/60,/*reward_type_3*/4,/*reward_id_3*/150004,/*reward_num_3*/30,/*reward_type_4*/2,/*reward_id_4*/90005,/*reward_num_4*/3,/*reward_type_5*/12,/*reward_id_5*/94002,/*reward_num_5*/400000);
 INSERT INTO `tdf_phase_data` VALUES (/*schedule_id*/1001,/*phase_num*/3,/*need_clear_num*/3,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/150,/*reward_type_2*/2,/*reward_id_2*/20004,/*reward_num_2*/10,/*reward_type_3*/4,/*reward_id_3*/150005,/*reward_num_3*/30,/*reward_type_4*/2,/*reward_id_4*/90005,/*reward_num_4*/3,/*reward_type_5*/12,/*reward_id_5*/94002,/*reward_num_5*/500000);

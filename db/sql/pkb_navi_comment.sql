@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pkb_navi_comment' ('comment_id' INTEGER NOT NULL, 'where_type' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'face_type' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'description' TEXT , 'voice_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'pos_x' REAL NOT NULL, 'pos_y' REAL NOT NULL, 'change_face_time' REAL NOT NULL, 'change_face_type' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- where_type INTEGER
+-- character_id INTEGER
+-- face_type INTEGER
+-- character_name TEXT
+-- description TEXT
+-- voice_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- pos_x REAL
+-- pos_y REAL
+-- change_face_time REAL
+-- change_face_type INTEGER
+-- event_id INTEGER
 INSERT INTO `pkb_navi_comment` VALUES (/*comment_id*/24001,/*where_type*/24,/*character_id*/102301,/*face_type*/2,/*character_name*/"绫音",/*description*/"太好了，噗吉！\n这样就能为哥哥们\n做示范了！",/*voice_id*/401,/*start_time*/"2022/7/31 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/2,/*event_id*/20027);
 INSERT INTO `pkb_navi_comment` VALUES (/*comment_id*/24002,/*where_type*/24,/*character_id*/102301,/*face_type*/1,/*character_name*/"绫音",/*description*/"我们赢了呢！\n只要和噗吉一起，\n无论怎样的球\n都能打出全垒打！",/*voice_id*/402,/*start_time*/"2022/7/31 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/2.21,/*change_face_type*/2,/*event_id*/20027);
 INSERT INTO `pkb_navi_comment` VALUES (/*comment_id*/24003,/*where_type*/24,/*character_id*/102301,/*face_type*/2,/*character_name*/"绫音",/*description*/"太好了太好了！\n哥哥，你看到了吗？\n我有很努力地在击球哦！",/*voice_id*/403,/*start_time*/"2022/7/31 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/2,/*event_id*/20027);

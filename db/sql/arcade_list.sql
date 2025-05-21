@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'arcade_list' ('arcade_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'price' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'cue_id' TEXT NOT NULL, 'where_type' INTEGER NOT NULL, 'banner_start_time' TEXT NOT NULL, 'banner_end_time' TEXT NOT NULL, 'description' TEXT NOT NULL, 'clan_chat_title' TEXT NOT NULL, PRIMARY KEY('arcade_id'));
+-- Column Names:
+-- arcade_id INTEGER
+-- title TEXT
+-- start_time TEXT
+-- price INTEGER
+-- sheet_id TEXT
+-- cue_id TEXT
+-- where_type INTEGER
+-- banner_start_time TEXT
+-- banner_end_time TEXT
+-- description TEXT
+-- clan_chat_title TEXT
 INSERT INTO `arcade_list` VALUES (/*arcade_id*/1001,/*title*/"哥哥争夺战！\n谁的巧克力更优SHOW",/*start_time*/"2021-01-01 0:00:00",/*price*/10000,/*sheet_id*/"bgm_M199",/*cue_id*/"bgm_M199_juke",/*where_type*/1002,/*banner_start_time*/"2030/12/31 15:00",/*banner_end_time*/"2030/12/31 15:00",/*description*/"完成爱意满满的\n巧克力蛋糕吧！\n超可爱的点击游戏！",/*clan_chat_title*/"");
 INSERT INTO `arcade_list` VALUES (/*arcade_id*/1002,/*title*/"空花大回旋\n飞行途中的陶醉欢喜",/*start_time*/"2021-06-14 11:00:00",/*price*/10000,/*sheet_id*/"bgm_M227",/*cue_id*/"bgm_M227_juke",/*where_type*/1003,/*banner_start_time*/"2030/12/31 15:00",/*banner_end_time*/"2030/12/31 15:00",/*description*/"大回旋！空花！\n最为陶醉欢喜之处就在这里！\n拖拽飞行，空中之旅！",/*clan_chat_title*/"");
 INSERT INTO `arcade_list` VALUES (/*arcade_id*/1003,/*title*/"香织的灵魂式空手道场",/*start_time*/"2021-08-09 11:00:00",/*price*/10000,/*sheet_id*/"bgm_M249",/*cue_id*/"bgm_M249_juke",/*where_type*/1004,/*banner_start_time*/"2030/12/31 15:00",/*banner_end_time*/"2030/12/31 15:00",/*description*/"这就是琉球魂！\n横扫迫近的奄美魔物\n爽快的动作游戏！",/*clan_chat_title*/"");

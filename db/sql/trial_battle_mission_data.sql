@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'trial_battle_mission_data' ('trial_mission_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'condition_value' INTEGER NOT NULL, 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, PRIMARY KEY('trial_mission_id'));
+-- Column Names:
+-- trial_mission_id INTEGER
+-- disp_group INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- quest_id INTEGER
+-- condition_value INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
 INSERT INTO `trial_battle_mission_data` VALUES (/*trial_mission_id*/110001,/*disp_group*/111,/*description*/"通关滴水嘴兽（简单）吧",/*mission_condition*/70000,/*quest_id*/90110001,/*condition_value*/0,/*condition_num*/1,/*mission_reward_id*/110001);
 INSERT INTO `trial_battle_mission_data` VALUES (/*trial_mission_id*/110002,/*disp_group*/112,/*description*/"通关滴水嘴兽（普通）吧",/*mission_condition*/70000,/*quest_id*/90110002,/*condition_value*/0,/*condition_num*/1,/*mission_reward_id*/110001);
 INSERT INTO `trial_battle_mission_data` VALUES (/*trial_mission_id*/110003,/*disp_group*/113,/*description*/"通关滴水嘴兽（困难）吧",/*mission_condition*/70000,/*quest_id*/90110003,/*condition_value*/0,/*condition_num*/1,/*mission_reward_id*/110001);

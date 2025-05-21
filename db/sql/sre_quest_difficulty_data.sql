@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_quest_difficulty_data' ('sre_boss_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'sre_id' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, PRIMARY KEY('sre_boss_id','difficulty'));
+-- Column Names:
+-- sre_boss_id INTEGER
+-- difficulty INTEGER
+-- sre_id INTEGER
+-- wave_group_id INTEGER
+-- icon_id INTEGER
 INSERT INTO `sre_quest_difficulty_data` VALUES (/*sre_boss_id*/3001,/*difficulty*/1,/*sre_id*/3,/*wave_group_id*/803100201,/*icon_id*/0);
 INSERT INTO `sre_quest_difficulty_data` VALUES (/*sre_boss_id*/3001,/*difficulty*/2,/*sre_id*/3,/*wave_group_id*/803100202,/*icon_id*/0);
 INSERT INTO `sre_quest_difficulty_data` VALUES (/*sre_boss_id*/3001,/*difficulty*/3,/*sre_id*/3,/*wave_group_id*/803100203,/*icon_id*/0);

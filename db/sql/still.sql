@@ -1,6 +1,27 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'still' ('still_id' INTEGER NOT NULL, 'story_group_id' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'still_group_id' INTEGER NOT NULL, 'vertical_still_flg' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, 'unit_id_1' INTEGER NOT NULL, 'unit_id_2' INTEGER NOT NULL, 'unit_id_3' INTEGER NOT NULL, 'unit_id_4' INTEGER NOT NULL, 'unit_id_5' INTEGER NOT NULL, 'unit_id_6' INTEGER NOT NULL, 'unit_id_7' INTEGER NOT NULL, 'unit_id_8' INTEGER NOT NULL, 'unit_id_9' INTEGER NOT NULL, 'unit_id_10' INTEGER NOT NULL, 'facial_id' INTEGER NOT NULL, 'album_ignore' INTEGER NOT NULL, 'my_page_flag' INTEGER NOT NULL, 'scroll_direction' INTEGER NOT NULL, PRIMARY KEY('still_id'));
+-- Column Names:
+-- still_id INTEGER
+-- story_group_id INTEGER
+-- story_id INTEGER
+-- still_group_id INTEGER
+-- vertical_still_flg INTEGER
+-- position_y INTEGER
+-- unit_id_1 INTEGER
+-- unit_id_2 INTEGER
+-- unit_id_3 INTEGER
+-- unit_id_4 INTEGER
+-- unit_id_5 INTEGER
+-- unit_id_6 INTEGER
+-- unit_id_7 INTEGER
+-- unit_id_8 INTEGER
+-- unit_id_9 INTEGER
+-- unit_id_10 INTEGER
+-- facial_id INTEGER
+-- album_ignore INTEGER
+-- my_page_flag INTEGER
+-- scroll_direction INTEGER
 INSERT INTO `still` VALUES (/*still_id*/100100201,/*story_group_id*/1001,/*story_id*/1001002,/*still_group_id*/0,/*vertical_still_flg*/0,/*position_y*/0,/*unit_id_1*/100111,/*unit_id_2*/0,/*unit_id_3*/0,/*unit_id_4*/0,/*unit_id_5*/0,/*unit_id_6*/0,/*unit_id_7*/0,/*unit_id_8*/0,/*unit_id_9*/0,/*unit_id_10*/0,/*facial_id*/1,/*album_ignore*/0,/*my_page_flag*/1,/*scroll_direction*/0);
 INSERT INTO `still` VALUES (/*still_id*/100100801,/*story_group_id*/1001,/*story_id*/1001008,/*still_group_id*/0,/*vertical_still_flg*/1,/*position_y*/-840,/*unit_id_1*/0,/*unit_id_2*/0,/*unit_id_3*/0,/*unit_id_4*/0,/*unit_id_5*/0,/*unit_id_6*/0,/*unit_id_7*/0,/*unit_id_8*/0,/*unit_id_9*/0,/*unit_id_10*/0,/*facial_id*/1,/*album_ignore*/0,/*my_page_flag*/0,/*scroll_direction*/0);
 INSERT INTO `still` VALUES (/*still_id*/100101101,/*story_group_id*/1001,/*story_id*/1001011,/*still_group_id*/1001011,/*vertical_still_flg*/0,/*position_y*/0,/*unit_id_1*/100131,/*unit_id_2*/0,/*unit_id_3*/0,/*unit_id_4*/0,/*unit_id_5*/0,/*unit_id_6*/0,/*unit_id_7*/0,/*unit_id_8*/0,/*unit_id_9*/0,/*unit_id_10*/0,/*facial_id*/1,/*album_ignore*/0,/*my_page_flag*/1,/*scroll_direction*/0);

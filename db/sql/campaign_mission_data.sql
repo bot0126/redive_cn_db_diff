@@ -1,6 +1,34 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'campaign_mission_data' ('mission_id' INTEGER NOT NULL, 'campaign_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER , 'condition_value_2' INTEGER , 'condition_value_3' INTEGER , 'condition_value_4' INTEGER , 'condition_value_5' INTEGER , 'condition_value_6' INTEGER , 'condition_value_7' INTEGER , 'condition_value_8' INTEGER , 'condition_value_9' INTEGER , 'condition_value_10' INTEGER , 'condition_num' INTEGER NOT NULL, 'campaign_mission_reward_id' INTEGER NOT NULL, 'system_id' INTEGER , 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'min_level' INTEGER NOT NULL, 'max_level' INTEGER NOT NULL, 'title_color_id' INTEGER NOT NULL, 'visible_flag' INTEGER NOT NULL, 'mark_flag' INTEGER NOT NULL, PRIMARY KEY('mission_id'));
+-- Column Names:
+-- mission_id INTEGER
+-- campaign_id INTEGER
+-- type INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_value_4 INTEGER
+-- condition_value_5 INTEGER
+-- condition_value_6 INTEGER
+-- condition_value_7 INTEGER
+-- condition_value_8 INTEGER
+-- condition_value_9 INTEGER
+-- condition_value_10 INTEGER
+-- condition_num INTEGER
+-- campaign_mission_reward_id INTEGER
+-- system_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- min_level INTEGER
+-- max_level INTEGER
+-- title_color_id INTEGER
+-- visible_flag INTEGER
+-- mark_flag INTEGER
 INSERT INTO `campaign_mission_data` VALUES (/*mission_id*/30109001,/*campaign_id*/1,/*type*/9,/*disp_group*/100,/*category_icon*/107,/*description*/"活动期间完成4天登录吧",/*mission_condition*/8011,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_value_6*/0,/*condition_value_7*/0,/*condition_value_8*/0,/*condition_value_9*/0,/*condition_value_10*/0,/*condition_num*/4,/*campaign_mission_reward_id*/30109001,/*system_id*/0,/*start_time*/"2019-12-20 05:00:00",/*end_time*/"2020-01-04 04:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1,/*mark_flag*/0);
 INSERT INTO `campaign_mission_data` VALUES (/*mission_id*/30109002,/*campaign_id*/1,/*type*/9,/*disp_group*/101,/*category_icon*/107,/*description*/"阅读主线剧情第1章第1话吧",/*mission_condition*/8008,/*condition_value_1*/2001001,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_value_6*/0,/*condition_value_7*/0,/*condition_value_8*/0,/*condition_value_9*/0,/*condition_value_10*/0,/*condition_num*/1,/*campaign_mission_reward_id*/30109002,/*system_id*/801,/*start_time*/"2019-12-20 05:00:00",/*end_time*/"2020-01-04 04:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1,/*mark_flag*/1);
 INSERT INTO `campaign_mission_data` VALUES (/*mission_id*/30109003,/*campaign_id*/1,/*type*/9,/*disp_group*/102,/*category_icon*/107,/*description*/"活动期间借助支援通关冒险吧",/*mission_condition*/1012,/*condition_value_1*/1,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_value_6*/0,/*condition_value_7*/0,/*condition_value_8*/0,/*condition_value_9*/0,/*condition_value_10*/0,/*condition_num*/1,/*campaign_mission_reward_id*/30109003,/*system_id*/101,/*start_time*/"2019-12-20 05:00:00",/*end_time*/"2020-01-04 04:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1,/*mark_flag*/1);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sekai_add_times_data' ('id' INTEGER NOT NULL, 'sekai_id' INTEGER NOT NULL, 'add_times' INTEGER NOT NULL, 'add_times_limit' INTEGER NOT NULL, 'add_times_time' TEXT NOT NULL, 'duration' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- sekai_id INTEGER
+-- add_times INTEGER
+-- add_times_limit INTEGER
+-- add_times_time TEXT
+-- duration INTEGER
 INSERT INTO `sekai_add_times_data` VALUES (/*id*/1,/*sekai_id*/1002,/*add_times*/6,/*add_times_limit*/10,/*add_times_time*/"2024/04/01",/*duration*/0);
 INSERT INTO `sekai_add_times_data` VALUES (/*id*/2,/*sekai_id*/1002,/*add_times*/2,/*add_times_limit*/10,/*add_times_time*/"2024/4/1 2:00:00",/*duration*/120);
 INSERT INTO `sekai_add_times_data` VALUES (/*id*/3,/*sekai_id*/1002,/*add_times*/2,/*add_times_limit*/10,/*add_times_time*/"2024/4/1 4:00:00",/*duration*/120);

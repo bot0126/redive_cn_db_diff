@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'enemy_m_parts' ('enemy_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'child_enemy_parameter_1' INTEGER NOT NULL, 'child_enemy_parameter_2' INTEGER NOT NULL, 'child_enemy_parameter_3' INTEGER NOT NULL, 'child_enemy_parameter_4' INTEGER NOT NULL, 'child_enemy_parameter_5' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- name TEXT
+-- child_enemy_parameter_1 INTEGER
+-- child_enemy_parameter_2 INTEGER
+-- child_enemy_parameter_3 INTEGER
+-- child_enemy_parameter_4 INTEGER
+-- child_enemy_parameter_5 INTEGER
 INSERT INTO `enemy_m_parts` VALUES (/*enemy_id*/401021505,/*name*/"双子魔猪 第1阶段",/*child_enemy_parameter_1*/401021506,/*child_enemy_parameter_2*/401021507,/*child_enemy_parameter_3*/0,/*child_enemy_parameter_4*/0,/*child_enemy_parameter_5*/0);
 INSERT INTO `enemy_m_parts` VALUES (/*enemy_id*/401021905,/*name*/"暴食魔兽 第1阶段",/*child_enemy_parameter_1*/401021906,/*child_enemy_parameter_2*/401021907,/*child_enemy_parameter_3*/401021908,/*child_enemy_parameter_4*/0,/*child_enemy_parameter_5*/0);
 INSERT INTO `enemy_m_parts` VALUES (/*enemy_id*/401022105,/*name*/"人马射手 第1阶段",/*child_enemy_parameter_1*/401022106,/*child_enemy_parameter_2*/401022107,/*child_enemy_parameter_3*/0,/*child_enemy_parameter_4*/0,/*child_enemy_parameter_5*/0);

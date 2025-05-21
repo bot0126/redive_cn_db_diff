@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'event_navi_comment_condition' ('comment_id' INTEGER NOT NULL, 'condition_type_1' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_type_2' INTEGER NOT NULL, 'condition_value_2' INTEGER NOT NULL, 'condition_type_3' INTEGER NOT NULL, 'condition_value_3' INTEGER NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- condition_type_1 INTEGER
+-- condition_value_1 INTEGER
+-- condition_type_2 INTEGER
+-- condition_value_2 INTEGER
+-- condition_type_3 INTEGER
+-- condition_value_3 INTEGER
 INSERT INTO `event_navi_comment_condition` VALUES (/*comment_id*/10042101,/*condition_type_1*/4,/*condition_value_1*/5042001,/*condition_type_2*/0,/*condition_value_2*/0,/*condition_type_3*/0,/*condition_value_3*/0);
 INSERT INTO `event_navi_comment_condition` VALUES (/*comment_id*/10042102,/*condition_type_1*/3,/*condition_value_1*/5042001,/*condition_type_2*/0,/*condition_value_2*/0,/*condition_type_3*/0,/*condition_value_3*/0);
 INSERT INTO `event_navi_comment_condition` VALUES (/*comment_id*/10042103,/*condition_type_1*/4,/*condition_value_1*/5042001,/*condition_type_2*/0,/*condition_value_2*/0,/*condition_type_3*/0,/*condition_value_3*/0);

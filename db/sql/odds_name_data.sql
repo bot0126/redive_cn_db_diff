@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'odds_name_data' ('id' INTEGER NOT NULL, 'odds_file' TEXT NOT NULL, 'name' TEXT NOT NULL, 'icon_type' INTEGER NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- odds_file TEXT
+-- name TEXT
+-- icon_type INTEGER
+-- description TEXT
 INSERT INTO `odds_name_data` VALUES (/*id*/1,/*odds_file*/"box_rank_1-3",/*name*/"随机装备箱",/*icon_type*/99002,/*description*/"能获取随机装备。");
 INSERT INTO `odds_name_data` VALUES (/*id*/2,/*odds_file*/"eq_rank_3-6",/*name*/"RANK3~6的装备道具",/*icon_type*/99002,/*description*/"角色RANK1~4所需装备道具");
 INSERT INTO `odds_name_data` VALUES (/*id*/3,/*odds_file*/"eq_rank_4-7",/*name*/"RANK4~7的装备道具",/*icon_type*/99002,/*description*/"角色RANK4~7所需装备道具");

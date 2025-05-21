@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'vote_unit' ('vote_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'unit_rarity' INTEGER NOT NULL, PRIMARY KEY('vote_id','unit_id'));
+-- Column Names:
+-- vote_id INTEGER
+-- unit_id INTEGER
+-- unit_rarity INTEGER
 INSERT INTO `vote_unit` VALUES (/*vote_id*/1,/*unit_id*/100101,/*unit_rarity*/1);
 INSERT INTO `vote_unit` VALUES (/*vote_id*/1,/*unit_id*/100201,/*unit_rarity*/1);
 INSERT INTO `vote_unit` VALUES (/*vote_id*/1,/*unit_id*/100301,/*unit_rarity*/1);

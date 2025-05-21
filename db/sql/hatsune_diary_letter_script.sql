@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_diary_letter_script' ('id' INTEGER NOT NULL, 'diary_id' INTEGER NOT NULL, 'seq_num' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'line_num' INTEGER NOT NULL, 'start_pos' INTEGER NOT NULL, 'end_pos' INTEGER NOT NULL, 'seek_time' REAL NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'command' INTEGER NOT NULL, 'command_param' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- diary_id INTEGER
+-- seq_num INTEGER
+-- type INTEGER
+-- line_num INTEGER
+-- start_pos INTEGER
+-- end_pos INTEGER
+-- seek_time REAL
+-- sheet_name TEXT
+-- cue_name TEXT
+-- command INTEGER
+-- command_param REAL
 INSERT INTO `hatsune_diary_letter_script` VALUES (/*id*/1150001,/*diary_id*/15,/*seq_num*/1,/*type*/2,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"vo_10011600",/*cue_name*/"vo_10011600_1501",/*command*/0,/*command_param*/0.0);
 INSERT INTO `hatsune_diary_letter_script` VALUES (/*id*/1150002,/*diary_id*/15,/*seq_num*/2,/*type*/1,/*line_num*/1,/*start_pos*/0,/*end_pos*/240,/*seek_time*/0.997402597402597,/*sheet_name*/"0",/*cue_name*/"0",/*command*/0,/*command_param*/0.0);
 INSERT INTO `hatsune_diary_letter_script` VALUES (/*id*/1150003,/*diary_id*/15,/*seq_num*/3,/*type*/4,/*line_num*/1,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"0",/*cue_name*/"0",/*command*/1,/*command_param*/2.4974025974026);

@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_rewards' ('id' INTEGER NOT NULL, 'score' INTEGER NOT NULL, 'mission_detail' TEXT NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_count_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- score INTEGER
+-- mission_detail TEXT
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_count_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_count_5 INTEGER
 INSERT INTO `taq_rewards` VALUES (/*id*/1,/*score*/10000,/*mission_detail*/"获得10000点累积点数",/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/100000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);
 INSERT INTO `taq_rewards` VALUES (/*id*/2,/*score*/20000,/*mission_detail*/"获得20000点累积点数",/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_count_1*/50,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);
 INSERT INTO `taq_rewards` VALUES (/*id*/3,/*score*/30000,/*mission_detail*/"获得30000点累积点数",/*reward_type_1*/12,/*reward_id_1*/94002,/*reward_count_1*/100000,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_count_5*/0);

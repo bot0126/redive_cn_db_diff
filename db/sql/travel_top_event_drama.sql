@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_top_event_drama' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `travel_top_event_drama` VALUES (/*command_id*/1200110001,/*drama_id*/20011,/*command_type*/1,/*param_01*/"1",/*param_02*/"105811",/*param_03*/"101",/*param_04*/"42",/*param_05*/"-68",/*param_06*/"0.8",/*param_07*/"1",/*param_08*/"travel_topdrama_r_2000_idle_smile");
 INSERT INTO `travel_top_event_drama` VALUES (/*command_id*/1200110002,/*drama_id*/20011,/*command_type*/1,/*param_01*/"1",/*param_02*/"106011",/*param_03*/"102",/*param_04*/"-42",/*param_05*/"-68",/*param_06*/"0.8",/*param_07*/"0",/*param_08*/"travel_topdrama_r_2000_idle_sad_shy");
 INSERT INTO `travel_top_event_drama` VALUES (/*command_id*/1200110003,/*drama_id*/20011,/*command_type*/5,/*param_01*/"0",/*param_02*/"0",/*param_03*/"110",/*param_04*/"0",/*param_05*/"-75",/*param_06*/"1",/*param_07*/"0",/*param_08*/"mana");

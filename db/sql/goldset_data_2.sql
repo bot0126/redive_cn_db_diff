@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'goldset_data_2' ('id' INTEGER NOT NULL, 'buy_count' INTEGER NOT NULL, 'use_jewel_count' INTEGER NOT NULL, 'get_gold_count' INTEGER NOT NULL, 'goldset_odds_1' INTEGER NOT NULL, 'goldset_odds_2' INTEGER NOT NULL, 'goldset_odds_3' INTEGER NOT NULL, 'additional_gold_min_rate' INTEGER NOT NULL, 'additional_gold_max_rate' INTEGER NOT NULL, 'training_quest_count' INTEGER NOT NULL, PRIMARY KEY('buy_count'));
+-- Column Names:
+-- id INTEGER
+-- buy_count INTEGER
+-- use_jewel_count INTEGER
+-- get_gold_count INTEGER
+-- goldset_odds_1 INTEGER
+-- goldset_odds_2 INTEGER
+-- goldset_odds_3 INTEGER
+-- additional_gold_min_rate INTEGER
+-- additional_gold_max_rate INTEGER
+-- training_quest_count INTEGER
 INSERT INTO `goldset_data_2` VALUES (/*id*/1,/*buy_count*/1,/*use_jewel_count*/10,/*get_gold_count*/12000,/*goldset_odds_1*/90001,/*goldset_odds_2*/0,/*goldset_odds_3*/90043,/*additional_gold_min_rate*/10000,/*additional_gold_max_rate*/30000,/*training_quest_count*/0);
 INSERT INTO `goldset_data_2` VALUES (/*id*/2,/*buy_count*/2,/*use_jewel_count*/20,/*get_gold_count*/24000,/*goldset_odds_1*/90002,/*goldset_odds_2*/0,/*goldset_odds_3*/90047,/*additional_gold_min_rate*/10000,/*additional_gold_max_rate*/30000,/*training_quest_count*/0);
 INSERT INTO `goldset_data_2` VALUES (/*id*/3,/*buy_count*/3,/*use_jewel_count*/20,/*get_gold_count*/24000,/*goldset_odds_1*/90002,/*goldset_odds_2*/0,/*goldset_odds_3*/90047,/*additional_gold_min_rate*/10000,/*additional_gold_max_rate*/30000,/*training_quest_count*/0);

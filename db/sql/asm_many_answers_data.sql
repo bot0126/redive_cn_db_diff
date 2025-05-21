@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_many_answers_data' ('asm_id' INTEGER NOT NULL, 'choice_1' TEXT NOT NULL, 'image_id_1' INTEGER NOT NULL, 'choice_2' TEXT NOT NULL, 'image_id_2' INTEGER NOT NULL, 'choice_3' TEXT NOT NULL, 'image_id_3' INTEGER NOT NULL, 'choice_4' TEXT NOT NULL, 'image_id_4' INTEGER NOT NULL, 'is_correct_1' INTEGER NOT NULL, 'is_correct_2' INTEGER NOT NULL, 'is_correct_3' INTEGER NOT NULL, 'is_correct_4' INTEGER NOT NULL, PRIMARY KEY('asm_id'));
+-- Column Names:
+-- asm_id INTEGER
+-- choice_1 TEXT
+-- image_id_1 INTEGER
+-- choice_2 TEXT
+-- image_id_2 INTEGER
+-- choice_3 TEXT
+-- image_id_3 INTEGER
+-- choice_4 TEXT
+-- image_id_4 INTEGER
+-- is_correct_1 INTEGER
+-- is_correct_2 INTEGER
+-- is_correct_3 INTEGER
+-- is_correct_4 INTEGER
 INSERT INTO `asm_many_answers_data` VALUES (/*asm_id*/3110001,/*choice_1*/"狼",/*image_id_1*/0,/*choice_2*/"猪",/*image_id_2*/0,/*choice_3*/"豚",/*image_id_3*/0,/*choice_4*/"犬",/*image_id_4*/0,/*is_correct_1*/1,/*is_correct_2*/1,/*is_correct_3*/0,/*is_correct_4*/0);
 INSERT INTO `asm_many_answers_data` VALUES (/*asm_id*/3110002,/*choice_1*/"一",/*image_id_1*/0,/*choice_2*/"二",/*image_id_2*/0,/*choice_3*/"三",/*image_id_3*/0,/*choice_4*/"四",/*image_id_4*/0,/*is_correct_1*/1,/*is_correct_2*/1,/*is_correct_3*/0,/*is_correct_4*/0);
 INSERT INTO `asm_many_answers_data` VALUES (/*asm_id*/3110003,/*choice_1*/"十",/*image_id_1*/0,/*choice_2*/"九",/*image_id_2*/0,/*choice_3*/"八",/*image_id_3*/0,/*choice_4*/"七",/*image_id_4*/0,/*is_correct_1*/1,/*is_correct_2*/1,/*is_correct_3*/1,/*is_correct_4*/0);

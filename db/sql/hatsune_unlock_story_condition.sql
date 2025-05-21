@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_unlock_story_condition' ('story_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_entry' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'condition_mission_id' INTEGER NOT NULL, 'condition_time' TEXT NOT NULL, 'condition_story_id' INTEGER NOT NULL, PRIMARY KEY('story_id'));
+-- Column Names:
+-- story_id INTEGER
+-- event_id INTEGER
+-- condition_entry INTEGER
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- condition_mission_id INTEGER
+-- condition_time TEXT
+-- condition_story_id INTEGER
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5001000,/*event_id*/20001,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5001001,/*event_id*/20001,/*condition_entry*/0,/*condition_quest_id*/20001103,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5001002,/*event_id*/20001,/*condition_entry*/0,/*condition_quest_id*/20001105,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
@@ -327,14 +336,14 @@ INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5066004,/*event
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5066005,/*event_id*/20037,/*condition_entry*/0,/*condition_quest_id*/20037112,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5066006,/*event_id*/20037,/*condition_entry*/0,/*condition_quest_id*/20037115,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5066007,/*event_id*/20037,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/2003701,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068000,/*event_id*/20038,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068001,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068002,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038105,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068003,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038107,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068004,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038109,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068005,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038111,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068006,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/20038115,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068007,/*event_id*/20038,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/2003801,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068000,/*event_id*/10095,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068001,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068002,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095105,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068003,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095107,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068004,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095109,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068005,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095111,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068006,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/10095115,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5068007,/*event_id*/10095,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/1009501,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5070000,/*event_id*/10097,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5070001,/*event_id*/10097,/*condition_entry*/0,/*condition_quest_id*/10097101,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5070002,/*event_id*/10097,/*condition_entry*/0,/*condition_quest_id*/10097102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
@@ -406,14 +415,14 @@ INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5085004,/*event
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5085005,/*event_id*/10113,/*condition_entry*/0,/*condition_quest_id*/10113110,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5085006,/*event_id*/10113,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/1011301,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5085201,/*event_id*/10113,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088000,/*event_id*/10115,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088001,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088002,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115104,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088003,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115106,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088004,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115108,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088005,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115110,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088006,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/10115115,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
-INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088007,/*event_id*/10115,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/1011501,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088000,/*event_id*/10088,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088001,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088002,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088104,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088003,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088106,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088004,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088108,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088005,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088110,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088006,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/10088115,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
+INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5088007,/*event_id*/10088,/*condition_entry*/0,/*condition_quest_id*/0,/*condition_boss_id*/1008801,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5090000,/*event_id*/10090,/*condition_entry*/1,/*condition_quest_id*/0,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5090001,/*event_id*/10090,/*condition_entry*/0,/*condition_quest_id*/10090102,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);
 INSERT INTO `hatsune_unlock_story_condition` VALUES (/*story_id*/5090002,/*event_id*/10090,/*condition_entry*/0,/*condition_quest_id*/10090104,/*condition_boss_id*/0,/*condition_mission_id*/0,/*condition_time*/"0",/*condition_story_id*/0);

@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_kanji_list' ('id' INTEGER NOT NULL, 'kanji' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- kanji TEXT
 INSERT INTO `taq_kanji_list` VALUES (/*id*/1,/*kanji*/"异");
 INSERT INTO `taq_kanji_list` VALUES (/*id*/2,/*kanji*/"遗");
 INSERT INTO `taq_kanji_list` VALUES (/*id*/3,/*kanji*/"域");

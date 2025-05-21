@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'psy_drama' ('drama_id' INTEGER NOT NULL, 'condition_total_eat' INTEGER NOT NULL, 'condition_chara_type' INTEGER NOT NULL, 'condition_time' TEXT NOT NULL, 'condition_psy_product_1' INTEGER NOT NULL, 'condition_psy_product_2' INTEGER NOT NULL, 'condition_psy_product_3' INTEGER NOT NULL, 'condition_psy_product_4' INTEGER NOT NULL, 'condition_psy_product_5' INTEGER NOT NULL, 'release_psy_product_id_1' INTEGER NOT NULL, 'release_psy_product_id_2' INTEGER NOT NULL, 'release_psy_product_id_3' INTEGER NOT NULL, 'release_psy_product_id_4' INTEGER NOT NULL, 'release_psy_product_id_5' INTEGER NOT NULL, 'title' TEXT NOT NULL, PRIMARY KEY('drama_id'));
+-- Column Names:
+-- drama_id INTEGER
+-- condition_total_eat INTEGER
+-- condition_chara_type INTEGER
+-- condition_time TEXT
+-- condition_psy_product_1 INTEGER
+-- condition_psy_product_2 INTEGER
+-- condition_psy_product_3 INTEGER
+-- condition_psy_product_4 INTEGER
+-- condition_psy_product_5 INTEGER
+-- release_psy_product_id_1 INTEGER
+-- release_psy_product_id_2 INTEGER
+-- release_psy_product_id_3 INTEGER
+-- release_psy_product_id_4 INTEGER
+-- release_psy_product_id_5 INTEGER
+-- title TEXT
 INSERT INTO `psy_drama` VALUES (/*drama_id*/1,/*condition_total_eat*/0,/*condition_chara_type*/0,/*condition_time*/"0",/*condition_psy_product_1*/0,/*condition_psy_product_2*/0,/*condition_psy_product_3*/0,/*condition_psy_product_4*/0,/*condition_psy_product_5*/0,/*release_psy_product_id_1*/0,/*release_psy_product_id_2*/0,/*release_psy_product_id_3*/0,/*release_psy_product_id_4*/0,/*release_psy_product_id_5*/0,/*title*/"宫子厨房");
 INSERT INTO `psy_drama` VALUES (/*drama_id*/2,/*condition_total_eat*/48,/*condition_chara_type*/0,/*condition_time*/"0",/*condition_psy_product_1*/0,/*condition_psy_product_2*/0,/*condition_psy_product_3*/0,/*condition_psy_product_4*/0,/*condition_psy_product_5*/0,/*release_psy_product_id_1*/102,/*release_psy_product_id_2*/0,/*release_psy_product_id_3*/0,/*release_psy_product_id_4*/0,/*release_psy_product_id_5*/0,/*title*/"把你变成布丁");
 INSERT INTO `psy_drama` VALUES (/*drama_id*/3,/*condition_total_eat*/96,/*condition_chara_type*/0,/*condition_time*/"0",/*condition_psy_product_1*/0,/*condition_psy_product_2*/0,/*condition_psy_product_3*/0,/*condition_psy_product_4*/0,/*condition_psy_product_5*/0,/*release_psy_product_id_1*/152,/*release_psy_product_id_2*/0,/*release_psy_product_id_3*/0,/*release_psy_product_id_4*/0,/*release_psy_product_id_5*/0,/*title*/"比幽灵还可怕的东西？");

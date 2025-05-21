@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'xeh_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `xeh_story_data` VALUES (/*sub_story_id*/5106601,/*original_event_id*/10106,/*title*/"圣夜的幽灵×吸血鬼",/*reward_type*/8,/*reward_id*/91002,/*reward_count*/45);
 INSERT INTO `xeh_story_data` VALUES (/*sub_story_id*/5106602,/*original_event_id*/10106,/*title*/"小小圣诞老人的礼物",/*reward_type*/8,/*reward_id*/91002,/*reward_count*/45);
 INSERT INTO `xeh_story_data` VALUES (/*sub_story_id*/5106603,/*original_event_id*/10106,/*title*/"啊多么美丽的圣诞节",/*reward_type*/8,/*reward_id*/91002,/*reward_count*/45);

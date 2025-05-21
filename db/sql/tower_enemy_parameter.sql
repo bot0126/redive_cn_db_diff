@@ -1,6 +1,49 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_enemy_parameter' ('enemy_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'level' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'promotion_level' INTEGER NOT NULL, 'hp' INTEGER NOT NULL, 'atk' INTEGER NOT NULL, 'magic_str' INTEGER NOT NULL, 'def' INTEGER NOT NULL, 'magic_def' INTEGER NOT NULL, 'physical_critical' INTEGER NOT NULL, 'magic_critical' INTEGER NOT NULL, 'wave_hp_recovery' INTEGER NOT NULL, 'wave_energy_recovery' INTEGER NOT NULL, 'dodge' INTEGER NOT NULL, 'physical_penetrate' INTEGER NOT NULL, 'magic_penetrate' INTEGER NOT NULL, 'life_steal' INTEGER NOT NULL, 'hp_recovery_rate' INTEGER NOT NULL, 'energy_recovery_rate' INTEGER NOT NULL, 'energy_reduce_rate' INTEGER NOT NULL, 'union_burst_level' INTEGER NOT NULL, 'main_skill_lv_1' INTEGER NOT NULL, 'main_skill_lv_2' INTEGER NOT NULL, 'main_skill_lv_3' INTEGER NOT NULL, 'main_skill_lv_4' INTEGER NOT NULL, 'main_skill_lv_5' INTEGER NOT NULL, 'main_skill_lv_6' INTEGER NOT NULL, 'main_skill_lv_7' INTEGER NOT NULL, 'main_skill_lv_8' INTEGER NOT NULL, 'main_skill_lv_9' INTEGER NOT NULL, 'main_skill_lv_10' INTEGER NOT NULL, 'ex_skill_lv_1' INTEGER NOT NULL, 'ex_skill_lv_2' INTEGER NOT NULL, 'ex_skill_lv_3' INTEGER NOT NULL, 'ex_skill_lv_4' INTEGER NOT NULL, 'ex_skill_lv_5' INTEGER NOT NULL, 'resist_status_id' INTEGER NOT NULL, 'resist_variation_id' INTEGER NOT NULL, 'accuracy' INTEGER NOT NULL, 'enemy_color' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- unit_id INTEGER
+-- name TEXT
+-- level INTEGER
+-- rarity INTEGER
+-- promotion_level INTEGER
+-- hp INTEGER
+-- atk INTEGER
+-- magic_str INTEGER
+-- def INTEGER
+-- magic_def INTEGER
+-- physical_critical INTEGER
+-- magic_critical INTEGER
+-- wave_hp_recovery INTEGER
+-- wave_energy_recovery INTEGER
+-- dodge INTEGER
+-- physical_penetrate INTEGER
+-- magic_penetrate INTEGER
+-- life_steal INTEGER
+-- hp_recovery_rate INTEGER
+-- energy_recovery_rate INTEGER
+-- energy_reduce_rate INTEGER
+-- union_burst_level INTEGER
+-- main_skill_lv_1 INTEGER
+-- main_skill_lv_2 INTEGER
+-- main_skill_lv_3 INTEGER
+-- main_skill_lv_4 INTEGER
+-- main_skill_lv_5 INTEGER
+-- main_skill_lv_6 INTEGER
+-- main_skill_lv_7 INTEGER
+-- main_skill_lv_8 INTEGER
+-- main_skill_lv_9 INTEGER
+-- main_skill_lv_10 INTEGER
+-- ex_skill_lv_1 INTEGER
+-- ex_skill_lv_2 INTEGER
+-- ex_skill_lv_3 INTEGER
+-- ex_skill_lv_4 INTEGER
+-- ex_skill_lv_5 INTEGER
+-- resist_status_id INTEGER
+-- resist_variation_id INTEGER
+-- accuracy INTEGER
+-- enemy_color INTEGER
 INSERT INTO `tower_enemy_parameter` VALUES (/*enemy_id*/710000101,/*unit_id*/600101,/*name*/"日和莉的暗影",/*level*/51,/*rarity*/1,/*promotion_level*/1,/*hp*/11536,/*atk*/1150,/*magic_str*/0,/*def*/31,/*magic_def*/21,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/71,/*main_skill_lv_1*/71,/*main_skill_lv_2*/71,/*main_skill_lv_3*/71,/*main_skill_lv_4*/1,/*main_skill_lv_5*/0,/*main_skill_lv_6*/0,/*main_skill_lv_7*/0,/*main_skill_lv_8*/0,/*main_skill_lv_9*/0,/*main_skill_lv_10*/0,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/200000001,/*resist_variation_id*/0,/*accuracy*/0,/*enemy_color*/0);
 INSERT INTO `tower_enemy_parameter` VALUES (/*enemy_id*/710000102,/*unit_id*/203200,/*name*/"淘气恶魔",/*level*/51,/*rarity*/1,/*promotion_level*/1,/*hp*/13553,/*atk*/0,/*magic_str*/792,/*def*/35,/*magic_def*/52,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/71,/*main_skill_lv_1*/71,/*main_skill_lv_2*/71,/*main_skill_lv_3*/71,/*main_skill_lv_4*/1,/*main_skill_lv_5*/0,/*main_skill_lv_6*/0,/*main_skill_lv_7*/0,/*main_skill_lv_8*/0,/*main_skill_lv_9*/0,/*main_skill_lv_10*/0,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/200000001,/*resist_variation_id*/0,/*accuracy*/0,/*enemy_color*/0);
 INSERT INTO `tower_enemy_parameter` VALUES (/*enemy_id*/710000103,/*unit_id*/202500,/*name*/"洞穴蝙蝠",/*level*/51,/*rarity*/1,/*promotion_level*/1,/*hp*/11969,/*atk*/0,/*magic_str*/600,/*def*/35,/*magic_def*/48,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/71,/*main_skill_lv_1*/71,/*main_skill_lv_2*/71,/*main_skill_lv_3*/71,/*main_skill_lv_4*/1,/*main_skill_lv_5*/0,/*main_skill_lv_6*/0,/*main_skill_lv_7*/0,/*main_skill_lv_8*/0,/*main_skill_lv_9*/0,/*main_skill_lv_10*/0,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/200000001,/*resist_variation_id*/0,/*accuracy*/0,/*enemy_color*/0);

@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'login_bonus_adv' ('id' INTEGER NOT NULL, 'login_bonus_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'count_key' INTEGER NOT NULL, 'adv_id' INTEGER NOT NULL, 'read_process_flag' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- login_bonus_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- count_key INTEGER
+-- adv_id INTEGER
+-- read_process_flag INTEGER
 INSERT INTO `login_bonus_adv` VALUES (/*id*/1,/*login_bonus_id*/70000,/*start_time*/"2020/12/24 5:00:00",/*end_time*/"2020/12/25 4:59:59",/*count_key*/0,/*adv_id*/400,/*read_process_flag*/0);
 INSERT INTO `login_bonus_adv` VALUES (/*id*/2,/*login_bonus_id*/70000,/*start_time*/"2020/12/25 5:00:00",/*end_time*/"2020/12/26 4:59:59",/*count_key*/0,/*adv_id*/401,/*read_process_flag*/0);
 INSERT INTO `login_bonus_adv` VALUES (/*id*/3,/*login_bonus_id*/70001,/*start_time*/"0",/*end_time*/"0",/*count_key*/1,/*adv_id*/410,/*read_process_flag*/0);

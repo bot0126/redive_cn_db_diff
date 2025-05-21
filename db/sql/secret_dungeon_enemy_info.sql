@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'secret_dungeon_enemy_info' ('dungeon_area_id' INTEGER NOT NULL, 'floor_num' INTEGER NOT NULL, 'enemy_name' TEXT NOT NULL, PRIMARY KEY('dungeon_area_id','floor_num'));
+-- Column Names:
+-- dungeon_area_id INTEGER
+-- floor_num INTEGER
+-- enemy_name TEXT
 INSERT INTO `secret_dungeon_enemy_info` VALUES (/*dungeon_area_id*/32001,/*floor_num*/6,/*enemy_name*/"电子吉加斯");
 INSERT INTO `secret_dungeon_enemy_info` VALUES (/*dungeon_area_id*/32001,/*floor_num*/7,/*enemy_name*/"崩坏的黑甲骑士");
 INSERT INTO `secret_dungeon_enemy_info` VALUES (/*dungeon_area_id*/32001,/*floor_num*/8,/*enemy_name*/"雷雷");

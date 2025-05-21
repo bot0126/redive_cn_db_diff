@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'wac_data' ('wac_id' INTEGER NOT NULL, 'date_id' INTEGER NOT NULL, 'unlock_time' TEXT NOT NULL, 'pre_drama_id' INTEGER NOT NULL, 'post_drama_id' INTEGER NOT NULL, 'idle_drama_id' INTEGER NOT NULL, 'bg_id' INTEGER NOT NULL, 'effect_id' INTEGER NOT NULL, 'mural_group_id' INTEGER NOT NULL, 'mural_offset_x' REAL NOT NULL, 'birthday_login_bonus_id' INTEGER NOT NULL, 'unit_id_1' INTEGER NOT NULL, 'unit_id_2' INTEGER NOT NULL, 'draw_end_to_center' INTEGER NOT NULL, 'unit_search_id' INTEGER NOT NULL, PRIMARY KEY('wac_id','date_id'));
+-- Column Names:
+-- wac_id INTEGER
+-- date_id INTEGER
+-- unlock_time TEXT
+-- pre_drama_id INTEGER
+-- post_drama_id INTEGER
+-- idle_drama_id INTEGER
+-- bg_id INTEGER
+-- effect_id INTEGER
+-- mural_group_id INTEGER
+-- mural_offset_x REAL
+-- birthday_login_bonus_id INTEGER
+-- unit_id_1 INTEGER
+-- unit_id_2 INTEGER
+-- draw_end_to_center INTEGER
+-- unit_search_id INTEGER
 INSERT INTO `wac_data` VALUES (/*wac_id*/2816,/*date_id*/11,/*unlock_time*/"2024/2/15 5:00",/*pre_drama_id*/111,/*post_drama_id*/112,/*idle_drama_id*/113,/*bg_id*/100,/*effect_id*/1,/*mural_group_id*/0,/*mural_offset_x*/540.0,/*birthday_login_bonus_id*/0,/*unit_id_1*/0,/*unit_id_2*/0,/*draw_end_to_center*/0,/*unit_search_id*/1);
 INSERT INTO `wac_data` VALUES (/*wac_id*/2816,/*date_id*/21,/*unlock_time*/"2024/2/16 5:00",/*pre_drama_id*/211,/*post_drama_id*/212,/*idle_drama_id*/213,/*bg_id*/100,/*effect_id*/1,/*mural_group_id*/0,/*mural_offset_x*/493.0,/*birthday_login_bonus_id*/0,/*unit_id_1*/0,/*unit_id_2*/0,/*draw_end_to_center*/0,/*unit_search_id*/2);
 INSERT INTO `wac_data` VALUES (/*wac_id*/2816,/*date_id*/31,/*unlock_time*/"2024/2/17 5:00",/*pre_drama_id*/311,/*post_drama_id*/312,/*idle_drama_id*/313,/*bg_id*/100,/*effect_id*/1,/*mural_group_id*/0,/*mural_offset_x*/458.0,/*birthday_login_bonus_id*/0,/*unit_id_1*/0,/*unit_id_2*/0,/*draw_end_to_center*/0,/*unit_search_id*/3);

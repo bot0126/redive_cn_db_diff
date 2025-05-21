@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_boss_condition' ('boss_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_quest_id_1' INTEGER NOT NULL, 'condition_quest_id_2' INTEGER NOT NULL, 'condition_boss_id_1' INTEGER NOT NULL, 'condition_boss_id_2' INTEGER NOT NULL, 'condition_gacha_step' INTEGER NOT NULL, 'force_unlock_time' TEXT NOT NULL, 'release_quest_id_1' INTEGER NOT NULL, 'release_quest_id_2' INTEGER NOT NULL, 'release_boss_id_1' INTEGER NOT NULL, 'release_boss_id_2' INTEGER NOT NULL, PRIMARY KEY('boss_id'));
+-- Column Names:
+-- boss_id INTEGER
+-- event_id INTEGER
+-- condition_quest_id_1 INTEGER
+-- condition_quest_id_2 INTEGER
+-- condition_boss_id_1 INTEGER
+-- condition_boss_id_2 INTEGER
+-- condition_gacha_step INTEGER
+-- force_unlock_time TEXT
+-- release_quest_id_1 INTEGER
+-- release_quest_id_2 INTEGER
+-- release_boss_id_1 INTEGER
+-- release_boss_id_2 INTEGER
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1000101,/*event_id*/10001,/*condition_quest_id_1*/10001115,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"2020/05/20 11:00:00",/*release_quest_id_1*/10001201,/*release_quest_id_2*/0,/*release_boss_id_1*/1000102,/*release_boss_id_2*/0);
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1000102,/*event_id*/10001,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1000101,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0);
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1000201,/*event_id*/10002,/*condition_quest_id_1*/10002115,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"2020/06/17 11:00:00",/*release_quest_id_1*/10002201,/*release_quest_id_2*/0,/*release_boss_id_1*/1000202,/*release_boss_id_2*/0);
@@ -525,9 +538,4 @@ INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011402,/*event_id*/1011
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011403,/*event_id*/10114,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011402,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/1011404,/*release_boss_id_2*/0);
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011404,/*event_id*/10114,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011403,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0);
 INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011405,/*event_id*/10114,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011404,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0);
-INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011501,/*event_id*/10115,/*condition_quest_id_1*/10115115,/*condition_quest_id_2*/0,/*condition_boss_id_1*/0,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"2025/03/19 12:00:00",/*release_quest_id_1*/10115201,/*release_quest_id_2*/0,/*release_boss_id_1*/1011502,/*release_boss_id_2*/0);
-INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011502,/*event_id*/10115,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011501,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/1011503,/*release_boss_id_2*/0);
-INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011503,/*event_id*/10115,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011502,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/1011504,/*release_boss_id_2*/0);
-INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011504,/*event_id*/10115,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011503,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0);
-INSERT INTO `hatsune_boss_condition` VALUES (/*boss_id*/1011505,/*event_id*/10115,/*condition_quest_id_1*/0,/*condition_quest_id_2*/0,/*condition_boss_id_1*/1011504,/*condition_boss_id_2*/0,/*condition_gacha_step*/0,/*force_unlock_time*/"0",/*release_quest_id_1*/0,/*release_quest_id_2*/0,/*release_boss_id_1*/0,/*release_boss_id_2*/0);
 COMMIT;

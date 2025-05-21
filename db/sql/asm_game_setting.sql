@@ -1,5 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_game_setting' ('id' INTEGER NOT NULL, 'lottery_rate' REAL NOT NULL, 'normal_limit_time' INTEGER NOT NULL, 'normal_quiz_num' INTEGER NOT NULL, 'concentration_limit_time' INTEGER NOT NULL, 'concentration_quiz_limit_num' INTEGER NOT NULL, 'incorrect_answer_penalty_time' INTEGER NOT NULL, 'help_use_count_normal' INTEGER NOT NULL, 'help_use_count_hard' INTEGER NOT NULL, 'help_use_count_veryhard' INTEGER NOT NULL, 'limit_score' INTEGER NOT NULL, 'unlock_concentration_mode_score_1' INTEGER NOT NULL, 'unlock_concentration_mode_score_2' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- lottery_rate REAL
+-- normal_limit_time INTEGER
+-- normal_quiz_num INTEGER
+-- concentration_limit_time INTEGER
+-- concentration_quiz_limit_num INTEGER
+-- incorrect_answer_penalty_time INTEGER
+-- help_use_count_normal INTEGER
+-- help_use_count_hard INTEGER
+-- help_use_count_veryhard INTEGER
+-- limit_score INTEGER
+-- unlock_concentration_mode_score_1 INTEGER
+-- unlock_concentration_mode_score_2 INTEGER
 INSERT INTO `asm_game_setting` VALUES (/*id*/1,/*lottery_rate*/0.25,/*normal_limit_time*/20,/*normal_quiz_num*/10,/*concentration_limit_time*/99,/*concentration_quiz_limit_num*/99,/*incorrect_answer_penalty_time*/5,/*help_use_count_normal*/4,/*help_use_count_hard*/3,/*help_use_count_veryhard*/2,/*limit_score*/9999999,/*unlock_concentration_mode_score_1*/30000,/*unlock_concentration_mode_score_2*/30000);
 COMMIT;

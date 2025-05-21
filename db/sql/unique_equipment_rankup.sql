@@ -1,6 +1,41 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unique_equipment_rankup' ('equip_id' INTEGER NOT NULL, 'unique_equip_rank' INTEGER NOT NULL, 'unit_level' INTEGER NOT NULL, 'crafted_cost' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'item_id_1' INTEGER NOT NULL, 'consume_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'item_id_2' INTEGER NOT NULL, 'consume_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'item_id_3' INTEGER NOT NULL, 'consume_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'item_id_4' INTEGER NOT NULL, 'consume_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'item_id_5' INTEGER NOT NULL, 'consume_num_5' INTEGER NOT NULL, 'reward_type_6' INTEGER NOT NULL, 'item_id_6' INTEGER NOT NULL, 'consume_num_6' INTEGER NOT NULL, 'reward_type_7' INTEGER NOT NULL, 'item_id_7' INTEGER NOT NULL, 'consume_num_7' INTEGER NOT NULL, 'reward_type_8' INTEGER NOT NULL, 'item_id_8' INTEGER NOT NULL, 'consume_num_8' INTEGER NOT NULL, 'reward_type_9' INTEGER NOT NULL, 'item_id_9' INTEGER NOT NULL, 'consume_num_9' INTEGER NOT NULL, 'reward_type_10' INTEGER NOT NULL, 'item_id_10' INTEGER NOT NULL, 'consume_num_10' INTEGER NOT NULL, PRIMARY KEY('equip_id','unique_equip_rank'));
+-- Column Names:
+-- equip_id INTEGER
+-- unique_equip_rank INTEGER
+-- unit_level INTEGER
+-- crafted_cost INTEGER
+-- reward_type_1 INTEGER
+-- item_id_1 INTEGER
+-- consume_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- item_id_2 INTEGER
+-- consume_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- item_id_3 INTEGER
+-- consume_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- item_id_4 INTEGER
+-- consume_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- item_id_5 INTEGER
+-- consume_num_5 INTEGER
+-- reward_type_6 INTEGER
+-- item_id_6 INTEGER
+-- consume_num_6 INTEGER
+-- reward_type_7 INTEGER
+-- item_id_7 INTEGER
+-- consume_num_7 INTEGER
+-- reward_type_8 INTEGER
+-- item_id_8 INTEGER
+-- consume_num_8 INTEGER
+-- reward_type_9 INTEGER
+-- item_id_9 INTEGER
+-- consume_num_9 INTEGER
+-- reward_type_10 INTEGER
+-- item_id_10 INTEGER
+-- consume_num_10 INTEGER
 INSERT INTO `unique_equipment_rankup` VALUES (/*equip_id*/130011,/*unique_equip_rank*/1,/*unit_level*/30,/*crafted_cost*/50000,/*reward_type_1*/2,/*item_id_1*/31001,/*consume_num_1*/10,/*reward_type_2*/4,/*item_id_2*/140001,/*consume_num_2*/5,/*reward_type_3*/0,/*item_id_3*/0,/*consume_num_3*/0,/*reward_type_4*/0,/*item_id_4*/0,/*consume_num_4*/0,/*reward_type_5*/0,/*item_id_5*/0,/*consume_num_5*/0,/*reward_type_6*/0,/*item_id_6*/0,/*consume_num_6*/0,/*reward_type_7*/0,/*item_id_7*/0,/*consume_num_7*/0,/*reward_type_8*/0,/*item_id_8*/0,/*consume_num_8*/0,/*reward_type_9*/0,/*item_id_9*/0,/*consume_num_9*/0,/*reward_type_10*/0,/*item_id_10*/0,/*consume_num_10*/0);
 INSERT INTO `unique_equipment_rankup` VALUES (/*equip_id*/130011,/*unique_equip_rank*/2,/*unit_level*/50,/*crafted_cost*/150000,/*reward_type_1*/2,/*item_id_1*/31001,/*consume_num_1*/10,/*reward_type_2*/4,/*item_id_2*/140001,/*consume_num_2*/5,/*reward_type_3*/0,/*item_id_3*/0,/*consume_num_3*/0,/*reward_type_4*/0,/*item_id_4*/0,/*consume_num_4*/0,/*reward_type_5*/0,/*item_id_5*/0,/*consume_num_5*/0,/*reward_type_6*/0,/*item_id_6*/0,/*consume_num_6*/0,/*reward_type_7*/0,/*item_id_7*/0,/*consume_num_7*/0,/*reward_type_8*/0,/*item_id_8*/0,/*consume_num_8*/0,/*reward_type_9*/0,/*item_id_9*/0,/*consume_num_9*/0,/*reward_type_10*/0,/*item_id_10*/0,/*consume_num_10*/0);
 INSERT INTO `unique_equipment_rankup` VALUES (/*equip_id*/130011,/*unique_equip_rank*/3,/*unit_level*/70,/*crafted_cost*/250000,/*reward_type_1*/2,/*item_id_1*/31001,/*consume_num_1*/10,/*reward_type_2*/4,/*item_id_2*/140001,/*consume_num_2*/8,/*reward_type_3*/0,/*item_id_3*/0,/*consume_num_3*/0,/*reward_type_4*/0,/*item_id_4*/0,/*consume_num_4*/0,/*reward_type_5*/0,/*item_id_5*/0,/*consume_num_5*/0,/*reward_type_6*/0,/*item_id_6*/0,/*consume_num_6*/0,/*reward_type_7*/0,/*item_id_7*/0,/*consume_num_7*/0,/*reward_type_8*/0,/*item_id_8*/0,/*consume_num_8*/0,/*reward_type_9*/0,/*item_id_9*/0,/*consume_num_9*/0,/*reward_type_10*/0,/*item_id_10*/0,/*consume_num_10*/0);

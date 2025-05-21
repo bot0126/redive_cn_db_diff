@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'won_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'is_last' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, 'note_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'order' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- is_last INTEGER
+-- condition_quest_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
+-- note_id INTEGER
+-- unit_id INTEGER
+-- order INTEGER
 INSERT INTO `won_story_data` VALUES (/*sub_story_id*/10116111,/*original_event_id*/10116,/*title*/"洗石熊的生态记录①",/*is_last*/0,/*condition_quest_id*/10116105,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*note_id*/1,/*unit_id*/207300,/*order*/1);
 INSERT INTO `won_story_data` VALUES (/*sub_story_id*/10116112,/*original_event_id*/10116,/*title*/"洗石熊的生态记录②",/*is_last*/0,/*condition_quest_id*/0,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*note_id*/1,/*unit_id*/207300,/*order*/2);
 INSERT INTO `won_story_data` VALUES (/*sub_story_id*/10116113,/*original_event_id*/10116,/*title*/"洗石熊的生态记录③",/*is_last*/0,/*condition_quest_id*/0,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0,/*note_id*/1,/*unit_id*/207300,/*order*/3);

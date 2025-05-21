@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_chat_scenario' ('id' INTEGER NOT NULL, 'scenario_idx' INTEGER NOT NULL, 'unit_pos_no' INTEGER NOT NULL, 'delay' INTEGER NOT NULL, 'affect_type' INTEGER NOT NULL, 'anime_id' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, PRIMARY KEY('id','scenario_idx'));
+-- Column Names:
+-- id INTEGER
+-- scenario_idx INTEGER
+-- unit_pos_no INTEGER
+-- delay INTEGER
+-- affect_type INTEGER
+-- anime_id INTEGER
+-- icon_id INTEGER
 INSERT INTO `room_chat_scenario` VALUES (/*id*/1,/*scenario_idx*/1,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/1,/*anime_id*/1,/*icon_id*/0);
 INSERT INTO `room_chat_scenario` VALUES (/*id*/1,/*scenario_idx*/2,/*unit_pos_no*/2,/*delay*/0,/*affect_type*/1,/*anime_id*/4,/*icon_id*/0);
 INSERT INTO `room_chat_scenario` VALUES (/*id*/1,/*scenario_idx*/3,/*unit_pos_no*/1,/*delay*/0,/*affect_type*/1,/*anime_id*/5,/*icon_id*/12);

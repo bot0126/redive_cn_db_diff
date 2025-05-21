@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'legion_mission_category_data' ('category_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('category_id'));
+-- Column Names:
+-- category_id INTEGER
+-- name TEXT
 INSERT INTO `legion_mission_category_data` VALUES (/*category_id*/1000,/*name*/"共通");
 INSERT INTO `legion_mission_category_data` VALUES (/*category_id*/1005,/*name*/"美空");
 INSERT INTO `legion_mission_category_data` VALUES (/*category_id*/1006,/*name*/"兰法");

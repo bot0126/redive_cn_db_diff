@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_story' ('ttk_story_id' INTEGER NOT NULL, 'ttk_score' INTEGER NOT NULL, 'title' TEXT NOT NULL, PRIMARY KEY('ttk_story_id'));
+-- Column Names:
+-- ttk_story_id INTEGER
+-- ttk_score INTEGER
+-- title TEXT
 INSERT INTO `ttk_story` VALUES (/*ttk_story_id*/1,/*ttk_score*/32000,/*title*/"观察开始！");
 INSERT INTO `ttk_story` VALUES (/*ttk_story_id*/2,/*ttk_score*/128000,/*title*/"成熟");
 INSERT INTO `ttk_story` VALUES (/*ttk_story_id*/3,/*ttk_score*/224000,/*title*/"美丽的蓝色");

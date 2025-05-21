@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'srt_top_talk' ('id' INTEGER NOT NULL, 'talk_id' INTEGER NOT NULL, 'chara_index' INTEGER NOT NULL, 'talk_text' TEXT NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'direction' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- talk_id INTEGER
+-- chara_index INTEGER
+-- talk_text TEXT
+-- sheet_name TEXT
+-- cue_name TEXT
+-- direction INTEGER
 INSERT INTO `srt_top_talk` VALUES (/*id*/1000101,/*talk_id*/10001,/*chara_index*/1,/*talk_text*/"呵呵呵，这样就能让嘉夜夜和头儿另眼相看了！",/*sheet_name*/"vo_minigame_1004",/*cue_name*/"vo_minigame_1004_top_1_000",/*direction*/2);
 INSERT INTO `srt_top_talk` VALUES (/*id*/1000201,/*talk_id*/10002,/*chara_index*/1,/*talk_text*/"我还让哥哥在接龙游戏中给我帮忙",/*sheet_name*/"vo_minigame_1004",/*cue_name*/"vo_minigame_1004_top_1_003",/*direction*/2);
 INSERT INTO `srt_top_talk` VALUES (/*id*/1000301,/*talk_id*/10003,/*chara_index*/2,/*talk_text*/"接受任何战斗，这才是打手！我接受挑战！",/*sheet_name*/"vo_minigame_1004",/*cue_name*/"vo_minigame_1004_top_1_004",/*direction*/1);

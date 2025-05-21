@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pkb_pitcher_ball_type' ('pitcher_id' INTEGER NOT NULL, 'ball_type' INTEGER NOT NULL, 'ball_type_name' TEXT NOT NULL, PRIMARY KEY('pitcher_id','ball_type'));
+-- Column Names:
+-- pitcher_id INTEGER
+-- ball_type INTEGER
+-- ball_type_name TEXT
 INSERT INTO `pkb_pitcher_ball_type` VALUES (/*pitcher_id*/1,/*ball_type*/1,/*ball_type_name*/"直球");
 INSERT INTO `pkb_pitcher_ball_type` VALUES (/*pitcher_id*/1,/*ball_type*/2,/*ball_type_name*/"曲线球");
 INSERT INTO `pkb_pitcher_ball_type` VALUES (/*pitcher_id*/2,/*ball_type*/3,/*ball_type_name*/"直球");

@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'spskill_lv_initialize_data' ('initialize_skill_id' INTEGER NOT NULL, 'base_skill_id' INTEGER NOT NULL, PRIMARY KEY('initialize_skill_id'));
+-- Column Names:
+-- initialize_skill_id INTEGER
+-- base_skill_id INTEGER
 INSERT INTO `spskill_lv_initialize_data` VALUES (/*initialize_skill_id*/1061101,/*base_skill_id*/1061001);
 INSERT INTO `spskill_lv_initialize_data` VALUES (/*initialize_skill_id*/1061102,/*base_skill_id*/1061001);
 INSERT INTO `spskill_lv_initialize_data` VALUES (/*initialize_skill_id*/1061111,/*base_skill_id*/1061001);

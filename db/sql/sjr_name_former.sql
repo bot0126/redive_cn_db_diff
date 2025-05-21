@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_name_former' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'constrain_group' INTEGER NOT NULL, 'condition_type_1' INTEGER NOT NULL, 'condition_type_2' INTEGER NOT NULL, 'condition_type_3' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_value_2' INTEGER NOT NULL, 'condition_value_3' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- constrain_group INTEGER
+-- condition_type_1 INTEGER
+-- condition_type_2 INTEGER
+-- condition_type_3 INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
 INSERT INTO `sjr_name_former` VALUES (/*id*/1,/*name*/"独一无二的",/*constrain_group*/0,/*condition_type_1*/1,/*condition_type_2*/2,/*condition_type_3*/3,/*condition_value_1*/1,/*condition_value_2*/1,/*condition_value_3*/1);
 INSERT INTO `sjr_name_former` VALUES (/*id*/2,/*name*/"完美无缺的",/*constrain_group*/0,/*condition_type_1*/1,/*condition_type_2*/2,/*condition_type_3*/3,/*condition_value_1*/1,/*condition_value_2*/1,/*condition_value_3*/1);
 INSERT INTO `sjr_name_former` VALUES (/*id*/3,/*name*/"兰德索尔最快的",/*constrain_group*/1,/*condition_type_1*/1,/*condition_type_2*/2,/*condition_type_3*/3,/*condition_value_1*/1,/*condition_value_2*/1,/*condition_value_3*/1);

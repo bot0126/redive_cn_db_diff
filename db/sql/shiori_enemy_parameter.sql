@@ -1,6 +1,47 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_enemy_parameter' ('enemy_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'level' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'promotion_level' INTEGER NOT NULL, 'hp' INTEGER NOT NULL, 'atk' INTEGER NOT NULL, 'magic_str' INTEGER NOT NULL, 'def' INTEGER NOT NULL, 'magic_def' INTEGER NOT NULL, 'physical_critical' INTEGER NOT NULL, 'magic_critical' INTEGER NOT NULL, 'wave_hp_recovery' INTEGER NOT NULL, 'wave_energy_recovery' INTEGER NOT NULL, 'dodge' INTEGER NOT NULL, 'physical_penetrate' INTEGER NOT NULL, 'magic_penetrate' INTEGER NOT NULL, 'life_steal' INTEGER NOT NULL, 'hp_recovery_rate' INTEGER NOT NULL, 'energy_recovery_rate' INTEGER NOT NULL, 'energy_reduce_rate' INTEGER NOT NULL, 'union_burst_level' INTEGER NOT NULL, 'main_skill_lv_1' INTEGER NOT NULL, 'main_skill_lv_2' INTEGER NOT NULL, 'main_skill_lv_3' INTEGER NOT NULL, 'main_skill_lv_4' INTEGER NOT NULL, 'main_skill_lv_5' INTEGER NOT NULL, 'main_skill_lv_6' INTEGER NOT NULL, 'main_skill_lv_7' INTEGER NOT NULL, 'main_skill_lv_8' INTEGER NOT NULL, 'main_skill_lv_9' INTEGER NOT NULL, 'main_skill_lv_10' INTEGER NOT NULL, 'ex_skill_lv_1' INTEGER NOT NULL, 'ex_skill_lv_2' INTEGER NOT NULL, 'ex_skill_lv_3' INTEGER NOT NULL, 'ex_skill_lv_4' INTEGER NOT NULL, 'ex_skill_lv_5' INTEGER NOT NULL, 'resist_status_id' INTEGER NOT NULL, 'resist_variation_id' INTEGER NOT NULL, 'accuracy' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- unit_id INTEGER
+-- level INTEGER
+-- rarity INTEGER
+-- promotion_level INTEGER
+-- hp INTEGER
+-- atk INTEGER
+-- magic_str INTEGER
+-- def INTEGER
+-- magic_def INTEGER
+-- physical_critical INTEGER
+-- magic_critical INTEGER
+-- wave_hp_recovery INTEGER
+-- wave_energy_recovery INTEGER
+-- dodge INTEGER
+-- physical_penetrate INTEGER
+-- magic_penetrate INTEGER
+-- life_steal INTEGER
+-- hp_recovery_rate INTEGER
+-- energy_recovery_rate INTEGER
+-- energy_reduce_rate INTEGER
+-- union_burst_level INTEGER
+-- main_skill_lv_1 INTEGER
+-- main_skill_lv_2 INTEGER
+-- main_skill_lv_3 INTEGER
+-- main_skill_lv_4 INTEGER
+-- main_skill_lv_5 INTEGER
+-- main_skill_lv_6 INTEGER
+-- main_skill_lv_7 INTEGER
+-- main_skill_lv_8 INTEGER
+-- main_skill_lv_9 INTEGER
+-- main_skill_lv_10 INTEGER
+-- ex_skill_lv_1 INTEGER
+-- ex_skill_lv_2 INTEGER
+-- ex_skill_lv_3 INTEGER
+-- ex_skill_lv_4 INTEGER
+-- ex_skill_lv_5 INTEGER
+-- resist_status_id INTEGER
+-- resist_variation_id INTEGER
+-- accuracy INTEGER
 INSERT INTO `shiori_enemy_parameter` VALUES (/*enemy_id*/670010001,/*unit_id*/200100,/*level*/1,/*rarity*/1,/*promotion_level*/1,/*hp*/329,/*atk*/24,/*magic_str*/0,/*def*/4,/*magic_def*/3,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/1,/*main_skill_lv_1*/1,/*main_skill_lv_2*/1,/*main_skill_lv_3*/1,/*main_skill_lv_4*/1,/*main_skill_lv_5*/1,/*main_skill_lv_6*/1,/*main_skill_lv_7*/1,/*main_skill_lv_8*/1,/*main_skill_lv_9*/1,/*main_skill_lv_10*/1,/*ex_skill_lv_1*/1,/*ex_skill_lv_2*/1,/*ex_skill_lv_3*/1,/*ex_skill_lv_4*/1,/*ex_skill_lv_5*/1,/*resist_status_id*/200000006,/*resist_variation_id*/0,/*accuracy*/0);
 INSERT INTO `shiori_enemy_parameter` VALUES (/*enemy_id*/670010002,/*unit_id*/200100,/*level*/2,/*rarity*/1,/*promotion_level*/1,/*hp*/338,/*atk*/28,/*magic_str*/0,/*def*/9,/*magic_def*/3,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/2,/*main_skill_lv_1*/2,/*main_skill_lv_2*/2,/*main_skill_lv_3*/2,/*main_skill_lv_4*/2,/*main_skill_lv_5*/2,/*main_skill_lv_6*/2,/*main_skill_lv_7*/2,/*main_skill_lv_8*/2,/*main_skill_lv_9*/2,/*main_skill_lv_10*/2,/*ex_skill_lv_1*/2,/*ex_skill_lv_2*/2,/*ex_skill_lv_3*/2,/*ex_skill_lv_4*/2,/*ex_skill_lv_5*/2,/*resist_status_id*/200000006,/*resist_variation_id*/0,/*accuracy*/0);
 INSERT INTO `shiori_enemy_parameter` VALUES (/*enemy_id*/670010003,/*unit_id*/200100,/*level*/3,/*rarity*/1,/*promotion_level*/1,/*hp*/347,/*atk*/32,/*magic_str*/0,/*def*/5,/*magic_def*/4,/*physical_critical*/10,/*magic_critical*/10,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/1,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/30,/*energy_reduce_rate*/0,/*union_burst_level*/3,/*main_skill_lv_1*/3,/*main_skill_lv_2*/3,/*main_skill_lv_3*/3,/*main_skill_lv_4*/3,/*main_skill_lv_5*/3,/*main_skill_lv_6*/3,/*main_skill_lv_7*/3,/*main_skill_lv_8*/3,/*main_skill_lv_9*/3,/*main_skill_lv_10*/3,/*ex_skill_lv_1*/3,/*ex_skill_lv_2*/3,/*ex_skill_lv_3*/3,/*ex_skill_lv_4*/3,/*ex_skill_lv_5*/3,/*resist_status_id*/200000006,/*resist_variation_id*/0,/*accuracy*/0);

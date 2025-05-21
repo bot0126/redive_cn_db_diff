@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_goal_bonus' ('id' INTEGER NOT NULL, 'season_id' INTEGER NOT NULL, 'early_level' INTEGER NOT NULL, 'bonus_label' INTEGER NOT NULL, 'early_from' INTEGER NOT NULL, 'early_to' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- season_id INTEGER
+-- early_level INTEGER
+-- bonus_label INTEGER
+-- early_from INTEGER
+-- early_to INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `caravan_goal_bonus` VALUES (/*id*/10001,/*season_id*/1,/*early_level*/7,/*bonus_label*/5,/*early_from*/6,/*early_to*/-1,/*reward_type*/22,/*reward_id*/53003,/*reward_count*/8);
 INSERT INTO `caravan_goal_bonus` VALUES (/*id*/10002,/*season_id*/1,/*early_level*/7,/*bonus_label*/5,/*early_from*/6,/*early_to*/-1,/*reward_type*/22,/*reward_id*/53002,/*reward_count*/4);
 INSERT INTO `caravan_goal_bonus` VALUES (/*id*/10101,/*season_id*/1,/*early_level*/6,/*bonus_label*/4,/*early_from*/5,/*early_to*/5,/*reward_type*/22,/*reward_id*/53003,/*reward_count*/6);

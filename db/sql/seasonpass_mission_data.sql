@@ -1,6 +1,24 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'seasonpass_mission_data' ('seasonpass_mission_id' INTEGER NOT NULL, 'mission_type' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER , 'condition_value_2' INTEGER , 'condition_value_3' INTEGER , 'condition_value_4' INTEGER , 'condition_value_5' INTEGER , 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'system_id' INTEGER , 'event_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('seasonpass_mission_id'));
+-- Column Names:
+-- seasonpass_mission_id INTEGER
+-- mission_type INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_value_4 INTEGER
+-- condition_value_5 INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
+-- system_id INTEGER
+-- event_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `seasonpass_mission_data` VALUES (/*seasonpass_mission_id*/1005001,/*mission_type*/1,/*disp_group*/1,/*category_icon*/191,/*description*/"累计消耗100体力吧",/*mission_condition*/220004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/100,/*mission_reward_id*/10020001,/*system_id*/0,/*event_id*/10005,/*start_time*/"2024/12/31 11:00:00",/*end_time*/"2025/02/24 04:59:59");
 INSERT INTO `seasonpass_mission_data` VALUES (/*seasonpass_mission_id*/1005002,/*mission_type*/1,/*disp_group*/2,/*category_icon*/191,/*description*/"累计消耗200体力吧",/*mission_condition*/220004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/200,/*mission_reward_id*/10020001,/*system_id*/0,/*event_id*/10005,/*start_time*/"2024/12/31 11:00:00",/*end_time*/"2025/02/24 04:59:59");
 INSERT INTO `seasonpass_mission_data` VALUES (/*seasonpass_mission_id*/1005003,/*mission_type*/1,/*disp_group*/3,/*category_icon*/191,/*description*/"累计消耗300体力吧",/*mission_condition*/220004,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_value_4*/0,/*condition_value_5*/0,/*condition_num*/300,/*mission_reward_id*/10020001,/*system_id*/0,/*event_id*/10005,/*start_time*/"2024/12/31 11:00:00",/*end_time*/"2025/02/24 04:59:59");

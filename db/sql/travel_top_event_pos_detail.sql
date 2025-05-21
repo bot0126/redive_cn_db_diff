@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_top_event_pos_detail' ('pos_id' INTEGER NOT NULL, 'pos_group_id' INTEGER NOT NULL, 'pos_x' INTEGER NOT NULL, 'pos_y' INTEGER NOT NULL, 'all_pos_flag' INTEGER NOT NULL, PRIMARY KEY('pos_id'));
+-- Column Names:
+-- pos_id INTEGER
+-- pos_group_id INTEGER
+-- pos_x INTEGER
+-- pos_y INTEGER
+-- all_pos_flag INTEGER
 INSERT INTO `travel_top_event_pos_detail` VALUES (/*pos_id*/1,/*pos_group_id*/1,/*pos_x*/135,/*pos_y*/300,/*all_pos_flag*/1);
 INSERT INTO `travel_top_event_pos_detail` VALUES (/*pos_id*/2,/*pos_group_id*/1,/*pos_x*/425,/*pos_y*/-100,/*all_pos_flag*/1);
 INSERT INTO `travel_top_event_pos_detail` VALUES (/*pos_id*/3,/*pos_group_id*/2,/*pos_x*/-100,/*pos_y*/125,/*all_pos_flag*/1);

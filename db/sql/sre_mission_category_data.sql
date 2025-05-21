@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_mission_category_data' ('category_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('category_id'));
+-- Column Names:
+-- category_id INTEGER
+-- name TEXT
 INSERT INTO `sre_mission_category_data` VALUES (/*category_id*/1000,/*name*/"共通");
 INSERT INTO `sre_mission_category_data` VALUES (/*category_id*/1001,/*name*/"阶段1");
 INSERT INTO `sre_mission_category_data` VALUES (/*category_id*/1002,/*name*/"阶段2");

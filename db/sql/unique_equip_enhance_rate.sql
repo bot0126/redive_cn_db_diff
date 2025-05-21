@@ -1,6 +1,28 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unique_equip_enhance_rate' ('id' INTEGER NOT NULL, 'equipment_id' INTEGER NOT NULL, 'min_lv' INTEGER NOT NULL, 'max_lv' INTEGER NOT NULL, 'hp' REAL NOT NULL, 'atk' REAL NOT NULL, 'magic_str' REAL NOT NULL, 'def' REAL NOT NULL, 'magic_def' REAL NOT NULL, 'physical_critical' REAL NOT NULL, 'magic_critical' REAL NOT NULL, 'wave_hp_recovery' REAL NOT NULL, 'wave_energy_recovery' REAL NOT NULL, 'dodge' REAL NOT NULL, 'physical_penetrate' REAL NOT NULL, 'magic_penetrate' REAL NOT NULL, 'life_steal' REAL NOT NULL, 'hp_recovery_rate' REAL NOT NULL, 'energy_recovery_rate' REAL NOT NULL, 'energy_reduce_rate' REAL NOT NULL, 'accuracy' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- equipment_id INTEGER
+-- min_lv INTEGER
+-- max_lv INTEGER
+-- hp REAL
+-- atk REAL
+-- magic_str REAL
+-- def REAL
+-- magic_def REAL
+-- physical_critical REAL
+-- magic_critical REAL
+-- wave_hp_recovery REAL
+-- wave_energy_recovery REAL
+-- dodge REAL
+-- physical_penetrate REAL
+-- magic_penetrate REAL
+-- life_steal REAL
+-- hp_recovery_rate REAL
+-- energy_recovery_rate REAL
+-- energy_reduce_rate REAL
+-- accuracy REAL
 INSERT INTO `unique_equip_enhance_rate` VALUES (/*id*/1300110,/*equipment_id*/130011,/*min_lv*/2,/*max_lv*/-1,/*hp*/0.0,/*atk*/4.7,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/1.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `unique_equip_enhance_rate` VALUES (/*id*/1300210,/*equipment_id*/130021,/*min_lv*/2,/*max_lv*/-1,/*hp*/0.0,/*atk*/0.0,/*magic_str*/2.3,/*def*/0.25,/*magic_def*/0.25,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.25,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);
 INSERT INTO `unique_equip_enhance_rate` VALUES (/*id*/1300310,/*equipment_id*/130031,/*min_lv*/2,/*max_lv*/-1,/*hp*/5.5,/*atk*/4.75,/*magic_str*/0.0,/*def*/0.0,/*magic_def*/0.0,/*physical_critical*/0.0,/*magic_critical*/0.0,/*wave_hp_recovery*/0.0,/*wave_energy_recovery*/0.0,/*dodge*/0.0,/*physical_penetrate*/0.0,/*magic_penetrate*/0.0,/*life_steal*/0.0,/*hp_recovery_rate*/0.0,/*energy_recovery_rate*/0.0,/*energy_reduce_rate*/0.0,/*accuracy*/0.0);

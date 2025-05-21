@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'album_production_list' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- type INTEGER
+-- title TEXT
+-- description TEXT
 INSERT INTO `album_production_list` VALUES (/*id*/10010101,/*unit_id*/100101,/*type*/201,/*title*/"解锁效果1",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010102,/*unit_id*/100101,/*type*/101,/*title*/"好感度效果1",/*description*/"");
 INSERT INTO `album_production_list` VALUES (/*id*/10010103,/*unit_id*/100101,/*type*/102,/*title*/"好感度效果2",/*description*/"");

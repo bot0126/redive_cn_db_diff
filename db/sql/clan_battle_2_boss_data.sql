@@ -1,6 +1,29 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_2_boss_data' ('boss_id' INTEGER NOT NULL, 'clan_battle_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'order_num' INTEGER NOT NULL, 'boss_thumb_id' INTEGER NOT NULL, 'position_x' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, 'scale_ratio' REAL NOT NULL, 'tap_width_ratio' REAL NOT NULL, 'tap_height_ratio' REAL NOT NULL, 'map_position_x' INTEGER NOT NULL, 'map_position_y' INTEGER NOT NULL, 'cursor_position' INTEGER NOT NULL, 'result_boss_position_y' INTEGER NOT NULL, 'quest_detail_bg_id' INTEGER NOT NULL, 'quest_detail_bg_position' INTEGER NOT NULL, 'quest_detail_monster_size' REAL NOT NULL, 'quest_detail_monster_height' INTEGER NOT NULL, 'battle_report_monster_size' REAL NOT NULL, 'battle_report_monster_height' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'wave_bgm' TEXT NOT NULL, PRIMARY KEY('boss_id'));
+-- Column Names:
+-- boss_id INTEGER
+-- clan_battle_id INTEGER
+-- difficulty INTEGER
+-- order_num INTEGER
+-- boss_thumb_id INTEGER
+-- position_x INTEGER
+-- position_y INTEGER
+-- scale_ratio REAL
+-- tap_width_ratio REAL
+-- tap_height_ratio REAL
+-- map_position_x INTEGER
+-- map_position_y INTEGER
+-- cursor_position INTEGER
+-- result_boss_position_y INTEGER
+-- quest_detail_bg_id INTEGER
+-- quest_detail_bg_position INTEGER
+-- quest_detail_monster_size REAL
+-- quest_detail_monster_height INTEGER
+-- battle_report_monster_size REAL
+-- battle_report_monster_height INTEGER
+-- background INTEGER
+-- wave_bgm TEXT
 INSERT INTO `clan_battle_2_boss_data` VALUES (/*boss_id*/10010101,/*clan_battle_id*/1001,/*difficulty*/1,/*order_num*/1,/*boss_thumb_id*/1,/*position_x*/-480,/*position_y*/-120,/*scale_ratio*/0.6,/*tap_width_ratio*/1.0,/*tap_height_ratio*/1.0,/*map_position_x*/0,/*map_position_y*/10,/*cursor_position*/210,/*result_boss_position_y*/250,/*quest_detail_bg_id*/101001,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/0.8,/*quest_detail_monster_height*/0,/*battle_report_monster_size*/0.7,/*battle_report_monster_height*/-30,/*background*/101001,/*wave_bgm*/"bgm_M64");
 INSERT INTO `clan_battle_2_boss_data` VALUES (/*boss_id*/10010102,/*clan_battle_id*/1001,/*difficulty*/1,/*order_num*/2,/*boss_thumb_id*/2,/*position_x*/-260,/*position_y*/-120,/*scale_ratio*/0.75,/*tap_width_ratio*/1.0,/*tap_height_ratio*/1.0,/*map_position_x*/0,/*map_position_y*/10,/*cursor_position*/200,/*result_boss_position_y*/0,/*quest_detail_bg_id*/101001,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/1.2,/*quest_detail_monster_height*/0,/*battle_report_monster_size*/1.0,/*battle_report_monster_height*/0,/*background*/101001,/*wave_bgm*/"bgm_M64");
 INSERT INTO `clan_battle_2_boss_data` VALUES (/*boss_id*/10010103,/*clan_battle_id*/1001,/*difficulty*/1,/*order_num*/3,/*boss_thumb_id*/3,/*position_x*/-40,/*position_y*/0,/*scale_ratio*/0.75,/*tap_width_ratio*/1.0,/*tap_height_ratio*/1.0,/*map_position_x*/0,/*map_position_y*/0,/*cursor_position*/200,/*result_boss_position_y*/100,/*quest_detail_bg_id*/101001,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/1.1,/*quest_detail_monster_height*/-50,/*battle_report_monster_size*/1.0,/*battle_report_monster_height*/-10,/*background*/101001,/*wave_bgm*/"bgm_M64");

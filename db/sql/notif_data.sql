@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'notif_data' ('unit_id' INTEGER NOT NULL, 'notif_type' INTEGER NOT NULL, 'comment' TEXT NOT NULL, PRIMARY KEY('unit_id','notif_type'));
+-- Column Names:
+-- unit_id INTEGER
+-- notif_type INTEGER
+-- comment TEXT
 INSERT INTO `notif_data` VALUES (/*unit_id*/100101,/*notif_type*/1,/*comment*/"体力全部回复了！我也充满干劲了哦！做好准备的话，就去冒险吧！");
 INSERT INTO `notif_data` VALUES (/*unit_id*/100101,/*notif_type*/2,/*comment*/"听说公会之家有很多扫荡券呢！我们赶紧结束战斗吧！");
 INSERT INTO `notif_data` VALUES (/*unit_id*/100101,/*notif_type*/3,/*comment*/"骑士先生！公会之家有好多体力呢！想要帮助有困难的人，是很需要体力的哦！");

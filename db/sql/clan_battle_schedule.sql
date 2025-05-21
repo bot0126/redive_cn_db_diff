@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_schedule' ('clan_battle_id' INTEGER NOT NULL, 'release_month' INTEGER NOT NULL, 'last_clan_battle_id' INTEGER NOT NULL, 'point_per_stamina' INTEGER NOT NULL, 'cost_group_id' INTEGER NOT NULL, 'cost_group_id_s' INTEGER NOT NULL, 'map_bgm' TEXT NOT NULL, 'resource_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'mode_change_start_time' TEXT NOT NULL, 'mode_change_end_time' TEXT NOT NULL, 'mode_change_remind_time' TEXT NOT NULL, PRIMARY KEY('clan_battle_id'));
+-- Column Names:
+-- clan_battle_id INTEGER
+-- release_month INTEGER
+-- last_clan_battle_id INTEGER
+-- point_per_stamina INTEGER
+-- cost_group_id INTEGER
+-- cost_group_id_s INTEGER
+-- map_bgm TEXT
+-- resource_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- mode_change_start_time TEXT
+-- mode_change_end_time TEXT
+-- mode_change_remind_time TEXT
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1001,/*release_month*/3,/*last_clan_battle_id*/0,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M90",/*resource_id*/1,/*start_time*/"2020/05/07 5:00:00",/*end_time*/"2020/06/02 4:59:59",/*mode_change_start_time*/"2018/3/14 12:00:00",/*mode_change_end_time*/"2018/3/19 11:59:00",/*mode_change_remind_time*/"2018/3/18 11:59:00");
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1002,/*release_month*/4,/*last_clan_battle_id*/1001,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M97",/*resource_id*/2,/*start_time*/"2020/06/02 5:00:00",/*end_time*/"2020/06/30 4:59:59",/*mode_change_start_time*/"2018/4/13 12:00:00",/*mode_change_end_time*/"2018/4/18 11:59:00",/*mode_change_remind_time*/"2018/4/17 11:59:00");
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1003,/*release_month*/5,/*last_clan_battle_id*/1002,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M104",/*resource_id*/1,/*start_time*/"2020/06/30 5:00:00",/*end_time*/"2020/07/28 4:59:59",/*mode_change_start_time*/"2018/5/15 12:00:00",/*mode_change_end_time*/"2018/5/20 11:59:00",/*mode_change_remind_time*/"2018/5/19 11:59:00");
@@ -61,6 +75,5 @@ INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1057,/*release_mont
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1058,/*release_month*/12,/*last_clan_battle_id*/1057,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M181",/*resource_id*/2,/*start_time*/"2024/12/26 5:00:00",/*end_time*/"2025/01/22 4:59:59",/*mode_change_start_time*/"2024/12/19 12:00:00",/*mode_change_end_time*/"2024/12/24 11:59:59",/*mode_change_remind_time*/"2024/12/23 11:59:59");
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1059,/*release_month*/1,/*last_clan_battle_id*/1058,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M186",/*resource_id*/1,/*start_time*/"2025/01/22 5:00:00",/*end_time*/"2025/02/21 4:59:59",/*mode_change_start_time*/"2025/01/15 12:00:00",/*mode_change_end_time*/"2025/01/20 11:59:59",/*mode_change_remind_time*/"2025/01/19 11:59:59");
 INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1060,/*release_month*/2,/*last_clan_battle_id*/1059,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M205",/*resource_id*/2,/*start_time*/"2025/02/21 5:00:00",/*end_time*/"2025/03/26 4:59:59",/*mode_change_start_time*/"2025/02/14 12:00:00",/*mode_change_end_time*/"2025/02/19 11:59:59",/*mode_change_remind_time*/"2025/02/18 11:59:59");
-INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1061,/*release_month*/3,/*last_clan_battle_id*/1060,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M90",/*resource_id*/1,/*start_time*/"2025/03/26 5:00:00",/*end_time*/"2025/04/25 4:59:59",/*mode_change_start_time*/"2025/03/19 12:00:00",/*mode_change_end_time*/"2025/03/24 11:59:59",/*mode_change_remind_time*/"2025/03/23 11:59:59");
-INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1063,/*release_month*/4,/*last_clan_battle_id*/1061,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M97",/*resource_id*/2,/*start_time*/"2025/04/25 5:00:00",/*end_time*/"2025/05/25 4:59:59",/*mode_change_start_time*/"2025/04/18 12:00:00",/*mode_change_end_time*/"2025/04/23 11:59:59",/*mode_change_remind_time*/"2025/04/22 11:59:59");
+INSERT INTO `clan_battle_schedule` VALUES (/*clan_battle_id*/1061,/*release_month*/3,/*last_clan_battle_id*/1060,/*point_per_stamina*/1,/*cost_group_id*/1,/*cost_group_id_s*/2,/*map_bgm*/"bgm_M90",/*resource_id*/1,/*start_time*/"2025/03/26 5:00:00",/*end_time*/"2025/04/26 4:59:59",/*mode_change_start_time*/"2025/03/19 12:00:00",/*mode_change_end_time*/"2025/03/24 11:59:59",/*mode_change_remind_time*/"2025/03/23 11:59:59");
 COMMIT;

@@ -1,6 +1,53 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ex_equipment_data' ('ex_equipment_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'rarity' INTEGER NOT NULL, 'category' INTEGER NOT NULL, 'restriction_id' INTEGER NOT NULL, 'clan_battle_equip_flag' INTEGER NOT NULL, 'is_force_protected' INTEGER NOT NULL, 'max_rank_flag' INTEGER NOT NULL, 'default_hp' INTEGER NOT NULL, 'max_hp' INTEGER NOT NULL, 'default_atk' INTEGER NOT NULL, 'max_atk' INTEGER NOT NULL, 'default_magic_str' INTEGER NOT NULL, 'max_magic_str' INTEGER NOT NULL, 'default_def' INTEGER NOT NULL, 'max_def' INTEGER NOT NULL, 'default_magic_def' INTEGER NOT NULL, 'max_magic_def' INTEGER NOT NULL, 'default_physical_critical' INTEGER NOT NULL, 'max_physical_critical' INTEGER NOT NULL, 'default_magic_critical' INTEGER NOT NULL, 'max_magic_critical' INTEGER NOT NULL, 'default_wave_hp_recovery' INTEGER NOT NULL, 'max_wave_hp_recovery' INTEGER NOT NULL, 'default_wave_energy_recovery' INTEGER NOT NULL, 'max_wave_energy_recovery' INTEGER NOT NULL, 'default_dodge' INTEGER NOT NULL, 'max_dodge' INTEGER NOT NULL, 'default_physical_penetrate' INTEGER NOT NULL, 'max_physical_penetrate' INTEGER NOT NULL, 'default_magic_penetrate' INTEGER NOT NULL, 'max_magic_penetrate' INTEGER NOT NULL, 'default_life_steal' INTEGER NOT NULL, 'max_life_steal' INTEGER NOT NULL, 'default_hp_recovery_rate' INTEGER NOT NULL, 'max_hp_recovery_rate' INTEGER NOT NULL, 'default_energy_recovery_rate' INTEGER NOT NULL, 'max_energy_recovery_rate' INTEGER NOT NULL, 'default_energy_reduce_rate' INTEGER NOT NULL, 'max_energy_reduce_rate' INTEGER NOT NULL, 'default_accuracy' INTEGER NOT NULL, 'max_accuracy' INTEGER NOT NULL, 'passive_skill_id_1' INTEGER NOT NULL, 'passive_skill_id_2' INTEGER NOT NULL, 'passive_skill_power' INTEGER NOT NULL, PRIMARY KEY('ex_equipment_id'));
+-- Column Names:
+-- ex_equipment_id INTEGER
+-- name TEXT
+-- description TEXT
+-- rarity INTEGER
+-- category INTEGER
+-- restriction_id INTEGER
+-- clan_battle_equip_flag INTEGER
+-- is_force_protected INTEGER
+-- max_rank_flag INTEGER
+-- default_hp INTEGER
+-- max_hp INTEGER
+-- default_atk INTEGER
+-- max_atk INTEGER
+-- default_magic_str INTEGER
+-- max_magic_str INTEGER
+-- default_def INTEGER
+-- max_def INTEGER
+-- default_magic_def INTEGER
+-- max_magic_def INTEGER
+-- default_physical_critical INTEGER
+-- max_physical_critical INTEGER
+-- default_magic_critical INTEGER
+-- max_magic_critical INTEGER
+-- default_wave_hp_recovery INTEGER
+-- max_wave_hp_recovery INTEGER
+-- default_wave_energy_recovery INTEGER
+-- max_wave_energy_recovery INTEGER
+-- default_dodge INTEGER
+-- max_dodge INTEGER
+-- default_physical_penetrate INTEGER
+-- max_physical_penetrate INTEGER
+-- default_magic_penetrate INTEGER
+-- max_magic_penetrate INTEGER
+-- default_life_steal INTEGER
+-- max_life_steal INTEGER
+-- default_hp_recovery_rate INTEGER
+-- max_hp_recovery_rate INTEGER
+-- default_energy_recovery_rate INTEGER
+-- max_energy_recovery_rate INTEGER
+-- default_energy_reduce_rate INTEGER
+-- max_energy_reduce_rate INTEGER
+-- default_accuracy INTEGER
+-- max_accuracy INTEGER
+-- passive_skill_id_1 INTEGER
+-- passive_skill_id_2 INTEGER
+-- passive_skill_power INTEGER
 INSERT INTO `ex_equipment_data` VALUES (/*ex_equipment_id*/4101101,/*name*/"木剑",/*description*/"见习骑士训练时使用的木剑。\n骑士们的第一步就是使用好它，\n学习战斗的基本功。",/*rarity*/1,/*category*/101,/*restriction_id*/0,/*clan_battle_equip_flag*/0,/*is_force_protected*/0,/*max_rank_flag*/0,/*default_hp*/0,/*max_hp*/0,/*default_atk*/50,/*max_atk*/200,/*default_magic_str*/0,/*max_magic_str*/0,/*default_def*/0,/*max_def*/0,/*default_magic_def*/0,/*max_magic_def*/0,/*default_physical_critical*/0,/*max_physical_critical*/0,/*default_magic_critical*/0,/*max_magic_critical*/0,/*default_wave_hp_recovery*/0,/*max_wave_hp_recovery*/0,/*default_wave_energy_recovery*/0,/*max_wave_energy_recovery*/0,/*default_dodge*/0,/*max_dodge*/0,/*default_physical_penetrate*/0,/*max_physical_penetrate*/0,/*default_magic_penetrate*/0,/*max_magic_penetrate*/0,/*default_life_steal*/0,/*max_life_steal*/0,/*default_hp_recovery_rate*/0,/*max_hp_recovery_rate*/0,/*default_energy_recovery_rate*/0,/*max_energy_recovery_rate*/0,/*default_energy_reduce_rate*/0,/*max_energy_reduce_rate*/0,/*default_accuracy*/0,/*max_accuracy*/0,/*passive_skill_id_1*/0,/*passive_skill_id_2*/0,/*passive_skill_power*/0);
 INSERT INTO `ex_equipment_data` VALUES (/*ex_equipment_id*/4101201,/*name*/"钢剑",/*description*/"广为传播的铁剑。价格低廉，\n但是做工结实，作为护身武器\n备受旅行者的青睐。",/*rarity*/2,/*category*/101,/*restriction_id*/0,/*clan_battle_equip_flag*/0,/*is_force_protected*/0,/*max_rank_flag*/0,/*default_hp*/0,/*max_hp*/0,/*default_atk*/80,/*max_atk*/400,/*default_magic_str*/0,/*max_magic_str*/0,/*default_def*/0,/*max_def*/0,/*default_magic_def*/0,/*max_magic_def*/0,/*default_physical_critical*/0,/*max_physical_critical*/0,/*default_magic_critical*/0,/*max_magic_critical*/0,/*default_wave_hp_recovery*/0,/*max_wave_hp_recovery*/0,/*default_wave_energy_recovery*/0,/*max_wave_energy_recovery*/0,/*default_dodge*/0,/*max_dodge*/0,/*default_physical_penetrate*/0,/*max_physical_penetrate*/0,/*default_magic_penetrate*/0,/*max_magic_penetrate*/0,/*default_life_steal*/0,/*max_life_steal*/0,/*default_hp_recovery_rate*/0,/*max_hp_recovery_rate*/0,/*default_energy_recovery_rate*/0,/*max_energy_recovery_rate*/0,/*default_energy_reduce_rate*/0,/*max_energy_reduce_rate*/0,/*default_accuracy*/0,/*max_accuracy*/0,/*passive_skill_id_1*/0,/*passive_skill_id_2*/0,/*passive_skill_power*/0);
 INSERT INTO `ex_equipment_data` VALUES (/*ex_equipment_id*/4101202,/*name*/"海盗剑",/*description*/"刀身略短，呈弯曲状的剑。\n在狭小的空间里也能自如挥舞，\n因此常被在船上战斗的海盗所携带。",/*rarity*/2,/*category*/101,/*restriction_id*/0,/*clan_battle_equip_flag*/0,/*is_force_protected*/0,/*max_rank_flag*/0,/*default_hp*/0,/*max_hp*/0,/*default_atk*/40,/*max_atk*/200,/*default_magic_str*/0,/*max_magic_str*/0,/*default_def*/0,/*max_def*/0,/*default_magic_def*/0,/*max_magic_def*/0,/*default_physical_critical*/20,/*max_physical_critical*/100,/*default_magic_critical*/0,/*max_magic_critical*/0,/*default_wave_hp_recovery*/0,/*max_wave_hp_recovery*/0,/*default_wave_energy_recovery*/0,/*max_wave_energy_recovery*/0,/*default_dodge*/0,/*max_dodge*/0,/*default_physical_penetrate*/0,/*max_physical_penetrate*/0,/*default_magic_penetrate*/0,/*max_magic_penetrate*/0,/*default_life_steal*/0,/*max_life_steal*/0,/*default_hp_recovery_rate*/0,/*max_hp_recovery_rate*/0,/*default_energy_recovery_rate*/0,/*max_energy_recovery_rate*/0,/*default_energy_reduce_rate*/0,/*max_energy_reduce_rate*/0,/*default_accuracy*/0,/*max_accuracy*/0,/*passive_skill_id_1*/0,/*passive_skill_id_2*/0,/*passive_skill_power*/0);

@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_drama_script' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `taq_drama_script` VALUES (/*command_id*/1001,/*drama_id*/1,/*command_type*/1,/*param_01*/"1",/*param_02*/"118511",/*param_03*/"100",/*param_04*/"72",/*param_05*/"-194",/*param_06*/"1.65",/*param_07*/"1",/*param_08*/"taq_karin_idle");
 INSERT INTO `taq_drama_script` VALUES (/*command_id*/1002,/*drama_id*/1,/*command_type*/21,/*param_01*/"vo_minigame_1009",/*param_02*/"vo_minigame_1009_top_001",/*param_03*/"0",/*param_04*/"0",/*param_05*/"",/*param_06*/"",/*param_07*/"",/*param_08*/"");
 INSERT INTO `taq_drama_script` VALUES (/*command_id*/1003,/*drama_id*/1,/*command_type*/11,/*param_01*/"118511",/*param_02*/"我们还准备了奖品\n加油吧♪",/*param_03*/"8",/*param_04*/"0",/*param_05*/"0",/*param_06*/"0",/*param_07*/"0",/*param_08*/"0");

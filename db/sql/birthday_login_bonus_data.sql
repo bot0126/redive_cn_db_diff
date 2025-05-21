@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'birthday_login_bonus_data' ('login_bonus_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'login_bonus_type' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'adv_id' INTEGER NOT NULL, PRIMARY KEY('login_bonus_id'));
+-- Column Names:
+-- login_bonus_id INTEGER
+-- name TEXT
+-- login_bonus_type INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- adv_id INTEGER
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9100101,/*name*/"日和莉「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2022/8/27 5:00:00",/*end_time*/"2022/8/28 4:59:00",/*adv_id*/1001500);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9100102,/*name*/"日和莉「生日剧情」",/*login_bonus_type*/9,/*start_time*/"2023/8/27 5:00:00",/*end_time*/"2023/8/28 4:59:00",/*adv_id*/1001501);
 INSERT INTO `birthday_login_bonus_data` VALUES (/*login_bonus_id*/9100103,/*name*/"日和莉“生日剧情”",/*login_bonus_type*/9,/*start_time*/"2024/8/27 5:00:00",/*end_time*/"2024/8/28 4:59:59",/*adv_id*/19414);

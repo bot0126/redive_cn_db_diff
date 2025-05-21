@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'colosseum_quest_data' ('quest_id' INTEGER NOT NULL, 'schedule_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'slot_id' INTEGER NOT NULL, 'display_unit_id' INTEGER NOT NULL, 'unit_id_1' INTEGER NOT NULL, 'unit_id_2' INTEGER NOT NULL, 'unit_id_3' INTEGER NOT NULL, 'unit_id_4' INTEGER NOT NULL, 'unit_id_5' INTEGER NOT NULL, 'enhance_id_1' INTEGER NOT NULL, 'enhance_id_2' INTEGER NOT NULL, 'enhance_id_3' INTEGER NOT NULL, 'enhance_id_4' INTEGER NOT NULL, 'enhance_id_5' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'bg_position' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- schedule_id INTEGER
+-- difficulty INTEGER
+-- slot_id INTEGER
+-- display_unit_id INTEGER
+-- unit_id_1 INTEGER
+-- unit_id_2 INTEGER
+-- unit_id_3 INTEGER
+-- unit_id_4 INTEGER
+-- unit_id_5 INTEGER
+-- enhance_id_1 INTEGER
+-- enhance_id_2 INTEGER
+-- enhance_id_3 INTEGER
+-- enhance_id_4 INTEGER
+-- enhance_id_5 INTEGER
+-- limit_time INTEGER
+-- background INTEGER
+-- bg_position INTEGER
 INSERT INTO `colosseum_quest_data` VALUES (/*quest_id*/100111,/*schedule_id*/1001,/*difficulty*/1,/*slot_id*/1,/*display_unit_id*/100701,/*unit_id_1*/100701,/*unit_id_2*/103401,/*unit_id_3*/105501,/*unit_id_4*/112201,/*unit_id_5*/123001,/*enhance_id_1*/6,/*enhance_id_2*/6,/*enhance_id_3*/6,/*enhance_id_4*/6,/*enhance_id_5*/6,/*limit_time*/90,/*background*/100003,/*bg_position*/-100);
 INSERT INTO `colosseum_quest_data` VALUES (/*quest_id*/100112,/*schedule_id*/1001,/*difficulty*/1,/*slot_id*/2,/*display_unit_id*/103401,/*unit_id_1*/106601,/*unit_id_2*/103401,/*unit_id_3*/100901,/*unit_id_4*/105101,/*unit_id_5*/123001,/*enhance_id_1*/6,/*enhance_id_2*/6,/*enhance_id_3*/6,/*enhance_id_4*/6,/*enhance_id_5*/6,/*limit_time*/90,/*background*/100003,/*bg_position*/-100);
 INSERT INTO `colosseum_quest_data` VALUES (/*quest_id*/100113,/*schedule_id*/1001,/*difficulty*/1,/*slot_id*/3,/*display_unit_id*/110301,/*unit_id_1*/112701,/*unit_id_2*/113401,/*unit_id_3*/110301,/*unit_id_4*/106901,/*unit_id_5*/101801,/*enhance_id_1*/6,/*enhance_id_2*/6,/*enhance_id_3*/6,/*enhance_id_4*/6,/*enhance_id_5*/6,/*limit_time*/90,/*background*/100003,/*bg_position*/-100);

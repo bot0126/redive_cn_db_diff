@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'emblem_data' ('emblem_id' INTEGER NOT NULL, 'disp_oder' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'emblem_name' TEXT NOT NULL, 'description_mission_id' INTEGER NOT NULL, 'event_emblem' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('emblem_id'));
+-- Column Names:
+-- emblem_id INTEGER
+-- disp_oder INTEGER
+-- type INTEGER
+-- emblem_name TEXT
+-- description_mission_id INTEGER
+-- event_emblem INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10000001,/*disp_oder*/101001,/*type*/1,/*emblem_name*/"第一次冒险",/*description_mission_id*/0,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10101001,/*disp_oder*/101002,/*type*/1,/*emblem_name*/"新人骑士",/*description_mission_id*/58002001,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10101002,/*disp_oder*/101003,/*type*/1,/*emblem_name*/"勇敢骑士",/*description_mission_id*/58002002,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
@@ -730,9 +739,6 @@ INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201722,/*disp_oder*/201229,/*ty
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201723,/*disp_oder*/201723,/*type*/2,/*emblem_name*/"莫妮卡（咖啡厅）",/*description_mission_id*/56011723,/*event_emblem*/0,/*start_time*/"2025/03/09 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201724,/*disp_oder*/201724,/*type*/2,/*emblem_name*/"莫妮卡（咖啡厅）之缘",/*description_mission_id*/56011724,/*event_emblem*/0,/*start_time*/"2025/03/09 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201725,/*disp_oder*/201725,/*type*/2,/*emblem_name*/"白翼的咖啡专家",/*description_mission_id*/56011725,/*event_emblem*/0,/*start_time*/"2025/03/09 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201726,/*disp_oder*/201726,/*type*/2,/*emblem_name*/"静流（黑暗）",/*description_mission_id*/56011726,/*event_emblem*/0,/*start_time*/"2025/03/17 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201727,/*disp_oder*/201727,/*type*/2,/*emblem_name*/"静流（黑暗）之缘",/*description_mission_id*/56011727,/*event_emblem*/0,/*start_time*/"2025/03/17 11:00:00",/*end_time*/"2099/12/31 23:59:59");
-INSERT INTO `emblem_data` VALUES (/*emblem_id*/10201728,/*disp_oder*/201728,/*type*/2,/*emblem_name*/"黑暗魔法少女姐姐",/*description_mission_id*/56011728,/*event_emblem*/0,/*start_time*/"2025/03/17 11:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10202001,/*disp_oder*/202001,/*type*/2,/*emblem_name*/"美食殿堂",/*description_mission_id*/56012001,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10202002,/*disp_oder*/202002,/*type*/2,/*emblem_name*/"破晓之星",/*description_mission_id*/56012002,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `emblem_data` VALUES (/*emblem_id*/10202003,/*disp_oder*/202003,/*type*/2,/*emblem_name*/"拉比林斯",/*description_mission_id*/56012003,/*event_emblem*/0,/*start_time*/"2018/1/1  15:00:00",/*end_time*/"2099/12/31 23:59:59");

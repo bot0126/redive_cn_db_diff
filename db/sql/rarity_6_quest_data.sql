@@ -1,6 +1,43 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'rarity_6_quest_data' ('rarity_6_quest_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'quest_name' TEXT NOT NULL, 'limit_time' INTEGER NOT NULL, 'recommended_level' INTEGER NOT NULL, 'reward_group_id' INTEGER NOT NULL, 'treasure_type' INTEGER NOT NULL, 'reward_image_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_image_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_image_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_image_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'reward_image_5' INTEGER NOT NULL, 'reward_count_5' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'bg_position' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'enemy_position_x_1' INTEGER NOT NULL, 'enemy_local_position_y_1' INTEGER NOT NULL, 'enemy_size_1' REAL NOT NULL, 'enemy_position_x_2' INTEGER NOT NULL, 'enemy_local_position_y_2' INTEGER NOT NULL, 'enemy_size_2' REAL NOT NULL, 'enemy_position_x_3' INTEGER NOT NULL, 'enemy_local_position_y_3' INTEGER NOT NULL, 'enemy_size_3' REAL NOT NULL, 'enemy_position_x_4' INTEGER NOT NULL, 'enemy_local_position_y_4' INTEGER NOT NULL, 'enemy_size_4' REAL NOT NULL, 'enemy_position_x_5' INTEGER NOT NULL, 'enemy_local_position_y_5' INTEGER NOT NULL, 'enemy_size_5' REAL NOT NULL, 'wave_bgm' TEXT NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- rarity_6_quest_id INTEGER
+-- unit_id INTEGER
+-- quest_name TEXT
+-- limit_time INTEGER
+-- recommended_level INTEGER
+-- reward_group_id INTEGER
+-- treasure_type INTEGER
+-- reward_image_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_image_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_image_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_image_4 INTEGER
+-- reward_count_4 INTEGER
+-- reward_image_5 INTEGER
+-- reward_count_5 INTEGER
+-- background INTEGER
+-- bg_position INTEGER
+-- wave_group_id INTEGER
+-- enemy_position_x_1 INTEGER
+-- enemy_local_position_y_1 INTEGER
+-- enemy_size_1 REAL
+-- enemy_position_x_2 INTEGER
+-- enemy_local_position_y_2 INTEGER
+-- enemy_size_2 REAL
+-- enemy_position_x_3 INTEGER
+-- enemy_local_position_y_3 INTEGER
+-- enemy_size_3 REAL
+-- enemy_position_x_4 INTEGER
+-- enemy_local_position_y_4 INTEGER
+-- enemy_size_4 REAL
+-- enemy_position_x_5 INTEGER
+-- enemy_local_position_y_5 INTEGER
+-- enemy_size_5 REAL
+-- wave_bgm TEXT
 INSERT INTO `rarity_6_quest_data` VALUES (/*rarity_6_quest_id*/2200001,/*unit_id*/100101,/*quest_name*/"日和莉的解锁关卡",/*limit_time*/90,/*recommended_level*/151,/*reward_group_id*/222001001,/*treasure_type*/1,/*reward_image_1*/91002,/*reward_count_1*/100,/*reward_image_2*/20004,/*reward_count_2*/10,/*reward_image_3*/115556,/*reward_count_3*/5,/*reward_image_4*/115106,/*reward_count_4*/5,/*reward_image_5*/0,/*reward_count_5*/0,/*background*/102011,/*bg_position*/50,/*wave_group_id*/220011001,/*enemy_position_x_1*/-376,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-188,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.8,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.8,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/376,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_M259");
 INSERT INTO `rarity_6_quest_data` VALUES (/*rarity_6_quest_id*/2200002,/*unit_id*/100201,/*quest_name*/"优衣的解锁关卡",/*limit_time*/90,/*recommended_level*/151,/*reward_group_id*/222001002,/*treasure_type*/1,/*reward_image_1*/91002,/*reward_count_1*/100,/*reward_image_2*/20004,/*reward_count_2*/10,/*reward_image_3*/115586,/*reward_count_3*/5,/*reward_image_4*/125256,/*reward_count_4*/5,/*reward_image_5*/0,/*reward_count_5*/0,/*background*/102011,/*bg_position*/50,/*wave_group_id*/220021001,/*enemy_position_x_1*/-376,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-188,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.8,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.8,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/376,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_M259");
 INSERT INTO `rarity_6_quest_data` VALUES (/*rarity_6_quest_id*/2200003,/*unit_id*/100301,/*quest_name*/"怜的的解锁关卡",/*limit_time*/90,/*recommended_level*/151,/*reward_group_id*/222001003,/*treasure_type*/1,/*reward_image_1*/91002,/*reward_count_1*/100,/*reward_image_2*/20004,/*reward_count_2*/10,/*reward_image_3*/115556,/*reward_count_3*/5,/*reward_image_4*/125016,/*reward_count_4*/5,/*reward_image_5*/0,/*reward_count_5*/0,/*background*/102011,/*bg_position*/50,/*wave_group_id*/220031001,/*enemy_position_x_1*/-376,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.8,/*enemy_position_x_2*/-188,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.8,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.8,/*enemy_position_x_4*/188,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.8,/*enemy_position_x_5*/376,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.8,/*wave_bgm*/"bgm_M259");

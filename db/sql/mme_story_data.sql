@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'mme_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'is_puzzle_piece' INTEGER NOT NULL, 'is_last' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- is_puzzle_piece INTEGER
+-- is_last INTEGER
+-- condition_quest_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `mme_story_data` VALUES (/*sub_story_id*/5110601,/*original_event_id*/10110,/*title*/"序章",/*sub_title*/"怀念的过去结晶",/*is_puzzle_piece*/0,/*is_last*/0,/*condition_quest_id*/10110104,/*reward_type*/0,/*reward_id*/0,/*reward_count*/0);
 INSERT INTO `mme_story_data` VALUES (/*sub_story_id*/5110602,/*original_event_id*/10110,/*title*/"尾狗刀的追忆1",/*sub_title*/"谁是队长！",/*is_puzzle_piece*/1,/*is_last*/0,/*condition_quest_id*/10110104,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/30);
 INSERT INTO `mme_story_data` VALUES (/*sub_story_id*/5110603,/*original_event_id*/10110,/*title*/"尾狗刀的追忆2",/*sub_title*/"想赢的理由",/*is_puzzle_piece*/1,/*is_last*/0,/*condition_quest_id*/10110105,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/30);

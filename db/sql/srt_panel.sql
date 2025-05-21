@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'srt_panel' ('reading_id' INTEGER NOT NULL, 'reading' TEXT NOT NULL, 'read_type' INTEGER NOT NULL, 'panel_id' INTEGER NOT NULL, 'detail_text' TEXT NOT NULL, 'version' INTEGER NOT NULL, 'head_symbol' TEXT NOT NULL, 'tail_symbol' TEXT NOT NULL, PRIMARY KEY('reading_id'));
+-- Column Names:
+-- reading_id INTEGER
+-- reading TEXT
+-- read_type INTEGER
+-- panel_id INTEGER
+-- detail_text TEXT
+-- version INTEGER
+-- head_symbol TEXT
+-- tail_symbol TEXT
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000100,/*reading*/"苹果",/*read_type*/1,/*panel_id*/10001,/*detail_text*/"红色，酸酸甜甜的水果。",/*version*/1,/*head_symbol*/"ing",/*tail_symbol*/"o");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000102,/*reading*/"禁断的果实",/*read_type*/2,/*panel_id*/10001,/*detail_text*/"传说中智慧之树上结出的果实。也有一种说法认为，这种果实并不是苹果。",/*version*/1,/*head_symbol*/"in",/*tail_symbol*/"i");
 INSERT INTO `srt_panel` VALUES (/*reading_id*/1000200,/*reading*/"大猩猩",/*read_type*/1,/*panel_id*/10002,/*detail_text*/"又黑又大又壮，浑身都是肌肉。这种生物最喜欢香蕉。",/*version*/1,/*head_symbol*/"a",/*tail_symbol*/"ing");

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tdf_wave_group_data' ('wave_group_id' INTEGER NOT NULL, 'enemy_id_1' INTEGER NOT NULL, 'enemy_id_2' INTEGER NOT NULL, 'enemy_id_3' INTEGER NOT NULL, 'enemy_id_4' INTEGER NOT NULL, 'enemy_id_5' INTEGER NOT NULL, PRIMARY KEY('wave_group_id'));
+-- Column Names:
+-- wave_group_id INTEGER
+-- enemy_id_1 INTEGER
+-- enemy_id_2 INTEGER
+-- enemy_id_3 INTEGER
+-- enemy_id_4 INTEGER
+-- enemy_id_5 INTEGER
 INSERT INTO `tdf_wave_group_data` VALUES (/*wave_group_id*/74001101,/*enemy_id_1*/550101101,/*enemy_id_2*/550101102,/*enemy_id_3*/550101103,/*enemy_id_4*/550101104,/*enemy_id_5*/550101105);
 INSERT INTO `tdf_wave_group_data` VALUES (/*wave_group_id*/74001102,/*enemy_id_1*/550101201,/*enemy_id_2*/550101202,/*enemy_id_3*/550101203,/*enemy_id_4*/550101204,/*enemy_id_5*/550101205);
 INSERT INTO `tdf_wave_group_data` VALUES (/*wave_group_id*/74001103,/*enemy_id_1*/550101301,/*enemy_id_2*/550101302,/*enemy_id_3*/550101303,/*enemy_id_4*/550101304,/*enemy_id_5*/550101305);

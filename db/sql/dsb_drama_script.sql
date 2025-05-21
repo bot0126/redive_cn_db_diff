@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dsb_drama_script' ('command_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'command_type' INTEGER NOT NULL, 'param_01' TEXT NOT NULL, 'param_02' TEXT NOT NULL, 'param_03' TEXT NOT NULL, 'param_04' TEXT NOT NULL, 'param_05' TEXT NOT NULL, 'param_06' TEXT NOT NULL, 'param_07' TEXT NOT NULL, 'param_08' TEXT NOT NULL, PRIMARY KEY('command_id'));
+-- Column Names:
+-- command_id INTEGER
+-- drama_id INTEGER
+-- command_type INTEGER
+-- param_01 TEXT
+-- param_02 TEXT
+-- param_03 TEXT
+-- param_04 TEXT
+-- param_05 TEXT
+-- param_06 TEXT
+-- param_07 TEXT
+-- param_08 TEXT
 INSERT INTO `dsb_drama_script` VALUES (/*command_id*/1010801001,/*drama_id*/1010801,/*command_type*/5,/*param_01*/"10",/*param_02*/"1",/*param_03*/"70",/*param_04*/"-165",/*param_05*/"-345",/*param_06*/"2",/*param_07*/"0",/*param_08*/"dsb_idle_normal");
 INSERT INTO `dsb_drama_script` VALUES (/*command_id*/1010801002,/*drama_id*/1010801,/*command_type*/5,/*param_01*/"4",/*param_02*/"2",/*param_03*/"70",/*param_04*/"165",/*param_05*/"-345",/*param_06*/"2",/*param_07*/"1",/*param_08*/"dsb_idle_worry");
 INSERT INTO `dsb_drama_script` VALUES (/*command_id*/1010801003,/*drama_id*/1010801,/*command_type*/5,/*param_01*/"10",/*param_02*/"99",/*param_03*/"70",/*param_04*/"-215",/*param_05*/"-350",/*param_06*/"2",/*param_07*/"0",/*param_08*/"dsb_lago");

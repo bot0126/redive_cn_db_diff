@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_quiz_reward' ('quiz_id' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, PRIMARY KEY('quiz_id'));
+-- Column Names:
+-- quiz_id INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
 INSERT INTO `hatsune_quiz_reward` VALUES (/*quiz_id*/1001201,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/50,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_num_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_num_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `hatsune_quiz_reward` VALUES (/*quiz_id*/1001202,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/50,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_num_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_num_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `hatsune_quiz_reward` VALUES (/*quiz_id*/1001203,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/50,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_num_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_num_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*reward_num_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);

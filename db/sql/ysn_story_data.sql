@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ysn_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'condition_story_id' INTEGER NOT NULL, 'disp_order' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- condition_story_id INTEGER
+-- disp_order INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_count_3 INTEGER
 INSERT INTO `ysn_story_data` VALUES (/*sub_story_id*/5084602,/*original_event_id*/10084,/*title*/"前半_日和莉",/*condition_story_id*/5084004,/*disp_order*/1,/*reward_type_1*/0,/*reward_id_1*/0,/*reward_count_1*/0,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0);
 INSERT INTO `ysn_story_data` VALUES (/*sub_story_id*/5084603,/*original_event_id*/10084,/*title*/"前半_优衣",/*condition_story_id*/5084004,/*disp_order*/2,/*reward_type_1*/0,/*reward_id_1*/0,/*reward_count_1*/0,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0);
 INSERT INTO `ysn_story_data` VALUES (/*sub_story_id*/5084604,/*original_event_id*/10084,/*title*/"前半_怜",/*condition_story_id*/5084004,/*disp_order*/3,/*reward_type_1*/0,/*reward_id_1*/0,/*reward_count_1*/0,/*reward_type_2*/0,/*reward_id_2*/0,/*reward_count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*reward_count_3*/0);

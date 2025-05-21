@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_navi_comment' ('comment_id' INTEGER NOT NULL, 'where_type' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'face_type' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'description' TEXT , 'voice_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'pos_x' REAL NOT NULL, 'pos_y' REAL NOT NULL, 'change_face_time' REAL NOT NULL, 'change_face_type' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- where_type INTEGER
+-- character_id INTEGER
+-- face_type INTEGER
+-- character_name TEXT
+-- description TEXT
+-- voice_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- pos_x REAL
+-- pos_y REAL
+-- change_face_time REAL
+-- change_face_type INTEGER
+-- event_id INTEGER
 INSERT INTO `ttk_navi_comment` VALUES (/*comment_id*/24001,/*where_type*/24,/*character_id*/102601,/*face_type*/1,/*character_name*/"铃",/*description*/"我该出手的时候\n也是会出手的！",/*voice_id*/0,/*start_time*/"2022/04/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/10040);
 INSERT INTO `ttk_navi_comment` VALUES (/*comment_id*/24002,/*where_type*/24,/*character_id*/102601,/*face_type*/1,/*character_name*/"铃",/*description*/"呼……\n这样一来我的工作\n就结束了。",/*voice_id*/1,/*start_time*/"2022/04/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/10040);
 INSERT INTO `ttk_navi_comment` VALUES (/*comment_id*/24003,/*where_type*/24,/*character_id*/102601,/*face_type*/1,/*character_name*/"铃",/*description*/"结束了结束了。\n就算只有一个人，\n也是能做到的呢。",/*voice_id*/2,/*start_time*/"2022/04/30 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/10040);

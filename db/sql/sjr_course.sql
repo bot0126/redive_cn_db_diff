@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_course' ('course_id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'difficulty_level' INTEGER NOT NULL, 'feature' INTEGER NOT NULL, 'length' INTEGER NOT NULL, 'peek_pos' INTEGER NOT NULL, 'time' REAL NOT NULL, 'rail_1' INTEGER NOT NULL, 'rail_2' INTEGER NOT NULL, 'rail_3' INTEGER NOT NULL, PRIMARY KEY('course_id'));
+-- Column Names:
+-- course_id INTEGER
+-- type INTEGER
+-- difficulty_level INTEGER
+-- feature INTEGER
+-- length INTEGER
+-- peek_pos INTEGER
+-- time REAL
+-- rail_1 INTEGER
+-- rail_2 INTEGER
+-- rail_3 INTEGER
 INSERT INTO `sjr_course` VALUES (/*course_id*/1100001,/*type*/1,/*difficulty_level*/1,/*feature*/1,/*length*/10590,/*peek_pos*/575,/*time*/32.0,/*rail_1*/1002,/*rail_2*/1001,/*rail_3*/1003);
 INSERT INTO `sjr_course` VALUES (/*course_id*/1100002,/*type*/1,/*difficulty_level*/1,/*feature*/1,/*length*/10590,/*peek_pos*/575,/*time*/32.0,/*rail_1*/1005,/*rail_2*/1004,/*rail_3*/1006);
 INSERT INTO `sjr_course` VALUES (/*course_id*/1100003,/*type*/1,/*difficulty_level*/1,/*feature*/2,/*length*/10590,/*peek_pos*/575,/*time*/32.0,/*rail_1*/1008,/*rail_2*/1007,/*rail_3*/1009);

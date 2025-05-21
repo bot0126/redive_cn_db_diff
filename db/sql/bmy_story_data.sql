@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'bmy_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `bmy_story_data` VALUES (/*sub_story_id*/5120061,/*original_event_id*/10120,/*title*/"我公会伙伴的美貌",/*condition_quest_id*/10120115,/*condition_boss_id*/1012001,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/20);
 INSERT INTO `bmy_story_data` VALUES (/*sub_story_id*/5120062,/*original_event_id*/10120,/*title*/"【美食殿堂】的美貌",/*condition_quest_id*/10120115,/*condition_boss_id*/1012001,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/20);
 INSERT INTO `bmy_story_data` VALUES (/*sub_story_id*/5120063,/*original_event_id*/10120,/*title*/"【破晓之星】\n 的美貌",/*condition_quest_id*/10120115,/*condition_boss_id*/1012001,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/20);

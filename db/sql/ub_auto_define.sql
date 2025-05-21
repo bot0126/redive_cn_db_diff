@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ub_auto_define' ('skill_id' INTEGER NOT NULL, 'ub_auto_id_1' INTEGER NOT NULL, 'ub_auto_id_2' INTEGER NOT NULL, 'ub_auto_id_3' INTEGER NOT NULL, 'ub_auto_id_4' INTEGER NOT NULL, 'ub_auto_id_5' INTEGER NOT NULL, PRIMARY KEY('skill_id'));
+-- Column Names:
+-- skill_id INTEGER
+-- ub_auto_id_1 INTEGER
+-- ub_auto_id_2 INTEGER
+-- ub_auto_id_3 INTEGER
+-- ub_auto_id_4 INTEGER
+-- ub_auto_id_5 INTEGER
 INSERT INTO `ub_auto_define` VALUES (/*skill_id*/1001001,/*ub_auto_id_1*/1,/*ub_auto_id_2*/0,/*ub_auto_id_3*/0,/*ub_auto_id_4*/0,/*ub_auto_id_5*/0);
 INSERT INTO `ub_auto_define` VALUES (/*skill_id*/1001011,/*ub_auto_id_1*/1,/*ub_auto_id_2*/0,/*ub_auto_id_3*/0,/*ub_auto_id_4*/0,/*ub_auto_id_5*/0);
 INSERT INTO `ub_auto_define` VALUES (/*skill_id*/1002001,/*ub_auto_id_1*/14002,/*ub_auto_id_2*/11002,/*ub_auto_id_3*/0,/*ub_auto_id_4*/0,/*ub_auto_id_5*/0);

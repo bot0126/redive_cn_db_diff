@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'experience_unit' ('unit_level' INTEGER NOT NULL, 'total_exp' INTEGER NOT NULL, PRIMARY KEY('unit_level'));
+-- Column Names:
+-- unit_level INTEGER
+-- total_exp INTEGER
 INSERT INTO `experience_unit` VALUES (/*unit_level*/1,/*total_exp*/0);
 INSERT INTO `experience_unit` VALUES (/*unit_level*/2,/*total_exp*/24);
 INSERT INTO `experience_unit` VALUES (/*unit_level*/3,/*total_exp*/72);
@@ -274,7 +277,4 @@ INSERT INTO `experience_unit` VALUES (/*unit_level*/270,/*total_exp*/14823626);
 INSERT INTO `experience_unit` VALUES (/*unit_level*/271,/*total_exp*/14957178);
 INSERT INTO `experience_unit` VALUES (/*unit_level*/272,/*total_exp*/15091330);
 INSERT INTO `experience_unit` VALUES (/*unit_level*/273,/*total_exp*/15226082);
-INSERT INTO `experience_unit` VALUES (/*unit_level*/274,/*total_exp*/15361434);
-INSERT INTO `experience_unit` VALUES (/*unit_level*/275,/*total_exp*/15497386);
-INSERT INTO `experience_unit` VALUES (/*unit_level*/276,/*total_exp*/15633938);
 COMMIT;

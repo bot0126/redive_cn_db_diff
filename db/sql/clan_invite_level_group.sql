@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_invite_level_group' ('level_group_id' INTEGER NOT NULL, 'team_level_from' INTEGER NOT NULL, 'team_level_to' INTEGER NOT NULL, PRIMARY KEY('level_group_id'));
+-- Column Names:
+-- level_group_id INTEGER
+-- team_level_from INTEGER
+-- team_level_to INTEGER
 INSERT INTO `clan_invite_level_group` VALUES (/*level_group_id*/1,/*team_level_from*/4,/*team_level_to*/14);
 INSERT INTO `clan_invite_level_group` VALUES (/*level_group_id*/2,/*team_level_from*/15,/*team_level_to*/20);
 INSERT INTO `clan_invite_level_group` VALUES (/*level_group_id*/3,/*team_level_from*/21,/*team_level_to*/25);

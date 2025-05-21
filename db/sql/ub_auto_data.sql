@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ub_auto_data' ('ub_auto_id' INTEGER NOT NULL, 'auto_type' INTEGER NOT NULL, 'auto_detail_1' INTEGER NOT NULL, 'auto_detail_2' INTEGER NOT NULL, 'auto_detail_3' INTEGER NOT NULL, 'auto_detail_4' INTEGER NOT NULL, 'auto_detail_5' INTEGER NOT NULL, 'auto_value_1' INTEGER NOT NULL, 'auto_value_2' INTEGER NOT NULL, 'auto_value_3' INTEGER NOT NULL, 'auto_value_4' INTEGER NOT NULL, 'auto_value_5' INTEGER NOT NULL, PRIMARY KEY('ub_auto_id'));
+-- Column Names:
+-- ub_auto_id INTEGER
+-- auto_type INTEGER
+-- auto_detail_1 INTEGER
+-- auto_detail_2 INTEGER
+-- auto_detail_3 INTEGER
+-- auto_detail_4 INTEGER
+-- auto_detail_5 INTEGER
+-- auto_value_1 INTEGER
+-- auto_value_2 INTEGER
+-- auto_value_3 INTEGER
+-- auto_value_4 INTEGER
+-- auto_value_5 INTEGER
 INSERT INTO `ub_auto_data` VALUES (/*ub_auto_id*/1,/*auto_type*/0,/*auto_detail_1*/0,/*auto_detail_2*/0,/*auto_detail_3*/0,/*auto_detail_4*/0,/*auto_detail_5*/0,/*auto_value_1*/0,/*auto_value_2*/0,/*auto_value_3*/0,/*auto_value_4*/0,/*auto_value_5*/0);
 INSERT INTO `ub_auto_data` VALUES (/*ub_auto_id*/11002,/*auto_type*/1,/*auto_detail_1*/2,/*auto_detail_2*/3,/*auto_detail_3*/0,/*auto_detail_4*/0,/*auto_detail_5*/0,/*auto_value_1*/1,/*auto_value_2*/800,/*auto_value_3*/0,/*auto_value_4*/0,/*auto_value_5*/0);
 INSERT INTO `ub_auto_data` VALUES (/*ub_auto_id*/12001,/*auto_type*/1,/*auto_detail_1*/1,/*auto_detail_2*/1,/*auto_detail_3*/0,/*auto_detail_4*/0,/*auto_detail_5*/0,/*auto_value_1*/1,/*auto_value_2*/500,/*auto_value_3*/0,/*auto_value_4*/0,/*auto_value_5*/0);

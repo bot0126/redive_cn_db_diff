@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dungeon_pattern_battle' ('id' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'pattern' INTEGER NOT NULL, 'trigger_type_1' INTEGER NOT NULL, 'trigger_value_1' INTEGER NOT NULL, 'next_pattern_1' INTEGER NOT NULL, 'trigger_type_2' INTEGER NOT NULL, 'trigger_value_2' INTEGER NOT NULL, 'next_pattern_2' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'detail_unit_id' INTEGER NOT NULL, 'detail_monster_position_x_1' REAL NOT NULL, 'detail_monster_position_y_1' REAL NOT NULL, 'detail_monster_scale_1' REAL NOT NULL, 'floor_unit_id' INTEGER NOT NULL, 'floor_monster_position_x_1' REAL NOT NULL, 'floor_monster_position_y_1' REAL NOT NULL, 'floor_monster_scale_1' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- quest_id INTEGER
+-- pattern INTEGER
+-- trigger_type_1 INTEGER
+-- trigger_value_1 INTEGER
+-- next_pattern_1 INTEGER
+-- trigger_type_2 INTEGER
+-- trigger_value_2 INTEGER
+-- next_pattern_2 INTEGER
+-- wave_group_id INTEGER
+-- detail_unit_id INTEGER
+-- detail_monster_position_x_1 REAL
+-- detail_monster_position_y_1 REAL
+-- detail_monster_scale_1 REAL
+-- floor_unit_id INTEGER
+-- floor_monster_position_x_1 REAL
+-- floor_monster_position_y_1 REAL
+-- floor_monster_scale_1 REAL
 INSERT INTO `dungeon_pattern_battle` VALUES (/*id*/1,/*quest_id*/31009005,/*pattern*/1,/*trigger_type_1*/1,/*trigger_value_1*/20,/*next_pattern_1*/5,/*trigger_type_2*/2,/*trigger_value_2*/0,/*next_pattern_2*/2,/*wave_group_id*/501010091,/*detail_unit_id*/318405,/*detail_monster_position_x_1*/40.0,/*detail_monster_position_y_1*/20.0,/*detail_monster_scale_1*/0.8,/*floor_unit_id*/318405,/*floor_monster_position_x_1*/0.0,/*floor_monster_position_y_1*/0.0,/*floor_monster_scale_1*/0.85);
 INSERT INTO `dungeon_pattern_battle` VALUES (/*id*/2,/*quest_id*/31009005,/*pattern*/2,/*trigger_type_1*/1,/*trigger_value_1*/20,/*next_pattern_1*/5,/*trigger_type_2*/2,/*trigger_value_2*/0,/*next_pattern_2*/3,/*wave_group_id*/501010092,/*detail_unit_id*/318405,/*detail_monster_position_x_1*/40.0,/*detail_monster_position_y_1*/20.0,/*detail_monster_scale_1*/0.8,/*floor_unit_id*/318405,/*floor_monster_position_x_1*/0.0,/*floor_monster_position_y_1*/0.0,/*floor_monster_scale_1*/0.85);
 INSERT INTO `dungeon_pattern_battle` VALUES (/*id*/3,/*quest_id*/31009005,/*pattern*/3,/*trigger_type_1*/1,/*trigger_value_1*/20,/*next_pattern_1*/5,/*trigger_type_2*/2,/*trigger_value_2*/0,/*next_pattern_2*/4,/*wave_group_id*/501010093,/*detail_unit_id*/318405,/*detail_monster_position_x_1*/40.0,/*detail_monster_position_y_1*/20.0,/*detail_monster_scale_1*/0.8,/*floor_unit_id*/318405,/*floor_monster_position_x_1*/0.0,/*floor_monster_position_y_1*/0.0,/*floor_monster_scale_1*/0.85);

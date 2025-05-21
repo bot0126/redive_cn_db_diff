@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_event_list' ('event_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'banner_y' INTEGER NOT NULL, 'condition_story_id' INTEGER NOT NULL, 'condition_chara_id' INTEGER NOT NULL, 'condition_main_quest_id' INTEGER NOT NULL, 'condition_shiori_quest_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'series_event_id' INTEGER NOT NULL, 'original_start_time' TEXT NOT NULL, 'gojuon_order' INTEGER NOT NULL, 'help_index' TEXT NOT NULL, PRIMARY KEY('event_id'));
+-- Column Names:
+-- event_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- banner_y INTEGER
+-- condition_story_id INTEGER
+-- condition_chara_id INTEGER
+-- condition_main_quest_id INTEGER
+-- condition_shiori_quest_id INTEGER
+-- original_event_id INTEGER
+-- series_event_id INTEGER
+-- original_start_time TEXT
+-- gojuon_order INTEGER
+-- help_index TEXT
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20001,/*start_time*/"2022/03/13 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/-6,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10001,/*series_event_id*/0,/*original_start_time*/"2020/05/15 11:00:00",/*gojuon_order*/5032,/*help_index*/"1");
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20002,/*start_time*/"2022/04/15 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/-3,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10002,/*series_event_id*/0,/*original_start_time*/"2020/06/08 11:00:00",/*gojuon_order*/8101,/*help_index*/"1");
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20003,/*start_time*/"2022/05/15 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/-8,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10003,/*series_event_id*/0,/*original_start_time*/"2020/07/06 11:00:00",/*gojuon_order*/201,/*help_index*/"1");
@@ -38,5 +52,4 @@ INSERT INTO `shiori_event_list` VALUES (/*event_id*/20034,/*start_time*/"2024/11
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20035,/*start_time*/"2024/12/16 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/12,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10061,/*series_event_id*/0,/*original_start_time*/"2023/02/28 11:00:00",/*gojuon_order*/2193,/*help_index*/"1,23");
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20036,/*start_time*/"2025/01/15 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/0,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10064,/*series_event_id*/0,/*original_start_time*/"2023/03/28 11:00:00",/*gojuon_order*/5010,/*help_index*/"1");
 INSERT INTO `shiori_event_list` VALUES (/*event_id*/20037,/*start_time*/"2025/02/13 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/0,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10066,/*series_event_id*/0,/*original_start_time*/"2023/04/28 11:00:00",/*gojuon_order*/144,/*help_index*/"1");
-INSERT INTO `shiori_event_list` VALUES (/*event_id*/20038,/*start_time*/"2025/03/14 11:00:00",/*end_time*/"2088/06/15 11:00:00",/*banner_y*/0,/*condition_story_id*/0,/*condition_chara_id*/0,/*condition_main_quest_id*/0,/*condition_shiori_quest_id*/0,/*original_event_id*/10068,/*series_event_id*/0,/*original_start_time*/"2023/05/28 11:00:00",/*gojuon_order*/121,/*help_index*/"1,24");
 COMMIT;

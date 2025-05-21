@@ -1,6 +1,27 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_data' ('taq_no' INTEGER NOT NULL, 'genre' INTEGER NOT NULL, 'taq_type' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'word' TEXT NOT NULL, 'chunk' TEXT NOT NULL, 'detail' TEXT NOT NULL, 'detail_2' TEXT NOT NULL, 'assist_detail' TEXT NOT NULL, 'image_id' INTEGER NOT NULL, 'char_no_1' INTEGER NOT NULL, 'char_no_2' INTEGER NOT NULL, 'char_no_3' INTEGER NOT NULL, 'char_no_4' INTEGER NOT NULL, 'char_no_5' INTEGER NOT NULL, 'input_type_1' INTEGER NOT NULL, 'input_type_2' INTEGER NOT NULL, 'input_type_3' INTEGER NOT NULL, 'input_type_4' INTEGER NOT NULL, 'input_type_5' INTEGER NOT NULL, PRIMARY KEY('taq_no'));
+-- Column Names:
+-- taq_no INTEGER
+-- genre INTEGER
+-- taq_type INTEGER
+-- difficulty INTEGER
+-- word TEXT
+-- chunk TEXT
+-- detail TEXT
+-- detail_2 TEXT
+-- assist_detail TEXT
+-- image_id INTEGER
+-- char_no_1 INTEGER
+-- char_no_2 INTEGER
+-- char_no_3 INTEGER
+-- char_no_4 INTEGER
+-- char_no_5 INTEGER
+-- input_type_1 INTEGER
+-- input_type_2 INTEGER
+-- input_type_3 INTEGER
+-- input_type_4 INTEGER
+-- input_type_5 INTEGER
 INSERT INTO `taq_data` VALUES (/*taq_no*/1001,/*genre*/1,/*taq_type*/1,/*difficulty*/1,/*word*/"你变成布丁",/*chunk*/"把你变成布丁",/*detail*/"这个的名称是什么？",/*detail_2*/"「宫子」的口头禅，同时也是其连结爆发名称。",/*assist_detail*/"把你变成布丁",/*image_id*/1001,/*char_no_1*/20320,/*char_no_2*/21464,/*char_no_3*/25104,/*char_no_4*/24067,/*char_no_5*/19969,/*input_type_1*/6,/*input_type_2*/6,/*input_type_3*/6,/*input_type_4*/6,/*input_type_5*/6);
 INSERT INTO `taq_data` VALUES (/*taq_no*/1008,/*genre*/1,/*taq_type*/1,/*difficulty*/1,/*word*/"兰德索尔杯",/*chunk*/"",/*detail*/"这个的名称是什么？",/*detail_2*/"每半年举行一次的障碍物赛跑。来猜猜四名角色中哪一名会跑第一吧！",/*assist_detail*/"兰德索尔杯",/*image_id*/0,/*char_no_1*/20848,/*char_no_2*/24503,/*char_no_3*/32034,/*char_no_4*/23572,/*char_no_5*/26479,/*input_type_1*/6,/*input_type_2*/6,/*input_type_3*/6,/*input_type_4*/6,/*input_type_5*/6);
 INSERT INTO `taq_data` VALUES (/*taq_no*/1010,/*genre*/1,/*taq_type*/1,/*difficulty*/1,/*word*/"特别舞台上",/*chunk*/"特别舞台上的演出",/*detail*/"这个的名称是什么？",/*detail_2*/"「望（★6）」的连结爆发名称。",/*assist_detail*/"特别舞台上的演出",/*image_id*/0,/*char_no_1*/29305,/*char_no_2*/21035,/*char_no_3*/33310,/*char_no_4*/21488,/*char_no_5*/19978,/*input_type_1*/6,/*input_type_2*/6,/*input_type_3*/6,/*input_type_4*/6,/*input_type_5*/6);

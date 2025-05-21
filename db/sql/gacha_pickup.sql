@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'gacha_pickup' ('id' INTEGER NOT NULL, 'priority' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('id','priority'));
+-- Column Names:
+-- id INTEGER
+-- priority INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- name TEXT
 INSERT INTO `gacha_pickup` VALUES (/*id*/1,/*priority*/1,/*reward_type*/1,/*reward_id*/112001,/*name*/"凯露（新年）");
 INSERT INTO `gacha_pickup` VALUES (/*id*/1,/*priority*/2,/*reward_type*/1,/*reward_id*/111801,/*name*/"佩可莉姆（新年）");
 INSERT INTO `gacha_pickup` VALUES (/*id*/1,/*priority*/3,/*reward_type*/1,/*reward_id*/111901,/*name*/"可可萝（新年）");

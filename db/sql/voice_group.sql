@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'voice_group' ('group_id' INTEGER NOT NULL, 'group_id_comment' TEXT NOT NULL, 'group_unit_id_01' INTEGER NOT NULL, 'group_unit_id_02' INTEGER NOT NULL, 'group_unit_id_03' INTEGER NOT NULL, 'group_unit_id_04' INTEGER NOT NULL, 'group_unit_id_05' INTEGER NOT NULL, PRIMARY KEY('group_id'));
+-- Column Names:
+-- group_id INTEGER
+-- group_id_comment TEXT
+-- group_unit_id_01 INTEGER
+-- group_unit_id_02 INTEGER
+-- group_unit_id_03 INTEGER
+-- group_unit_id_04 INTEGER
+-- group_unit_id_05 INTEGER
 INSERT INTO `voice_group` VALUES (/*group_id*/20001,/*group_id_comment*/"初音＆栞",/*group_unit_id_01*/101201001,/*group_unit_id_02*/103801001,/*group_unit_id_03*/0,/*group_unit_id_04*/0,/*group_unit_id_05*/0);
 INSERT INTO `voice_group` VALUES (/*group_id*/20002,/*group_id_comment*/"静流＆璃乃",/*group_unit_id_01*/101101001,/*group_unit_id_02*/104901001,/*group_unit_id_03*/0,/*group_unit_id_04*/0,/*group_unit_id_05*/0);
 INSERT INTO `voice_group` VALUES (/*group_id*/20003,/*group_id_comment*/"咲恋＆铃莓",/*group_unit_id_01*/102801001,/*group_unit_id_02*/102501001,/*group_unit_id_03*/0,/*group_unit_id_04*/0,/*group_unit_id_05*/0);

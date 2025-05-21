@@ -1,6 +1,36 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dungeon_quest_data' ('quest_id' INTEGER NOT NULL, 'dungeon_area_id' INTEGER NOT NULL, 'floor_num' INTEGER NOT NULL, 'quest_type' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'matching_coefficient' REAL NOT NULL, 'parts_hp_save_flag' INTEGER NOT NULL, 'energy_reset_flag' INTEGER NOT NULL, 'emax' INTEGER NOT NULL, 'reward_image_1' INTEGER NOT NULL, 'reward_image_2' INTEGER NOT NULL, 'reward_image_3' INTEGER NOT NULL, 'reward_image_4' INTEGER NOT NULL, 'reward_image_5' INTEGER NOT NULL, 'reward_image_6' INTEGER NOT NULL, 'reward_coin' INTEGER NOT NULL, 'chest_id' INTEGER NOT NULL, 'odds_group_id' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'dungeon_quest_detail_bg_id' INTEGER NOT NULL, 'dungeon_quest_detail_bg_position' INTEGER NOT NULL, 'dungeon_quest_detail_monster_size' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_1' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_2' REAL NOT NULL, 'dungeon_quest_detail_monster_height' REAL NOT NULL, 'multi_target_effect_time' REAL NOT NULL, 'wave_bgm_sheet_id_1' TEXT NOT NULL, 'wave_bgm_que_id_1' TEXT NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- dungeon_area_id INTEGER
+-- floor_num INTEGER
+-- quest_type INTEGER
+-- wave_group_id INTEGER
+-- limit_time INTEGER
+-- matching_coefficient REAL
+-- parts_hp_save_flag INTEGER
+-- energy_reset_flag INTEGER
+-- emax INTEGER
+-- reward_image_1 INTEGER
+-- reward_image_2 INTEGER
+-- reward_image_3 INTEGER
+-- reward_image_4 INTEGER
+-- reward_image_5 INTEGER
+-- reward_image_6 INTEGER
+-- reward_coin INTEGER
+-- chest_id INTEGER
+-- odds_group_id INTEGER
+-- background INTEGER
+-- dungeon_quest_detail_bg_id INTEGER
+-- dungeon_quest_detail_bg_position INTEGER
+-- dungeon_quest_detail_monster_size REAL
+-- dungeon_quest_detail_monster_position_x_1 REAL
+-- dungeon_quest_detail_monster_position_x_2 REAL
+-- dungeon_quest_detail_monster_height REAL
+-- multi_target_effect_time REAL
+-- wave_bgm_sheet_id_1 TEXT
+-- wave_bgm_que_id_1 TEXT
 INSERT INTO `dungeon_quest_data` VALUES (/*quest_id*/31001001,/*dungeon_area_id*/31001,/*floor_num*/1,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*matching_coefficient*/0.4,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*emax*/0,/*reward_image_1*/94002,/*reward_image_2*/99002,/*reward_image_3*/0,/*reward_image_4*/0,/*reward_image_5*/0,/*reward_image_6*/0,/*reward_coin*/0,/*chest_id*/40001,/*odds_group_id*/3100101,/*background*/100091,/*dungeon_quest_detail_bg_id*/100091,/*dungeon_quest_detail_bg_position*/0,/*dungeon_quest_detail_monster_size*/1.2,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");
 INSERT INTO `dungeon_quest_data` VALUES (/*quest_id*/31001002,/*dungeon_area_id*/31001,/*floor_num*/2,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*matching_coefficient*/0.4,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*emax*/0,/*reward_image_1*/94002,/*reward_image_2*/99002,/*reward_image_3*/0,/*reward_image_4*/0,/*reward_image_5*/0,/*reward_image_6*/0,/*reward_coin*/0,/*chest_id*/40001,/*odds_group_id*/3100101,/*background*/100092,/*dungeon_quest_detail_bg_id*/100092,/*dungeon_quest_detail_bg_position*/0,/*dungeon_quest_detail_monster_size*/1.2,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");
 INSERT INTO `dungeon_quest_data` VALUES (/*quest_id*/31001003,/*dungeon_area_id*/31001,/*floor_num*/3,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*matching_coefficient*/0.6,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*emax*/0,/*reward_image_1*/94002,/*reward_image_2*/90002,/*reward_image_3*/99002,/*reward_image_4*/0,/*reward_image_5*/0,/*reward_image_6*/0,/*reward_coin*/100,/*chest_id*/40004,/*odds_group_id*/3100102,/*background*/100101,/*dungeon_quest_detail_bg_id*/100101,/*dungeon_quest_detail_bg_position*/0,/*dungeon_quest_detail_monster_size*/1.2,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");

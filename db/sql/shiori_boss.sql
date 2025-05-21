@@ -1,6 +1,41 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_boss' ('boss_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'area_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'quest_name' TEXT NOT NULL, 'position_x' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, 'boss_position_x' INTEGER NOT NULL, 'boss_position_y' INTEGER NOT NULL, 'result_boss_position_y' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, 'icon_display_scale' REAL NOT NULL, 'icon_collider_scale' REAL NOT NULL, 'limit_time' INTEGER NOT NULL, 'clear_reward_group' INTEGER NOT NULL, 'background_1' INTEGER NOT NULL, 'wave_group_id_1' INTEGER NOT NULL, 'wave_bgm_sheet_id_1' TEXT NOT NULL, 'wave_bgm_que_id_1' TEXT NOT NULL, 'story_id_wavestart_1' INTEGER NOT NULL, 'story_id_waveend_1' INTEGER NOT NULL, 'detail_bg_id' INTEGER NOT NULL, 'detail_bg_position' INTEGER NOT NULL, 'detail_boss_bg_size' REAL NOT NULL, 'detail_boss_bg_height' REAL NOT NULL, 'map_position_x' REAL NOT NULL, 'map_position_y' REAL NOT NULL, 'map_size' REAL NOT NULL, 'map_arrow_offset' REAL NOT NULL, 'deatail_aura_size' REAL NOT NULL, 'map_aura_size' REAL NOT NULL, 'disp_on_bg' INTEGER NOT NULL, 'qd_mode' INTEGER NOT NULL, 'td_mode' INTEGER NOT NULL, PRIMARY KEY('boss_id'));
+-- Column Names:
+-- boss_id INTEGER
+-- event_id INTEGER
+-- area_id INTEGER
+-- difficulty INTEGER
+-- quest_name TEXT
+-- position_x INTEGER
+-- position_y INTEGER
+-- boss_position_x INTEGER
+-- boss_position_y INTEGER
+-- result_boss_position_y INTEGER
+-- icon_id INTEGER
+-- icon_display_scale REAL
+-- icon_collider_scale REAL
+-- limit_time INTEGER
+-- clear_reward_group INTEGER
+-- background_1 INTEGER
+-- wave_group_id_1 INTEGER
+-- wave_bgm_sheet_id_1 TEXT
+-- wave_bgm_que_id_1 TEXT
+-- story_id_wavestart_1 INTEGER
+-- story_id_waveend_1 INTEGER
+-- detail_bg_id INTEGER
+-- detail_bg_position INTEGER
+-- detail_boss_bg_size REAL
+-- detail_boss_bg_height REAL
+-- map_position_x REAL
+-- map_position_y REAL
+-- map_size REAL
+-- map_arrow_offset REAL
+-- deatail_aura_size REAL
+-- map_aura_size REAL
+-- disp_on_bg INTEGER
+-- qd_mode INTEGER
+-- td_mode INTEGER
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2000101,/*event_id*/20001,/*area_id*/20001101,/*difficulty*/1,/*quest_name*/"首领战（普通难度）",/*position_x*/796,/*position_y*/-76,/*boss_position_x*/770,/*boss_position_y*/-40,/*result_boss_position_y*/270,/*icon_id*/200010,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650001011,/*background_1*/81000105,/*wave_group_id_1*/660001001,/*wave_bgm_sheet_id_1*/"bgm_M47",/*wave_bgm_que_id_1*/"bgm_M47",/*story_id_wavestart_1*/340,/*story_id_waveend_1*/0,/*detail_bg_id*/81000105,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.5,/*detail_boss_bg_height*/-50.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.6,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/1.0,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2000102,/*event_id*/20001,/*area_id*/20001201,/*difficulty*/2,/*quest_name*/"首领战（困难难度）",/*position_x*/70,/*position_y*/-180,/*boss_position_x*/60,/*boss_position_y*/-210,/*result_boss_position_y*/270,/*icon_id*/200010,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650001021,/*background_1*/81000106,/*wave_group_id_1*/660001002,/*wave_bgm_sheet_id_1*/"bgm_M47",/*wave_bgm_que_id_1*/"bgm_M47",/*story_id_wavestart_1*/341,/*story_id_waveend_1*/0,/*detail_bg_id*/81000106,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.5,/*detail_boss_bg_height*/-50.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.6,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/1.0,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2000103,/*event_id*/20001,/*area_id*/20001201,/*difficulty*/3,/*quest_name*/"首领战（高难难度）",/*position_x*/520,/*position_y*/10,/*boss_position_x*/470,/*boss_position_y*/-40,/*result_boss_position_y*/270,/*icon_id*/200010,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650001031,/*background_1*/81000106,/*wave_group_id_1*/660001003,/*wave_bgm_sheet_id_1*/"bgm_M47",/*wave_bgm_que_id_1*/"bgm_M47",/*story_id_wavestart_1*/344,/*story_id_waveend_1*/0,/*detail_bg_id*/81000106,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.5,/*detail_boss_bg_height*/-50.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.6,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/1.0,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
@@ -112,7 +147,4 @@ INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003603,/*event_id*/20036,/*area_id
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003701,/*event_id*/20037,/*area_id*/20037102,/*difficulty*/1,/*quest_name*/"首领战（普通难度）",/*position_x*/482,/*position_y*/-35,/*boss_position_x*/770,/*boss_position_y*/-85,/*result_boss_position_y*/420,/*icon_id*/510331,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650037011,/*background_1*/81006601,/*wave_group_id_1*/660037001,/*wave_bgm_sheet_id_1*/"bgm_M470",/*wave_bgm_que_id_1*/"bgm_M470",/*story_id_wavestart_1*/5066301,/*story_id_waveend_1*/0,/*detail_bg_id*/81006601,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.0,/*detail_boss_bg_height*/-54.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.5,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/0.7,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003702,/*event_id*/20037,/*area_id*/20037201,/*difficulty*/2,/*quest_name*/"首领战（困难难度）",/*position_x*/-251,/*position_y*/-152,/*boss_position_x*/720,/*boss_position_y*/110,/*result_boss_position_y*/420,/*icon_id*/510332,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650037021,/*background_1*/81006602,/*wave_group_id_1*/660037002,/*wave_bgm_sheet_id_1*/"bgm_M470",/*wave_bgm_que_id_1*/"bgm_M470",/*story_id_wavestart_1*/5066302,/*story_id_waveend_1*/0,/*detail_bg_id*/81006602,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.0,/*detail_boss_bg_height*/-54.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.5,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/0.7,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
 INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003703,/*event_id*/20037,/*area_id*/20037201,/*difficulty*/3,/*quest_name*/"首领战（高难难度）",/*position_x*/502,/*position_y*/-51,/*boss_position_x*/490,/*boss_position_y*/-40,/*result_boss_position_y*/420,/*icon_id*/510333,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650037031,/*background_1*/81006602,/*wave_group_id_1*/660037003,/*wave_bgm_sheet_id_1*/"bgm_M470",/*wave_bgm_que_id_1*/"bgm_M470",/*story_id_wavestart_1*/5066308,/*story_id_waveend_1*/0,/*detail_bg_id*/81006602,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.0,/*detail_boss_bg_height*/-54.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.5,/*map_arrow_offset*/0.0,/*deatail_aura_size*/1.0,/*map_aura_size*/0.7,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
-INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003801,/*event_id*/20038,/*area_id*/20038102,/*difficulty*/1,/*quest_name*/"首领战（普通难度）",/*position_x*/395,/*position_y*/-51,/*boss_position_x*/800,/*boss_position_y*/-85,/*result_boss_position_y*/400,/*icon_id*/510331,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650038011,/*background_1*/81006801,/*wave_group_id_1*/660038001,/*wave_bgm_sheet_id_1*/"bgm_M481",/*wave_bgm_que_id_1*/"bgm_M481",/*story_id_wavestart_1*/5068301,/*story_id_waveend_1*/0,/*detail_bg_id*/81006801,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.7,/*detail_boss_bg_height*/-47.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.8,/*map_arrow_offset*/0.0,/*deatail_aura_size*/0.65,/*map_aura_size*/0.8,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
-INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003802,/*event_id*/20038,/*area_id*/20038201,/*difficulty*/2,/*quest_name*/"首领战（困难难度）",/*position_x*/-17,/*position_y*/18,/*boss_position_x*/145,/*boss_position_y*/-10,/*result_boss_position_y*/400,/*icon_id*/510332,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650038021,/*background_1*/81006802,/*wave_group_id_1*/660038002,/*wave_bgm_sheet_id_1*/"bgm_M481",/*wave_bgm_que_id_1*/"bgm_M481",/*story_id_wavestart_1*/5068302,/*story_id_waveend_1*/0,/*detail_bg_id*/81006802,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.7,/*detail_boss_bg_height*/-47.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.8,/*map_arrow_offset*/0.0,/*deatail_aura_size*/0.65,/*map_aura_size*/0.8,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
-INSERT INTO `shiori_boss` VALUES (/*boss_id*/2003803,/*event_id*/20038,/*area_id*/20038201,/*difficulty*/3,/*quest_name*/"首领战（高难难度）",/*position_x*/496,/*position_y*/-51,/*boss_position_x*/480,/*boss_position_y*/-70,/*result_boss_position_y*/400,/*icon_id*/510333,/*icon_display_scale*/1.0,/*icon_collider_scale*/1.0,/*limit_time*/90,/*clear_reward_group*/650038031,/*background_1*/81006802,/*wave_group_id_1*/660038003,/*wave_bgm_sheet_id_1*/"bgm_M481",/*wave_bgm_que_id_1*/"bgm_M481",/*story_id_wavestart_1*/5068308,/*story_id_waveend_1*/0,/*detail_bg_id*/81006802,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.7,/*detail_boss_bg_height*/-47.0,/*map_position_x*/0.0,/*map_position_y*/0.0,/*map_size*/0.8,/*map_arrow_offset*/0.0,/*deatail_aura_size*/0.65,/*map_aura_size*/0.8,/*disp_on_bg*/0,/*qd_mode*/0,/*td_mode*/0);
 COMMIT;

@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_decrease_time_cost' ('count' INTEGER NOT NULL, 'cost' INTEGER NOT NULL, PRIMARY KEY('count'));
+-- Column Names:
+-- count INTEGER
+-- cost INTEGER
 INSERT INTO `travel_decrease_time_cost` VALUES (/*count*/1,/*cost*/10);
 INSERT INTO `travel_decrease_time_cost` VALUES (/*count*/2,/*cost*/10);
 INSERT INTO `travel_decrease_time_cost` VALUES (/*count*/3,/*cost*/10);

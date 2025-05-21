@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'mhp_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'unit_id' INTEGER NOT NULL, 'read_condition_time' TEXT NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, 'read_condition' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- unit_id INTEGER
+-- read_condition_time TEXT
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
+-- read_condition INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
 INSERT INTO `mhp_story_data` VALUES (/*sub_story_id*/1007401,/*original_event_id*/10074,/*title*/"年轻与微热",/*sub_title*/"优衣的病历簿　其一",/*unit_id*/100201,/*read_condition_time*/"2023/8/31 11:00:00",/*condition_quest_id*/10101106,/*condition_boss_id*/0,/*read_condition*/0,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/20);
 INSERT INTO `mhp_story_data` VALUES (/*sub_story_id*/1007402,/*original_event_id*/10074,/*title*/"将心中的这份悸动",/*sub_title*/"优衣的病历簿　其二",/*unit_id*/100201,/*read_condition_time*/"2023/8/31 11:00:00",/*condition_quest_id*/10101112,/*condition_boss_id*/0,/*read_condition*/1007401,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/20);
 INSERT INTO `mhp_story_data` VALUES (/*sub_story_id*/1007403,/*original_event_id*/10074,/*title*/"这疯狂之病的病名为",/*sub_title*/"优衣的病历簿　其三",/*unit_id*/100201,/*read_condition_time*/"2023/9/2 5:00:00",/*condition_quest_id*/10101115,/*condition_boss_id*/0,/*read_condition*/1007402,/*reward_type*/8,/*reward_id*/91002,/*reward_count*/30);

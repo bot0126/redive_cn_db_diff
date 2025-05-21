@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_introduction' ('id' INTEGER NOT NULL, 'gacha_id' INTEGER NOT NULL, 'introduction_number' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'maximum_chunk_size_1' INTEGER NOT NULL, 'maximum_chunk_size_loop_1' INTEGER NOT NULL, 'maximum_chunk_size_2' INTEGER NOT NULL, 'maximum_chunk_size_loop_2' INTEGER NOT NULL, 'maximum_chunk_size_3' INTEGER NOT NULL, 'maximum_chunk_size_loop_3' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- gacha_id INTEGER
+-- introduction_number INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- maximum_chunk_size_1 INTEGER
+-- maximum_chunk_size_loop_1 INTEGER
+-- maximum_chunk_size_2 INTEGER
+-- maximum_chunk_size_loop_2 INTEGER
+-- maximum_chunk_size_3 INTEGER
+-- maximum_chunk_size_loop_3 INTEGER
 INSERT INTO `unit_introduction` VALUES (/*id*/2,/*gacha_id*/30002,/*introduction_number*/1,/*start_time*/"2020/04/23 13:00:00",/*end_time*/"2020/05/07 12:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
 INSERT INTO `unit_introduction` VALUES (/*id*/3,/*gacha_id*/30003,/*introduction_number*/1,/*start_time*/"2020/05/07 13:00:00",/*end_time*/"2020/05/15 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
 INSERT INTO `unit_introduction` VALUES (/*id*/4,/*gacha_id*/30004,/*introduction_number*/1,/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/28 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
@@ -243,6 +255,4 @@ INSERT INTO `unit_introduction` VALUES (/*id*/243,/*gacha_id*/30247,/*introducti
 INSERT INTO `unit_introduction` VALUES (/*id*/244,/*gacha_id*/50248,/*introduction_number*/2,/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/01 17:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/0,/*maximum_chunk_size_2*/380000,/*maximum_chunk_size_loop_2*/380000,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
 INSERT INTO `unit_introduction` VALUES (/*id*/245,/*gacha_id*/30249,/*introduction_number*/1,/*start_time*/"2025/03/01 18:00:00",/*end_time*/"2025/03/09 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
 INSERT INTO `unit_introduction` VALUES (/*id*/246,/*gacha_id*/30250,/*introduction_number*/1,/*start_time*/"2025/03/09 11:00:00",/*end_time*/"2025/03/17 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
-INSERT INTO `unit_introduction` VALUES (/*id*/247,/*gacha_id*/30251,/*introduction_number*/1,/*start_time*/"2025/03/17 11:00:00",/*end_time*/"2025/03/27 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
-INSERT INTO `unit_introduction` VALUES (/*id*/248,/*gacha_id*/30252,/*introduction_number*/1,/*start_time*/"2025/03/27 11:00:00",/*end_time*/"2025/03/31 10:59:59",/*maximum_chunk_size_1*/380000,/*maximum_chunk_size_loop_1*/380000,/*maximum_chunk_size_2*/0,/*maximum_chunk_size_loop_2*/0,/*maximum_chunk_size_3*/0,/*maximum_chunk_size_loop_3*/0);
 COMMIT;

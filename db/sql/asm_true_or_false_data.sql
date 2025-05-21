@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'asm_true_or_false_data' ('asm_id' INTEGER NOT NULL, 'correct_answer' INTEGER NOT NULL, PRIMARY KEY('asm_id'));
+-- Column Names:
+-- asm_id INTEGER
+-- correct_answer INTEGER
 INSERT INTO `asm_true_or_false_data` VALUES (/*asm_id*/1110001,/*correct_answer*/0);
 INSERT INTO `asm_true_or_false_data` VALUES (/*asm_id*/1110002,/*correct_answer*/1);
 INSERT INTO `asm_true_or_false_data` VALUES (/*asm_id*/1110003,/*correct_answer*/0);

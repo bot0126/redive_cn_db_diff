@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_unique_equipment' ('unit_id' INTEGER NOT NULL, 'equip_slot' INTEGER NOT NULL, 'equip_id' INTEGER NOT NULL, PRIMARY KEY('unit_id','equip_slot'));
+-- Column Names:
+-- unit_id INTEGER
+-- equip_slot INTEGER
+-- equip_id INTEGER
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/100101,/*equip_slot*/1,/*equip_id*/130011);
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/100201,/*equip_slot*/1,/*equip_id*/130021);
 INSERT INTO `unit_unique_equipment` VALUES (/*unit_id*/100301,/*equip_slot*/1,/*equip_id*/130031);

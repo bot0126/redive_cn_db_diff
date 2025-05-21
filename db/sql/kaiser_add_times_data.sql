@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'kaiser_add_times_data' ('id' INTEGER NOT NULL, 'add_times' INTEGER NOT NULL, 'add_times_time' TEXT NOT NULL, 'duration' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- add_times INTEGER
+-- add_times_time TEXT
+-- duration INTEGER
 INSERT INTO `kaiser_add_times_data` VALUES (/*id*/1,/*add_times*/1,/*add_times_time*/"2019/12/22 17:00:00",/*duration*/0);
 INSERT INTO `kaiser_add_times_data` VALUES (/*id*/2,/*add_times*/1,/*add_times_time*/"2019/12/22 19:00:00",/*duration*/120);
 INSERT INTO `kaiser_add_times_data` VALUES (/*id*/3,/*add_times*/1,/*add_times_time*/"2019/12/22 21:00:00",/*duration*/120);

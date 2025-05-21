@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sekai_top_data' ('id' INTEGER NOT NULL, 'sekai_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'top_bg' INTEGER NOT NULL, 'position_x' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, 'scale_ratio' REAL NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'boss_mode' INTEGER NOT NULL, 'sekai_boss_mode_id' INTEGER NOT NULL, 'boss_hp_from' TEXT NOT NULL, 'boss_hp_to' TEXT NOT NULL, 'boss_time_from' TEXT NOT NULL, 'boss_time_to' TEXT NOT NULL, 'duration' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- sekai_id INTEGER
+-- name TEXT
+-- description TEXT
+-- top_bg INTEGER
+-- position_x INTEGER
+-- position_y INTEGER
+-- scale_ratio REAL
+-- sheet_id TEXT
+-- que_id TEXT
+-- boss_mode INTEGER
+-- sekai_boss_mode_id INTEGER
+-- boss_hp_from TEXT
+-- boss_hp_to TEXT
+-- boss_time_from TEXT
+-- boss_time_to TEXT
+-- duration INTEGER
+-- story_id INTEGER
 INSERT INTO `sekai_top_data` VALUES (/*id*/1,/*sekai_id*/1001,/*name*/"机械莉玛来袭！",/*description*/"王都灭亡的倒计时　～04/01 23：59",/*top_bg*/100584,/*position_x*/0,/*position_y*/0,/*scale_ratio*/1.0,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*boss_mode*/1,/*sekai_boss_mode_id*/1001001,/*boss_hp_from*/"1000000000000",/*boss_hp_to*/"500000000001",/*boss_time_from*/"2021/04/01",/*boss_time_to*/"2021/04/01 7:59:59",/*duration*/480,/*story_id*/4004101);
 INSERT INTO `sekai_top_data` VALUES (/*id*/2,/*sekai_id*/1001,/*name*/"机械莉玛来袭！",/*description*/"王都灭亡的倒计时　～04/01 23：59",/*top_bg*/100584,/*position_x*/0,/*position_y*/0,/*scale_ratio*/1.0,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*boss_mode*/2,/*sekai_boss_mode_id*/1001002,/*boss_hp_from*/"500000000000",/*boss_hp_to*/"300000000001",/*boss_time_from*/"2021/04/01 8:00:00",/*boss_time_to*/"2021/04/01 12:59:59",/*duration*/300,/*story_id*/4004102);
 INSERT INTO `sekai_top_data` VALUES (/*id*/3,/*sekai_id*/1001,/*name*/"机械莉玛来袭！",/*description*/"王都灭亡的倒计时　～04/01 23：59",/*top_bg*/100584,/*position_x*/0,/*position_y*/0,/*scale_ratio*/1.0,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*boss_mode*/3,/*sekai_boss_mode_id*/1001003,/*boss_hp_from*/"300000000000",/*boss_hp_to*/"100000000001",/*boss_time_from*/"2021/04/01 13:00:00",/*boss_time_to*/"2021/04/01 17:59:59",/*duration*/300,/*story_id*/4004103);

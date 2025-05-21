@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pct_tap_speed' ('id' INTEGER NOT NULL, 'combo_count' INTEGER NOT NULL, 'speed_magnification' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- combo_count INTEGER
+-- speed_magnification INTEGER
 INSERT INTO `pct_tap_speed` VALUES (/*id*/1,/*combo_count*/5,/*speed_magnification*/1100);
 INSERT INTO `pct_tap_speed` VALUES (/*id*/2,/*combo_count*/7,/*speed_magnification*/1200);
 INSERT INTO `pct_tap_speed` VALUES (/*id*/3,/*combo_count*/10,/*speed_magnification*/1300);

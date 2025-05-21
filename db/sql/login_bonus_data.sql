@@ -1,6 +1,18 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'login_bonus_data' ('login_bonus_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'login_bonus_type' INTEGER NOT NULL, 'count_num' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'bg_id' INTEGER NOT NULL, 'stamp_id' INTEGER NOT NULL, 'odds_group_id' INTEGER NOT NULL, 'adv_play_type' INTEGER NOT NULL, 'count_type' INTEGER NOT NULL, PRIMARY KEY('login_bonus_id'));
+-- Column Names:
+-- login_bonus_id INTEGER
+-- name TEXT
+-- login_bonus_type INTEGER
+-- count_num INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- bg_id INTEGER
+-- stamp_id INTEGER
+-- odds_group_id INTEGER
+-- adv_play_type INTEGER
+-- count_type INTEGER
 INSERT INTO `login_bonus_data` VALUES (/*login_bonus_id*/20000,/*name*/"新手冲刺登录庆典",/*login_bonus_type*/2,/*count_num*/10,/*start_time*/"2020/01/01 5:00:00",/*end_time*/"2025/02/13 10:59:59",/*bg_id*/530100,/*stamp_id*/0,/*odds_group_id*/0,/*adv_play_type*/0,/*count_type*/0);
 INSERT INTO `login_bonus_data` VALUES (/*login_bonus_id*/20001,/*name*/"新手冲刺登录活动",/*login_bonus_type*/2,/*count_num*/10,/*start_time*/"2025/02/13 11:00:00",/*end_time*/"2099/12/31 23:59:59",/*bg_id*/530100,/*stamp_id*/0,/*odds_group_id*/0,/*adv_play_type*/0,/*count_type*/0);
 INSERT INTO `login_bonus_data` VALUES (/*login_bonus_id*/30000,/*name*/"登录奖励",/*login_bonus_type*/3,/*count_num*/15,/*start_time*/"2020/01/01 5:00:00",/*end_time*/"2099/12/31 23:59:59",/*bg_id*/0,/*stamp_id*/0,/*odds_group_id*/0,/*adv_play_type*/0,/*count_type*/0);

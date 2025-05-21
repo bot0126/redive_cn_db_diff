@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_fortune_reward' ('id' INTEGER NOT NULL, 'fortune_id' INTEGER NOT NULL, 'rank' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'count_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'count_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'count_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'count_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'count_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- fortune_id INTEGER
+-- rank INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- count_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- count_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- count_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- count_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- count_5 INTEGER
 INSERT INTO `chara_fortune_reward` VALUES (/*id*/1,/*fortune_id*/10000,/*rank*/1,/*reward_type_1*/8,/*reward_id_1*/91002,/*count_1*/500,/*reward_type_2*/0,/*reward_id_2*/0,/*count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*count_5*/0);
 INSERT INTO `chara_fortune_reward` VALUES (/*id*/2,/*fortune_id*/10000,/*rank*/2,/*reward_type_1*/8,/*reward_id_1*/91002,/*count_1*/400,/*reward_type_2*/0,/*reward_id_2*/0,/*count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*count_5*/0);
 INSERT INTO `chara_fortune_reward` VALUES (/*id*/3,/*fortune_id*/10000,/*rank*/3,/*reward_type_1*/8,/*reward_id_1*/91002,/*count_1*/300,/*reward_type_2*/0,/*reward_id_2*/0,/*count_2*/0,/*reward_type_3*/0,/*reward_id_3*/0,/*count_3*/0,/*reward_type_4*/0,/*reward_id_4*/0,/*count_4*/0,/*reward_type_5*/0,/*reward_id_5*/0,/*count_5*/0);

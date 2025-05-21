@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'album_voice_list' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'voice_id' TEXT NOT NULL, 'title' TEXT NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- sheet_id TEXT
+-- voice_id TEXT
+-- title TEXT
+-- description TEXT
 INSERT INTO `album_voice_list` VALUES (/*id*/10010101,/*unit_id*/100101,/*sheet_id*/"vo_btl_100101",/*voice_id*/"vo_btl_100101_win_001",/*title*/"胜利1",/*description*/"");
 INSERT INTO `album_voice_list` VALUES (/*id*/10010102,/*unit_id*/100101,/*sheet_id*/"vo_btl_100101",/*voice_id*/"vo_btl_100101_win_002",/*title*/"胜利2",/*description*/"");
 INSERT INTO `album_voice_list` VALUES (/*id*/10010103,/*unit_id*/100101,/*sheet_id*/"vo_btl_100101",/*voice_id*/"vo_btl_100101_win_003",/*title*/"胜利3",/*description*/"");

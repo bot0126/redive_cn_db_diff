@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'cgg_completion_reward_data' ('id' INTEGER NOT NULL, 'completion_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_num' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- completion_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_num INTEGER
 INSERT INTO `cgg_completion_reward_data` VALUES (/*id*/101,/*completion_id*/101,/*reward_type*/12,/*reward_id*/94002,/*reward_num*/100000);
 INSERT INTO `cgg_completion_reward_data` VALUES (/*id*/102,/*completion_id*/102,/*reward_type*/12,/*reward_id*/94002,/*reward_num*/100000);
 INSERT INTO `cgg_completion_reward_data` VALUES (/*id*/103,/*completion_id*/103,/*reward_type*/12,/*reward_id*/94002,/*reward_num*/100000);

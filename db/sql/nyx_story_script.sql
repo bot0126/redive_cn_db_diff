@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'nyx_story_script' ('id' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'seq_num' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'line_num' INTEGER NOT NULL, 'start_pos' INTEGER NOT NULL, 'end_pos' INTEGER NOT NULL, 'seek_time' REAL NOT NULL, 'sheet_name' TEXT NOT NULL, 'cue_name' TEXT NOT NULL, 'command' INTEGER NOT NULL, 'command_param' REAL NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- story_id INTEGER
+-- seq_num INTEGER
+-- type INTEGER
+-- line_num INTEGER
+-- start_pos INTEGER
+-- end_pos INTEGER
+-- seek_time REAL
+-- sheet_name TEXT
+-- cue_name TEXT
+-- command INTEGER
+-- command_param REAL
 INSERT INTO `nyx_story_script` VALUES (/*id*/1120001,/*story_id*/12,/*seq_num*/1,/*type*/4,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"0",/*cue_name*/"0",/*command*/3,/*command_param*/1.0);
 INSERT INTO `nyx_story_script` VALUES (/*id*/1120002,/*story_id*/12,/*seq_num*/2,/*type*/2,/*line_num*/0,/*start_pos*/0,/*end_pos*/0,/*seek_time*/0.0,/*sheet_name*/"vo_nyx",/*cue_name*/"vo_nyx_0101",/*command*/0,/*command_param*/0.0);
 INSERT INTO `nyx_story_script` VALUES (/*id*/1120003,/*story_id*/12,/*seq_num*/3,/*type*/1,/*line_num*/1,/*start_pos*/0,/*end_pos*/280,/*seek_time*/2.698,/*sheet_name*/"0",/*cue_name*/"0",/*command*/0,/*command_param*/0.0);

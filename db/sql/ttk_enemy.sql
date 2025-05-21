@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_enemy' ('enemy_id' INTEGER NOT NULL, 'score' INTEGER NOT NULL, 'coin' INTEGER NOT NULL, 'max' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- score INTEGER
+-- coin INTEGER
+-- max INTEGER
 INSERT INTO `ttk_enemy` VALUES (/*enemy_id*/1,/*score*/100,/*coin*/5,/*max*/1200);
 INSERT INTO `ttk_enemy` VALUES (/*enemy_id*/2,/*score*/200,/*coin*/8,/*max*/1200);
 INSERT INTO `ttk_enemy` VALUES (/*enemy_id*/3,/*score*/300,/*coin*/10,/*max*/1200);

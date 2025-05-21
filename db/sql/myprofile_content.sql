@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'myprofile_content' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- start_time TEXT
+-- end_time TEXT
+-- disp_order INTEGER
 INSERT INTO `myprofile_content` VALUES (/*id*/1,/*name*/"粉色",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/17);
 INSERT INTO `myprofile_content` VALUES (/*id*/2,/*name*/"红色",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/18);
 INSERT INTO `myprofile_content` VALUES (/*id*/3,/*name*/"黄色",/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/19);

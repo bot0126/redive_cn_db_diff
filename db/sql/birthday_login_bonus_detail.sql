@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'birthday_login_bonus_detail' ('id' INTEGER NOT NULL, 'login_bonus_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_num' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- login_bonus_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_num INTEGER
 INSERT INTO `birthday_login_bonus_detail` VALUES (/*id*/1,/*login_bonus_id*/9105801,/*reward_type*/2,/*reward_id*/31058,/*reward_num*/10);
 INSERT INTO `birthday_login_bonus_detail` VALUES (/*id*/2,/*login_bonus_id*/9102001,/*reward_type*/2,/*reward_id*/31020,/*reward_num*/10);
 INSERT INTO `birthday_login_bonus_detail` VALUES (/*id*/3,/*login_bonus_id*/9100201,/*reward_type*/2,/*reward_id*/31002,/*reward_num*/10);

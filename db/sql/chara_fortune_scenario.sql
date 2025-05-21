@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_fortune_scenario' ('scenario_id' INTEGER NOT NULL, 'rail_1' INTEGER NOT NULL, 'rail_2' INTEGER NOT NULL, 'rail_3' INTEGER NOT NULL, 'rail_4' INTEGER NOT NULL, PRIMARY KEY('scenario_id'));
+-- Column Names:
+-- scenario_id INTEGER
+-- rail_1 INTEGER
+-- rail_2 INTEGER
+-- rail_3 INTEGER
+-- rail_4 INTEGER
 INSERT INTO `chara_fortune_scenario` VALUES (/*scenario_id*/1,/*rail_1*/1037,/*rail_2*/1025,/*rail_3*/1045,/*rail_4*/1048);
 INSERT INTO `chara_fortune_scenario` VALUES (/*scenario_id*/2,/*rail_1*/1062,/*rail_2*/1003,/*rail_3*/1006,/*rail_4*/1004);
 INSERT INTO `chara_fortune_scenario` VALUES (/*scenario_id*/3,/*rail_1*/1029,/*rail_2*/1003,/*rail_3*/1006,/*rail_4*/1007);

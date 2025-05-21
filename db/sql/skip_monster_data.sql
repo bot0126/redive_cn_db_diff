@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'skip_monster_data' ('quest_id' INTEGER NOT NULL, 'area_id' INTEGER NOT NULL, 'quest_name' TEXT NOT NULL, 'wave_group_id_1' INTEGER NOT NULL, 'bg_skip_id' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- area_id INTEGER
+-- quest_name TEXT
+-- wave_group_id_1 INTEGER
+-- bg_skip_id INTEGER
 INSERT INTO `skip_monster_data` VALUES (/*quest_id*/10001101,/*area_id*/10001101,/*quest_name*/"活动01普通难度 1-1",/*wave_group_id_1*/101020403,/*bg_skip_id*/100011);
 INSERT INTO `skip_monster_data` VALUES (/*quest_id*/10001102,/*area_id*/10001101,/*quest_name*/"活动01普通难度 1-2",/*wave_group_id_1*/101010103,/*bg_skip_id*/100011);
 INSERT INTO `skip_monster_data` VALUES (/*quest_id*/10001103,/*area_id*/10001101,/*quest_name*/"活动01普通难度 1-3",/*wave_group_id_1*/101010203,/*bg_skip_id*/100091);

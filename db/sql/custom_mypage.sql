@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'custom_mypage' ('still_id' INTEGER NOT NULL, 'group_id' INTEGER NOT NULL, 'still_group_id' INTEGER NOT NULL, 'still_name' TEXT NOT NULL, 'vertical_still_flg' INTEGER NOT NULL, 'scroll_direction' INTEGER NOT NULL, 'mypage_type' INTEGER NOT NULL, PRIMARY KEY('still_id'));
+-- Column Names:
+-- still_id INTEGER
+-- group_id INTEGER
+-- still_group_id INTEGER
+-- still_name TEXT
+-- vertical_still_flg INTEGER
+-- scroll_direction INTEGER
+-- mypage_type INTEGER
 INSERT INTO `custom_mypage` VALUES (/*still_id*/9000000,/*group_id*/10001,/*still_group_id*/0,/*still_name*/"Menu01scene1",/*vertical_still_flg*/0,/*scroll_direction*/0,/*mypage_type*/1);
 INSERT INTO `custom_mypage` VALUES (/*still_id*/9000001,/*group_id*/10001,/*still_group_id*/0,/*still_name*/"Menu01scene2",/*vertical_still_flg*/0,/*scroll_direction*/0,/*mypage_type*/1);
 INSERT INTO `custom_mypage` VALUES (/*still_id*/9000002,/*group_id*/10001,/*still_group_id*/0,/*still_name*/"Menu01scene3",/*vertical_still_flg*/0,/*scroll_direction*/0,/*mypage_type*/1);

@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_add_times_data' ('id' INTEGER NOT NULL, 'sre_id' INTEGER NOT NULL, 'add_times' INTEGER NOT NULL, 'add_times_time' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- sre_id INTEGER
+-- add_times INTEGER
+-- add_times_time TEXT
 INSERT INTO `sre_add_times_data` VALUES (/*id*/1,/*sre_id*/3,/*add_times*/1,/*add_times_time*/"2024/12/16 15:00:00");
 INSERT INTO `sre_add_times_data` VALUES (/*id*/2,/*sre_id*/3,/*add_times*/1,/*add_times_time*/"2024/12/16 16:00:00");
 INSERT INTO `sre_add_times_data` VALUES (/*id*/3,/*sre_id*/3,/*add_times*/1,/*add_times_time*/"2024/12/16 17:00:00");

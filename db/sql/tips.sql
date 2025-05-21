@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tips' ('id' INTEGER NOT NULL, 'value' INTEGER NOT NULL, 'tips_index' INTEGER NOT NULL, 'title' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- value INTEGER
+-- tips_index INTEGER
+-- title TEXT
 INSERT INTO `tips` VALUES (/*id*/4100101,/*value*/100101,/*tips_index*/1,/*title*/"作战说明");
 INSERT INTO `tips` VALUES (/*id*/4100201,/*value*/100201,/*tips_index*/1,/*title*/"小憩的优衣");
 INSERT INTO `tips` VALUES (/*id*/4100301,/*value*/100301,/*tips_index*/1,/*title*/"其实喜欢垂钓");
@@ -105,7 +110,6 @@ INSERT INTO `tips` VALUES (/*id*/4118201,/*value*/118201,/*tips_index*/1,/*title
 INSERT INTO `tips` VALUES (/*id*/4118501,/*value*/118501,/*tips_index*/1,/*title*/"优秀的同伴");
 INSERT INTO `tips` VALUES (/*id*/4119001,/*value*/119001,/*tips_index*/1,/*title*/"暗黑授课");
 INSERT INTO `tips` VALUES (/*id*/4119101,/*value*/119101,/*tips_index*/1,/*title*/"进步");
-INSERT INTO `tips` VALUES (/*id*/4120001,/*value*/120001,/*tips_index*/1,/*title*/"守护和平的姐姐");
 INSERT INTO `tips` VALUES (/*id*/4121301,/*value*/121301,/*tips_index*/1,/*title*/"开演之前");
 INSERT INTO `tips` VALUES (/*id*/4121401,/*value*/121401,/*tips_index*/1,/*title*/"展示性感魅力");
 INSERT INTO `tips` VALUES (/*id*/4121501,/*value*/121501,/*tips_index*/1,/*title*/"对手出现？");

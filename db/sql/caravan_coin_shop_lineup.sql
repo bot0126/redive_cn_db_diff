@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_coin_shop_lineup' ('season_id' INTEGER NOT NULL, 'slot_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER NOT NULL, 'reward_count' INTEGER NOT NULL, 'currency_id' INTEGER NOT NULL, 'price' INTEGER NOT NULL, 'stock' INTEGER NOT NULL, PRIMARY KEY('slot_id'));
+-- Column Names:
+-- season_id INTEGER
+-- slot_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_count INTEGER
+-- currency_id INTEGER
+-- price INTEGER
+-- stock INTEGER
 INSERT INTO `caravan_coin_shop_lineup` VALUES (/*season_id*/1,/*slot_id*/1,/*reward_type*/2,/*reward_id*/21952,/*reward_count*/1,/*currency_id*/96001,/*price*/20000,/*stock*/1);
 INSERT INTO `caravan_coin_shop_lineup` VALUES (/*season_id*/1,/*slot_id*/2,/*reward_type*/2,/*reward_id*/21904,/*reward_count*/1,/*currency_id*/96001,/*price*/10000,/*stock*/1);
 INSERT INTO `caravan_coin_shop_lineup` VALUES (/*season_id*/1,/*slot_id*/3,/*reward_type*/2,/*reward_id*/41000,/*reward_count*/1,/*currency_id*/96001,/*price*/10000,/*stock*/1);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_map_event' ('id' INTEGER NOT NULL, 'target_event_id' INTEGER NOT NULL, 'event_type' INTEGER NOT NULL, 'condition_id' INTEGER NOT NULL, 'param1' INTEGER NOT NULL, 'param2' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- target_event_id INTEGER
+-- event_type INTEGER
+-- condition_id INTEGER
+-- param1 INTEGER
+-- param2 INTEGER
 INSERT INTO `hatsune_map_event` VALUES (/*id*/10008001,/*target_event_id*/10008,/*event_type*/1,/*condition_id*/10008103,/*param1*/1,/*param2*/0);
 INSERT INTO `hatsune_map_event` VALUES (/*id*/10008002,/*target_event_id*/10008,/*event_type*/1,/*condition_id*/10008104,/*param1*/2,/*param2*/0);
 INSERT INTO `hatsune_map_event` VALUES (/*id*/10008003,/*target_event_id*/10008,/*event_type*/1,/*condition_id*/10008105,/*param1*/3,/*param2*/0);

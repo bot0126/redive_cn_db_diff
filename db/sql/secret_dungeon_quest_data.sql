@@ -1,6 +1,47 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'secret_dungeon_quest_data' ('quest_id' INTEGER NOT NULL, 'dungeon_area_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'floor_num' INTEGER NOT NULL, 'quest_type' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'parts_hp_save_flag' INTEGER NOT NULL, 'energy_reset_flag' INTEGER NOT NULL, 'fixed_start_tp_rate' INTEGER NOT NULL, 'emax' INTEGER NOT NULL, 'reward_image_1' INTEGER NOT NULL, 'reward_image_2' INTEGER NOT NULL, 'reward_image_3' INTEGER NOT NULL, 'reward_image_4' INTEGER NOT NULL, 'reward_image_5' INTEGER NOT NULL, 'reward_image_6' INTEGER NOT NULL, 'clear_reward_group' INTEGER NOT NULL, 'reward_coin' INTEGER NOT NULL, 'reward_csc' INTEGER NOT NULL, 'chest_id' INTEGER NOT NULL, 'odds_group_id' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'dungeon_quest_detail_bg_id' INTEGER NOT NULL, 'dungeon_quest_detail_bg_position' INTEGER NOT NULL, 'dungeon_quest_detail_monster_size' REAL NOT NULL, 'quest_detail_monster_scale_1' REAL NOT NULL, 'quest_detail_monster_scale_2' REAL NOT NULL, 'quest_detail_monster_scale_3' REAL NOT NULL, 'quest_detail_monster_scale_4' REAL NOT NULL, 'quest_detail_monster_scale_5' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_1' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_2' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_3' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_4' REAL NOT NULL, 'dungeon_quest_detail_monster_position_x_5' REAL NOT NULL, 'dungeon_quest_detail_monster_height' REAL NOT NULL, 'multi_target_effect_time' REAL NOT NULL, 'wave_bgm_sheet_id_1' TEXT NOT NULL, 'wave_bgm_que_id_1' TEXT NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- dungeon_area_id INTEGER
+-- difficulty INTEGER
+-- floor_num INTEGER
+-- quest_type INTEGER
+-- wave_group_id INTEGER
+-- limit_time INTEGER
+-- parts_hp_save_flag INTEGER
+-- energy_reset_flag INTEGER
+-- fixed_start_tp_rate INTEGER
+-- emax INTEGER
+-- reward_image_1 INTEGER
+-- reward_image_2 INTEGER
+-- reward_image_3 INTEGER
+-- reward_image_4 INTEGER
+-- reward_image_5 INTEGER
+-- reward_image_6 INTEGER
+-- clear_reward_group INTEGER
+-- reward_coin INTEGER
+-- reward_csc INTEGER
+-- chest_id INTEGER
+-- odds_group_id INTEGER
+-- background INTEGER
+-- dungeon_quest_detail_bg_id INTEGER
+-- dungeon_quest_detail_bg_position INTEGER
+-- dungeon_quest_detail_monster_size REAL
+-- quest_detail_monster_scale_1 REAL
+-- quest_detail_monster_scale_2 REAL
+-- quest_detail_monster_scale_3 REAL
+-- quest_detail_monster_scale_4 REAL
+-- quest_detail_monster_scale_5 REAL
+-- dungeon_quest_detail_monster_position_x_1 REAL
+-- dungeon_quest_detail_monster_position_x_2 REAL
+-- dungeon_quest_detail_monster_position_x_3 REAL
+-- dungeon_quest_detail_monster_position_x_4 REAL
+-- dungeon_quest_detail_monster_position_x_5 REAL
+-- dungeon_quest_detail_monster_height REAL
+-- multi_target_effect_time REAL
+-- wave_bgm_sheet_id_1 TEXT
+-- wave_bgm_que_id_1 TEXT
 INSERT INTO `secret_dungeon_quest_data` VALUES (/*quest_id*/320010101,/*dungeon_area_id*/32001,/*difficulty*/1,/*floor_num*/1,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*fixed_start_tp_rate*/0,/*emax*/0,/*reward_image_1*/90002,/*reward_image_2*/90008,/*reward_image_3*/94002,/*reward_image_4*/140001,/*reward_image_5*/25001,/*reward_image_6*/0,/*clear_reward_group*/0,/*reward_coin*/600,/*reward_csc*/20,/*chest_id*/40004,/*odds_group_id*/3200101,/*background*/102841,/*dungeon_quest_detail_bg_id*/102841,/*dungeon_quest_detail_bg_position*/-50,/*dungeon_quest_detail_monster_size*/1.2,/*quest_detail_monster_scale_1*/0.0,/*quest_detail_monster_scale_2*/0.0,/*quest_detail_monster_scale_3*/0.0,/*quest_detail_monster_scale_4*/0.0,/*quest_detail_monster_scale_5*/0.0,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_position_x_3*/0.0,/*dungeon_quest_detail_monster_position_x_4*/0.0,/*dungeon_quest_detail_monster_position_x_5*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");
 INSERT INTO `secret_dungeon_quest_data` VALUES (/*quest_id*/320010102,/*dungeon_area_id*/32001,/*difficulty*/1,/*floor_num*/2,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*fixed_start_tp_rate*/0,/*emax*/0,/*reward_image_1*/90002,/*reward_image_2*/90008,/*reward_image_3*/94002,/*reward_image_4*/140001,/*reward_image_5*/25001,/*reward_image_6*/0,/*clear_reward_group*/0,/*reward_coin*/800,/*reward_csc*/20,/*chest_id*/40004,/*odds_group_id*/3200101,/*background*/102842,/*dungeon_quest_detail_bg_id*/102842,/*dungeon_quest_detail_bg_position*/-50,/*dungeon_quest_detail_monster_size*/1.2,/*quest_detail_monster_scale_1*/0.0,/*quest_detail_monster_scale_2*/0.0,/*quest_detail_monster_scale_3*/0.0,/*quest_detail_monster_scale_4*/0.0,/*quest_detail_monster_scale_5*/0.0,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_position_x_3*/0.0,/*dungeon_quest_detail_monster_position_x_4*/0.0,/*dungeon_quest_detail_monster_position_x_5*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");
 INSERT INTO `secret_dungeon_quest_data` VALUES (/*quest_id*/320010103,/*dungeon_area_id*/32001,/*difficulty*/1,/*floor_num*/3,/*quest_type*/1,/*wave_group_id*/0,/*limit_time*/90,/*parts_hp_save_flag*/0,/*energy_reset_flag*/0,/*fixed_start_tp_rate*/0,/*emax*/0,/*reward_image_1*/90002,/*reward_image_2*/90008,/*reward_image_3*/94002,/*reward_image_4*/140001,/*reward_image_5*/25001,/*reward_image_6*/0,/*clear_reward_group*/0,/*reward_coin*/800,/*reward_csc*/20,/*chest_id*/40004,/*odds_group_id*/3200102,/*background*/102843,/*dungeon_quest_detail_bg_id*/102843,/*dungeon_quest_detail_bg_position*/-50,/*dungeon_quest_detail_monster_size*/1.2,/*quest_detail_monster_scale_1*/0.0,/*quest_detail_monster_scale_2*/0.0,/*quest_detail_monster_scale_3*/0.0,/*quest_detail_monster_scale_4*/0.0,/*quest_detail_monster_scale_5*/0.0,/*dungeon_quest_detail_monster_position_x_1*/0.0,/*dungeon_quest_detail_monster_position_x_2*/0.0,/*dungeon_quest_detail_monster_position_x_3*/0.0,/*dungeon_quest_detail_monster_position_x_4*/0.0,/*dungeon_quest_detail_monster_position_x_5*/0.0,/*dungeon_quest_detail_monster_height*/0.0,/*multi_target_effect_time*/0.0,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06");

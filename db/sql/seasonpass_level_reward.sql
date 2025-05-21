@@ -1,6 +1,19 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'seasonpass_level_reward' ('level_id' INTEGER NOT NULL, 'degree' INTEGER NOT NULL, 'free_reward_type' INTEGER NOT NULL, 'free_reward_id' INTEGER NOT NULL, 'free_reward_num' INTEGER NOT NULL, 'charge_reward_type_1' INTEGER NOT NULL, 'charge_reward_id_1' INTEGER NOT NULL, 'charge_reward_num_1' INTEGER NOT NULL, 'charge_reward_type_2' INTEGER NOT NULL, 'charge_reward_id_2' INTEGER NOT NULL, 'charge_reward_num_2' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, PRIMARY KEY('level_id'));
+-- Column Names:
+-- level_id INTEGER
+-- degree INTEGER
+-- free_reward_type INTEGER
+-- free_reward_id INTEGER
+-- free_reward_num INTEGER
+-- charge_reward_type_1 INTEGER
+-- charge_reward_id_1 INTEGER
+-- charge_reward_num_1 INTEGER
+-- charge_reward_type_2 INTEGER
+-- charge_reward_id_2 INTEGER
+-- charge_reward_num_2 INTEGER
+-- event_id INTEGER
 INSERT INTO `seasonpass_level_reward` VALUES (/*level_id*/1,/*degree*/1,/*free_reward_type*/2,/*free_reward_id*/90005,/*free_reward_num*/5,/*charge_reward_type_1*/8,/*charge_reward_id_1*/91002,/*charge_reward_num_1*/50,/*charge_reward_type_2*/4,/*charge_reward_id_2*/140001,/*charge_reward_num_2*/10,/*event_id*/10005);
 INSERT INTO `seasonpass_level_reward` VALUES (/*level_id*/2,/*degree*/0,/*free_reward_type*/2,/*free_reward_id*/23001,/*free_reward_num*/10,/*charge_reward_type_1*/2,/*charge_reward_id_1*/23001,/*charge_reward_num_1*/20,/*charge_reward_type_2*/0,/*charge_reward_id_2*/0,/*charge_reward_num_2*/0,/*event_id*/10005);
 INSERT INTO `seasonpass_level_reward` VALUES (/*level_id*/3,/*degree*/0,/*free_reward_type*/2,/*free_reward_id*/22003,/*free_reward_num*/10,/*charge_reward_type_1*/2,/*charge_reward_id_1*/22003,/*charge_reward_num_1*/20,/*charge_reward_type_2*/0,/*charge_reward_id_2*/0,/*charge_reward_num_2*/0,/*event_id*/10005);

@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'cgg_completion_data' ('completion_id' INTEGER NOT NULL, 'completion_emblem_id' INTEGER NOT NULL, 'gacha_type' INTEGER NOT NULL, 'completion_num' INTEGER NOT NULL, 'secret_goods_id_1' INTEGER NOT NULL, 'secret_goods_id_2' INTEGER NOT NULL, 'secret_goods_id_3' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'receive_description' TEXT NOT NULL, PRIMARY KEY('completion_id'));
+-- Column Names:
+-- completion_id INTEGER
+-- completion_emblem_id INTEGER
+-- gacha_type INTEGER
+-- completion_num INTEGER
+-- secret_goods_id_1 INTEGER
+-- secret_goods_id_2 INTEGER
+-- secret_goods_id_3 INTEGER
+-- description TEXT
+-- receive_description TEXT
 INSERT INTO `cgg_completion_data` VALUES (/*completion_id*/101,/*completion_emblem_id*/0,/*gacha_type*/2,/*completion_num*/16,/*secret_goods_id_1*/0,/*secret_goods_id_2*/0,/*secret_goods_id_3*/0,/*description*/"收集“高级藏品”里所有种类的周边吧",/*receive_description*/"获得了“高级藏品”里所有种类的周边！");
 INSERT INTO `cgg_completion_data` VALUES (/*completion_id*/102,/*completion_emblem_id*/0,/*gacha_type*/1,/*completion_num*/23,/*secret_goods_id_1*/0,/*secret_goods_id_2*/0,/*secret_goods_id_3*/0,/*description*/"收集“标准藏品”里所有种类的周边吧",/*receive_description*/"获得了“标准藏品”里所有种类的周边！");
 INSERT INTO `cgg_completion_data` VALUES (/*completion_id*/103,/*completion_emblem_id*/0,/*gacha_type*/3,/*completion_num*/21,/*secret_goods_id_1*/0,/*secret_goods_id_2*/0,/*secret_goods_id_3*/0,/*description*/"收集“庆典藏品”里所有种类的周边吧",/*receive_description*/"获得了“庆典藏品”里所有种类的周边！");

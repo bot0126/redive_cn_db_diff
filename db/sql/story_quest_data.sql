@@ -1,6 +1,28 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'story_quest_data' ('story_quest_id' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'quest_name' TEXT NOT NULL, 'limit_time' INTEGER NOT NULL, 'background_1' INTEGER NOT NULL, 'wave_group_id_1' INTEGER NOT NULL, 'wave_bgm_sheet_id_1' TEXT NOT NULL, 'wave_bgm_que_id_1' TEXT NOT NULL, 'background_2' INTEGER NOT NULL, 'wave_group_id_2' INTEGER NOT NULL, 'wave_bgm_sheet_id_2' TEXT NOT NULL, 'wave_bgm_que_id_2' TEXT NOT NULL, 'background_3' INTEGER NOT NULL, 'wave_group_id_3' INTEGER NOT NULL, 'wave_bgm_sheet_id_3' TEXT NOT NULL, 'wave_bgm_que_id_3' TEXT NOT NULL, 'guest_unit_1' INTEGER NOT NULL, 'guest_unit_2' INTEGER NOT NULL, 'guest_unit_3' INTEGER NOT NULL, 'guest_unit_4' INTEGER NOT NULL, 'guest_unit_5' INTEGER NOT NULL, PRIMARY KEY('story_quest_id'));
+-- Column Names:
+-- story_quest_id INTEGER
+-- story_id INTEGER
+-- quest_name TEXT
+-- limit_time INTEGER
+-- background_1 INTEGER
+-- wave_group_id_1 INTEGER
+-- wave_bgm_sheet_id_1 TEXT
+-- wave_bgm_que_id_1 TEXT
+-- background_2 INTEGER
+-- wave_group_id_2 INTEGER
+-- wave_bgm_sheet_id_2 TEXT
+-- wave_bgm_que_id_2 TEXT
+-- background_3 INTEGER
+-- wave_group_id_3 INTEGER
+-- wave_bgm_sheet_id_3 TEXT
+-- wave_bgm_que_id_3 TEXT
+-- guest_unit_1 INTEGER
+-- guest_unit_2 INTEGER
+-- guest_unit_3 INTEGER
+-- guest_unit_4 INTEGER
+-- guest_unit_5 INTEGER
 INSERT INTO `story_quest_data` VALUES (/*story_quest_id*/51200001,/*story_id*/2000001,/*quest_name*/"最终对战",/*limit_time*/90,/*background_1*/100182,/*wave_group_id_1*/512000011,/*wave_bgm_sheet_id_1*/"0",/*wave_bgm_que_id_1*/"0",/*background_2*/0,/*wave_group_id_2*/0,/*wave_bgm_sheet_id_2*/"0",/*wave_bgm_que_id_2*/"0",/*background_3*/0,/*wave_group_id_3*/0,/*wave_bgm_sheet_id_3*/"0",/*wave_bgm_que_id_3*/"0",/*guest_unit_1*/901000102,/*guest_unit_2*/901000103,/*guest_unit_3*/901000105,/*guest_unit_4*/901000106,/*guest_unit_5*/0);
 INSERT INTO `story_quest_data` VALUES (/*story_quest_id*/51200002,/*story_id*/2000002,/*quest_name*/"教程对战",/*limit_time*/90,/*background_1*/100021,/*wave_group_id_1*/512000021,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06",/*background_2*/100022,/*wave_group_id_2*/512000022,/*wave_bgm_sheet_id_2*/"bgm_M06",/*wave_bgm_que_id_2*/"bgm_M06",/*background_3*/0,/*wave_group_id_3*/0,/*wave_bgm_sheet_id_3*/"0",/*wave_bgm_que_id_3*/"0",/*guest_unit_1*/901000201,/*guest_unit_2*/901000202,/*guest_unit_3*/901000104,/*guest_unit_4*/0,/*guest_unit_5*/0);
 INSERT INTO `story_quest_data` VALUES (/*story_quest_id*/51200006,/*story_id*/2000006,/*quest_name*/"教程对战",/*limit_time*/90,/*background_1*/100021,/*wave_group_id_1*/512000021,/*wave_bgm_sheet_id_1*/"bgm_M06",/*wave_bgm_que_id_1*/"bgm_M06",/*background_2*/100022,/*wave_group_id_2*/512000022,/*wave_bgm_sheet_id_2*/"bgm_M06",/*wave_bgm_que_id_2*/"bgm_M06",/*background_3*/0,/*wave_group_id_3*/0,/*wave_bgm_sheet_id_3*/"0",/*wave_bgm_que_id_3*/"0",/*guest_unit_1*/901000201,/*guest_unit_2*/901000202,/*guest_unit_3*/901000104,/*guest_unit_4*/0,/*guest_unit_5*/0);

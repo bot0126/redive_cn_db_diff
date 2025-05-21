@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'nyx_drama_data' ('drama_id' INTEGER NOT NULL, 'story_phase' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'sub_title' TEXT NOT NULL, 'condition_unlocked_story_id' INTEGER NOT NULL, 'condition_locked_story_id' INTEGER NOT NULL, PRIMARY KEY('drama_id'));
+-- Column Names:
+-- drama_id INTEGER
+-- story_phase INTEGER
+-- title TEXT
+-- sub_title TEXT
+-- condition_unlocked_story_id INTEGER
+-- condition_locked_story_id INTEGER
 INSERT INTO `nyx_drama_data` VALUES (/*drama_id*/101,/*story_phase*/1,/*title*/"特别讲座报告",/*sub_title*/"切噜噜冲击力",/*condition_unlocked_story_id*/12,/*condition_locked_story_id*/13);
 INSERT INTO `nyx_drama_data` VALUES (/*drama_id*/102,/*story_phase*/1,/*title*/"特别讲座报告",/*sub_title*/"克罗依明察秋毫",/*condition_unlocked_story_id*/13,/*condition_locked_story_id*/14);
 INSERT INTO `nyx_drama_data` VALUES (/*drama_id*/103,/*story_phase*/1,/*title*/"特别讲座报告",/*sub_title*/"前辈架子摆起来",/*condition_unlocked_story_id*/14,/*condition_locked_story_id*/22);

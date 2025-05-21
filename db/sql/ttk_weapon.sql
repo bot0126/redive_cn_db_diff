@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ttk_weapon' ('ttk_weapon_id' INTEGER NOT NULL, 'ttk_score' INTEGER NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('ttk_weapon_id'));
+-- Column Names:
+-- ttk_weapon_id INTEGER
+-- ttk_score INTEGER
+-- name TEXT
 INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/1,/*ttk_score*/0,/*name*/"木锤");
 INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/2,/*ttk_score*/64000,/*name*/"魔法的小锤");
 INSERT INTO `ttk_weapon` VALUES (/*ttk_weapon_id*/3,/*ttk_score*/256000,/*name*/"真阳手工纸扇");

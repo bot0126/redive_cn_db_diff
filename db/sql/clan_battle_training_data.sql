@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_training_data' ('id' INTEGER NOT NULL, 'training_id' INTEGER NOT NULL, 'mode' INTEGER NOT NULL, 'phase' INTEGER NOT NULL, 'map_data_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- training_id INTEGER
+-- mode INTEGER
+-- phase INTEGER
+-- map_data_id INTEGER
 INSERT INTO `clan_battle_training_data` VALUES (/*id*/1,/*training_id*/1038,/*mode*/0,/*phase*/1,/*map_data_id*/150);
 INSERT INTO `clan_battle_training_data` VALUES (/*id*/2,/*training_id*/1038,/*mode*/0,/*phase*/2,/*map_data_id*/151);
 INSERT INTO `clan_battle_training_data` VALUES (/*id*/3,/*training_id*/1038,/*mode*/0,/*phase*/3,/*map_data_id*/152);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'series_unlock_condition' ('sequel_event_id' INTEGER NOT NULL, 'condition_story_id_1' INTEGER NOT NULL, 'condition_story_id_2' INTEGER NOT NULL, 'condition_event_id' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'condition_boss_id' INTEGER NOT NULL, PRIMARY KEY('sequel_event_id'));
+-- Column Names:
+-- sequel_event_id INTEGER
+-- condition_story_id_1 INTEGER
+-- condition_story_id_2 INTEGER
+-- condition_event_id INTEGER
+-- condition_quest_id INTEGER
+-- condition_boss_id INTEGER
 INSERT INTO `series_unlock_condition` VALUES (/*sequel_event_id*/10036,/*condition_story_id_1*/5035004,/*condition_story_id_2*/5035005,/*condition_event_id*/0,/*condition_quest_id*/0,/*condition_boss_id*/0);
 INSERT INTO `series_unlock_condition` VALUES (/*sequel_event_id*/10059,/*condition_story_id_1*/5058004,/*condition_story_id_2*/5058005,/*condition_event_id*/0,/*condition_quest_id*/0,/*condition_boss_id*/0);
 INSERT INTO `series_unlock_condition` VALUES (/*sequel_event_id*/10063,/*condition_story_id_1*/0,/*condition_story_id_2*/0,/*condition_event_id*/10062,/*condition_quest_id*/10062115,/*condition_boss_id*/1006201);

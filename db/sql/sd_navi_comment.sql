@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sd_navi_comment' ('comment_id' INTEGER NOT NULL, 'where_type' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'motion_type' INTEGER NOT NULL, 'description' TEXT , 'voice_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- where_type INTEGER
+-- character_id INTEGER
+-- motion_type INTEGER
+-- description TEXT
+-- voice_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `sd_navi_comment` VALUES (/*comment_id*/1000001,/*where_type*/1000,/*character_id*/190801,/*motion_type*/13,/*description*/"我准备了各式各样的\n小游戏哦！\n要玩哪种小游戏？",/*voice_id*/0,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"2099-12-31 23:59:59");
 INSERT INTO `sd_navi_comment` VALUES (/*comment_id*/1000002,/*where_type*/1000,/*character_id*/190801,/*motion_type*/13,/*description*/"给你介绍有趣的小游戏！\n你要玩哪种\n小游戏呢？",/*voice_id*/0,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"2099-12-31 23:59:59");
 INSERT INTO `sd_navi_comment` VALUES (/*comment_id*/1001001,/*where_type*/1001,/*character_id*/190801,/*motion_type*/13,/*description*/"价格为{0}金币，\n正在售卖中！\n请一定要购入\n游玩哦！",/*voice_id*/0,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"2099-12-31 23:59:59");

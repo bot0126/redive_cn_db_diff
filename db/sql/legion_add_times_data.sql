@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'legion_add_times_data' ('id' INTEGER NOT NULL, 'add_times' INTEGER NOT NULL, 'add_times_time' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- add_times INTEGER
+-- add_times_time TEXT
 INSERT INTO `legion_add_times_data` VALUES (/*id*/1,/*add_times*/1,/*add_times_time*/"2021/08/17 13:00:00");
 INSERT INTO `legion_add_times_data` VALUES (/*id*/2,/*add_times*/1,/*add_times_time*/"2021/08/17 14:00:00");
 INSERT INTO `legion_add_times_data` VALUES (/*id*/3,/*add_times*/1,/*add_times_time*/"2021/08/17 15:00:00");

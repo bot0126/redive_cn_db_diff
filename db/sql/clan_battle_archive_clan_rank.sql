@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'clan_battle_archive_clan_rank' ('id' INTEGER NOT NULL, 'rank_from' INTEGER NOT NULL, 'rank_to' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- rank_from INTEGER
+-- rank_to INTEGER
 INSERT INTO `clan_battle_archive_clan_rank` VALUES (/*id*/1,/*rank_from*/1,/*rank_to*/1);
 INSERT INTO `clan_battle_archive_clan_rank` VALUES (/*id*/2,/*rank_from*/2,/*rank_to*/2);
 INSERT INTO `clan_battle_archive_clan_rank` VALUES (/*id*/3,/*rank_from*/3,/*rank_to*/3);

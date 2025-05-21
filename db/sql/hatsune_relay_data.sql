@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_relay_data' ('relay_story_id' INTEGER NOT NULL, 'is_enable_read' INTEGER NOT NULL, 'condition_quest_id' INTEGER NOT NULL, 'story_seq' INTEGER NOT NULL, 'sub_title' TEXT NOT NULL, PRIMARY KEY('relay_story_id'));
+-- Column Names:
+-- relay_story_id INTEGER
+-- is_enable_read INTEGER
+-- condition_quest_id INTEGER
+-- story_seq INTEGER
+-- sub_title TEXT
 INSERT INTO `hatsune_relay_data` VALUES (/*relay_story_id*/1001001,/*is_enable_read*/1,/*condition_quest_id*/20021103,/*story_seq*/1,/*sub_title*/"对莉玛的采访");
 INSERT INTO `hatsune_relay_data` VALUES (/*relay_story_id*/1001002,/*is_enable_read*/1,/*condition_quest_id*/20021103,/*story_seq*/2,/*sub_title*/"对凯露的采访");
 INSERT INTO `hatsune_relay_data` VALUES (/*relay_story_id*/1001003,/*is_enable_read*/1,/*condition_quest_id*/20021103,/*story_seq*/3,/*sub_title*/"对珠希的采访");

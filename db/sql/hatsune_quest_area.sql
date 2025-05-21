@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_quest_area' ('area_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'area_name' TEXT NOT NULL, 'map_type' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'area_disp' INTEGER NOT NULL, 'map_id' INTEGER NOT NULL, 'scroll_width' INTEGER NOT NULL, 'scroll_height' INTEGER NOT NULL, 'open_tutorial_id' INTEGER NOT NULL, 'tutorial_param_1' TEXT NOT NULL, 'tutorial_param_2' TEXT NOT NULL, 'additional_effect' INTEGER NOT NULL, PRIMARY KEY('area_id'));
+-- Column Names:
+-- area_id INTEGER
+-- event_id INTEGER
+-- area_name TEXT
+-- map_type INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- start_time TEXT
+-- end_time TEXT
+-- area_disp INTEGER
+-- map_id INTEGER
+-- scroll_width INTEGER
+-- scroll_height INTEGER
+-- open_tutorial_id INTEGER
+-- tutorial_param_1 TEXT
+-- tutorial_param_2 TEXT
+-- additional_effect INTEGER
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10001101,/*event_id*/10001,/*area_name*/"塔古姆地区",/*map_type*/201,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/26 18:59:59",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10001201,/*event_id*/10001,/*area_name*/"塔古姆地区",/*map_type*/201,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*start_time*/"2020/05/15 11:00:00",/*end_time*/"2020/05/26 18:59:59",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10002101,/*event_id*/10002,/*area_name*/"马希纳地区",/*map_type*/201,/*sheet_id*/"bgm_M98",/*que_id*/"bgm_M98_2",/*start_time*/"2020/06/08 11:00:00",/*end_time*/"2020/06/27 23:59:59",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
@@ -289,7 +306,4 @@ INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10113102,/*event_id*/10113,/
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10113201,/*event_id*/10113,/*area_name*/"世界间的夹缝",/*map_type*/201,/*sheet_id*/"bgm_M553",/*que_id*/"bgm_M553",/*start_time*/"2025/02/10 12:00:00",/*end_time*/"2025/02/18 23:59:59",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10114101,/*event_id*/10114,/*area_name*/"兰德索尔　市区",/*map_type*/201,/*sheet_id*/"bgm_M668",/*que_id*/"bgm_M668",/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/12 23:59:59",/*area_disp*/1,/*map_id*/1,/*scroll_width*/108,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10114201,/*event_id*/10114,/*area_name*/"兰德索尔　市区",/*map_type*/201,/*sheet_id*/"bgm_M668",/*que_id*/"bgm_M668",/*start_time*/"2025/02/26 11:00:00",/*end_time*/"2025/03/12 23:59:59",/*area_disp*/1,/*map_id*/1,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10115101,/*event_id*/10115,/*area_name*/"咲恋救济院内",/*map_type*/201,/*sheet_id*/"bgm_M565",/*que_id*/"bgm_M565",/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/23 23:59:59",/*area_disp*/1,/*map_id*/1,/*scroll_width*/20,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10115102,/*event_id*/10115,/*area_name*/"伊丽莎白牧场　牧场温泉",/*map_type*/201,/*sheet_id*/"bgm_M565",/*que_id*/"bgm_M565",/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/23 23:59:59",/*area_disp*/1,/*map_id*/2,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
-INSERT INTO `hatsune_quest_area` VALUES (/*area_id*/10115201,/*event_id*/10115,/*area_name*/"伊丽莎白牧场　牧场温泉",/*map_type*/201,/*sheet_id*/"bgm_M565",/*que_id*/"bgm_M565",/*start_time*/"2025/03/16 12:00:00",/*end_time*/"2025/03/23 23:59:59",/*area_disp*/1,/*map_id*/0,/*scroll_width*/0,/*scroll_height*/0,/*open_tutorial_id*/0,/*tutorial_param_1*/"0",/*tutorial_param_2*/"0",/*additional_effect*/0);
 COMMIT;

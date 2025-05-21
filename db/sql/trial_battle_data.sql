@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'trial_battle_data' ('quest_id' INTEGER NOT NULL, 'category_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'battle_name' TEXT NOT NULL, 'detail_bg_id' INTEGER NOT NULL, 'detail_bg_position' INTEGER NOT NULL, 'detail_boss_bg_size' INTEGER NOT NULL, 'detail_boss_bg_height' INTEGER NOT NULL, 'result_boss_position_y' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'wave_bgm_sheet_id' TEXT NOT NULL, 'wave_bgm_que_id' TEXT NOT NULL, 'clear_reward_group' INTEGER NOT NULL, PRIMARY KEY('quest_id'));
+-- Column Names:
+-- quest_id INTEGER
+-- category_id INTEGER
+-- difficulty INTEGER
+-- battle_name TEXT
+-- detail_bg_id INTEGER
+-- detail_bg_position INTEGER
+-- detail_boss_bg_size INTEGER
+-- detail_boss_bg_height INTEGER
+-- result_boss_position_y INTEGER
+-- limit_time INTEGER
+-- background INTEGER
+-- wave_group_id INTEGER
+-- wave_bgm_sheet_id TEXT
+-- wave_bgm_que_id TEXT
+-- clear_reward_group INTEGER
 INSERT INTO `trial_battle_data` VALUES (/*quest_id*/90110001,/*category_id*/1,/*difficulty*/1,/*battle_name*/"EASY",/*detail_bg_id*/100113,/*detail_bg_position*/0,/*detail_boss_bg_size*/1,/*detail_boss_bg_height*/0,/*result_boss_position_y*/0,/*limit_time*/90,/*background*/100113,/*wave_group_id*/701000101,/*wave_bgm_sheet_id*/"bgm_M57",/*wave_bgm_que_id*/"bgm_M57",/*clear_reward_group*/110001);
 INSERT INTO `trial_battle_data` VALUES (/*quest_id*/90110002,/*category_id*/1,/*difficulty*/2,/*battle_name*/"NORMAL",/*detail_bg_id*/100113,/*detail_bg_position*/0,/*detail_boss_bg_size*/1,/*detail_boss_bg_height*/0,/*result_boss_position_y*/0,/*limit_time*/90,/*background*/100113,/*wave_group_id*/701000102,/*wave_bgm_sheet_id*/"bgm_M57",/*wave_bgm_que_id*/"bgm_M57",/*clear_reward_group*/110001);
 INSERT INTO `trial_battle_data` VALUES (/*quest_id*/90110003,/*category_id*/1,/*difficulty*/3,/*battle_name*/"HARD",/*detail_bg_id*/100113,/*detail_bg_position*/0,/*detail_boss_bg_size*/1,/*detail_boss_bg_height*/0,/*result_boss_position_y*/0,/*limit_time*/90,/*background*/100113,/*wave_group_id*/701000103,/*wave_bgm_sheet_id*/"bgm_M57",/*wave_bgm_que_id*/"bgm_M57",/*clear_reward_group*/110001);

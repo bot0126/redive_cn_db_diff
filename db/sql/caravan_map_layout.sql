@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_map_layout' ('block_id' INTEGER NOT NULL, 'position_x' INTEGER NOT NULL, 'position_y' INTEGER NOT NULL, PRIMARY KEY('block_id'));
+-- Column Names:
+-- block_id INTEGER
+-- position_x INTEGER
+-- position_y INTEGER
 INSERT INTO `caravan_map_layout` VALUES (/*block_id*/10010001,/*position_x*/-8,/*position_y*/-22);
 INSERT INTO `caravan_map_layout` VALUES (/*block_id*/10010099,/*position_x*/-9,/*position_y*/-4);
 INSERT INTO `caravan_map_layout` VALUES (/*block_id*/10010100,/*position_x*/-10,/*position_y*/-4);

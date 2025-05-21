@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_character_skin_color' ('character_id' INTEGER NOT NULL, 'skin_color_id' INTEGER NOT NULL, PRIMARY KEY('character_id'));
+-- Column Names:
+-- character_id INTEGER
+-- skin_color_id INTEGER
 INSERT INTO `room_character_skin_color` VALUES (/*character_id*/1001,/*skin_color_id*/1);
 INSERT INTO `room_character_skin_color` VALUES (/*character_id*/1002,/*skin_color_id*/1);
 INSERT INTO `room_character_skin_color` VALUES (/*character_id*/1003,/*skin_color_id*/1);

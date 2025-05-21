@@ -1,6 +1,24 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'daily_mission_data' ('daily_mission_id' INTEGER NOT NULL, 'disp_group' INTEGER NOT NULL, 'category_icon' INTEGER NOT NULL, 'description' TEXT NOT NULL, 'mission_condition' INTEGER NOT NULL, 'condition_value_1' INTEGER , 'condition_value_2' INTEGER , 'condition_value_3' INTEGER , 'condition_num' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'system_id' INTEGER , 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'min_level' INTEGER NOT NULL, 'max_level' INTEGER NOT NULL, 'title_color_id' INTEGER NOT NULL, 'visible_flag' INTEGER NOT NULL, PRIMARY KEY('daily_mission_id'));
+-- Column Names:
+-- daily_mission_id INTEGER
+-- disp_group INTEGER
+-- category_icon INTEGER
+-- description TEXT
+-- mission_condition INTEGER
+-- condition_value_1 INTEGER
+-- condition_value_2 INTEGER
+-- condition_value_3 INTEGER
+-- condition_num INTEGER
+-- mission_reward_id INTEGER
+-- system_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- min_level INTEGER
+-- max_level INTEGER
+-- title_color_id INTEGER
+-- visible_flag INTEGER
 INSERT INTO `daily_mission_data` VALUES (/*daily_mission_id*/11001001,/*disp_group*/1,/*category_icon*/200,/*description*/"通关主线或活动关卡10次吧",/*mission_condition*/1008,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/11001001,/*system_id*/101,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2020/05/26 4:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1);
 INSERT INTO `daily_mission_data` VALUES (/*daily_mission_id*/11001002,/*disp_group*/1,/*category_icon*/200,/*description*/"通关主线或活动关卡20次吧",/*mission_condition*/1008,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/20,/*mission_reward_id*/11001002,/*system_id*/101,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2020/05/26 4:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1);
 INSERT INTO `daily_mission_data` VALUES (/*daily_mission_id*/11001003,/*disp_group*/1,/*category_icon*/200,/*description*/"通关主线或活动关卡10次吧",/*mission_condition*/1008,/*condition_value_1*/0,/*condition_value_2*/0,/*condition_value_3*/0,/*condition_num*/10,/*mission_reward_id*/11001003,/*system_id*/101,/*start_time*/"2020/05/26 5:00:00",/*end_time*/"2020/06/02 4:59:59",/*min_level*/0,/*max_level*/0,/*title_color_id*/0,/*visible_flag*/1);

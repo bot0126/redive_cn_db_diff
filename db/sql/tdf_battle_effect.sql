@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tdf_battle_effect' ('id' INTEGER NOT NULL, 'quest_id' INTEGER NOT NULL, 'icon_name' TEXT NOT NULL, 'effect_name' TEXT NOT NULL, 'description' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- quest_id INTEGER
+-- icon_name TEXT
+-- effect_name TEXT
+-- description TEXT
 INSERT INTO `tdf_battle_effect` VALUES (/*id*/1,/*quest_id*/74001102,/*icon_name*/"add_shadow",/*effect_name*/"增加1只暗影",/*description*/"增加姬塔的暗影。");
 INSERT INTO `tdf_battle_effect` VALUES (/*id*/2,/*quest_id*/74001103,/*icon_name*/"add_shadow",/*effect_name*/"增加3只暗影",/*description*/"增加姬塔、咲恋（夏日）、爱梅斯的暗影。");
 INSERT INTO `tdf_battle_effect` VALUES (/*id*/3,/*quest_id*/74001104,/*icon_name*/"star6_shadow",/*effect_name*/"暗影★6化",/*description*/"望的暗影变为★6。");

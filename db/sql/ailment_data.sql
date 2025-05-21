@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ailment_data' ('ailment_id' INTEGER NOT NULL, 'ailment_action' INTEGER NOT NULL, 'ailment_detail_1' INTEGER NOT NULL, 'ailment_name' TEXT NOT NULL, PRIMARY KEY('ailment_id'));
+-- Column Names:
+-- ailment_id INTEGER
+-- ailment_action INTEGER
+-- ailment_detail_1 INTEGER
+-- ailment_name TEXT
 INSERT INTO `ailment_data` VALUES (/*ailment_id*/1,/*ailment_action*/8,/*ailment_detail_1*/1,/*ailment_name*/"减速");
 INSERT INTO `ailment_data` VALUES (/*ailment_id*/2,/*ailment_action*/8,/*ailment_detail_1*/2,/*ailment_name*/"加速");
 INSERT INTO `ailment_data` VALUES (/*ailment_id*/3,/*ailment_action*/8,/*ailment_detail_1*/3,/*ailment_name*/"麻痹");

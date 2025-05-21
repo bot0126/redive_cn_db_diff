@@ -1,6 +1,51 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sre_enemy_parameter' ('enemy_id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'level' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'promotion_level' INTEGER NOT NULL, 'hp' INTEGER NOT NULL, 'atk' INTEGER NOT NULL, 'magic_str' INTEGER NOT NULL, 'def' INTEGER NOT NULL, 'magic_def' INTEGER NOT NULL, 'physical_critical' INTEGER NOT NULL, 'magic_critical' INTEGER NOT NULL, 'wave_hp_recovery' INTEGER NOT NULL, 'wave_energy_recovery' INTEGER NOT NULL, 'dodge' INTEGER NOT NULL, 'physical_penetrate' INTEGER NOT NULL, 'magic_penetrate' INTEGER NOT NULL, 'life_steal' INTEGER NOT NULL, 'hp_recovery_rate' INTEGER NOT NULL, 'energy_recovery_rate' INTEGER NOT NULL, 'energy_reduce_rate' INTEGER NOT NULL, 'union_burst_level' INTEGER NOT NULL, 'main_skill_lv_1' INTEGER NOT NULL, 'main_skill_lv_2' INTEGER NOT NULL, 'main_skill_lv_3' INTEGER NOT NULL, 'main_skill_lv_4' INTEGER NOT NULL, 'main_skill_lv_5' INTEGER NOT NULL, 'main_skill_lv_6' INTEGER NOT NULL, 'main_skill_lv_7' INTEGER NOT NULL, 'main_skill_lv_8' INTEGER NOT NULL, 'main_skill_lv_9' INTEGER NOT NULL, 'main_skill_lv_10' INTEGER NOT NULL, 'ex_skill_lv_1' INTEGER NOT NULL, 'ex_skill_lv_2' INTEGER NOT NULL, 'ex_skill_lv_3' INTEGER NOT NULL, 'ex_skill_lv_4' INTEGER NOT NULL, 'ex_skill_lv_5' INTEGER NOT NULL, 'resist_status_id' INTEGER NOT NULL, 'resist_variation_id' INTEGER NOT NULL, 'accuracy' INTEGER NOT NULL, 'unique_equipment_flag_1' INTEGER NOT NULL, 'break_durability' INTEGER NOT NULL, 'virtual_hp' INTEGER NOT NULL, PRIMARY KEY('enemy_id'));
+-- Column Names:
+-- enemy_id INTEGER
+-- unit_id INTEGER
+-- name TEXT
+-- level INTEGER
+-- rarity INTEGER
+-- promotion_level INTEGER
+-- hp INTEGER
+-- atk INTEGER
+-- magic_str INTEGER
+-- def INTEGER
+-- magic_def INTEGER
+-- physical_critical INTEGER
+-- magic_critical INTEGER
+-- wave_hp_recovery INTEGER
+-- wave_energy_recovery INTEGER
+-- dodge INTEGER
+-- physical_penetrate INTEGER
+-- magic_penetrate INTEGER
+-- life_steal INTEGER
+-- hp_recovery_rate INTEGER
+-- energy_recovery_rate INTEGER
+-- energy_reduce_rate INTEGER
+-- union_burst_level INTEGER
+-- main_skill_lv_1 INTEGER
+-- main_skill_lv_2 INTEGER
+-- main_skill_lv_3 INTEGER
+-- main_skill_lv_4 INTEGER
+-- main_skill_lv_5 INTEGER
+-- main_skill_lv_6 INTEGER
+-- main_skill_lv_7 INTEGER
+-- main_skill_lv_8 INTEGER
+-- main_skill_lv_9 INTEGER
+-- main_skill_lv_10 INTEGER
+-- ex_skill_lv_1 INTEGER
+-- ex_skill_lv_2 INTEGER
+-- ex_skill_lv_3 INTEGER
+-- ex_skill_lv_4 INTEGER
+-- ex_skill_lv_5 INTEGER
+-- resist_status_id INTEGER
+-- resist_variation_id INTEGER
+-- accuracy INTEGER
+-- unique_equipment_flag_1 INTEGER
+-- break_durability INTEGER
+-- virtual_hp INTEGER
 INSERT INTO `sre_enemy_parameter` VALUES (/*enemy_id*/803100201,/*unit_id*/316800,/*name*/"黑之王炸脖龙",/*level*/100,/*rarity*/1,/*promotion_level*/1,/*hp*/6500000,/*atk*/100,/*magic_str*/100,/*def*/50,/*magic_def*/50,/*physical_critical*/0,/*magic_critical*/0,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/0,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/10,/*energy_reduce_rate*/0,/*union_burst_level*/50,/*main_skill_lv_1*/50,/*main_skill_lv_2*/50,/*main_skill_lv_3*/50,/*main_skill_lv_4*/50,/*main_skill_lv_5*/100,/*main_skill_lv_6*/100,/*main_skill_lv_7*/100,/*main_skill_lv_8*/0,/*main_skill_lv_9*/50,/*main_skill_lv_10*/50,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/300000008,/*resist_variation_id*/0,/*accuracy*/50,/*unique_equipment_flag_1*/0,/*break_durability*/0,/*virtual_hp*/0);
 INSERT INTO `sre_enemy_parameter` VALUES (/*enemy_id*/803100202,/*unit_id*/316800,/*name*/"部位A",/*level*/100,/*rarity*/1,/*promotion_level*/1,/*hp*/600000,/*atk*/1000,/*magic_str*/1000,/*def*/400,/*magic_def*/400,/*physical_critical*/0,/*magic_critical*/0,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/0,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/50,/*energy_reduce_rate*/0,/*union_burst_level*/100,/*main_skill_lv_1*/100,/*main_skill_lv_2*/100,/*main_skill_lv_3*/100,/*main_skill_lv_4*/100,/*main_skill_lv_5*/100,/*main_skill_lv_6*/100,/*main_skill_lv_7*/100,/*main_skill_lv_8*/100,/*main_skill_lv_9*/100,/*main_skill_lv_10*/100,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/300000008,/*resist_variation_id*/0,/*accuracy*/50,/*unique_equipment_flag_1*/0,/*break_durability*/0,/*virtual_hp*/0);
 INSERT INTO `sre_enemy_parameter` VALUES (/*enemy_id*/803100203,/*unit_id*/316800,/*name*/"部位B",/*level*/100,/*rarity*/1,/*promotion_level*/1,/*hp*/400000,/*atk*/1000,/*magic_str*/1000,/*def*/200,/*magic_def*/200,/*physical_critical*/0,/*magic_critical*/0,/*wave_hp_recovery*/0,/*wave_energy_recovery*/0,/*dodge*/0,/*physical_penetrate*/0,/*magic_penetrate*/0,/*life_steal*/0,/*hp_recovery_rate*/0,/*energy_recovery_rate*/50,/*energy_reduce_rate*/0,/*union_burst_level*/100,/*main_skill_lv_1*/100,/*main_skill_lv_2*/100,/*main_skill_lv_3*/100,/*main_skill_lv_4*/100,/*main_skill_lv_5*/100,/*main_skill_lv_6*/100,/*main_skill_lv_7*/100,/*main_skill_lv_8*/100,/*main_skill_lv_9*/100,/*main_skill_lv_10*/100,/*ex_skill_lv_1*/0,/*ex_skill_lv_2*/0,/*ex_skill_lv_3*/0,/*ex_skill_lv_4*/0,/*ex_skill_lv_5*/0,/*resist_status_id*/300000008,/*resist_variation_id*/0,/*accuracy*/50,/*unique_equipment_flag_1*/0,/*break_durability*/0,/*virtual_hp*/0);

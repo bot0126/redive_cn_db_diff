@@ -1,6 +1,25 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'grand_arena_daily_rank_reward' ('id' INTEGER NOT NULL, 'rank_from' INTEGER NOT NULL, 'rank_to' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- rank_from INTEGER
+-- rank_to INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
 INSERT INTO `grand_arena_daily_rank_reward` VALUES (/*id*/1,/*rank_from*/1,/*rank_to*/5,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/150,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/150000,/*reward_type_3*/2,/*reward_id_3*/20003,/*reward_num_3*/20,/*reward_type_4*/2,/*reward_id_4*/22003,/*reward_num_4*/5,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `grand_arena_daily_rank_reward` VALUES (/*id*/2,/*rank_from*/6,/*rank_to*/9,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/145,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/100000,/*reward_type_3*/2,/*reward_id_3*/20003,/*reward_num_3*/15,/*reward_type_4*/2,/*reward_id_4*/22003,/*reward_num_4*/2,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);
 INSERT INTO `grand_arena_daily_rank_reward` VALUES (/*id*/3,/*rank_from*/10,/*rank_to*/19,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/140,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/80000,/*reward_type_3*/2,/*reward_id_3*/20003,/*reward_num_3*/11,/*reward_type_4*/2,/*reward_id_4*/22002,/*reward_num_4*/5,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0);

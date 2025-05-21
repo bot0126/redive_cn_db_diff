@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'pct_gaming_motion' ('motion_id' INTEGER NOT NULL, 'perfect_count' INTEGER NOT NULL, 'good_count' INTEGER NOT NULL, 'nice_count' INTEGER NOT NULL, 'point' INTEGER NOT NULL, PRIMARY KEY('motion_id'));
+-- Column Names:
+-- motion_id INTEGER
+-- perfect_count INTEGER
+-- good_count INTEGER
+-- nice_count INTEGER
+-- point INTEGER
 INSERT INTO `pct_gaming_motion` VALUES (/*motion_id*/1,/*perfect_count*/2,/*good_count*/3,/*nice_count*/4,/*point*/300);
 INSERT INTO `pct_gaming_motion` VALUES (/*motion_id*/2,/*perfect_count*/5,/*good_count*/6,/*nice_count*/7,/*point*/600);
 INSERT INTO `pct_gaming_motion` VALUES (/*motion_id*/3,/*perfect_count*/8,/*good_count*/9,/*nice_count*/10,/*point*/1000);

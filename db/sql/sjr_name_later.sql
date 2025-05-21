@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_name_later' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'name_group' INTEGER NOT NULL, 'score_from' INTEGER NOT NULL, 'score_to' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- name_group INTEGER
+-- score_from INTEGER
+-- score_to INTEGER
 INSERT INTO `sjr_name_later` VALUES (/*id*/1,/*name*/"雏鸟",/*name_group*/1,/*score_from*/0,/*score_to*/26999);
 INSERT INTO `sjr_name_later` VALUES (/*id*/2,/*name*/"生手",/*name_group*/1,/*score_from*/0,/*score_to*/26999);
 INSERT INTO `sjr_name_later` VALUES (/*id*/3,/*name*/"幼鱼",/*name_group*/1,/*score_from*/0,/*score_to*/26999);

@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_unlock_unit_condition' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_mission_id' INTEGER NOT NULL, 'top_description' TEXT NOT NULL, 'description_1' TEXT NOT NULL, 'description_2' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- event_id INTEGER
+-- condition_mission_id INTEGER
+-- top_description TEXT
+-- description_1 TEXT
+-- description_2 TEXT
 INSERT INTO `hatsune_unlock_unit_condition` VALUES (/*id*/1,/*unit_id*/107601,/*event_id*/10004,/*condition_mission_id*/71004025,/*top_description*/"通过讨伐首领解锁\n剩余{0}只",/*description_1*/"[3C404E]推进关卡，挑战首领，\n继续讨伐首领可解锁限定角色！！[-]",/*description_2*/"[3C404E]通过讨伐首领（全难易度共通）解锁！\n剩余[FFBB00,CE4F00]{0}[-]只[-]");
 INSERT INTO `hatsune_unlock_unit_condition` VALUES (/*id*/2,/*unit_id*/108001,/*event_id*/10005,/*condition_mission_id*/71005025,/*top_description*/"通过讨伐首领解锁\n剩余{0}只",/*description_1*/"[3C404E]推进关卡，挑战首领，\n继续讨伐首领可解锁限定角色！！[-]",/*description_2*/"[3C404E]通过讨伐首领（全难易度共通）解锁！\n剩余[FFBB00,CE4F00]{0}[-]只[-]");
 INSERT INTO `hatsune_unlock_unit_condition` VALUES (/*id*/3,/*unit_id*/108201,/*event_id*/10007,/*condition_mission_id*/71007031,/*top_description*/"讨伐普通难度首领进行解锁吧！",/*description_1*/"[3C404E]推进关卡，挑战首领，\n讨伐普通难度首领可解锁限定角色！[-]",/*description_2*/"[3C404E]讨伐普通难度首领进行解锁吧！");

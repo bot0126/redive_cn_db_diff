@@ -1,6 +1,49 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tower_ex_quest_data' ('tower_ex_quest_id' INTEGER NOT NULL, 'tower_area_id' INTEGER NOT NULL, 'floor_num' INTEGER NOT NULL, 'stamina' INTEGER NOT NULL, 'stamina_start' INTEGER NOT NULL, 'team_exp' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'reward_image_1' INTEGER NOT NULL, 'reward_count_1' INTEGER NOT NULL, 'reward_image_2' INTEGER NOT NULL, 'reward_count_2' INTEGER NOT NULL, 'reward_image_3' INTEGER NOT NULL, 'reward_count_3' INTEGER NOT NULL, 'reward_image_4' INTEGER NOT NULL, 'reward_count_4' INTEGER NOT NULL, 'reward_image_5' INTEGER NOT NULL, 'reward_count_5' INTEGER NOT NULL, 'additional_reward_type' INTEGER NOT NULL, 'additional_reward_id' INTEGER NOT NULL, 'fix_reward_group_id' INTEGER NOT NULL, 'chest_id' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'bg_position' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'enemy_position_x_1' INTEGER NOT NULL, 'enemy_local_position_y_1' INTEGER NOT NULL, 'enemy_size_1' REAL NOT NULL, 'enemy_position_x_2' INTEGER NOT NULL, 'enemy_local_position_y_2' INTEGER NOT NULL, 'enemy_size_2' REAL NOT NULL, 'enemy_position_x_3' INTEGER NOT NULL, 'enemy_local_position_y_3' INTEGER NOT NULL, 'enemy_size_3' REAL NOT NULL, 'enemy_position_x_4' INTEGER NOT NULL, 'enemy_local_position_y_4' INTEGER NOT NULL, 'enemy_size_4' REAL NOT NULL, 'enemy_position_x_5' INTEGER NOT NULL, 'enemy_local_position_y_5' INTEGER NOT NULL, 'enemy_size_5' REAL NOT NULL, 'wave_bgm' TEXT NOT NULL, 'clp_flag' INTEGER NOT NULL, 'skip_level' INTEGER NOT NULL, PRIMARY KEY('tower_ex_quest_id'));
+-- Column Names:
+-- tower_ex_quest_id INTEGER
+-- tower_area_id INTEGER
+-- floor_num INTEGER
+-- stamina INTEGER
+-- stamina_start INTEGER
+-- team_exp INTEGER
+-- limit_time INTEGER
+-- reward_image_1 INTEGER
+-- reward_count_1 INTEGER
+-- reward_image_2 INTEGER
+-- reward_count_2 INTEGER
+-- reward_image_3 INTEGER
+-- reward_count_3 INTEGER
+-- reward_image_4 INTEGER
+-- reward_count_4 INTEGER
+-- reward_image_5 INTEGER
+-- reward_count_5 INTEGER
+-- additional_reward_type INTEGER
+-- additional_reward_id INTEGER
+-- fix_reward_group_id INTEGER
+-- chest_id INTEGER
+-- background INTEGER
+-- bg_position INTEGER
+-- wave_group_id INTEGER
+-- enemy_position_x_1 INTEGER
+-- enemy_local_position_y_1 INTEGER
+-- enemy_size_1 REAL
+-- enemy_position_x_2 INTEGER
+-- enemy_local_position_y_2 INTEGER
+-- enemy_size_2 REAL
+-- enemy_position_x_3 INTEGER
+-- enemy_local_position_y_3 INTEGER
+-- enemy_size_3 REAL
+-- enemy_position_x_4 INTEGER
+-- enemy_local_position_y_4 INTEGER
+-- enemy_size_4 REAL
+-- enemy_position_x_5 INTEGER
+-- enemy_local_position_y_5 INTEGER
+-- enemy_size_5 REAL
+-- wave_bgm TEXT
+-- clp_flag INTEGER
+-- skip_level INTEGER
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72010070,/*tower_area_id*/1,/*floor_num*/70,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/100000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200101,/*chest_id*/40001,/*background*/101182,/*bg_position*/0,/*wave_group_id*/720100701,/*enemy_position_x_1*/-335,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-168,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/-20,/*enemy_size_3*/1.0,/*enemy_position_x_4*/166,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/333,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.7,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72020110,/*tower_area_id*/2,/*floor_num*/110,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/100000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200102,/*chest_id*/40001,/*background*/101312,/*bg_position*/0,/*wave_group_id*/720201101,/*enemy_position_x_1*/-335,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-168,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/-20,/*enemy_size_3*/0.7,/*enemy_position_x_4*/166,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/333,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.7,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72030130,/*tower_area_id*/3,/*floor_num*/130,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/100000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200103,/*chest_id*/40001,/*background*/101322,/*bg_position*/0,/*wave_group_id*/720301301,/*enemy_position_x_1*/-335,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-168,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/-1,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.8,/*enemy_position_x_4*/166,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/333,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.7,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
@@ -49,5 +92,4 @@ INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72450660,/*tower_
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72460670,/*tower_area_id*/46,/*floor_num*/670,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/1680000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200146,/*chest_id*/40001,/*background*/102142,/*bg_position*/0,/*wave_group_id*/724606701,/*enemy_position_x_1*/-301,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-101,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/99,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.7,/*enemy_position_x_4*/299,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/0,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.0,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72470680,/*tower_area_id*/47,/*floor_num*/680,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/1680000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200147,/*chest_id*/40001,/*background*/102512,/*bg_position*/0,/*wave_group_id*/724706801,/*enemy_position_x_1*/-301,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-101,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/99,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.9,/*enemy_position_x_4*/299,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/0,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.0,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
 INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72480690,/*tower_area_id*/48,/*floor_num*/690,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/1760000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200148,/*chest_id*/40001,/*background*/102512,/*bg_position*/0,/*wave_group_id*/724806901,/*enemy_position_x_1*/-301,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-101,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/99,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.9,/*enemy_position_x_4*/299,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/0,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.0,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
-INSERT INTO `tower_ex_quest_data` VALUES (/*tower_ex_quest_id*/72490700,/*tower_area_id*/49,/*floor_num*/700,/*stamina*/0,/*stamina_start*/0,/*team_exp*/0,/*limit_time*/90,/*reward_image_1*/140000,/*reward_count_1*/1,/*reward_image_2*/91002,/*reward_count_2*/300,/*reward_image_3*/90005,/*reward_count_3*/30,/*reward_image_4*/94002,/*reward_count_4*/1760000,/*reward_image_5*/0,/*reward_count_5*/0,/*additional_reward_type*/0,/*additional_reward_id*/0,/*fix_reward_group_id*/2200149,/*chest_id*/40001,/*background*/101512,/*bg_position*/0,/*wave_group_id*/724907001,/*enemy_position_x_1*/-301,/*enemy_local_position_y_1*/0,/*enemy_size_1*/0.7,/*enemy_position_x_2*/-101,/*enemy_local_position_y_2*/0,/*enemy_size_2*/0.7,/*enemy_position_x_3*/99,/*enemy_local_position_y_3*/0,/*enemy_size_3*/0.9,/*enemy_position_x_4*/299,/*enemy_local_position_y_4*/0,/*enemy_size_4*/0.7,/*enemy_position_x_5*/0,/*enemy_local_position_y_5*/0,/*enemy_size_5*/0.0,/*wave_bgm*/"bgm_M126",/*clp_flag*/1,/*skip_level*/-1);
 COMMIT;

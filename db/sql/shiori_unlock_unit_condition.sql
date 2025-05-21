@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'shiori_unlock_unit_condition' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_mission_id' INTEGER NOT NULL, 'top_description' TEXT NOT NULL, 'description_1' TEXT NOT NULL, 'description_2' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- event_id INTEGER
+-- condition_mission_id INTEGER
+-- top_description TEXT
+-- description_1 TEXT
+-- description_2 TEXT
 INSERT INTO `shiori_unlock_unit_condition` VALUES (/*id*/10,/*unit_id*/107601,/*event_id*/20004,/*condition_mission_id*/72004021,/*top_description*/"去讨伐普通难度首领进行解锁吧！",/*description_1*/"[3C404E]推进关卡，挑战首领！\n讨伐普通首领，\n可解锁限定角色！！[-]",/*description_2*/"[3C404E]去讨伐普通难度首领进行解锁吧！");
 INSERT INTO `shiori_unlock_unit_condition` VALUES (/*id*/12,/*unit_id*/108001,/*event_id*/20005,/*condition_mission_id*/72005021,/*top_description*/"去讨伐普通难度首领进行解锁吧！",/*description_1*/"[3C404E]推进关卡，挑战首领！\n讨伐普通首领，\n可解锁限定角色！！[-]",/*description_2*/"[3C404E]去讨伐普通难度首领进行解锁吧！");
 INSERT INTO `shiori_unlock_unit_condition` VALUES (/*id*/15,/*unit_id*/108201,/*event_id*/20007,/*condition_mission_id*/72007021,/*top_description*/"去讨伐普通难度首领进行解锁吧！",/*description_1*/"[3C404E]推进关卡，挑战首领！\n讨伐普通首领，\n可解锁限定角色！！[-]",/*description_2*/"[3C404E]去讨伐普通难度首领进行解锁吧！");

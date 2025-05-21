@@ -1,6 +1,34 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'prizegacha_data' ('prizegacha_id' INTEGER NOT NULL, 'prize_memory_id_1' INTEGER NOT NULL, 'prize_memory_id_2' INTEGER NOT NULL, 'prize_memory_id_3' INTEGER NOT NULL, 'prize_memory_id_4' INTEGER NOT NULL, 'prize_memory_id_5' INTEGER NOT NULL, 'prize_memory_id_6' INTEGER NOT NULL, 'prize_memory_id_7' INTEGER NOT NULL, 'prize_memory_id_8' INTEGER NOT NULL, 'prize_memory_id_9' INTEGER NOT NULL, 'prize_memory_id_10' INTEGER NOT NULL, 'prize_memory_id_11' INTEGER NOT NULL, 'prize_memory_id_12' INTEGER NOT NULL, 'prize_memory_id_13' INTEGER NOT NULL, 'prize_memory_id_14' INTEGER NOT NULL, 'prize_memory_id_15' INTEGER NOT NULL, 'prize_memory_id_16' INTEGER NOT NULL, 'prize_memory_id_17' INTEGER NOT NULL, 'prize_memory_id_18' INTEGER NOT NULL, 'prize_memory_id_19' INTEGER NOT NULL, 'prize_memory_id_20' INTEGER NOT NULL, 'gacha_prize1' INTEGER NOT NULL, 'gacha_prize10' INTEGER NOT NULL, 'prize_fixed_compensation' INTEGER NOT NULL, 'prize_fixed_compensation_quantity' INTEGER NOT NULL, 'rarity_odds' INTEGER NOT NULL, 'disp_prize_fixed_compensation' INTEGER NOT NULL, PRIMARY KEY('prizegacha_id'));
+-- Column Names:
+-- prizegacha_id INTEGER
+-- prize_memory_id_1 INTEGER
+-- prize_memory_id_2 INTEGER
+-- prize_memory_id_3 INTEGER
+-- prize_memory_id_4 INTEGER
+-- prize_memory_id_5 INTEGER
+-- prize_memory_id_6 INTEGER
+-- prize_memory_id_7 INTEGER
+-- prize_memory_id_8 INTEGER
+-- prize_memory_id_9 INTEGER
+-- prize_memory_id_10 INTEGER
+-- prize_memory_id_11 INTEGER
+-- prize_memory_id_12 INTEGER
+-- prize_memory_id_13 INTEGER
+-- prize_memory_id_14 INTEGER
+-- prize_memory_id_15 INTEGER
+-- prize_memory_id_16 INTEGER
+-- prize_memory_id_17 INTEGER
+-- prize_memory_id_18 INTEGER
+-- prize_memory_id_19 INTEGER
+-- prize_memory_id_20 INTEGER
+-- gacha_prize1 INTEGER
+-- gacha_prize10 INTEGER
+-- prize_fixed_compensation INTEGER
+-- prize_fixed_compensation_quantity INTEGER
+-- rarity_odds INTEGER
+-- disp_prize_fixed_compensation INTEGER
 INSERT INTO `prizegacha_data` VALUES (/*prizegacha_id*/100001,/*prize_memory_id_1*/31075,/*prize_memory_id_2*/31078,/*prize_memory_id_3*/0,/*prize_memory_id_4*/0,/*prize_memory_id_5*/0,/*prize_memory_id_6*/0,/*prize_memory_id_7*/0,/*prize_memory_id_8*/0,/*prize_memory_id_9*/0,/*prize_memory_id_10*/0,/*prize_memory_id_11*/0,/*prize_memory_id_12*/0,/*prize_memory_id_13*/0,/*prize_memory_id_14*/0,/*prize_memory_id_15*/0,/*prize_memory_id_16*/0,/*prize_memory_id_17*/0,/*prize_memory_id_18*/0,/*prize_memory_id_19*/0,/*prize_memory_id_20*/0,/*gacha_prize1*/1,/*gacha_prize10*/10,/*prize_fixed_compensation*/5,/*prize_fixed_compensation_quantity*/1,/*rarity_odds*/100000,/*disp_prize_fixed_compensation*/5);
 INSERT INTO `prizegacha_data` VALUES (/*prizegacha_id*/100002,/*prize_memory_id_1*/31077,/*prize_memory_id_2*/31079,/*prize_memory_id_3*/0,/*prize_memory_id_4*/0,/*prize_memory_id_5*/0,/*prize_memory_id_6*/0,/*prize_memory_id_7*/0,/*prize_memory_id_8*/0,/*prize_memory_id_9*/0,/*prize_memory_id_10*/0,/*prize_memory_id_11*/0,/*prize_memory_id_12*/0,/*prize_memory_id_13*/0,/*prize_memory_id_14*/0,/*prize_memory_id_15*/0,/*prize_memory_id_16*/0,/*prize_memory_id_17*/0,/*prize_memory_id_18*/0,/*prize_memory_id_19*/0,/*prize_memory_id_20*/0,/*gacha_prize1*/1,/*gacha_prize10*/10,/*prize_fixed_compensation*/5,/*prize_fixed_compensation_quantity*/1,/*rarity_odds*/100000,/*disp_prize_fixed_compensation*/5);
 INSERT INTO `prizegacha_data` VALUES (/*prizegacha_id*/100003,/*prize_memory_id_1*/31057,/*prize_memory_id_2*/31063,/*prize_memory_id_3*/0,/*prize_memory_id_4*/0,/*prize_memory_id_5*/0,/*prize_memory_id_6*/0,/*prize_memory_id_7*/0,/*prize_memory_id_8*/0,/*prize_memory_id_9*/0,/*prize_memory_id_10*/0,/*prize_memory_id_11*/0,/*prize_memory_id_12*/0,/*prize_memory_id_13*/0,/*prize_memory_id_14*/0,/*prize_memory_id_15*/0,/*prize_memory_id_16*/0,/*prize_memory_id_17*/0,/*prize_memory_id_18*/0,/*prize_memory_id_19*/0,/*prize_memory_id_20*/0,/*gacha_prize1*/1,/*gacha_prize10*/10,/*prize_fixed_compensation*/5,/*prize_fixed_compensation_quantity*/1,/*rarity_odds*/100000,/*disp_prize_fixed_compensation*/5);

@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'space_top_data' ('id' INTEGER NOT NULL, 'space_id' INTEGER NOT NULL, 'space_battle_id' INTEGER NOT NULL, 'part_flag' INTEGER NOT NULL, 'story_id' INTEGER NOT NULL, 'time_from' TEXT NOT NULL, 'time_to' TEXT NOT NULL, 'skip_battle_time' TEXT NOT NULL, 'name' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- space_id INTEGER
+-- space_battle_id INTEGER
+-- part_flag INTEGER
+-- story_id INTEGER
+-- time_from TEXT
+-- time_to TEXT
+-- skip_battle_time TEXT
+-- name TEXT
 INSERT INTO `space_top_data` VALUES (/*id*/1,/*space_id*/1002,/*space_battle_id*/0,/*part_flag*/1,/*story_id*/4007001,/*time_from*/"2024/04/01",/*time_to*/"2024/04/01 23:59:59",/*skip_battle_time*/"2024/04/02",/*name*/"兰德索尔之战");
 INSERT INTO `space_top_data` VALUES (/*id*/2,/*space_id*/1002,/*space_battle_id*/1002001,/*part_flag*/0,/*story_id*/0,/*time_from*/"2024/04/01",/*time_to*/"2024/04/01 23:59:59",/*skip_battle_time*/"2024/04/02",/*name*/"兰德索尔之战");
 INSERT INTO `space_top_data` VALUES (/*id*/3,/*space_id*/1002,/*space_battle_id*/0,/*part_flag*/2,/*story_id*/4007001,/*time_from*/"2024/04/01",/*time_to*/"2024/04/01 23:59:59",/*skip_battle_time*/"0",/*name*/"兰德索尔之战");

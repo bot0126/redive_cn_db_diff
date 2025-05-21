@@ -1,6 +1,21 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'kmk_navi_comment' ('comment_id' INTEGER NOT NULL, 'where_type' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'face_type' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'description' TEXT , 'voice_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'pos_x' REAL NOT NULL, 'pos_y' REAL NOT NULL, 'change_face_time' REAL NOT NULL, 'change_face_type' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- where_type INTEGER
+-- character_id INTEGER
+-- face_type INTEGER
+-- character_name TEXT
+-- description TEXT
+-- voice_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- pos_x REAL
+-- pos_y REAL
+-- change_face_time REAL
+-- change_face_type INTEGER
+-- event_id INTEGER
 INSERT INTO `kmk_navi_comment` VALUES (/*comment_id*/24015,/*where_type*/24,/*character_id*/110501,/*face_type*/4,/*character_name*/"香织（夏日）",/*description*/"啊呜～真遗憾～\n是被奄美魔物\n夺去灵魂了吗？",/*voice_id*/1,/*start_time*/"2019/07/31 12:00:00",/*end_time*/"2030/12/17 14:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/4,/*event_id*/10021);
 INSERT INTO `kmk_navi_comment` VALUES (/*comment_id*/24016,/*where_type*/24,/*character_id*/110501,/*face_type*/4,/*character_name*/"香织（夏日）",/*description*/"今天的舞跳起来也没什么劲呢～\n吃些类似苦瓜的东西，打起精神来吧！",/*voice_id*/2,/*start_time*/"2019/07/31 12:00:00",/*end_time*/"2030/12/17 14:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/4.0,/*change_face_type*/1,/*event_id*/10021);
 INSERT INTO `kmk_navi_comment` VALUES (/*comment_id*/24017,/*where_type*/24,/*character_id*/110501,/*face_type*/4,/*character_name*/"香织（夏日）",/*description*/"到处都是奄美魔物，眼睛都花了～\n晕乎乎的～",/*voice_id*/3,/*start_time*/"2019/07/31 12:00:00",/*end_time*/"2030/12/17 14:59:59",/*pos_x*/0.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/4,/*event_id*/10021);

@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'experience_team' ('team_level' INTEGER NOT NULL, 'total_exp' INTEGER NOT NULL, 'max_stamina' INTEGER NOT NULL, 'over_limit_stamina' INTEGER NOT NULL, 'recover_stamina_count' INTEGER NOT NULL, PRIMARY KEY('team_level'));
+-- Column Names:
+-- team_level INTEGER
+-- total_exp INTEGER
+-- max_stamina INTEGER
+-- over_limit_stamina INTEGER
+-- recover_stamina_count INTEGER
 INSERT INTO `experience_team` VALUES (/*team_level*/1,/*total_exp*/0,/*max_stamina*/20,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
 INSERT INTO `experience_team` VALUES (/*team_level*/2,/*total_exp*/24,/*max_stamina*/20,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
 INSERT INTO `experience_team` VALUES (/*team_level*/3,/*total_exp*/32,/*max_stamina*/21,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
@@ -264,7 +270,4 @@ INSERT INTO `experience_team` VALUES (/*team_level*/260,/*total_exp*/856909,/*ma
 INSERT INTO `experience_team` VALUES (/*team_level*/261,/*total_exp*/861334,/*max_stamina*/319,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
 INSERT INTO `experience_team` VALUES (/*team_level*/262,/*total_exp*/865759,/*max_stamina*/320,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
 INSERT INTO `experience_team` VALUES (/*team_level*/263,/*total_exp*/870184,/*max_stamina*/321,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
-INSERT INTO `experience_team` VALUES (/*team_level*/264,/*total_exp*/874609,/*max_stamina*/322,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
-INSERT INTO `experience_team` VALUES (/*team_level*/265,/*total_exp*/879034,/*max_stamina*/323,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
-INSERT INTO `experience_team` VALUES (/*team_level*/266,/*total_exp*/883459,/*max_stamina*/324,/*over_limit_stamina*/999,/*recover_stamina_count*/30);
 COMMIT;

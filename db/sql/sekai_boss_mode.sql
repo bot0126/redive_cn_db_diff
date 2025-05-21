@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sekai_boss_mode' ('sekai_boss_mode_id' INTEGER NOT NULL, 'sekai_enemy_id' INTEGER NOT NULL, 'sekai_enemy_level' TEXT NOT NULL, 'quest_detail_bg_id' INTEGER NOT NULL, 'quest_detail_bg_position' INTEGER NOT NULL, 'quest_detail_monster_size' REAL NOT NULL, 'quest_detail_monster_height' INTEGER NOT NULL, 'limit_time' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'result_boss_position_y' INTEGER NOT NULL, 'reward_gold_coefficient' INTEGER NOT NULL, 'limited_mana' INTEGER NOT NULL, 'score_coefficient' INTEGER NOT NULL, PRIMARY KEY('sekai_boss_mode_id'));
+-- Column Names:
+-- sekai_boss_mode_id INTEGER
+-- sekai_enemy_id INTEGER
+-- sekai_enemy_level TEXT
+-- quest_detail_bg_id INTEGER
+-- quest_detail_bg_position INTEGER
+-- quest_detail_monster_size REAL
+-- quest_detail_monster_height INTEGER
+-- limit_time INTEGER
+-- background INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- result_boss_position_y INTEGER
+-- reward_gold_coefficient INTEGER
+-- limited_mana INTEGER
+-- score_coefficient INTEGER
 INSERT INTO `sekai_boss_mode` VALUES (/*sekai_boss_mode_id*/1001001,/*sekai_enemy_id*/800100101,/*sekai_enemy_level*/"？？？",/*quest_detail_bg_id*/100584,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/2.0,/*quest_detail_monster_height*/-75,/*limit_time*/90,/*background*/100584,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*result_boss_position_y*/350,/*reward_gold_coefficient*/0,/*limited_mana*/100000,/*score_coefficient*/1);
 INSERT INTO `sekai_boss_mode` VALUES (/*sekai_boss_mode_id*/1001002,/*sekai_enemy_id*/800100102,/*sekai_enemy_level*/"？？？",/*quest_detail_bg_id*/100584,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/2.0,/*quest_detail_monster_height*/-75,/*limit_time*/90,/*background*/100584,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*result_boss_position_y*/350,/*reward_gold_coefficient*/0,/*limited_mana*/100000,/*score_coefficient*/1);
 INSERT INTO `sekai_boss_mode` VALUES (/*sekai_boss_mode_id*/1001003,/*sekai_enemy_id*/800100103,/*sekai_enemy_level*/"？？？",/*quest_detail_bg_id*/100584,/*quest_detail_bg_position*/-30,/*quest_detail_monster_size*/2.0,/*quest_detail_monster_height*/-75,/*limit_time*/90,/*background*/100584,/*sheet_id*/"bgm_M220",/*que_id*/"bgm_M220",/*result_boss_position_y*/350,/*reward_gold_coefficient*/0,/*limited_mana*/100000,/*score_coefficient*/1);

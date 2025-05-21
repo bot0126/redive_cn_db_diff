@@ -1,6 +1,24 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_dish' ('dish_id' INTEGER NOT NULL, 'recipe_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'new_line_name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'effect_description' TEXT NOT NULL, 'sub_effect_description' TEXT NOT NULL, 'sold_price' INTEGER NOT NULL, 'category' INTEGER NOT NULL, 'effect_type' INTEGER NOT NULL, 'effect_value' INTEGER NOT NULL, 'effect_turn' INTEGER NOT NULL, 'effect_times' INTEGER NOT NULL, 'prefab_id' INTEGER NOT NULL, 'disable_category' INTEGER NOT NULL, 'sub_effect_type' INTEGER NOT NULL, 'sub_effect_value' INTEGER NOT NULL, PRIMARY KEY('dish_id'));
+-- Column Names:
+-- dish_id INTEGER
+-- recipe_id INTEGER
+-- name TEXT
+-- new_line_name TEXT
+-- description TEXT
+-- effect_description TEXT
+-- sub_effect_description TEXT
+-- sold_price INTEGER
+-- category INTEGER
+-- effect_type INTEGER
+-- effect_value INTEGER
+-- effect_turn INTEGER
+-- effect_times INTEGER
+-- prefab_id INTEGER
+-- disable_category INTEGER
+-- sub_effect_type INTEGER
+-- sub_effect_value INTEGER
 INSERT INTO `caravan_dish` VALUES (/*dish_id*/52001,/*recipe_id*/51001,/*name*/"佩可莉姆的饱腹双份饭团",/*new_line_name*/"佩可莉姆的\n饱腹双份饭团",/*description*/"佩可莉姆精心制作的特大饭团。\n这么大似乎是为了体现出吃饭是活力来源。\n将最高级的食材包入让一般人饱腹的两倍分量中，\n是一道很有【美食殿堂】特色的菜。",/*effect_description*/"骰子增加至两个。按照掷出的总数前进。",/*sub_effect_description*/"获得500里程。",/*sold_price*/500,/*category*/1,/*effect_type*/1,/*effect_value*/2,/*effect_turn*/1,/*effect_times*/0,/*prefab_id*/1,/*disable_category*/0,/*sub_effect_type*/10,/*sub_effect_value*/2);
 INSERT INTO `caravan_dish` VALUES (/*dish_id*/52002,/*recipe_id*/51002,/*name*/"可可萝的悠闲小憩沙拉",/*new_line_name*/"可可萝的\n悠闲小憩沙拉",/*description*/"可可萝为大家准备的沙拉。\n既考虑到营养均衡，还能吃饱。\n不仅注重味道，还保证了外观。\n是一道能带给大家对冒险的活力，充满慈爱的菜品。",/*effect_description*/"下一次投掷骰子的结果必定是“1”。同时会跳过对下一个回合的计数。",/*sub_effect_description*/"获得500里程。",/*sold_price*/500,/*category*/1,/*effect_type*/3,/*effect_value*/30001,/*effect_turn*/1,/*effect_times*/0,/*prefab_id*/2,/*disable_category*/0,/*sub_effect_type*/10,/*sub_effect_value*/2);
 INSERT INTO `caravan_dish` VALUES (/*dish_id*/52003,/*recipe_id*/51003,/*name*/"凯露的极品五星汉堡",/*new_line_name*/"凯露的\n极品五星汉堡",/*description*/"夹着凯露想吃的食物的汉堡。\n香喷喷的面包和肉香味刺激着食欲。\n它是由非魔物的食材制成的。\n凯露认为这道菜对于冒险食品来说过于豪华了。",/*effect_description*/"下次投掷骰子的结果必定是“5”。",/*sub_effect_description*/"获得1个平凡的未鉴定宝藏。",/*sold_price*/500,/*category*/1,/*effect_type*/2,/*effect_value*/20004,/*effect_turn*/1,/*effect_times*/0,/*prefab_id*/1,/*disable_category*/0,/*sub_effect_type*/10,/*sub_effect_value*/1);

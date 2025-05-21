@@ -1,6 +1,26 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'secret_dungeon_floor_reward' ('dungeon_area_id' INTEGER NOT NULL, 'clear_count' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, 'clear_effect_flag' INTEGER NOT NULL, 'icon_type' INTEGER NOT NULL, PRIMARY KEY('dungeon_area_id','clear_count'));
+-- Column Names:
+-- dungeon_area_id INTEGER
+-- clear_count INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
+-- clear_effect_flag INTEGER
+-- icon_type INTEGER
 INSERT INTO `secret_dungeon_floor_reward` VALUES (/*dungeon_area_id*/32001,/*clear_count*/5,/*reward_type_1*/2,/*reward_id_1*/90008,/*reward_num_1*/500,/*reward_type_2*/4,/*reward_id_2*/140000,/*reward_num_2*/1,/*reward_type_3*/4,/*reward_id_3*/140001,/*reward_num_3*/2,/*reward_type_4*/2,/*reward_id_4*/90005,/*reward_num_4*/10,/*reward_type_5*/12,/*reward_id_5*/94002,/*reward_num_5*/500000,/*clear_effect_flag*/1,/*icon_type*/1);
 INSERT INTO `secret_dungeon_floor_reward` VALUES (/*dungeon_area_id*/32001,/*clear_count*/10,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/200,/*reward_type_2*/4,/*reward_id_2*/140001,/*reward_num_2*/2,/*reward_type_3*/2,/*reward_id_3*/25001,/*reward_num_3*/1,/*reward_type_4*/12,/*reward_id_4*/94002,/*reward_num_4*/500000,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*clear_effect_flag*/1,/*icon_type*/1);
 INSERT INTO `secret_dungeon_floor_reward` VALUES (/*dungeon_area_id*/32001,/*clear_count*/15,/*reward_type_1*/2,/*reward_id_1*/90008,/*reward_num_1*/500,/*reward_type_2*/4,/*reward_id_2*/140000,/*reward_num_2*/1,/*reward_type_3*/4,/*reward_id_3*/140001,/*reward_num_3*/2,/*reward_type_4*/2,/*reward_id_4*/90005,/*reward_num_4*/5,/*reward_type_5*/12,/*reward_id_5*/94002,/*reward_num_5*/750000,/*clear_effect_flag*/1,/*icon_type*/2);

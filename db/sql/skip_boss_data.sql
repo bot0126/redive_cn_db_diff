@@ -1,6 +1,14 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'skip_boss_data' ('boss_id' INTEGER NOT NULL, 'skip_motion_id' INTEGER NOT NULL, 'skip_bg_id' INTEGER NOT NULL, 'skip_position_x' INTEGER NOT NULL, 'skip_position_y' INTEGER NOT NULL, 'skip_scale_x' REAL NOT NULL, 'skip_scale_y' REAL NOT NULL, PRIMARY KEY('boss_id'));
+-- Column Names:
+-- boss_id INTEGER
+-- skip_motion_id INTEGER
+-- skip_bg_id INTEGER
+-- skip_position_x INTEGER
+-- skip_position_y INTEGER
+-- skip_scale_x REAL
+-- skip_scale_y REAL
 INSERT INTO `skip_boss_data` VALUES (/*boss_id*/1001101,/*skip_motion_id*/306700,/*skip_bg_id*/81001105,/*skip_position_x*/0,/*skip_position_y*/0,/*skip_scale_x*/1.0,/*skip_scale_y*/1.0);
 INSERT INTO `skip_boss_data` VALUES (/*boss_id*/1001102,/*skip_motion_id*/306700,/*skip_bg_id*/81001106,/*skip_position_x*/0,/*skip_position_y*/0,/*skip_scale_x*/1.0,/*skip_scale_y*/1.0);
 INSERT INTO `skip_boss_data` VALUES (/*boss_id*/1001201,/*skip_motion_id*/306800,/*skip_bg_id*/81001205,/*skip_position_x*/0,/*skip_position_y*/0,/*skip_scale_x*/1.0,/*skip_scale_y*/1.0);

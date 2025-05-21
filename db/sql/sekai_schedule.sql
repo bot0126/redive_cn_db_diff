@@ -1,6 +1,17 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sekai_schedule' ('sekai_id' INTEGER NOT NULL, 'last_sekai_id' INTEGER NOT NULL, 'fix_reward_group_id' INTEGER NOT NULL, 'damage_rank_id' INTEGER NOT NULL, 'teaser_time' TEXT NOT NULL, 'start_time' TEXT NOT NULL, 'count_start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'end_losstime' TEXT NOT NULL, 'result_end' TEXT NOT NULL, PRIMARY KEY('sekai_id'));
+-- Column Names:
+-- sekai_id INTEGER
+-- last_sekai_id INTEGER
+-- fix_reward_group_id INTEGER
+-- damage_rank_id INTEGER
+-- teaser_time TEXT
+-- start_time TEXT
+-- count_start_time TEXT
+-- end_time TEXT
+-- end_losstime TEXT
+-- result_end TEXT
 INSERT INTO `sekai_schedule` VALUES (/*sekai_id*/1001,/*last_sekai_id*/0,/*fix_reward_group_id*/1001100,/*damage_rank_id*/1001200,/*teaser_time*/"2021/04/01",/*start_time*/"2021/04/01",/*count_start_time*/"2021/04/01 22:00:00",/*end_time*/"2021/04/01 23:59:59",/*end_losstime*/"2021/04/02 5:00:00",/*result_end*/"2021/04/08 23:59:59");
 INSERT INTO `sekai_schedule` VALUES (/*sekai_id*/1002,/*last_sekai_id*/1001,/*fix_reward_group_id*/1002100,/*damage_rank_id*/1002200,/*teaser_time*/"2024/04/01",/*start_time*/"2024/04/01",/*count_start_time*/"2024/04/01",/*end_time*/"2024/04/01 23:59:59",/*end_losstime*/"2024/04/02 5:00:00",/*result_end*/"2024/04/08 23:59:59");
 COMMIT;

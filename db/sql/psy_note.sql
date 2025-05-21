@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'psy_note' ('psy_product_id' INTEGER NOT NULL, 'condition_flavor_1' INTEGER NOT NULL, 'condition_flavor_2' INTEGER NOT NULL, 'psy_product_name' TEXT NOT NULL, 'flavor_1' TEXT NOT NULL, 'flavor_2' TEXT NOT NULL, 'flavor_3' TEXT NOT NULL, 'disp_order' INTEGER NOT NULL, 'init_flg' INTEGER NOT NULL, PRIMARY KEY('psy_product_id'));
+-- Column Names:
+-- psy_product_id INTEGER
+-- condition_flavor_1 INTEGER
+-- condition_flavor_2 INTEGER
+-- psy_product_name TEXT
+-- flavor_1 TEXT
+-- flavor_2 TEXT
+-- flavor_3 TEXT
+-- disp_order INTEGER
+-- init_flg INTEGER
 INSERT INTO `psy_note` VALUES (/*psy_product_id*/100,/*condition_flavor_1*/3,/*condition_flavor_2*/5,/*psy_product_name*/"佩可莉姆的布丁",/*flavor_1*/"是公主般的布丁，\n把店里能吃的东西\n都尽可能地加进去了，\n好期待会是什么味道。",/*flavor_2*/"因为实在是太好吃了，\n吃一口就停不下来，是最棒的\n布丁。已经没有人能阻止\n现在的宫子了。",/*flavor_3*/"超棒的对吧☆",/*disp_order*/1,/*init_flg*/1);
 INSERT INTO `psy_note` VALUES (/*psy_product_id*/101,/*condition_flavor_1*/3,/*condition_flavor_2*/5,/*psy_product_name*/"可可萝的布丁",/*flavor_1*/"总是陪伴在你身边的\n那个人的布丁。就连宫子的\n任性要求都会\n温柔接纳。",/*flavor_2*/"吃起来会有种\n很温柔的感觉……\n是从早到晚都会和你在\n一起的味道……",/*flavor_3*/"是主人！",/*disp_order*/2,/*init_flg*/1);
 INSERT INTO `psy_note` VALUES (/*psy_product_id*/102,/*condition_flavor_1*/3,/*condition_flavor_2*/5,/*psy_product_name*/"凯露的布丁",/*flavor_1*/"是那个傲娇女孩的\n布丁。我试着把砂糖和香\n料混在了一起。到底会\n是什么味道，好期待。",/*flavor_2*/"可以一口气尝到\n很多种口味哦。把傲娇做\n成布丁会很好吃呢。宫子\n也要试试做傲娇。",/*flavor_3*/"小心我宰了你哦！这样！\n娇的部分在哪里？",/*disp_order*/3,/*init_flg*/0);

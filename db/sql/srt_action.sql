@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'srt_action' ('action_name' TEXT NOT NULL, 'inori_action' TEXT NOT NULL, 'dragon_action' TEXT NOT NULL, 'kaya_action' TEXT NOT NULL, 'homare_action' TEXT NOT NULL, 'talk_text_type' INTEGER NOT NULL, 'talk_text' TEXT NOT NULL, 'voice_list' TEXT NOT NULL, PRIMARY KEY('action_name'));
+-- Column Names:
+-- action_name TEXT
+-- inori_action TEXT
+-- dragon_action TEXT
+-- kaya_action TEXT
+-- homare_action TEXT
+-- talk_text_type INTEGER
+-- talk_text TEXT
+-- voice_list TEXT
 INSERT INTO `srt_action` VALUES (/*action_name*/"GAME_START",/*inori_action*/"srt_inori_idle",/*dragon_action*/"srt_dragon_in,srt_dragon_idle",/*kaya_action*/"srt_kaya_idle",/*homare_action*/"",/*talk_text_type*/0,/*talk_text*/"",/*voice_list*/"start_000-start_001,start_002/start_003-boss_emote_064-start_004");
 INSERT INTO `srt_action` VALUES (/*action_name*/"ENEMY_FIRST",/*inori_action*/"srt_inori_idle",/*dragon_action*/"srt_dragon_idle",/*kaya_action*/"srt_kaya_idle",/*homare_action*/"",/*talk_text_type*/2,/*talk_text*/"先从我开始吧！",/*voice_list*/"");
 INSERT INTO `srt_action` VALUES (/*action_name*/"ENEMY_TURN1",/*inori_action*/"srt_inori_idle",/*dragon_action*/"srt_dragon_idle",/*kaya_action*/"srt_kaya_waiting",/*homare_action*/"",/*talk_text_type*/2,/*talk_text*/"“{0}”吗\n以“{1}”开头的是……",/*voice_list*/"");

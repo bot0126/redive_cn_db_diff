@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'seasonpass_mission_reward_data' ('id' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER , 'reward_num' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- mission_reward_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_num INTEGER
 INSERT INTO `seasonpass_mission_reward_data` VALUES (/*id*/1,/*mission_reward_id*/10020001,/*reward_type*/1001,/*reward_id*/98002,/*reward_num*/40);
 INSERT INTO `seasonpass_mission_reward_data` VALUES (/*id*/2,/*mission_reward_id*/10020002,/*reward_type*/1001,/*reward_id*/98002,/*reward_num*/200);
 INSERT INTO `seasonpass_mission_reward_data` VALUES (/*id*/3,/*mission_reward_id*/10020003,/*reward_type*/1001,/*reward_id*/98002,/*reward_num*/300);

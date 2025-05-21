@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'spskill_label_data' ('unit_id' INTEGER NOT NULL, 'normal_label_text' TEXT NOT NULL, 'sp_label_text' TEXT NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- normal_label_text TEXT
+-- sp_label_text TEXT
 INSERT INTO `spskill_label_data` VALUES (/*unit_id*/106101,/*normal_label_text*/"平时",/*sp_label_text*/"装备中");
 INSERT INTO `spskill_label_data` VALUES (/*unit_id*/106701,/*normal_label_text*/"通常时",/*sp_label_text*/"特殊技能");
 INSERT INTO `spskill_label_data` VALUES (/*unit_id*/106801,/*normal_label_text*/"平时",/*sp_label_text*/"权能解锁中");

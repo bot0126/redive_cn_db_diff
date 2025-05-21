@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'unit_ex_equipment_slot' ('unit_id' INTEGER NOT NULL, 'slot_category_1' INTEGER NOT NULL, 'slot_category_2' INTEGER NOT NULL, 'slot_category_3' INTEGER NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- slot_category_1 INTEGER
+-- slot_category_2 INTEGER
+-- slot_category_3 INTEGER
 INSERT INTO `unit_ex_equipment_slot` VALUES (/*unit_id*/100101,/*slot_category_1*/107,/*slot_category_2*/201,/*slot_category_3*/301);
 INSERT INTO `unit_ex_equipment_slot` VALUES (/*unit_id*/100201,/*slot_category_1*/110,/*slot_category_2*/203,/*slot_category_3*/305);
 INSERT INTO `unit_ex_equipment_slot` VALUES (/*unit_id*/100301,/*slot_category_1*/101,/*slot_category_2*/202,/*slot_category_3*/301);

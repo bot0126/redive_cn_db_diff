@@ -1,6 +1,35 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'uek_boss' ('area' INTEGER NOT NULL, 'quest_name' TEXT NOT NULL, 'limit_time' INTEGER NOT NULL, 'reward_type_1' INTEGER NOT NULL, 'reward_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_type_2' INTEGER NOT NULL, 'reward_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, 'reward_type_3' INTEGER NOT NULL, 'reward_id_3' INTEGER NOT NULL, 'reward_num_3' INTEGER NOT NULL, 'reward_type_4' INTEGER NOT NULL, 'reward_id_4' INTEGER NOT NULL, 'reward_num_4' INTEGER NOT NULL, 'reward_type_5' INTEGER NOT NULL, 'reward_id_5' INTEGER NOT NULL, 'reward_num_5' INTEGER NOT NULL, 'background' INTEGER NOT NULL, 'enemy_id' INTEGER NOT NULL, 'bgm_sheet_id' TEXT NOT NULL, 'bgm_que_id' TEXT NOT NULL, 'detail_bg_id' INTEGER NOT NULL, 'detail_bg_position' INTEGER NOT NULL, 'detail_boss_bg_size' REAL NOT NULL, 'detail_boss_bg_height' INTEGER NOT NULL, 'result_boss_position_y' INTEGER NOT NULL, 'result_movie' INTEGER NOT NULL, PRIMARY KEY('area'));
+-- Column Names:
+-- area INTEGER
+-- quest_name TEXT
+-- limit_time INTEGER
+-- reward_type_1 INTEGER
+-- reward_id_1 INTEGER
+-- reward_num_1 INTEGER
+-- reward_type_2 INTEGER
+-- reward_id_2 INTEGER
+-- reward_num_2 INTEGER
+-- reward_type_3 INTEGER
+-- reward_id_3 INTEGER
+-- reward_num_3 INTEGER
+-- reward_type_4 INTEGER
+-- reward_id_4 INTEGER
+-- reward_num_4 INTEGER
+-- reward_type_5 INTEGER
+-- reward_id_5 INTEGER
+-- reward_num_5 INTEGER
+-- background INTEGER
+-- enemy_id INTEGER
+-- bgm_sheet_id TEXT
+-- bgm_que_id TEXT
+-- detail_bg_id INTEGER
+-- detail_bg_position INTEGER
+-- detail_boss_bg_size REAL
+-- detail_boss_bg_height INTEGER
+-- result_boss_position_y INTEGER
+-- result_movie INTEGER
 INSERT INTO `uek_boss` VALUES (/*area*/1,/*quest_name*/"双足飞龙",/*limit_time*/90,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/50,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/100000,/*reward_type_3*/2,/*reward_id_3*/22002,/*reward_num_3*/5,/*reward_type_4*/2,/*reward_id_4*/20002,/*reward_num_4*/20,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*background*/102451,/*enemy_id*/610036501,/*bgm_sheet_id*/"bgm_M17",/*bgm_que_id*/"bgm_M17_02",/*detail_bg_id*/102451,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.25,/*detail_boss_bg_height*/-50,/*result_boss_position_y*/0,/*result_movie*/503650101);
 INSERT INTO `uek_boss` VALUES (/*area*/2,/*quest_name*/"雷雷",/*limit_time*/90,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/75,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/150000,/*reward_type_3*/2,/*reward_id_3*/22002,/*reward_num_3*/10,/*reward_type_4*/2,/*reward_id_4*/20003,/*reward_num_4*/20,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*background*/102452,/*enemy_id*/610036502,/*bgm_sheet_id*/"bgm_M17",/*bgm_que_id*/"bgm_M17_02",/*detail_bg_id*/102452,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.25,/*detail_boss_bg_height*/-50,/*result_boss_position_y*/0,/*result_movie*/503650201);
 INSERT INTO `uek_boss` VALUES (/*area*/3,/*quest_name*/"基兹",/*limit_time*/90,/*reward_type_1*/8,/*reward_id_1*/91002,/*reward_num_1*/100,/*reward_type_2*/12,/*reward_id_2*/94002,/*reward_num_2*/200000,/*reward_type_3*/2,/*reward_id_3*/22003,/*reward_num_3*/10,/*reward_type_4*/2,/*reward_id_4*/20004,/*reward_num_4*/20,/*reward_type_5*/0,/*reward_id_5*/0,/*reward_num_5*/0,/*background*/102453,/*enemy_id*/610036503,/*bgm_sheet_id*/"bgm_M17",/*bgm_que_id*/"bgm_M17_02",/*detail_bg_id*/102453,/*detail_bg_position*/0,/*detail_boss_bg_size*/1.25,/*detail_boss_bg_height*/-50,/*result_boss_position_y*/0,/*result_movie*/503650301);

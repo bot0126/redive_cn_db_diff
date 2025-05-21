@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'caravan_map' ('block_id' INTEGER NOT NULL, 'season_id' INTEGER NOT NULL, 'next_1' INTEGER NOT NULL, 'next_2' INTEGER NOT NULL, 'next_3' INTEGER NOT NULL, 'next_4' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'reference_id' INTEGER NOT NULL, PRIMARY KEY('block_id'));
+-- Column Names:
+-- block_id INTEGER
+-- season_id INTEGER
+-- next_1 INTEGER
+-- next_2 INTEGER
+-- next_3 INTEGER
+-- next_4 INTEGER
+-- type INTEGER
+-- reference_id INTEGER
 INSERT INTO `caravan_map` VALUES (/*block_id*/10010001,/*season_id*/1,/*next_1*/10010484,/*next_2*/0,/*next_3*/0,/*next_4*/0,/*type*/1,/*reference_id*/0);
 INSERT INTO `caravan_map` VALUES (/*block_id*/10010099,/*season_id*/1,/*next_1*/10010100,/*next_2*/0,/*next_3*/0,/*next_4*/0,/*type*/2,/*reference_id*/1);
 INSERT INTO `caravan_map` VALUES (/*block_id*/10010100,/*season_id*/1,/*next_1*/10010101,/*next_2*/0,/*next_3*/0,/*next_4*/0,/*type*/11,/*reference_id*/10001);

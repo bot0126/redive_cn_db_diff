@@ -1,6 +1,12 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'cgg_gacha_lineup' ('id' INTEGER NOT NULL, 'gacha_type' INTEGER NOT NULL, 'lineup_id' INTEGER NOT NULL, 'goods_id' INTEGER NOT NULL, 'goods_num' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- gacha_type INTEGER
+-- lineup_id INTEGER
+-- goods_id INTEGER
+-- goods_num INTEGER
 INSERT INTO `cgg_gacha_lineup` VALUES (/*id*/1,/*gacha_type*/2,/*lineup_id*/1,/*goods_id*/10201,/*goods_num*/3);
 INSERT INTO `cgg_gacha_lineup` VALUES (/*id*/2,/*gacha_type*/2,/*lineup_id*/2,/*goods_id*/10202,/*goods_num*/3);
 INSERT INTO `cgg_gacha_lineup` VALUES (/*id*/3,/*gacha_type*/2,/*lineup_id*/3,/*goods_id*/10203,/*goods_num*/3);

@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'redeem_unit' ('id' INTEGER NOT NULL, 'unit_id' INTEGER NOT NULL, 'slot_id' INTEGER NOT NULL, 'condition_category' INTEGER NOT NULL, 'condition_id' INTEGER NOT NULL, 'consume_num' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- unit_id INTEGER
+-- slot_id INTEGER
+-- condition_category INTEGER
+-- condition_id INTEGER
+-- consume_num TEXT
 INSERT INTO `redeem_unit` VALUES (/*id*/1185011,/*unit_id*/118501,/*slot_id*/1,/*condition_category*/5,/*condition_id*/-1,/*consume_num*/"3000");
 INSERT INTO `redeem_unit` VALUES (/*id*/1185012,/*unit_id*/118501,/*slot_id*/2,/*condition_category*/3,/*condition_id*/94000,/*consume_num*/"500000000");
 INSERT INTO `redeem_unit` VALUES (/*id*/21069011,/*unit_id*/106901,/*slot_id*/1,/*condition_category*/5,/*condition_id*/-1,/*consume_num*/"3000");

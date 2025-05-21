@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'ske_story_data' ('sub_story_id' INTEGER NOT NULL, 'original_event_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'unlock_condition_quest_id' INTEGER NOT NULL, 'unlock_condition_boss_id' INTEGER NOT NULL, 'read_condition_event_story_id' INTEGER NOT NULL, PRIMARY KEY('sub_story_id'));
+-- Column Names:
+-- sub_story_id INTEGER
+-- original_event_id INTEGER
+-- title TEXT
+-- unlock_condition_quest_id INTEGER
+-- unlock_condition_boss_id INTEGER
+-- read_condition_event_story_id INTEGER
 INSERT INTO `ske_story_data` VALUES (/*sub_story_id*/1005801,/*original_event_id*/10058,/*title*/"情谊日记1",/*unlock_condition_quest_id*/20033108,/*unlock_condition_boss_id*/0,/*read_condition_event_story_id*/5058003);
 INSERT INTO `ske_story_data` VALUES (/*sub_story_id*/1005802,/*original_event_id*/10058,/*title*/"情谊日记2",/*unlock_condition_quest_id*/20033110,/*unlock_condition_boss_id*/0,/*read_condition_event_story_id*/5058003);
 INSERT INTO `ske_story_data` VALUES (/*sub_story_id*/1005803,/*original_event_id*/10058,/*title*/"情谊日记3",/*unlock_condition_quest_id*/20033112,/*unlock_condition_boss_id*/0,/*read_condition_event_story_id*/5058003);

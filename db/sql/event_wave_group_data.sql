@@ -1,6 +1,48 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'event_wave_group_data' ('id' INTEGER NOT NULL, 'wave_group_id' INTEGER NOT NULL, 'difficulty' INTEGER NOT NULL, 'wave' INTEGER NOT NULL, 'match_lv_min' INTEGER NOT NULL, 'match_lv_max' INTEGER NOT NULL, 'enemy_id_1' INTEGER NOT NULL, 'enemy_id_2' INTEGER NOT NULL, 'enemy_id_3' INTEGER NOT NULL, 'enemy_id_4' INTEGER NOT NULL, 'enemy_id_5' INTEGER NOT NULL, 'drop_gold_1' INTEGER NOT NULL, 'reward_group_id_1' INTEGER NOT NULL, 'disp_reward_type_1' INTEGER NOT NULL, 'disp_reward_id_1' INTEGER NOT NULL, 'reward_lot_count_1' INTEGER NOT NULL, 'reward_odds_1' INTEGER NOT NULL, 'drop_gold_2' INTEGER NOT NULL, 'reward_group_id_2' INTEGER NOT NULL, 'disp_reward_type_2' INTEGER NOT NULL, 'disp_reward_id_2' INTEGER NOT NULL, 'reward_lot_count_2' INTEGER NOT NULL, 'reward_odds_2' INTEGER NOT NULL, 'drop_gold_3' INTEGER NOT NULL, 'reward_group_id_3' INTEGER NOT NULL, 'disp_reward_type_3' INTEGER NOT NULL, 'disp_reward_id_3' INTEGER NOT NULL, 'reward_lot_count_3' INTEGER NOT NULL, 'reward_odds_3' INTEGER NOT NULL, 'drop_gold_4' INTEGER NOT NULL, 'reward_group_id_4' INTEGER NOT NULL, 'disp_reward_type_4' INTEGER NOT NULL, 'disp_reward_id_4' INTEGER NOT NULL, 'reward_lot_count_4' INTEGER NOT NULL, 'reward_odds_4' INTEGER NOT NULL, 'drop_gold_5' INTEGER NOT NULL, 'reward_group_id_5' INTEGER NOT NULL, 'disp_reward_type_5' INTEGER NOT NULL, 'disp_reward_id_5' INTEGER NOT NULL, 'reward_lot_count_5' INTEGER NOT NULL, 'reward_odds_5' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- wave_group_id INTEGER
+-- difficulty INTEGER
+-- wave INTEGER
+-- match_lv_min INTEGER
+-- match_lv_max INTEGER
+-- enemy_id_1 INTEGER
+-- enemy_id_2 INTEGER
+-- enemy_id_3 INTEGER
+-- enemy_id_4 INTEGER
+-- enemy_id_5 INTEGER
+-- drop_gold_1 INTEGER
+-- reward_group_id_1 INTEGER
+-- disp_reward_type_1 INTEGER
+-- disp_reward_id_1 INTEGER
+-- reward_lot_count_1 INTEGER
+-- reward_odds_1 INTEGER
+-- drop_gold_2 INTEGER
+-- reward_group_id_2 INTEGER
+-- disp_reward_type_2 INTEGER
+-- disp_reward_id_2 INTEGER
+-- reward_lot_count_2 INTEGER
+-- reward_odds_2 INTEGER
+-- drop_gold_3 INTEGER
+-- reward_group_id_3 INTEGER
+-- disp_reward_type_3 INTEGER
+-- disp_reward_id_3 INTEGER
+-- reward_lot_count_3 INTEGER
+-- reward_odds_3 INTEGER
+-- drop_gold_4 INTEGER
+-- reward_group_id_4 INTEGER
+-- disp_reward_type_4 INTEGER
+-- disp_reward_id_4 INTEGER
+-- reward_lot_count_4 INTEGER
+-- reward_odds_4 INTEGER
+-- drop_gold_5 INTEGER
+-- reward_group_id_5 INTEGER
+-- disp_reward_type_5 INTEGER
+-- disp_reward_id_5 INTEGER
+-- reward_lot_count_5 INTEGER
+-- reward_odds_5 INTEGER
 INSERT INTO `event_wave_group_data` VALUES (/*id*/600000001,/*wave_group_id*/600110011,/*difficulty*/1,/*wave*/1,/*match_lv_min*/1001,/*match_lv_max*/1001,/*enemy_id_1*/620060001,/*enemy_id_2*/620090001,/*enemy_id_3*/620130001,/*enemy_id_4*/0,/*enemy_id_5*/0,/*drop_gold_1*/258,/*reward_group_id_1*/61001005,/*disp_reward_type_1*/0,/*disp_reward_id_1*/0,/*reward_lot_count_1*/1,/*reward_odds_1*/30,/*drop_gold_2*/0,/*reward_group_id_2*/61001004,/*disp_reward_type_2*/0,/*disp_reward_id_2*/0,/*reward_lot_count_2*/1,/*reward_odds_2*/18,/*drop_gold_3*/0,/*reward_group_id_3*/61001007,/*disp_reward_type_3*/0,/*disp_reward_id_3*/0,/*reward_lot_count_3*/1,/*reward_odds_3*/36,/*drop_gold_4*/0,/*reward_group_id_4*/0,/*disp_reward_type_4*/0,/*disp_reward_id_4*/0,/*reward_lot_count_4*/0,/*reward_odds_4*/0,/*drop_gold_5*/0,/*reward_group_id_5*/0,/*disp_reward_type_5*/0,/*disp_reward_id_5*/0,/*reward_lot_count_5*/0,/*reward_odds_5*/0);
 INSERT INTO `event_wave_group_data` VALUES (/*id*/600000002,/*wave_group_id*/600110021,/*difficulty*/1,/*wave*/1,/*match_lv_min*/2001,/*match_lv_max*/2001,/*enemy_id_1*/620060001,/*enemy_id_2*/620090001,/*enemy_id_3*/620130001,/*enemy_id_4*/0,/*enemy_id_5*/0,/*drop_gold_1*/258,/*reward_group_id_1*/61001005,/*disp_reward_type_1*/0,/*disp_reward_id_1*/0,/*reward_lot_count_1*/1,/*reward_odds_1*/30,/*drop_gold_2*/0,/*reward_group_id_2*/61001004,/*disp_reward_type_2*/0,/*disp_reward_id_2*/0,/*reward_lot_count_2*/1,/*reward_odds_2*/18,/*drop_gold_3*/0,/*reward_group_id_3*/61001007,/*disp_reward_type_3*/0,/*disp_reward_id_3*/0,/*reward_lot_count_3*/1,/*reward_odds_3*/36,/*drop_gold_4*/0,/*reward_group_id_4*/0,/*disp_reward_type_4*/0,/*disp_reward_id_4*/0,/*reward_lot_count_4*/0,/*reward_odds_4*/0,/*drop_gold_5*/0,/*reward_group_id_5*/0,/*disp_reward_type_5*/0,/*disp_reward_id_5*/0,/*reward_lot_count_5*/0,/*reward_odds_5*/0);
 INSERT INTO `event_wave_group_data` VALUES (/*id*/600000003,/*wave_group_id*/600110031,/*difficulty*/1,/*wave*/1,/*match_lv_min*/3001,/*match_lv_max*/3001,/*enemy_id_1*/620060001,/*enemy_id_2*/620090001,/*enemy_id_3*/620130001,/*enemy_id_4*/0,/*enemy_id_5*/0,/*drop_gold_1*/258,/*reward_group_id_1*/61001005,/*disp_reward_type_1*/0,/*disp_reward_id_1*/0,/*reward_lot_count_1*/1,/*reward_odds_1*/30,/*drop_gold_2*/0,/*reward_group_id_2*/61001004,/*disp_reward_type_2*/0,/*disp_reward_id_2*/0,/*reward_lot_count_2*/1,/*reward_odds_2*/18,/*drop_gold_3*/0,/*reward_group_id_3*/61001007,/*disp_reward_type_3*/0,/*disp_reward_id_3*/0,/*reward_lot_count_3*/1,/*reward_odds_3*/36,/*drop_gold_4*/0,/*reward_group_id_4*/0,/*disp_reward_type_4*/0,/*disp_reward_id_4*/0,/*reward_lot_count_4*/0,/*reward_odds_4*/0,/*drop_gold_5*/0,/*reward_group_id_5*/0,/*disp_reward_type_5*/0,/*disp_reward_id_5*/0,/*reward_lot_count_5*/0,/*reward_odds_5*/0);

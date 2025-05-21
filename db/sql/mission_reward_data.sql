@@ -1,6 +1,16 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'mission_reward_data' ('id' INTEGER NOT NULL, 'mission_reward_id' INTEGER NOT NULL, 'reward_type' INTEGER NOT NULL, 'reward_id' INTEGER , 'reward_num' INTEGER NOT NULL, 'lv_from' INTEGER NOT NULL, 'lv_to' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- mission_reward_id INTEGER
+-- reward_type INTEGER
+-- reward_id INTEGER
+-- reward_num INTEGER
+-- lv_from INTEGER
+-- lv_to INTEGER
+-- start_time TEXT
+-- end_time TEXT
 INSERT INTO `mission_reward_data` VALUES (/*id*/1,/*mission_reward_id*/18001001,/*reward_type*/6,/*reward_id*/93001,/*reward_num*/100,/*lv_from*/1,/*lv_to*/-1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `mission_reward_data` VALUES (/*id*/2,/*mission_reward_id*/18001002,/*reward_type*/6,/*reward_id*/93001,/*reward_num*/100,/*lv_from*/1,/*lv_to*/-1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59");
 INSERT INTO `mission_reward_data` VALUES (/*id*/3,/*mission_reward_id*/11001001,/*reward_type*/5,/*reward_id*/0,/*reward_num*/30,/*lv_from*/1,/*lv_to*/-1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2022/11/22 4:59:59");

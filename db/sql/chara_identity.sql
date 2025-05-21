@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'chara_identity' ('unit_id' INTEGER NOT NULL, 'chara_type' INTEGER NOT NULL, 'chara_type_2' INTEGER NOT NULL, 'chara_type_3' INTEGER NOT NULL, PRIMARY KEY('unit_id'));
+-- Column Names:
+-- unit_id INTEGER
+-- chara_type INTEGER
+-- chara_type_2 INTEGER
+-- chara_type_3 INTEGER
 INSERT INTO `chara_identity` VALUES (/*unit_id*/100101,/*chara_type*/1,/*chara_type_2*/0,/*chara_type_3*/0);
 INSERT INTO `chara_identity` VALUES (/*unit_id*/100201,/*chara_type*/2,/*chara_type_2*/0,/*chara_type_3*/0);
 INSERT INTO `chara_identity` VALUES (/*unit_id*/100301,/*chara_type*/3,/*chara_type_2*/0,/*chara_type_3*/0);

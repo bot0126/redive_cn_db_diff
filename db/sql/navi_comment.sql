@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'navi_comment' ('comment_id' INTEGER NOT NULL, 'where_type' INTEGER NOT NULL, 'character_id' INTEGER NOT NULL, 'face_type' INTEGER NOT NULL, 'character_name' TEXT NOT NULL, 'description' TEXT , 'voice_id' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'pos_x' REAL NOT NULL, 'pos_y' REAL NOT NULL, 'change_face_time' REAL NOT NULL, 'change_face_type' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'unlock_story_id' INTEGER NOT NULL, PRIMARY KEY('comment_id'));
+-- Column Names:
+-- comment_id INTEGER
+-- where_type INTEGER
+-- character_id INTEGER
+-- face_type INTEGER
+-- character_name TEXT
+-- description TEXT
+-- voice_id INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- pos_x REAL
+-- pos_y REAL
+-- change_face_time REAL
+-- change_face_type INTEGER
+-- event_id INTEGER
+-- unlock_story_id INTEGER
 INSERT INTO `navi_comment` VALUES (/*comment_id*/7001,/*where_type*/7,/*character_id*/106001,/*face_type*/1,/*character_name*/"凯露",/*description*/"偶尔帮帮忙不也挺好的吗？\n我也会出一份力的",/*voice_id*/1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/-363.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/0,/*unlock_story_id*/0);
 INSERT INTO `navi_comment` VALUES (/*comment_id*/7002,/*where_type*/7,/*character_id*/105901,/*face_type*/1,/*character_name*/"可可萝",/*description*/"似乎能和很多勇士一起战斗呢\n主人的话，一定可以大放异彩吧",/*voice_id*/1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/-363.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/0,/*unlock_story_id*/0);
 INSERT INTO `navi_comment` VALUES (/*comment_id*/7003,/*where_type*/7,/*character_id*/105801,/*face_type*/1,/*character_name*/"佩可莉姆",/*description*/"要和大家一起战斗咯！\n加油☆",/*voice_id*/1,/*start_time*/"2020/01/01 0:00:00",/*end_time*/"2099/12/31 23:59:59",/*pos_x*/-363.0,/*pos_y*/0.0,/*change_face_time*/0.0,/*change_face_type*/1,/*event_id*/0,/*unlock_story_id*/0);

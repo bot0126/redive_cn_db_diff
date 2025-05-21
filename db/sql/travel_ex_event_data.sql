@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_ex_event_data' ('still_id' INTEGER NOT NULL, 'title' TEXT NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('still_id'));
+-- Column Names:
+-- still_id INTEGER
+-- title TEXT
+-- disp_order INTEGER
 INSERT INTO `travel_ex_event_data` VALUES (/*still_id*/8000000,/*title*/"肚子饿了就休息一下吧！",/*disp_order*/1);
 INSERT INTO `travel_ex_event_data` VALUES (/*still_id*/8000001,/*title*/"夜晚的秘密女生谈话会",/*disp_order*/2);
 INSERT INTO `travel_ex_event_data` VALUES (/*still_id*/8000002,/*title*/"小小的一步，大大的冒险！",/*disp_order*/3);

@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'reward_collect_guide' ('object_id' INTEGER NOT NULL, 'quest_id_1' INTEGER NOT NULL, 'quest_id_2' INTEGER NOT NULL, 'quest_id_3' INTEGER NOT NULL, 'quest_id_4' INTEGER NOT NULL, 'quest_id_5' INTEGER NOT NULL, 'quest_id_6' INTEGER NOT NULL, 'quest_id_7' INTEGER NOT NULL, 'quest_id_8' INTEGER NOT NULL, 'quest_id_9' INTEGER NOT NULL, 'quest_id_10' INTEGER NOT NULL, 'system_id_1' INTEGER NOT NULL, 'system_id_2' INTEGER NOT NULL, 'system_id_3' INTEGER NOT NULL, 'system_id_4' INTEGER NOT NULL, 'system_id_5' INTEGER NOT NULL, PRIMARY KEY('object_id'));
+-- Column Names:
+-- object_id INTEGER
+-- quest_id_1 INTEGER
+-- quest_id_2 INTEGER
+-- quest_id_3 INTEGER
+-- quest_id_4 INTEGER
+-- quest_id_5 INTEGER
+-- quest_id_6 INTEGER
+-- quest_id_7 INTEGER
+-- quest_id_8 INTEGER
+-- quest_id_9 INTEGER
+-- quest_id_10 INTEGER
+-- system_id_1 INTEGER
+-- system_id_2 INTEGER
+-- system_id_3 INTEGER
+-- system_id_4 INTEGER
+-- system_id_5 INTEGER
 INSERT INTO `reward_collect_guide` VALUES (/*object_id*/25101,/*quest_id_1*/0,/*quest_id_2*/0,/*quest_id_3*/0,/*quest_id_4*/0,/*quest_id_5*/0,/*quest_id_6*/0,/*quest_id_7*/0,/*quest_id_8*/0,/*quest_id_9*/0,/*quest_id_10*/0,/*system_id_1*/0,/*system_id_2*/0,/*system_id_3*/0,/*system_id_4*/0,/*system_id_5*/0);
 INSERT INTO `reward_collect_guide` VALUES (/*object_id*/25201,/*quest_id_1*/0,/*quest_id_2*/0,/*quest_id_3*/0,/*quest_id_4*/0,/*quest_id_5*/0,/*quest_id_6*/0,/*quest_id_7*/0,/*quest_id_8*/0,/*quest_id_9*/0,/*quest_id_10*/0,/*system_id_1*/0,/*system_id_2*/0,/*system_id_3*/0,/*system_id_4*/0,/*system_id_5*/0);
 INSERT INTO `reward_collect_guide` VALUES (/*object_id*/25202,/*quest_id_1*/0,/*quest_id_2*/0,/*quest_id_3*/0,/*quest_id_4*/0,/*quest_id_5*/0,/*quest_id_6*/0,/*quest_id_7*/0,/*quest_id_8*/0,/*quest_id_9*/0,/*quest_id_10*/0,/*system_id_1*/0,/*system_id_2*/0,/*system_id_3*/0,/*system_id_4*/0,/*system_id_5*/0);

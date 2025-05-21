@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'profile_frame' ('id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'type' INTEGER NOT NULL, 'start_time' TEXT NOT NULL, 'end_time' TEXT NOT NULL, 'disp_order' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- name TEXT
+-- type INTEGER
+-- start_time TEXT
+-- end_time TEXT
+-- disp_order INTEGER
 INSERT INTO `profile_frame` VALUES (/*id*/1,/*name*/"自动",/*type*/1,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/1);
 INSERT INTO `profile_frame` VALUES (/*id*/2,/*name*/"默认",/*type*/2,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/2);
 INSERT INTO `profile_frame` VALUES (/*id*/3,/*name*/"周年庆",/*type*/3,/*start_time*/"2020-01-01 0:00:00",/*end_time*/"",/*disp_order*/3);

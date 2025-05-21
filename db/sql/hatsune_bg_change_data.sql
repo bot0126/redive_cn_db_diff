@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_bg_change_data' ('id' INTEGER NOT NULL, 'area_id' INTEGER NOT NULL, 'condition_type' INTEGER NOT NULL, 'condition_id' INTEGER NOT NULL, 'target_type' INTEGER NOT NULL, 'bg_after_change_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- area_id INTEGER
+-- condition_type INTEGER
+-- condition_id INTEGER
+-- target_type INTEGER
+-- bg_after_change_id INTEGER
 INSERT INTO `hatsune_bg_change_data` VALUES (/*id*/1,/*area_id*/10009101,/*condition_type*/1,/*condition_id*/10009106,/*target_type*/1,/*bg_after_change_id*/0);
 INSERT INTO `hatsune_bg_change_data` VALUES (/*id*/2,/*area_id*/10009101,/*condition_type*/1,/*condition_id*/10009112,/*target_type*/1,/*bg_after_change_id*/0);
 INSERT INTO `hatsune_bg_change_data` VALUES (/*id*/3,/*area_id*/10010101,/*condition_type*/1,/*condition_id*/10010110,/*target_type*/1,/*bg_after_change_id*/0);

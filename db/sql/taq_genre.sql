@@ -1,6 +1,9 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'taq_genre' ('genre_id' INTEGER NOT NULL, 'genre_name' TEXT NOT NULL, PRIMARY KEY('genre_id'));
+-- Column Names:
+-- genre_id INTEGER
+-- genre_name TEXT
 INSERT INTO `taq_genre` VALUES (/*genre_id*/1,/*genre_name*/"战斗、体育");
 INSERT INTO `taq_genre` VALUES (/*genre_id*/2,/*genre_name*/"语言、故事");
 INSERT INTO `taq_genre` VALUES (/*genre_id*/3,/*genre_name*/"文化、杂学");

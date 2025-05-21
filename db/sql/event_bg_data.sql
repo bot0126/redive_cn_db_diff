@@ -1,5 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'event_bg_data' ('event_id' INTEGER NOT NULL, 'bg_id' INTEGER NOT NULL, 'start_date' TEXT NOT NULL, 'end_date' TEXT NOT NULL, PRIMARY KEY('event_id'));
+-- Column Names:
+-- event_id INTEGER
+-- bg_id INTEGER
+-- start_date TEXT
+-- end_date TEXT
 INSERT INTO `event_bg_data` VALUES (/*event_id*/1,/*bg_id*/500361,/*start_date*/"2015-04-01 10:00:00",/*end_date*/"2015-04-01 11:00:00");
 COMMIT;

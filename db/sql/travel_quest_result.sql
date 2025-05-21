@@ -1,6 +1,10 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_quest_result' ('situation_id' INTEGER NOT NULL, 'drama_id' INTEGER NOT NULL, 'except_unit_group_id' INTEGER NOT NULL, PRIMARY KEY('situation_id'));
+-- Column Names:
+-- situation_id INTEGER
+-- drama_id INTEGER
+-- except_unit_group_id INTEGER
 INSERT INTO `travel_quest_result` VALUES (/*situation_id*/101,/*drama_id*/1011,/*except_unit_group_id*/2);
 INSERT INTO `travel_quest_result` VALUES (/*situation_id*/102,/*drama_id*/1021,/*except_unit_group_id*/2);
 INSERT INTO `travel_quest_result` VALUES (/*situation_id*/103,/*drama_id*/1031,/*except_unit_group_id*/1);

@@ -1,6 +1,15 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'hatsune_map' ('course_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'name' TEXT NOT NULL, 'map_id' INTEGER NOT NULL, 'sheet_id' TEXT NOT NULL, 'que_id' TEXT NOT NULL, 'start_area_id' INTEGER NOT NULL, 'end_area_id' INTEGER NOT NULL, PRIMARY KEY('course_id'));
+-- Column Names:
+-- course_id INTEGER
+-- event_id INTEGER
+-- name TEXT
+-- map_id INTEGER
+-- sheet_id TEXT
+-- que_id TEXT
+-- start_area_id INTEGER
+-- end_area_id INTEGER
 INSERT INTO `hatsune_map` VALUES (/*course_id*/10001,/*event_id*/10001,/*name*/"塔尔古姆地区",/*map_id*/10001,/*sheet_id*/"bgm_M32",/*que_id*/"bgm_M32",/*start_area_id*/10001101,/*end_area_id*/10001101);
 INSERT INTO `hatsune_map` VALUES (/*course_id*/10002,/*event_id*/10002,/*name*/"马希纳地区",/*map_id*/10002,/*sheet_id*/"bgm_M98",/*que_id*/"bgm_M98_2",/*start_area_id*/10002101,/*end_area_id*/10002101);
 INSERT INTO `hatsune_map` VALUES (/*course_id*/10003,/*event_id*/10003,/*name*/"兰德索尔郊外",/*map_id*/10003,/*sheet_id*/"bgm_M106",/*que_id*/"bgm_M106",/*start_area_id*/10003101,/*end_area_id*/10003101);

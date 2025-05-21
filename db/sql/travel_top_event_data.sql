@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'travel_top_event_data' ('top_event_id' INTEGER NOT NULL, 'event_group' INTEGER NOT NULL, 'drama_type' INTEGER NOT NULL, 'pattern' INTEGER NOT NULL, 'zoom_offset_x' INTEGER NOT NULL, 'zoom_offset_y' INTEGER NOT NULL, 'pre_drama_id' INTEGER NOT NULL, 'main_drama_id' INTEGER NOT NULL, 'branch_id_1' INTEGER NOT NULL, 'branch_id_2' INTEGER NOT NULL, 'branch_id_3' INTEGER NOT NULL, 'branch_id_4' INTEGER NOT NULL, 'branch_id_5' INTEGER NOT NULL, 'chest_id' INTEGER NOT NULL, 'top_icon_type' INTEGER NOT NULL, PRIMARY KEY('top_event_id','pattern'));
+-- Column Names:
+-- top_event_id INTEGER
+-- event_group INTEGER
+-- drama_type INTEGER
+-- pattern INTEGER
+-- zoom_offset_x INTEGER
+-- zoom_offset_y INTEGER
+-- pre_drama_id INTEGER
+-- main_drama_id INTEGER
+-- branch_id_1 INTEGER
+-- branch_id_2 INTEGER
+-- branch_id_3 INTEGER
+-- branch_id_4 INTEGER
+-- branch_id_5 INTEGER
+-- chest_id INTEGER
+-- top_icon_type INTEGER
 INSERT INTO `travel_top_event_data` VALUES (/*top_event_id*/3001,/*event_group*/1,/*drama_type*/1,/*pattern*/1,/*zoom_offset_x*/40,/*zoom_offset_y*/7,/*pre_drama_id*/30011,/*main_drama_id*/30012,/*branch_id_1*/0,/*branch_id_2*/0,/*branch_id_3*/0,/*branch_id_4*/0,/*branch_id_5*/0,/*chest_id*/40001,/*top_icon_type*/1);
 INSERT INTO `travel_top_event_data` VALUES (/*top_event_id*/3002,/*event_group*/1,/*drama_type*/1,/*pattern*/5,/*zoom_offset_x*/40,/*zoom_offset_y*/7,/*pre_drama_id*/30021,/*main_drama_id*/30022,/*branch_id_1*/0,/*branch_id_2*/0,/*branch_id_3*/0,/*branch_id_4*/0,/*branch_id_5*/0,/*chest_id*/40001,/*top_icon_type*/1);
 INSERT INTO `travel_top_event_data` VALUES (/*top_event_id*/3003,/*event_group*/1,/*drama_type*/1,/*pattern*/6,/*zoom_offset_x*/40,/*zoom_offset_y*/7,/*pre_drama_id*/30031,/*main_drama_id*/30032,/*branch_id_1*/0,/*branch_id_2*/0,/*branch_id_3*/0,/*branch_id_4*/0,/*branch_id_5*/0,/*chest_id*/40001,/*top_icon_type*/1);

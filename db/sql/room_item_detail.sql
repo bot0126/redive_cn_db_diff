@@ -1,6 +1,20 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'room_item_detail' ('room_item_id' INTEGER NOT NULL, 'level' INTEGER NOT NULL, 'item_detail' TEXT NOT NULL, 'lvup_trigger_type' INTEGER NOT NULL, 'lvup_trigger_id' INTEGER NOT NULL, 'lvup_trigger_value' INTEGER NOT NULL, 'lvup_trigger_type_2' INTEGER NOT NULL, 'lvup_trigger_id_2' INTEGER NOT NULL, 'lvup_trigger_value_2' INTEGER NOT NULL, 'lvup_item1_type' INTEGER NOT NULL, 'lvup_item1_id' INTEGER NOT NULL, 'lvup_item1_num' INTEGER NOT NULL, 'lvup_time' INTEGER NOT NULL, PRIMARY KEY('room_item_id','level'));
+-- Column Names:
+-- room_item_id INTEGER
+-- level INTEGER
+-- item_detail TEXT
+-- lvup_trigger_type INTEGER
+-- lvup_trigger_id INTEGER
+-- lvup_trigger_value INTEGER
+-- lvup_trigger_type_2 INTEGER
+-- lvup_trigger_id_2 INTEGER
+-- lvup_trigger_value_2 INTEGER
+-- lvup_item1_type INTEGER
+-- lvup_item1_id INTEGER
+-- lvup_item1_num INTEGER
+-- lvup_time INTEGER
 INSERT INTO `room_item_detail` VALUES (/*room_item_id*/990101,/*level*/1,/*item_detail*/"以22娘为原型制作的地毯。",/*lvup_trigger_type*/0,/*lvup_trigger_id*/0,/*lvup_trigger_value*/0,/*lvup_trigger_type_2*/0,/*lvup_trigger_id_2*/0,/*lvup_trigger_value_2*/0,/*lvup_item1_type*/0,/*lvup_item1_id*/0,/*lvup_item1_num*/0,/*lvup_time*/0);
 INSERT INTO `room_item_detail` VALUES (/*room_item_id*/990102,/*level*/1,/*item_detail*/"以33娘为原型制作的地毯。",/*lvup_trigger_type*/0,/*lvup_trigger_id*/0,/*lvup_trigger_value*/0,/*lvup_trigger_type_2*/0,/*lvup_trigger_id_2*/0,/*lvup_trigger_value_2*/0,/*lvup_item1_type*/0,/*lvup_item1_id*/0,/*lvup_item1_num*/0,/*lvup_time*/0);
 INSERT INTO `room_item_detail` VALUES (/*room_item_id*/990103,/*level*/1,/*item_detail*/"充满可爱气息的蓝色碎花壁纸。",/*lvup_trigger_type*/0,/*lvup_trigger_id*/0,/*lvup_trigger_value*/0,/*lvup_trigger_type_2*/0,/*lvup_trigger_id_2*/0,/*lvup_trigger_value_2*/0,/*lvup_item1_type*/0,/*lvup_item1_id*/0,/*lvup_item1_num*/0,/*lvup_time*/0);

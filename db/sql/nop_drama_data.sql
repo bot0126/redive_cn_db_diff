@@ -1,6 +1,23 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'nop_drama_data' ('id' INTEGER NOT NULL, 'stage_id' INTEGER NOT NULL, 'position_id_1' INTEGER NOT NULL, 'position_id_2' INTEGER NOT NULL, 'position_id_3' INTEGER NOT NULL, 'col_size_x' INTEGER NOT NULL, 'col_size_y' INTEGER NOT NULL, 'col_pos_y' REAL NOT NULL, 'talk_pos_x' REAL NOT NULL, 'talk_pos_y' REAL NOT NULL, 'idle_drama_id' INTEGER NOT NULL, 'talk_drama_id' INTEGER NOT NULL, 'event_drama_id' INTEGER NOT NULL, 'create_back_drama_id' INTEGER NOT NULL, 'create_front_drama_id' INTEGER NOT NULL, 'sub_story_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- stage_id INTEGER
+-- position_id_1 INTEGER
+-- position_id_2 INTEGER
+-- position_id_3 INTEGER
+-- col_size_x INTEGER
+-- col_size_y INTEGER
+-- col_pos_y REAL
+-- talk_pos_x REAL
+-- talk_pos_y REAL
+-- idle_drama_id INTEGER
+-- talk_drama_id INTEGER
+-- event_drama_id INTEGER
+-- create_back_drama_id INTEGER
+-- create_front_drama_id INTEGER
+-- sub_story_id INTEGER
 INSERT INTO `nop_drama_data` VALUES (/*id*/1,/*stage_id*/2,/*position_id_1*/1,/*position_id_2*/2,/*position_id_3*/3,/*col_size_x*/980,/*col_size_y*/215,/*col_pos_y*/-110.0,/*talk_pos_x*/455.0,/*talk_pos_y*/70.0,/*idle_drama_id*/401,/*talk_drama_id*/301,/*event_drama_id*/501,/*create_back_drama_id*/201,/*create_front_drama_id*/101,/*sub_story_id*/1008201);
 INSERT INTO `nop_drama_data` VALUES (/*id*/2,/*stage_id*/2,/*position_id_1*/1,/*position_id_2*/2,/*position_id_3*/3,/*col_size_x*/515,/*col_size_y*/215,/*col_pos_y*/-110.0,/*talk_pos_x*/230.0,/*talk_pos_y*/70.0,/*idle_drama_id*/402,/*talk_drama_id*/302,/*event_drama_id*/502,/*create_back_drama_id*/202,/*create_front_drama_id*/102,/*sub_story_id*/1008202);
 INSERT INTO `nop_drama_data` VALUES (/*id*/3,/*stage_id*/1,/*position_id_1*/1,/*position_id_2*/2,/*position_id_3*/3,/*col_size_x*/515,/*col_size_y*/215,/*col_pos_y*/-110.0,/*talk_pos_x*/230.0,/*talk_pos_y*/70.0,/*idle_drama_id*/403,/*talk_drama_id*/303,/*event_drama_id*/503,/*create_back_drama_id*/203,/*create_front_drama_id*/103,/*sub_story_id*/1008203);

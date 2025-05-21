@@ -1,6 +1,11 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'sjr_rail' ('id' INTEGER NOT NULL, 'rail_id' INTEGER NOT NULL, 'gimmick_id' INTEGER NOT NULL, 'gimmick_pos' INTEGER NOT NULL, PRIMARY KEY('id'));
+-- Column Names:
+-- id INTEGER
+-- rail_id INTEGER
+-- gimmick_id INTEGER
+-- gimmick_pos INTEGER
 INSERT INTO `sjr_rail` VALUES (/*id*/100101,/*rail_id*/1001,/*gimmick_id*/21002,/*gimmick_pos*/1000);
 INSERT INTO `sjr_rail` VALUES (/*id*/100102,/*rail_id*/1001,/*gimmick_id*/21004,/*gimmick_pos*/2000);
 INSERT INTO `sjr_rail` VALUES (/*id*/100103,/*rail_id*/1001,/*gimmick_id*/21012,/*gimmick_pos*/3500);

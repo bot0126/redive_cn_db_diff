@@ -1,6 +1,22 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'dungeon_area' ('dungeon_area_id' INTEGER NOT NULL, 'dungeon_type' INTEGER NOT NULL, 'dungeon_name' TEXT NOT NULL, 'description' TEXT NOT NULL, 'open_area_id' INTEGER NOT NULL, 'open_quest_id' INTEGER NOT NULL, 'content_release_story' INTEGER NOT NULL, 'initial_clear_story' INTEGER NOT NULL, 'reward_group_id' INTEGER NOT NULL, 'recommend_level' INTEGER NOT NULL, 'quest_position_x' INTEGER NOT NULL, 'quest_position_y' INTEGER NOT NULL, 'icon_id' INTEGER NOT NULL, 'recovery_hp_rate' INTEGER NOT NULL, 'recovery_tp_rate' INTEGER NOT NULL, PRIMARY KEY('dungeon_area_id'));
+-- Column Names:
+-- dungeon_area_id INTEGER
+-- dungeon_type INTEGER
+-- dungeon_name TEXT
+-- description TEXT
+-- open_area_id INTEGER
+-- open_quest_id INTEGER
+-- content_release_story INTEGER
+-- initial_clear_story INTEGER
+-- reward_group_id INTEGER
+-- recommend_level INTEGER
+-- quest_position_x INTEGER
+-- quest_position_y INTEGER
+-- icon_id INTEGER
+-- recovery_hp_rate INTEGER
+-- recovery_tp_rate INTEGER
 INSERT INTO `dungeon_area` VALUES (/*dungeon_area_id*/31001,/*dungeon_type*/1,/*dungeon_name*/"云海的山脉",/*description*/"贯穿云层的山脉",/*open_area_id*/0,/*open_quest_id*/11002012,/*content_release_story*/4003001,/*initial_clear_story*/4003002,/*reward_group_id*/501010001,/*recommend_level*/10,/*quest_position_x*/195,/*quest_position_y*/45,/*icon_id*/200010,/*recovery_hp_rate*/400,/*recovery_tp_rate*/400);
 INSERT INTO `dungeon_area` VALUES (/*dungeon_area_id*/31002,/*dungeon_type*/1,/*dungeon_name*/"密林的大树",/*description*/"存在于森林深处的1棵大树",/*open_area_id*/0,/*open_quest_id*/11005013,/*content_release_story*/4003003,/*initial_clear_story*/4003004,/*reward_group_id*/501010002,/*recommend_level*/10,/*quest_position_x*/-110,/*quest_position_y*/30,/*icon_id*/200020,/*recovery_hp_rate*/300,/*recovery_tp_rate*/300);
 INSERT INTO `dungeon_area` VALUES (/*dungeon_area_id*/31003,/*dungeon_type*/1,/*dungeon_name*/"断崖的遗迹",/*description*/"在断崖绝壁被发现的遗迹",/*open_area_id*/0,/*open_quest_id*/11007014,/*content_release_story*/4003005,/*initial_clear_story*/4003006,/*reward_group_id*/501010003,/*recommend_level*/10,/*quest_position_x*/-570,/*quest_position_y*/-190,/*icon_id*/200030,/*recovery_hp_rate*/200,/*recovery_tp_rate*/200);

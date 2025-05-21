@@ -1,6 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE 'tme_map_data' ('tme_object_id' INTEGER NOT NULL, 'event_id' INTEGER NOT NULL, 'condition_story_id' INTEGER NOT NULL, 'area_difficulty_type' INTEGER NOT NULL, 'release_effect' INTEGER NOT NULL, 'tap_effect' INTEGER NOT NULL, PRIMARY KEY('tme_object_id'));
+-- Column Names:
+-- tme_object_id INTEGER
+-- event_id INTEGER
+-- condition_story_id INTEGER
+-- area_difficulty_type INTEGER
+-- release_effect INTEGER
+-- tap_effect INTEGER
 INSERT INTO `tme_map_data` VALUES (/*tme_object_id*/1101,/*event_id*/20025,/*condition_story_id*/0,/*area_difficulty_type*/1,/*release_effect*/0,/*tap_effect*/1);
 INSERT INTO `tme_map_data` VALUES (/*tme_object_id*/1102,/*event_id*/20025,/*condition_story_id*/0,/*area_difficulty_type*/1,/*release_effect*/0,/*tap_effect*/1);
 INSERT INTO `tme_map_data` VALUES (/*tme_object_id*/1103,/*event_id*/20025,/*condition_story_id*/5042002,/*area_difficulty_type*/1,/*release_effect*/1,/*tap_effect*/0);
