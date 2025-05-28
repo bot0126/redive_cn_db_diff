@@ -382,7 +382,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_8a50863f976a9703662c393e994a657e3a
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_8a50863f976a9703662c393e994a657e3a665955696ebcd09e32f5d7a31addf2",/*idx*/"sqlite_autoindex_v1_8a50863f976a9703662c393e994a657e3a665955696ebcd09e32f5d7a31addf2_1",/*stat*/"65 1 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_c3c7d0ce4a0147e5ed69b50c3c1c7ce65a35a889bddea6a774d843e5fcdca51c",/*idx*/NULL,/*stat*/"46");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_521db0206c137d852c1a71576d4e6594437734ba0885d11252aaf4e1c464d027",/*idx*/"v1_521db0206c137d852c1a71576d4e6594437734ba0885d11252aaf4e1c464d027_0_jewel_store_id",/*stat*/"10 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_6aeddaef4195b0e5ec09dca71fa1a08497debdc0d23ab9ead2d1a51b15c8057f",/*idx*/NULL,/*stat*/"11");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_6aeddaef4195b0e5ec09dca71fa1a08497debdc0d23ab9ead2d1a51b15c8057f",/*idx*/NULL,/*stat*/"12");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_fe375e28defd44308f207c3c23631ad8ae1c813aea046bfac908cfe066a50fdf",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_62f8a3f6f7adfc7495edc0509af28eea08395b71f75d968969f20a7ee02217a2",/*idx*/NULL,/*stat*/"11");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_024dff50580ce88463c79ba5e8f0c83e3e7f95f6719c6173a3c8f6bc3c14b69e",/*idx*/"v1_024dff50580ce88463c79ba5e8f0c83e3e7f95f6719c6173a3c8f6bc3c14b69e_0_event_id_1_chara_index",/*stat*/"390 13 5");
