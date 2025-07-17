@@ -66,7 +66,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_7458adf8b2f94a889a3153f954d6171c5a
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_e900c299af20e3faaadd8a2608595eab90460a1ae27b8fb10a0f7541c9312bd3",/*idx*/NULL,/*stat*/"8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_4e7c675839dc8e573b85be9791c9908d65fddd4d9d168810d4d01e84269b891a",/*idx*/NULL,/*stat*/"4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_b1529630d1b485e688eb5478a0117e6eb284c1f12a557b8defb1549a674aa0f4",/*idx*/"v1_b1529630d1b485e688eb5478a0117e6eb284c1f12a557b8defb1549a674aa0f4_0_story_id",/*stat*/"785 72");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_1aecca524245938e47e0ba800b27209bd24e50019574a9afca85ad8a924fc36f",/*idx*/"v1_1aecca524245938e47e0ba800b27209bd24e50019574a9afca85ad8a924fc36f_0_event_id",/*stat*/"2580 20");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_1aecca524245938e47e0ba800b27209bd24e50019574a9afca85ad8a924fc36f",/*idx*/"v1_1aecca524245938e47e0ba800b27209bd24e50019574a9afca85ad8a924fc36f_0_event_id",/*stat*/"2620 20");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf",/*idx*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf_0_material_id",/*stat*/"427 4");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf",/*idx*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf_0_unit_id_1_unlock_level",/*stat*/"427 7 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf",/*idx*/"v1_596f47f7d2706b0b89d26e04ea98fcbf6838b59b4ce8bb54e9e00fd939226bdf_0_unit_id_1_slot_id",/*stat*/"427 7 3");
@@ -149,9 +149,9 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_5d0e26caaa1e6599e32a9039ca303b83a7
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a498416d4d6af628e0310f1ee16ca1ec78c91b8f1a3a499d5286223bd37684ec",/*idx*/"v1_a498416d4d6af628e0310f1ee16ca1ec78c91b8f1a3a499d5286223bd37684ec_0_contents_type",/*stat*/"22 6");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a498416d4d6af628e0310f1ee16ca1ec78c91b8f1a3a499d5286223bd37684ec",/*idx*/"v1_a498416d4d6af628e0310f1ee16ca1ec78c91b8f1a3a499d5286223bd37684ec_0_original_event_id",/*stat*/"22 22");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_b01cf73a1992ed349442322010e696d2b983285b52751bd9b2fc25bd90d9ac12",/*idx*/"sqlite_autoindex_v1_b01cf73a1992ed349442322010e696d2b983285b52751bd9b2fc25bd90d9ac12_1",/*stat*/"184 3 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_0_id_1_reward_id",/*stat*/"63 4 1");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_0_id",/*stat*/"63 4");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"sqlite_autoindex_v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_1",/*stat*/"63 4 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_0_id_1_reward_id",/*stat*/"65 4 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_0_id",/*stat*/"65 4");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604",/*idx*/"sqlite_autoindex_v1_54a4e458cff2ca1d0145f0212593aed1ea644a9591479a4517e477902963b604_1",/*stat*/"65 4 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_e1ee483aefe5b60c4df295c8c24a16016f2a4ff8d1f888ab495c85eaade1d072",/*idx*/"sqlite_autoindex_v1_e1ee483aefe5b60c4df295c8c24a16016f2a4ff8d1f888ab495c85eaade1d072_1",/*stat*/"45 5 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_bbbd2e8c754e8f245c3a1d437ad583c82f36c24bccce6cd8c132a7a1a09c41d4",/*idx*/NULL,/*stat*/"9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_7a3b2f8b5603692f42c250141a5f38dc8b87959007655993b68b581744c64aeb",/*idx*/NULL,/*stat*/"1");
