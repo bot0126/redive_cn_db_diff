@@ -280,7 +280,7 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a8924bf0e443a27b2c503ff5eb3c68d760
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_a8924bf0e443a27b2c503ff5eb3c68d76041e434c96dcac7a9c90ff44547b485",/*idx*/"sqlite_autoindex_v1_a8924bf0e443a27b2c503ff5eb3c68d76041e434c96dcac7a9c90ff44547b485_1",/*stat*/"43 11 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_3603e54293436deee1a4ee9cb643d2d8a10756eece3a4c7b7d5fee2f03fc4ace",/*idx*/"v1_3603e54293436deee1a4ee9cb643d2d8a10756eece3a4c7b7d5fee2f03fc4ace_0_clan_battle_id",/*stat*/"312 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_c7dfda437c35eefd4767a57568976ad72ace7073e452ffab52f136d63f1e27df",/*idx*/NULL,/*stat*/"15");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_ba9efccf69bf808be07969844bafe33ed49085dd1f91a99520bdd1540f0fcf30",/*idx*/NULL,/*stat*/"1214");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_ba9efccf69bf808be07969844bafe33ed49085dd1f91a99520bdd1540f0fcf30",/*idx*/NULL,/*stat*/"1219");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_e2df2c5d6151ecca69086aecec32a70cace7ab26723584ce9a35468d2ad3cc3e",/*idx*/NULL,/*stat*/"61");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_3a1b5bbd33cf0d898b40cfe5da5b8cf6a59d5a8fac7bd91698159737c595247b",/*idx*/NULL,/*stat*/"28");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_4b64aad1ae4dbe94f768d308b59d775e6e6c988de7b3c0e72b38a9e43030a71c",/*idx*/NULL,/*stat*/"1");
