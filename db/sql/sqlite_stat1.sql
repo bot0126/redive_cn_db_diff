@@ -367,8 +367,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2c899c0ed2b65942214abd33601d282eac
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_bfb7a2b61f9405ac5078355862fadea040d6f15bc70c84a015bab14014c4a7f0",/*idx*/NULL,/*stat*/"1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_05baf3c4cad2d3ff882518aec596081212fcb21b552bb6824be835df61655d90",/*idx*/NULL,/*stat*/"14");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_283ad36503f42ae7b19b9679d1a4ff16d944a0e145cf1bb58f4084c629f4bc79",/*idx*/NULL,/*stat*/"137");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35",/*idx*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35_0_unit_id",/*stat*/"8630 30");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35",/*idx*/"sqlite_autoindex_v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35_1",/*stat*/"8630 30 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35",/*idx*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35_0_unit_id",/*stat*/"8917 31");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35",/*idx*/"sqlite_autoindex_v1_2e98e1112682328288566d0bd2bb62a02b4524873c7cf62a2529409431dbbb35_1",/*stat*/"8917 31 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_f9c5b2e6bcd5cc05af9826393dabc3d5cb8b37cda39fea1124561a6cb72832d6",/*idx*/"v1_f9c5b2e6bcd5cc05af9826393dabc3d5cb8b37cda39fea1124561a6cb72832d6_0_rarity",/*stat*/"17 5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_f9c5b2e6bcd5cc05af9826393dabc3d5cb8b37cda39fea1124561a6cb72832d6",/*idx*/"sqlite_autoindex_v1_f9c5b2e6bcd5cc05af9826393dabc3d5cb8b37cda39fea1124561a6cb72832d6_1",/*stat*/"17 5 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_8df672d41f1b0921d39633f00c6de611914e61599d2bc2b3a202e29a53ba3912",/*idx*/"v1_8df672d41f1b0921d39633f00c6de611914e61599d2bc2b3a202e29a53ba3912_0_season_id",/*stat*/"39 20");
