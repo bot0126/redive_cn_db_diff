@@ -327,8 +327,8 @@ INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_696290301f8a7e412f2af72c5844de5df2
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_24629f6ebdfe1c38040d8285f6e09ce525d4a42898e4ec57bbfcee8952d987f0",/*idx*/"v1_24629f6ebdfe1c38040d8285f6e09ce525d4a42898e4ec57bbfcee8952d987f0_0_contents_type",/*stat*/"17 9");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_b38897bbe868296534c9525bedfcb1d3e4d2139cf44caebdbbe6032da4943fc0",/*idx*/NULL,/*stat*/"5");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_4ec64907615096e281da3065104577c415f537ee7d733134f947c4e7254b87aa",/*idx*/NULL,/*stat*/"260");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2",/*idx*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2_0_unit_id",/*stat*/"228 2");
-INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2",/*idx*/"sqlite_autoindex_v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2_1",/*stat*/"228 2 1");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2",/*idx*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2_0_unit_id",/*stat*/"225 2");
+INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2",/*idx*/"sqlite_autoindex_v1_286571d296655d4ddcafcb2b815b1b76161c8b8d45a29ad749318989b0a3e3a2_1",/*stat*/"225 2 1");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_83a99456812cfa3c437f132b59808fdb6e2edd95f35ffa89de9ab5c63723a455",/*idx*/"v1_83a99456812cfa3c437f132b59808fdb6e2edd95f35ffa89de9ab5c63723a455_0_sp_skill_id",/*stat*/"36 2");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_7a2b83a7173eb03efb028aee58d76eaf473db2d0c9666ec17561a051c7c2427d",/*idx*/"v1_7a2b83a7173eb03efb028aee58d76eaf473db2d0c9666ec17561a051c7c2427d_0_pack_type",/*stat*/"54 8");
 INSERT INTO `sqlite_stat1` VALUES (/*tbl*/"v1_7a2b83a7173eb03efb028aee58d76eaf473db2d0c9666ec17561a051c7c2427d",/*idx*/"v1_7a2b83a7173eb03efb028aee58d76eaf473db2d0c9666ec17561a051c7c2427d_0_mission_id",/*stat*/"54 6");
